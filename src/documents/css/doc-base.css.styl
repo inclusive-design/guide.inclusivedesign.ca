@@ -1,0 +1,788 @@
+/* General styling */
+doc-fonts = "OpenSans-Light", Arial, Helvetica;
+doc-header-font = "RobotoSlab";
+button-focus = 0.2rem solid #0000CB;
+link-color = #0000CB;
+link-hover-color = #fff;
+link-hover-background = #0000CB;
+
+/* Main Content Area */
+doc-content-background =  #fff;
+doc-content-note-border = #000;
+
+/* Header and Footer */
+header-footer-color = #000;
+header-footer-background = #C5E0C5;
+header-footer-link = #00444D;
+header-footer-hover-color = #fff;
+header-footer-hover-background = #00444D;
+header-footer-focus = 0.2rem solid #00444D;
+header-nav-link = #00444D;
+header-active-category = 0.2rem solid #00444D;
+
+/* Table of Contents Sidebar */
+toc-background = #efefef;
+toc-item-color = #000;
+toc-active-color = #efefef;
+toc-active-background = #000;
+toc-item-hover-color = #000;
+toc-item-hover-background = #efefef;
+toc-item-hover-border = 0.2rem solid #000;
+toc-border-color = #cfcfcf;
+
+/* Article Body area */
+doc-articleBody = #fff;
+
+figure-caption-color = #000;
+figure-caption-border = #fff;
+figure-background = #efefef;
+
+/* Code Blocks */
+code-block-background = #efefef;
+code-block-border = 0.1rem dotted #ddd;
+code-block-color = #000;
+code-block-link-color = #0000CB;
+
+/* Tables */
+table-border-color = #e7e7e7;
+
+/* UIO Table of Contents */
+uio-toc-background = #efefef;
+
+/* Transition Time */
+transitionTime = 0.5s; // use the same time on transitions so everything moves the same time.
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../fonts/OpenSans-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "RobotoSlab";
+    src: url("../fonts/RobotoSlab-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "RobotoSlab-Bold";
+    src: url("../fonts/RobotoSlab-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "github";
+    src: url("../fonts/github-1.eot#iefix") format("embedded-opentype"),
+         url("../fonts/github-1.ttf"),
+         url("../fonts/github-1.eot");
+}
+
+@font-face {
+    font-family: "logo";
+    src: url("../fonts/logo.eot#iefix") format("embedded-opentype"),
+         url("../fonts/logo.ttf"),
+         url("../fonts/logo.eot");
+}
+
+html body {
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-family: doc-fonts;
+}
+
+.doc-base-container {
+    min-width: 30rem;
+}
+
+.doc-base pre {
+    white-space: pre-wrap;
+}
+
+.doc-base td {
+    vertical-align: top;
+}
+
+.doc-base a {
+    color: link-color;
+    text-decoration: underline;
+}
+
+/* override foundation, so UIO's line-spacing will work */
+.doc-base h1, .doc-base h2, .doc-base h3, .doc-base h4, .doc-base h5, .doc-base h6,
+.doc-base p,
+.doc-base table tbody tr td,
+.doc-base table tr td,
+.doc-base ul,
+.doc-base dl {
+   line-height: inherit;
+}
+
+.fl-prefsEditor-buttons button:focus,
+.doc-base a:focus {
+    outline: button-focus;
+}
+
+/* Skip links */
+#skip {
+    float: left;
+    height: 0rem;
+}
+
+#skip a,
+#skip a:hover,
+#skip a:visited {
+    height: 1px;
+    left: -10000px;
+    overflow: hidden;
+    position: absolute;
+    top: auto;
+    width: 1px;
+}
+
+#skip a:active,
+#skip a:focus {
+    height: auto;
+    position: static;
+    width: auto;
+}
+
+/* Header and Footer */
+.doc-base-header,
+.doc-base-footer {
+    background-color: header-footer-background;
+    color: header-footer-color;
+    font-family: doc-fonts;
+}
+
+.doc-base-header a,
+.doc-base-footer a {
+    color: header-footer-link;
+}
+
+.doc-base-header a:focus,
+.doc-base-footer a:focus {
+    outline: header-footer-focus;
+}
+
+.doc-base-header a:hover,
+.doc-base-footer a:hover {
+    color: header-footer-hover-color;
+    background: header-footer-hover-background;
+}
+
+.doc-base-header {
+    min-height: 7rem;
+    font-size: 1.1rem;
+    text-align: right;
+    padding-right: 2rem;
+    line-height: 2;
+    max-width: 100%;
+}
+
+.doc-base-header a {
+    text-decoration: none;
+}
+
+.doc-base-header .doc-base-logo {
+    font-size: 1.6rem;
+    letter-spacing: 0.2rem;
+    margin-top: 2rem;
+    text-align: left;
+}
+
+.doc-base-header .doc-base-logo a {
+    padding: 1rem;
+}
+
+.doc-base-header .doc-base-logoText:before {
+    font-family: "logo";
+    content: "\e91f";
+    font-size: 2rem;
+    text-align: bottom;
+    padding-right: 0.2rem;
+}
+
+.doc-base-header nav {
+    margin-top: 1rem;
+}
+
+.doc-base-header nav a {
+    color: header-nav-link;
+    padding: 0.2rem;
+    margin: 0 1rem;
+}
+
+.doc-base-category-active {
+    border-bottom: header-active-category;
+}
+
+.doc-base-footer {
+    padding-top: 2rem;
+    font-size: 1.1rem;
+    text-align: center;
+    max-width: 100%;
+}
+
+.doc-base-footer p {
+    font-size: 0.8rem;
+}
+
+/*
+
+Delete - does not seem to be used?
+.doc-base-container .doc-base-header .doc-base-linkDOCS {
+    color: #FFCB00;
+}
+
+.doc-base-container .doc-base-header .doc-base-linkDOCS:hover {
+    color: #FFCB00;
+    background: none;
+}
+*/
+
+/* Main body area - contains sidebar and article, excludes header and footer */
+.doc-base-mainBody {
+    margin: 0;
+    position: relative;
+}
+
+/* the article body */
+.doc-base-articleBody  {
+    padding: 5.5rem 2rem 6rem 4rem;
+    min-height: 44rem;
+    background: doc-articleBody;
+    transition: width transitionTime;
+}
+
+.doc-base-articleBody p {
+    font-size: 1.2rem;
+}
+
+.doc-base-articleBody a:hover {
+    color: link-hover-color;
+    background: link-hover-background;
+}
+
+.doc-base-articleBody pre code {
+    font-weight: normal;
+    border: code-block-border;
+    border-radius: 0.2rem;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.doc-base-articleBody code {
+    font-weight: normal;
+    color: code-block-color;
+    background-color: code-block-background;
+    font-size: inherit;
+}
+
+.doc-base-articleBody code a,
+.doc-base-articleBody a code {
+    font-size: inherit;
+    border-bottom: 0.1rem dotted code-block-link-color;
+    color: code-block-link-color;
+    background: 0;
+}
+
+.doc-base-articleBody table td {
+    border: 1rem solid table-border-color;
+}
+
+/* Table of Contents */
+.doc-base-TOC-container {
+    background: toc-background;
+    transition: width transitionTime;
+    padding: 1.5rem;
+    border-right: 0.2rem solid toc-border-color;
+}
+
+.doc-base-TOC-hideShow {
+    line-height: 2.3rem !important; // prevent UIO from changing this.
+    padding: 0.5rem;
+    margin-top: 1rem;
+    min-width: 9rem;
+    width: 9rem;
+    background: toc-background;
+}
+
+.doc-base-TOC-hideShow:after {
+    border-bottom: 2.3rem solid toc-background;
+    border-right: 2.1rem solid doc-content-background;
+    border-top: 2.2rem solid toc-background;
+    content: "";
+    position:absolute;
+    right:0;
+    display:block;
+    top: 0;
+}
+
+.doc-base-TOC-hideShow a {
+    margin-right: 0rem;
+    margin-top: 0rem;
+    background: toc-background;
+    padding: 0.5rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.doc-base-TOC-hideShow a:before {
+    content: "\2630";
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.doc-base-TOC {
+    width: 100%;
+    transition: width transitionTime;
+}
+
+.doc-base-TOC ul {
+    list-style-type: none;
+}
+
+.doc-base-TOC li {
+    padding: 0.6rem 0;
+}
+
+.doc-base-TOC .doc-base-category {
+    font-family: 'OpenSans-Bold';
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.doc-base-TOC .doc-base-sectionName {
+    font-weight: normal;
+    font-size: 1rem;
+    margin:0;
+}
+
+.doc-base-TOC .doc-base-TOC-item {
+    padding: 0.2rem;
+    border: none;
+    color: toc-item-color;
+    display:inline-block;
+    width:100%;
+}
+
+.doc-base-TOC a:focus,
+.doc-base-TOC a:hover {
+    color: toc-item-hover-color;
+    background: toc-item-hover-background;
+    outline: toc-item-hover-border;
+    text-decoration: none;
+}
+
+.doc-base-TOC .doc-base-TOC-item.doc-base-TOC-active {
+    color: toc-active-color;
+    background: toc-active-background;
+}
+
+// For medium screens and up.
+@media only screen and (min-width: 40.063em) {
+    .doc-base-articleBody {
+        // set this padding so that the content and hide/show button do not
+        // overlap.
+        padding-left: 7rem;
+    }
+}
+
+/* Hiding the ToC sidebar
+To Hide, add .doc-base-hide-sidebar to <body> */
+.doc-base-hide-sidebar {
+    .doc-base-articleBody {
+        width: 100%;
+    }
+
+    .doc-base-TOC {
+        clip: rect(1px, 1px, 1px, 1px);
+        height: 1px;
+        overflow: hidden;
+        position: absolute !important;
+        width: 1px;
+    }
+
+    .doc-base-TOC-hideShow {
+        position: relative;
+        right: 0;
+        z-index: 1;
+    }
+
+    .doc-base-TOC-container {
+        padding: 0;
+        width: 0;
+        margin-top: 1.5rem;
+        border-right: none;
+    }
+}
+
+// For small screens.
+@media only screen and (max-width: 40em) {
+    /* When the sidebar is hidden, show the article. Otherwise, hide the article.
+    */
+
+    .doc-base-hide-sidebar .show-for-screenreader-small {
+        /* Set width, height, clipping, overflow etc to default when something
+        is to be visible. */
+        clip: auto;
+        height: auto;
+        width: auto;
+        overflow: visible;
+        position: static;
+    }
+
+    .show-for-screenreader-small {
+        /* Hide something when it is on a small screen, but still make it
+        accessible to ATs. This is based on Foundation's style. */
+        clip: rect(1px, 1px, 1px, 1px);
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+        position: absolute !important;
+    }
+
+    .doc-base-hide-sidebar .doc-base-TOC-hideShow a {
+        float: left;
+    }
+}
+
+
+/* Main Content Area */
+.doc-base-note {
+    border-left: solid;
+    border-left-width: 0.3rem;
+    border-color: doc-content-note-border;
+    padding-left: 0.4rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+
+.doc-base-githubLink {
+    margin-bottom: 2rem;
+}
+
+.doc-base-githubLink a:before {
+    display: inline-block;
+    vertical-align: bottom;
+    font-family: "github";
+    content: "\e600";
+    font-size: 1.3rem;
+    padding-right: 0.5rem;
+}
+
+.doc-base-articleBody h1 {
+    font-size: 3.0rem;
+    font-family: doc-header-font;
+}
+
+.doc-base-articleBody h2 {
+    font-size: 2.5rem;
+    font-family: doc-header-font;
+}
+
+.doc-base-articleBody h3 {
+    font-size: 1.5rem;
+    font-family: doc-header-font;
+}
+
+.doc-base-articleBody > p:first-child {
+    font-size: 1.4rem;
+}
+
+.doc-base-paragraphBullets {
+    font-size: 1.3rem;
+}
+
+.doc-base-paragraphBullets li {
+    padding-bottom: 0.25rem;
+}
+
+.doc-base-figure {
+    margin: 0 0 1.5rem 0;
+    text-align: center;
+    background-color: doc-content-figure-background;
+    padding-top: 1.8rem;
+    padding-bottom: 1.1rem;
+}
+
+.doc-base-figureCaption {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    color: doc-content-figure-caption-color;
+    text-align: left;
+    margin-top: 1rem;
+    border-top: solid;
+    border-color: doc-content-figure-caption-border;
+    border-top-width: 0.3rem;
+}
+
+/* Infusion UIO */
+
+.fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
+    margin-right: 2rem;
+}
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide,
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-reset {
+    font-size: 1.1rem;
+    padding-top: 0.5rem;
+    height: 2rem;
+    margin-bottom: 0.7rem;
+}
+
+.doc-base-uio-toc {
+    background: uio-toc-background;
+}
+
+.doc-base-uio-toc ul {
+    list-style-type: none;
+}
+
+.doc-base-uio-toc li {
+    margin: 0.8rem 0;
+}
+
+.doc-base.fl-text-larger .fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide,
+.doc-base.fl-text-larger .fl-prefsEditor-separatedPanel .fl-prefsEditor-reset{
+    height: 2.5rem;
+}
+.doc-base.fl-text-larger .fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide {
+    min-width: 13rem;
+}
+
+/* Styles for high-contrast themes */
+.fl-theme-yb .doc-base-fluidLogoText::before {
+    color: #ff0 !important;
+}
+.fl-theme-wb .doc-base-fluidLogoText::before {
+    color: #ffffff !important;
+}
+.fl-theme-by .doc-base-fluidLogoText::before,
+.fl-theme-bw .doc-base-fluidLogoText::before {
+    color: #000000 !important;
+}
+.fl-theme-lgdg .doc-base-fluidLogoText::before {
+    color: #bdbdbb !important;
+}
+
+.fl-theme-bw a:focus,
+.fl-theme-bw .fl-prefsEditor-buttons button:focus,
+.fl-theme-by a:focus,
+.fl-theme-by .fl-prefsEditor-buttons button:focus {
+    outline: 0.2rem solid #000000 !important;
+}
+
+.fl-theme-wb a:focus,
+.fl-theme-wb .fl-prefsEditor-buttons button:focus {
+    outline: 0.2rem solid #ffffff !important;
+}
+.fl-theme-yb a:focus,
+.fl-theme-yb .fl-prefsEditor-buttons button:focus {
+    outline: 0.2rem solid #ff0 !important;
+}
+.fl-theme-lgdg a:focus,
+.fl-theme-lgdg .fl-prefsEditor-buttons button:focus {
+    outline: 0.2rem solid #bdbdbb !important;
+}
+
+// inverted colours.
+.fl-theme-bw .doc-base-container a:hover,
+.fl-theme-bw .doc-base-container a:hover .doc-base-TOC-item,
+.fl-theme-bw .fl-prefsEditor-buttons button:hover,
+.fl-theme-bw .doc-base-header a:hover:before,
+.fl-theme-bw .doc-base-TOC-hideShow,
+.fl-theme-bw .doc-base-TOC-hideShow a,
+.fl-theme-bw .doc-base-header,
+.fl-theme-bw .doc-base-header div,
+.fl-theme-bw .doc-base-header nav,
+.fl-theme-bw .doc-base-header a,
+.fl-theme-bw .doc-base-footer,
+.fl-theme-bw .doc-base-footer a,
+.fl-theme-bw .doc-base-footer p {
+    color: #ffffff !important;
+    background: #000000 !important;
+}
+
+.fl-theme-wb .doc-base-container a:hover,
+.fl-theme-wb .doc-base-container a:hover .doc-base-TOC-item,
+.fl-theme-wb .fl-prefsEditor-buttons button:hover,
+.fl-theme-wb .doc-base-header a:hover:before,
+.fl-theme-wb .doc-base-TOC-hideShow,
+.fl-theme-wb .doc-base-TOC-hideShow a,
+.fl-theme-wb .doc-base-header,
+.fl-theme-wb .doc-base-header div,
+.fl-theme-wb .doc-base-header nav,
+.fl-theme-wb .doc-base-header a,
+.fl-theme-wb .doc-base-footer,
+.fl-theme-wb .doc-base-footer a,
+.fl-theme-wb .doc-base-footer p {
+    color: #000000 !important;
+    background: #ffffff !important;
+}
+
+.fl-theme-by .doc-base-container a:hover,
+.fl-theme-by .doc-base-container a:hover .doc-base-TOC-item,
+.fl-theme-by .fl-prefsEditor-buttons button:hover,
+.fl-theme-by .doc-base-header a:hover:before,
+.fl-theme-by .doc-base-TOC-hideShow,
+.fl-theme-by .doc-base-TOC-hideShow a,
+.fl-theme-by .doc-base-header,
+.fl-theme-by .doc-base-header div,
+.fl-theme-by .doc-base-header nav,
+.fl-theme-by .doc-base-header a,
+.fl-theme-by .doc-base-footer,
+.fl-theme-by .doc-base-footer a,
+.fl-theme-by .doc-base-footer p {
+    color: #ff0 !important;
+    background: #000000 !important;
+}
+
+.fl-theme-yb .doc-base-container a:hover,
+.fl-theme-yb .doc-base-container a:hover .doc-base-TOC-item,
+.fl-theme-yb .fl-prefsEditor-buttons button:hover,
+.fl-theme-yb .doc-base-header a:hover:before,
+.fl-theme-yb .doc-base-TOC-hideShow,
+.fl-theme-yb .doc-base-TOC-hideShow a,
+.fl-theme-yb .doc-base-header,
+.fl-theme-yb .doc-base-header div,
+.fl-theme-yb .doc-base-header nav,
+.fl-theme-yb .doc-base-header a,
+.fl-theme-yb .doc-base-footer,
+.fl-theme-yb .doc-base-footer a,
+.fl-theme-yb .doc-base-footer p {
+    color: #000000 !important;
+    background: #ff0 !important;
+}
+
+.fl-theme-lgdg .doc-base-container a:hover,
+.fl-theme-lgdg .doc-base-container a:hover .doc-base-TOC-item,
+.fl-theme-lgdg .fl-prefsEditor-buttons button:hover,
+.fl-theme-lgdg .doc-base-header a:hover:before,
+.fl-theme-lgdg .doc-base-TOC-hideShow,
+.fl-theme-lgdg .doc-base-TOC-hideShow a,
+.fl-theme-lgdg .doc-base-header,
+.fl-theme-lgdg .doc-base-header div,
+.fl-theme-lgdg .doc-base-header nav,
+.fl-theme-lgdg .doc-base-header a,
+.fl-theme-lgdg .doc-base-footer,
+.fl-theme-lgdg .doc-base-footer a,
+.fl-theme-lgdg .doc-base-footer p {
+    color: #555555 !important;
+    background: #bdbdbb !important;
+}
+
+// Hide show button contrast styling
+.fl-theme-bw .doc-base-TOC-hideShow:after {
+    border-bottom: 2.3rem solid #000;
+    border-right: 2.1rem solid #fff;
+    border-top: 2.2rem solid #000;
+}
+
+.fl-theme-bw .doc-base-TOC-hideShow a:focus,
+.fl-theme-bw .doc-base-TOC-hideShow a:hover {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.fl-theme-wb .doc-base-TOC-hideShow:after {
+    border-bottom: 2.3rem solid #fff;
+    border-right: 2.1rem solid #000;
+    border-top: 2.2rem solid #fff;
+}
+
+.fl-theme-yb .doc-base-TOC-hideShow:after {
+    border-bottom: 2.3rem solid #ff0;
+    border-right: 2.1rem solid #000;
+    border-top: 2.2rem solid #ff0;
+}
+
+.fl-theme-by .doc-base-TOC-hideShow:after {
+    border-bottom: 2.3rem solid #000;
+    border-right: 2.1rem solid #ff0;
+    border-top: 2.2rem solid #000;
+}
+
+.fl-theme-lgdg .doc-base-TOC-hideShow a:after {
+    border-bottom: 2.3rem solid #bdbdbb;
+    border-right: 2.1rem solid #555;
+    border-top: 2.2rem solid #bdbdbb;
+}
+
+// Header focus styling
+.fl-theme-bw .doc-base-header a:hover,
+.fl-theme-bw .doc-base-header a:focus,
+.fl-theme-bw .doc-base-footer a:hover,
+.fl-theme-bw .doc-base-footer a:focus {
+    background: #fff !important;
+    color: #000 !important;
+    box-shadow:
+        0 0 0 0.2rem #000,
+        0 0 0 0.4rem #fff;
+}
+
+.fl-theme-wb .doc-base-header a:hover,
+.fl-theme-wb .doc-base-header a:focus,
+.fl-theme-wb .doc-base-footer a:hover,
+.fl-theme-wb .doc-base-footer a:focus {
+    background: #000 !important;
+    color: #fff !important;
+    box-shadow:
+        0 0 0 0.2rem #fff,
+        0 0 0 0.4rem #000;
+}
+
+.fl-theme-by .doc-base-header a:hover,
+.fl-theme-by .doc-base-header a:focus,
+.fl-theme-by .doc-base-footer a:hover,
+.fl-theme-by .doc-base-footer a:focus {
+    background: #ff0 !important;
+    color: #000 !important;
+    box-shadow:
+        0 0 0 0.2rem #000,
+        0 0 0 0.4rem #ff0;
+}
+
+.fl-theme-yb .doc-base-header a:hover,
+.fl-theme-yb .doc-base-header a:focus,
+.fl-theme-yb .doc-base-footer a:hover,
+.fl-theme-yb .doc-base-footer a:focus {
+    background: #000 !important;
+    color: #ff0 !important;
+    box-shadow:
+        0 0 0 0.2rem #ff0,
+        0 0 0 0.4rem #000;
+}
+
+.fl-theme-lgdg .doc-base-header a:hover,
+.fl-theme-lgdg .doc-base-header a:focus,
+.fl-theme-lgdg .doc-base-footer a:hover,
+.fl-theme-lgdg .doc-base-footer a:focus {
+    background: #555 !important;
+    color: #bdbdbb !important;
+    box-shadow:
+        0 0 0 0.2rem #bdbdbb,
+        0 0 0 0.4rem #555;
+}
+
+.fl-theme-bw .doc-base-category-active {
+    border-color: #fff !important;
+}
+
+.fl-theme-wb .doc-base-category-active,
+.fl-theme-yb .doc-base-category-active {
+    border-color: #000 !important;
+}
+
+.fl-theme-by .doc-base-category-active {
+    border-color: #ff0 !important;
+}
+
+.fl-theme-lgdg .doc-base-category-active {
+    border-color: #555 !important;
+}

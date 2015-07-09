@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <title>{{document.title}} | Doc Base</title>
+<!--        <link rel="stylesheet" href="{{{relativeUrl '/css/normalize.css' document.url}}}">
+        <link rel="stylesheet" href="{{{relativeUrl '/css/foundation.css' document.url}}}" -->
+
+        <!-- Need v 5.5.2 for accessible visibility class. -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/normalize.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css"/>
+
+        <link rel="stylesheet" href="{{{relativeUrl '/css/highlightjs-custom.css' document.url}}}">
+        <link rel="stylesheet" type="text/css" href="{{{relativeUrl '/lib/infusion/src/framework/preferences/css/Enactors.css' document.url}}}" />
+        <link rel="stylesheet" type="text/css" href="{{{relativeUrl '/lib/infusion/src/framework/preferences/css/PrefsEditor.css' document.url}}}" />
+        <link rel="stylesheet" type="text/css" href="{{{relativeUrl '/lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css' document.url}}}" />
+        <link rel="stylesheet" href="{{{relativeUrl '/css/doc-base.css' document.url}}}">
+
+        <link rel="icon" type="image/png" href="{{{relativeUrl '/images/favico.png' document.url}}}">
+
+        <script type="text/javascript" src="{{{relativeUrl '/lib/infusion/infusion-uio.js' document.url}}}"></script>
+    </head>
+    <body class="doc-base doc-base-hide-sidebare">
+
+        <div class="container doc-base-container">
+
+            <!-- Skip Link -->
+            <div id="skip">
+                <a href="#tableOfContents">Jump to Table of Contents</a>
+                <a href="#content">Skip to Content</a>
+            </div>
+            <!-- END skip link -->
+
+            <!-- BEGIN markup for Preference Editor -->
+            <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+                <!-- This is the div that will contain the Preference Editor component -->
+                <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+                <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+                <div class="fl-panelBar">
+                    <span class="fl-prefsEditor-buttons">
+                        <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                        <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                    </span>
+                </div>
+            </div>
+            <!-- END markup for Preference Editor -->
+
+            <header class="row doc-base-header doc-base-header">
+                <div class="doc-base-logo small-12 medium-5 column">
+                    <a class="doc-base-logoText" href="{{{relativeUrl '/index.html' document.url}}}" title="Doc Base">Doc Base</a>
+                </div>
+
+                <nav class="small-12 medium-7 column">
+                    {{! Highlight the (active) category the document belongs to. }}
+                    {{#each siteStructure}}
+                        {{#ifEqual category ../document.category}}
+                            <a href="{{{relativeUrl categoryHref ../../document.url}}}" title="{{category}}" class="doc-base-category-active">{{category}}</a>
+                        {{else}}
+                            <a href="{{{relativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{category}}</a>
+                        {{/ifEqual}}
+                    {{/each}}
+                </nav>
+            </header>
+
+            <div class="row doc-base-mainBody">
+                <div class="doc-base-TOC-container small-8 medium-4 end column">
+                    <nav id="tableOfContents" class="row doc-base-TOC" tabindex="-1">
+                        {{#each siteStructure}}
+                            {{! Output only the table of contents matching the current document's category }}
+                            {{#ifEqual category ../document.category}}
+                                <h2 class="doc-base-category">{{category}}</h2>
+                                {{#each sections}}
+                                    <h3 class="doc-base-sectionName">{{sectionName}}</h3>
+                                    <ul>
+                                        {{#each pages}}
+                                            <li>
+                                                {{#ifEqual href ../../../../document.url}}
+                                                    <span class="doc-base-TOC-item doc-base-TOC-active">{{pageName}}</span>
+                                                {{else}}
+                                                    <a href="{{relativeUrl href ../../../../../document.url}}"><span class="doc-base-TOC-item">{{pageName}}</span></a>
+                                                {{/ifEqual}}
+                                            </li>
+                                        {{/each}}
+                                    </ul>
+                                {{/each}}
+                            {{/ifEqual}}
+                        {{/each}}
+                    </nav>
+                </div>
+                <div class="small-4 column doc-base-TOC-hideShow">
+                    <a href="#" aria-label="Hide or Show List of Articles">Topics</a>
+                </div>
+
+
+                <article id="content" class="doc-base-articleBody show-for-screenreader-small small-12 medium-8 column" tabindex="-1">
+
+                    <div class="flc-toc-tocContainer doc-base-uio-toc"> </div>
+
+                    <h1>{{document.title}}</h1>
+
+                    <p class="doc-base-githubLink"><a href="{{githubLocation}}" target="_blank">Edit on GitHub</a></p>
+
+                    <div class="doc-base-articleContent">
+                        {{{rewriteMdLinks content}}}
+                    </div>
+
+                </article>
+
+            </div>
+
+            <footer class="row doc-base-footer">
+                <p>Created by the <a href="http://fluidproject.org/" target="_blank">Fluid Project</a>,<br/>
+                a project of the <a href="http://idrc.ocad.ca/" target="_blank">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca/" target="_blank">OCAD University</a>.</p>
+            </footer>
+
+            <script type="text/javascript">
+                fluid.uiOptions.prefsEditor(".flc-prefsEditor-separatedPanel", {
+                    "templatePrefix": "{{{relativeUrl '/lib/infusion/src/framework/preferences/html/' document.url}}}",
+                    "messagePrefix": "{{{relativeUrl '/lib/infusion/src/framework/preferences/messages/' document.url}}}",
+                    "tocTemplate": "{{{relativeUrl '/lib/infusion/src/components/tableOfContents/html/TableOfContents.html' document.url}}}"
+                });
+            </script>
+        </div> <!-- end container -->
+
+    </body>
+</html>
