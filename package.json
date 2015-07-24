@@ -1,12 +1,12 @@
 {
-  "name": "doc-base-start",
-  "description": "A sample site using doc-base",
+  "name": "docs-template",
+  "description": "Templates, styles, and sample content for a documentation website.",
   "version": "0.0.1-SNAPSHOT",
   "author": "Fluid Project",
   "bugs": "http://issues.fluidproject.org/browse/FLUID",
   "homepage": "http://www.fluidproject.org/",
   "dependencies": {
-    "doc-base": "file:../doc-base",
+    "docs-core": "file:../docs-core",
     "docpad": "~6.78.1",
     "docpad-plugin-ghpages": "~2.4.4",
     "docpad-plugin-handlebars": "~2.3.0",

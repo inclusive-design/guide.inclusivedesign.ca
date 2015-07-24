@@ -11,11 +11,11 @@ https://github.com/fluid-project/infusion/raw/master/Infusion-LICENSE.txt
 
 var path = require("path");
 var fs = require("fs");
-var docBase = require("doc-base");
+var docsCore = require("docs-core");
 
 // The documentation root on GitHub:
 // Used to build URLs for "Edit on GitHub" links
-// var githubDocRoot = "https://github.com/fluid-project/doc-base/blob/master/src/documents/"
+// var githubDocRoot = "https://github.com/fluid-project/infusion-docs/blob/master/src/documents/"
 var githubDocRoot = "";
 
 var siteStructure = JSON.parse(fs.readFileSync("site-structure.json"));
@@ -32,7 +32,7 @@ var imagesDestDir = "out/images";
 module.exports = {
     rootPath: rootPath,
     filesPaths: [
-        docBase.getStaticFilesDir(),
+        docsCore.getStaticFilesDir(),
         "static"
     ],
     ignorePaths: [ imagesSrcDir ],
@@ -43,10 +43,10 @@ module.exports = {
     plugins: {
         handlebars: {
             helpers: {
-                rewriteMdLinks: docBase.helpers.rewriteMdLinks,
-                getGithubLocation: docBase.helpers.makeGithubLocationHelper(githubDocRoot),
-                getRelativeUrl: docBase.helpers.getRelativeUrl,
-                ifEqual: docBase.helpers.ifEqual
+                rewriteMdLinks: docsCore.helpers.rewriteMdLinks,
+                getGithubLocation: docsCore.helpers.makeGithubLocationHelper(githubDocRoot),
+                getRelativeUrl: docsCore.helpers.getRelativeUrl,
+                ifEqual: docsCore.helpers.ifEqual
             }
         },
         highlightjs: {

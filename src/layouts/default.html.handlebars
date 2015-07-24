@@ -3,7 +3,7 @@
     <head>
         <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <title>{{document.title}} | Doc Base</title>
+        <title>{{document.title}} | Documentation Template</title>
         <link rel="stylesheet" href="{{{getRelativeUrl '/css/normalize.css' document.url}}}">
         <link rel="stylesheet" href="{{{getRelativeUrl '/css/foundation.css' document.url}}}">
         <link rel="stylesheet" href="{{{getRelativeUrl '/css/highlightjs-custom.css' document.url}}}">
@@ -11,16 +11,16 @@
         <link rel="stylesheet" type="text/css" href="{{{getRelativeUrl '/lib/infusion/src/framework/preferences/css/Enactors.css' document.url}}}" />
         <link rel="stylesheet" type="text/css" href="{{{getRelativeUrl '/lib/infusion/src/framework/preferences/css/PrefsEditor.css' document.url}}}" />
         <link rel="stylesheet" type="text/css" href="{{{getRelativeUrl '/lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css' document.url}}}" />
-        <link rel="stylesheet" href="{{{getRelativeUrl '/css/doc-base.css' document.url}}}">
+        <link rel="stylesheet" href="{{{getRelativeUrl '/css/docs-template.css' document.url}}}">
 
         <link rel="icon" type="image/png" href="{{{getRelativeUrl '/images/favico.png' document.url}}}">
 
         <script type="text/javascript" src="{{{getRelativeUrl '/lib/infusion/infusion-uio.js' document.url}}}"></script>
-        <script type="text/javascript" src="{{{getRelativeUrl '/js/DocBase.js' document.url}}}"></script>
+        <script type="text/javascript" src="{{{getRelativeUrl '/js/DocsCore.js' document.url}}}"></script>
     </head>
-    <body class="doc-base doc-base-sidebar-visibility">
+    <body class="docs-template docs-core-sidebar-visibility">
 
-        <div class="container doc-base-start-container">
+        <div class="container docs-template-container">
 
             <!-- Skip Link -->
             <div id="skip">
@@ -30,7 +30,7 @@
             <!-- END skip link -->
 
 
-            <header class="row doc-base-start-header doc-base-start-header">
+            <header class="row docs-template-header docs-template-header">
 
                 <!-- BEGIN markup for Preference Editor -->
                 <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
@@ -47,15 +47,15 @@
                 </div>
                 <!-- END markup for Preference Editor -->
 
-                <div class="doc-base-start-logo small-12 medium-5 column">
-                    <a class="doc-base-start-logoText" href="{{{getRelativeUrl '/index.html' document.url}}}" title="Doc Base">Doc Base</a>
+                <div class="docs-template-logo small-12 medium-5 column">
+                    <a class="docs-template-logoText" href="{{{getRelativeUrl '/index.html' document.url}}}" title="Documentation Template">Documentation Template</a>
                 </div>
 
                 <nav class="small-12 medium-7 column">
                     {{! Highlight the (active) category the document belongs to. }}
                     {{#each siteStructure}}
                         {{#ifEqual category ../document.category}}
-                            <a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}" class="doc-base-start-category-active">{{category}}</a>
+                            <a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}" class="docs-template-category-active">{{category}}</a>
                         {{else}}
                             <a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{category}}</a>
                         {{/ifEqual}}
@@ -63,22 +63,22 @@
                 </nav>
             </header>
 
-            <!-- <div class="row doc-base-start-mainBody"> -->
-                <div id="side" class="doc-base-start-TOC-container small-8 medium-3 column">
-                    <nav id="tableOfContents" class="doc-base-start-TOC" tabindex="-1">
+            <!-- <div class="row docs-template-mainBody"> -->
+                <div id="side" class="docs-template-TOC-container small-8 medium-3 column">
+                    <nav id="tableOfContents" class="docs-template-TOC" tabindex="-1">
                         {{#each siteStructure}}
                             {{! Output only the table of contents matching the current document's category }}
                             {{#ifEqual category ../document.category}}
-                                <h2 class="doc-base-start-category">{{category}}</h2>
+                                <h2 class="docs-template-category">{{category}}</h2>
                                 {{#each sections}}
-                                    <h3 class="doc-base-start-sectionName">{{sectionName}}</h3>
+                                    <h3 class="docs-template-sectionName">{{sectionName}}</h3>
                                     <ul>
                                         {{#each pages}}
                                             <li>
                                                 {{#ifEqual href ../../../../document.url}}
-                                                    <span class="doc-base-start-TOC-item doc-base-start-TOC-active">{{pageName}}</span>
+                                                    <span class="docs-template-TOC-item docs-template-TOC-active">{{pageName}}</span>
                                                 {{else}}
-                                                    <a href="{{getRelativeUrl href ../../../../../document.url}}"><span class="doc-base-start-TOC-item">{{pageName}}</span></a>
+                                                    <a href="{{getRelativeUrl href ../../../../../document.url}}"><span class="docs-template-TOC-item">{{pageName}}</span></a>
                                                 {{/ifEqual}}
                                             </li>
                                         {{/each}}
@@ -89,19 +89,19 @@
                     </nav>
                 </div>
 
-                <article id="content" class="doc-base-start-articleBody small-12 medium-8 column" tabindex="-1">
+                <article id="content" class="docs-template-articleBody small-12 medium-8 column" tabindex="-1">
 
-                    <div class="small-4 medium-1 column doc-base-start-TOC-hideShow">
-                        <a href="#" class="doc-basec-topics" aria-label="Hide or Show List of Topics">Topics</a>
+                    <div class="small-4 medium-1 column docs-template-TOC-hideShow">
+                        <a href="#" class="docs-corec-topics" aria-label="Hide or Show List of Topics">Topics</a>
                     </div>
 
-                    <div class="flc-toc-tocContainer doc-base-start-uio-toc"> </div>
+                    <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
 
                     <h1>{{document.title}}</h1>
 
-                    <p class="doc-base-start-githubLink"><a href="{{getGithubLocation}}" target="_blank">Edit on GitHub</a></p>
+                    <p class="docs-template-githubLink"><a href="{{getGithubLocation}}" target="_blank">Edit on GitHub</a></p>
 
-                    <div class="doc-base-start-articleContent">
+                    <div class="docs-template-articleContent">
                         {{{rewriteMdLinks content}}}
                     </div>
 
@@ -109,13 +109,13 @@
 
             <!-- </div> -->
 
-            <footer class="row doc-base-start-footer">
+            <footer class="row docs-template-footer">
                 <p>Created by the <a href="http://fluidproject.org/" target="_blank">Fluid Project</a>,<br/>
                 a project of the <a href="http://idrc.ocad.ca/" target="_blank">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca/" target="_blank">OCAD University</a>.</p>
             </footer>
 
             <script type="text/javascript">
-                docBase.init("{{{getRelativeUrl '/./' document.url}}}");
+                docsCore.init("{{{getRelativeUrl '/./' document.url}}}");
             </script>
         </div> <!-- end container -->
 
