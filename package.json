@@ -1,0 +1,34 @@
+{
+  "name": "doc-base-start",
+  "description": "A sample site using doc-base",
+  "version": "0.0.1-SNAPSHOT",
+  "author": "Fluid Project",
+  "bugs": "http://issues.fluidproject.org/browse/FLUID",
+  "homepage": "http://www.fluidproject.org/",
+  "dependencies": {
+    "doc-base": "file:../doc-base",
+    "docpad": "~6.78.1",
+    "docpad-plugin-ghpages": "~2.4.4",
+    "docpad-plugin-handlebars": "~2.3.0",
+    "docpad-plugin-highlightjs": "~2.3.0",
+    "docpad-plugin-marked": "~2.3.0",
+    "docpad-plugin-stylus": "~2.9.0"
+  },
+  "licenses": [
+    {
+      "type": "BSD-3-Clause",
+      "url": "http://www.opensource.org/licenses/BSD-3-Clause"
+    },
+    {
+      "type": "ECL-2.0",
+      "url": "http://www.opensource.org/licenses/ECL-2.0"
+    }
+  ],
+  "keywords": [
+    "fluid",
+    "documentation",
+    "docpad",
+    "static site",
+    "responsive"
+  ]
+}
