@@ -15,8 +15,7 @@ var docsCore = require("docs-core");
 
 // The documentation root on GitHub:
 // Used to build URLs for "Edit on GitHub" links
-// var githubDocRoot = "https://github.com/fluid-project/infusion-docs/blob/master/src/documents/"
-var githubDocRoot = "";
+var githubDocRoot = "https://github.com/fluid-project/docs-template/blob/master/src/documents/";
 
 var siteStructure = JSON.parse(fs.readFileSync("site-structure.json"));
 
