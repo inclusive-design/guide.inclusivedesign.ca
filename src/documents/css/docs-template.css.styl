@@ -20,12 +20,20 @@ header-footer-focus ?= 0.2rem solid #00444D;
 header-nav-link ?= #00444D;
 header-active-category ?= 0.2rem solid #00444D;
 
+/* Skip Links */
+skip-color ?= #00444D;
+skip-background ?= #C5E0C5;
+skip-focus-outer-border ?= #00444D;
+skip-focus-inner-border ?= #C5E0C5;
+skip-hover-color ?= #C5E0C5;
+skip-hover-background ?= #00444D;
+
 /* Logo */
 logo-color ?= #00444D;
 logo-background ?= #C5E0C5;
 logo-hover-color ?= #C5E0C5;
 logo-hover-background ?= #00444D;
-logo-focus ?= 0.2rem solid #fff;
+logo-focus ?= 0.2rem solid #00444D;
 logo-font-path ?= "../fonts/logo";
 logo-unicode ?= "\e91f";
 
@@ -161,6 +169,11 @@ html body {
     height: 0rem;
 }
 
+#skip a {
+    color: skip-color;
+    background: skip-background;
+}
+
 #skip a,
 #skip a:hover,
 #skip a:visited {
@@ -170,6 +183,8 @@ html body {
     position: absolute;
     top: auto;
     width: 1px;
+    color: skip-hover-color;
+    background: skip-hover-background;
 }
 
 #skip a:active,
@@ -177,6 +192,12 @@ html body {
     height: auto;
     width: auto;
     left: auto;
+    border: 0.5rem solid skip-focus-inner-border;
+    outline: 0.2rem solid skip-focus-outer-border;
+    color: skip-hover-color;
+    background: skip-hover-background;
+    padding: 1rem;
+    z-index: 1;
 }
 
 /* Header and Footer */
@@ -238,7 +259,7 @@ html body {
 }
 
 .docs-template-header .docs-template-logo a:focus {
-    border: logo-focus;
+    outline: logo-focus;
 }
 
 .docs-template-header .docs-template-logoText:before {
@@ -273,28 +294,6 @@ html body {
 
 .docs-template-footer p {
     font-size: 0.8rem;
-}
-
-@media only screen and (max-width: 40em) {
-    .docs-template-header {
-        line-height: inherit;
-        padding-right: 0;
-
-    }
-
-    .docs-template-header .docs-template-logo {
-        font-size: 1.2rem;
-        margin-top: 1rem;
-    }
-
-    .docs-template-header nav {
-        margin-top: 0;
-    }
-
-    .docs-template-header nav a {
-        color: header-nav-link;
-        padding: 0.2rem;
-    }
 }
 
 /* Main body area - contains sidebar and article, excludes header and footer */
@@ -419,7 +418,7 @@ html body {
     content: "\2630";
     font-size: 1.5rem;
     font-weight: bold;
-    text-decoration: none;
+    display: inline-block;
 }
 
 .docs-template-TOC-hideShow a:hover {
@@ -831,4 +830,34 @@ html body {
 
 .fl-theme-lgdg .docs-template-category-active {
     border-color: #555 !important;
+}
+
+@media only screen and (max-width: 40em) {
+    .docs-template-header {
+        line-height: inherit;
+        padding-right: 0;
+
+    }
+
+    .docs-template-header .docs-template-logo {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .docs-template-header nav {
+        margin-top: 0;
+    }
+
+    .docs-template-header nav a {
+        color: header-nav-link;
+        padding: 0.2rem;
+    }
+
+    .docs-core-sidebar-visibility .docs-template-TOC-container {
+        width: 50%;
+    }
+
+    .docs-core-sidebar-visibility .docs-template-articleBody {
+        width: 50%;
+    }
 }
