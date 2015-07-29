@@ -18,6 +18,9 @@ header-footer-hover-color ?= #fff;
 header-footer-hover-background ?= #00444D;
 header-footer-focus ?= 0.2rem solid #00444D;
 header-nav-link ?= #00444D;
+header-nav-background ?= #e4eee4;
+header-nav-border-top ?= 0.1rem dotted #fff;
+header-nav-border-bottom ?= 0.1rem solid #cfcfcf;
 header-active-category ?= 0.2rem solid #00444D;
 
 /* Skip Links */
@@ -243,7 +246,7 @@ html body {
 .docs-template-header .docs-template-logo {
     font-size: 1.6rem;
     letter-spacing: 0.2rem;
-    margin-top: 2rem;
+    margin-top: 0.2rem;
     text-align: left;
     background: logo-background;
 }
@@ -271,8 +274,10 @@ html body {
 }
 
 .docs-template-header nav {
-    margin: 0 0 0.5rem 0;
-    padding: 0.5rem 0;
+    padding: 0.5rem 1rem 0.5rem 0;
+    background-color: header-nav-background;
+    border-top: header-nav-border-top;
+    border-bottom: header-nav-border-bottom;
 }
 
 .docs-template-header nav a {

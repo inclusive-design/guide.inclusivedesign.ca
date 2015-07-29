@@ -47,15 +47,15 @@
                 </div>
                 <!-- END markup for Preference Editor -->
 
-                <div class="docs-template-logo small-12 medium-5 column">
+                <div class="docs-template-logo small-12 column">
                     <a class="docs-template-logoText" href="{{{getRelativeUrl '/index.html' document.url}}}" title="Documentation Template">Documentation Template</a>
                 </div>
 
-                <nav class="small-12 medium-7 column">
+                <nav class="small-12 column">
                     {{! Highlight the (active) category the document belongs to. }}
                     {{#each siteStructure}}
                         {{#ifEqual category ../document.category}}
-                            <a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}" class="docs-template-category-active">{{category}}</a>
+                            <a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}" class="docs-template-category-active" aria-label="Currently on Category: {{category}}">{{category}}</a>
                         {{else}}
                             <a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{category}}</a>
                         {{/ifEqual}}
@@ -63,51 +63,48 @@
                 </nav>
             </header>
 
-            <!-- <div class="row docs-template-mainBody"> -->
-                <div id="side" class="docs-template-TOC-container small-8 medium-3 column">
-                    <nav id="tableOfContents" class="docs-template-TOC" tabindex="-1">
-                        {{#each siteStructure}}
-                            {{! Output only the table of contents matching the current document's category }}
-                            {{#ifEqual category ../document.category}}
-                                <h2 class="docs-template-category">{{category}}</h2>
-                                {{#each sections}}
-                                    <h3 class="docs-template-sectionName">{{sectionName}}</h3>
-                                    <ul>
-                                        {{#each pages}}
-                                            <li>
-                                                {{#ifEqual href ../../../../document.url}}
-                                                    <span class="docs-template-TOC-item docs-template-TOC-active">{{pageName}}</span>
-                                                {{else}}
-                                                    <a href="{{getRelativeUrl href ../../../../../document.url}}"><span class="docs-template-TOC-item">{{pageName}}</span></a>
-                                                {{/ifEqual}}
-                                            </li>
-                                        {{/each}}
-                                    </ul>
-                                {{/each}}
-                            {{/ifEqual}}
-                        {{/each}}
-                    </nav>
+            <div id="side" class="docs-template-TOC-container small-8 medium-3 column">
+                <nav id="tableOfContents" class="docs-template-TOC" tabindex="-1">
+                    {{#each siteStructure}}
+                        {{! Output only the table of contents matching the current document's category }}
+                        {{#ifEqual category ../document.category}}
+                            <h2 class="docs-template-category">{{category}}</h2>
+                            {{#each sections}}
+                                <h3 class="docs-template-sectionName">{{sectionName}}</h3>
+                                <ul>
+                                    {{#each pages}}
+                                        <li>
+                                            {{#ifEqual href ../../../../document.url}}
+                                                <a href="{{getRelativeUrl href ../../../../../document.url}}" aria-label="Currently on: {{pageName}}"><span class="docs-template-TOC-item docs-template-TOC-active">{{pageName}}</span></a>
+                                            {{else}}
+                                                <a href="{{getRelativeUrl href ../../../../../document.url}}"><span class="docs-template-TOC-item">{{pageName}}</span></a>
+                                            {{/ifEqual}}
+                                        </li>
+                                    {{/each}}
+                                </ul>
+                            {{/each}}
+                        {{/ifEqual}}
+                    {{/each}}
+                </nav>
+            </div>
+
+            <article id="content" class="docs-template-articleBody small-12 medium-8 column" tabindex="-1">
+
+                <div class="small-4 medium-1 column docs-template-TOC-hideShow">
+                    <a href="#" class="docs-corec-topics" title="Visually Hide or Show List of Topics" aria-label="Visually Hide or Show List of Topics">Topics</a>
                 </div>
 
-                <article id="content" class="docs-template-articleBody small-12 medium-8 column" tabindex="-1">
+                <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
 
-                    <div class="small-4 medium-1 column docs-template-TOC-hideShow">
-                        <a href="#" class="docs-corec-topics" aria-label="Hide or Show List of Topics">Topics</a>
-                    </div>
+                <h1>{{document.title}}</h1>
 
-                    <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
+                <p class="docs-template-githubLink"><a href="{{getGithubLocation}}" target="_blank">Edit on GitHub</a></p>
 
-                    <h1>{{document.title}}</h1>
+                <div class="docs-template-articleContent">
+                    {{{rewriteMdLinks content}}}
+                </div>
 
-                    <p class="docs-template-githubLink"><a href="{{getGithubLocation}}" target="_blank">Edit on GitHub</a></p>
-
-                    <div class="docs-template-articleContent">
-                        {{{rewriteMdLinks content}}}
-                    </div>
-
-                </article>
-
-            <!-- </div> -->
+            </article>
 
             <footer class="row docs-template-footer">
                 <p>Created by the <a href="http://fluidproject.org/" target="_blank">Fluid Project</a>,<br/>
