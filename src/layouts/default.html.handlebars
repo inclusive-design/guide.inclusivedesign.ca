@@ -5,7 +5,7 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <title>{{document.title}} | Documentation Template</title>
         <link rel="stylesheet" href="{{{getRelativeUrl '/css/normalize.css' document.url}}}">
-        <link rel="stylesheet" href="{{{getRelativeUrl '/css/foundation.css' document.url}}}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
         <link rel="stylesheet" href="{{{getRelativeUrl '/css/highlightjs-custom.css' document.url}}}">
 
         <link rel="stylesheet" type="text/css" href="{{{getRelativeUrl '/lib/infusion/src/framework/preferences/css/Enactors.css' document.url}}}" />
@@ -52,14 +52,16 @@
                 </div>
 
                 <nav class="small-12 column">
+                    <ul class="inline-list right">
                     {{! Highlight the (active) category the document belongs to. }}
                     {{#each siteStructure}}
                         {{#ifEqual category ../document.category}}
-                            <a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}" class="docs-template-category-active" aria-label="Currently on Category: {{category}}">{{category}}</a>
+                            <li class="docs-template-category-active"><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}" aria-label="Currently on Category: {{category}}">{{category}}</a></li>
                         {{else}}
-                            <a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{category}}</a>
+                            <li><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{category}}</a></li>
                         {{/ifEqual}}
                     {{/each}}
+                    </ul>
                 </nav>
             </header>
 
