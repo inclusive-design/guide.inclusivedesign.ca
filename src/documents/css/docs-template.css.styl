@@ -85,7 +85,7 @@ transitionTime ?= 0.5s;
 contrastHideShowRibbonColor(foreground, background) {
     border-bottom: 2.2rem solid foreground;
     border-right: 2.1rem solid background;
-    border-top: 2.3rem solid foreground;
+    border-top: 2.2rem solid foreground;
 }
 
 @font-face {
@@ -243,6 +243,10 @@ html body {
     text-decoration: none;
 }
 
+.docs-template-header .inline-list {
+   margin-bottom:0;
+}
+
 .docs-template-header .docs-template-logo {
     font-size: 1.6rem;
     letter-spacing: 0.2rem;
@@ -317,7 +321,10 @@ html body {
     padding: 5.5rem 2rem 6rem 2rem;
     color: articleBody-color;
     background: articleBody-background;
-    transition: width transitionTime;
+
+    //////////////////////////////////////////////////////////////
+    // FLUID-5732.
+    // transition: width transitionTime;
 
     // make article wider to take more room.
     width: 91.66%;
@@ -326,7 +333,10 @@ html body {
 .docs-core-sidebar-visibility .docs-template-articleBody {
     // put width back to the same as Foundation's medium-8
     width: 70%;
-    transition: width transitionTime;
+
+    //////////////////////////////////////////////////////////////
+    // FLUID-5732.
+    // transition: width transitionTime;
 }
 
 .docs-template-articleBody * {
@@ -378,24 +388,34 @@ html body {
 .docs-template-TOC-container {
     background: toc-background;
     border-right: 0.2rem solid toc-border-color;
-    transition: width transitionTime;
-    flex-grow: 2;
-    -webkit-flex-grow: 2;
+
+    /////////////////////////////////////////////
+    // FLUID-5732. We only want this added after page load.
+    // transition: width transitionTime;
+    /////////////////////////////////////////////
+
+    flex-grow: 0;
+    -webkit-flex-grow: 0;
 
     // hide the TOC initially
-    /*overflow: hidden;
+    overflow: hidden;
     padding-right: 0;
     padding-left: 0;
-    width: 1px;*/
-
+    width: 1px;
 }
 
 .docs-core-sidebar-visibility .docs-template-TOC-container {
-    // put width back to the same as Foundation's medium-3
     overflow: auto;
     padding: 1.5rem;
-    width: 25%;
-    transition: width transitionTime;
+    width: 25%; // put width back to the same as Foundation's medium-3
+
+    //////////////////////////////////////////////////////////////
+    // FLUID-5732. Uncomment this once FLUID-5732 above is fixed.
+    // transition: width transitionTime;
+    //////////////////////////////////////////////////////////////
+
+    flex-grow: 2;
+    -webkit-flex-grow: 2;
 }
 
 .docs-template-TOC-hideShow {
@@ -412,7 +432,7 @@ html body {
     contrastHideShowRibbonColor(hideShow-background, docs-body-background)
     content: "";
     position:absolute;
-    right: -2rem; // shift position right to match the width of the border above.
+    right: 0;
     display:block;
     top: 0;
 }
@@ -445,7 +465,7 @@ html body {
 
 .docs-template-TOC {
     width: 100%;
-    transition: width transitionTime;
+    //transition: width transitionTime;
 }
 
 .docs-template-TOC a {
@@ -465,6 +485,7 @@ html body {
     margin-bottom: 1rem;
     font-weight: bold;
     font-size: 1.6rem;
+    word-wrap: break-word;
 }
 
 .docs-template-TOC .docs-template-sectionName {
@@ -671,7 +692,9 @@ html body {
 .fl-theme-bw .docs-template-header a,
 .fl-theme-bw .docs-template-footer,
 .fl-theme-bw .docs-template-footer a,
-.fl-theme-bw .docs-template-footer p {
+.fl-theme-bw .docs-template-footer p,
+.fl-theme-bw .docs-template-header nav ul,
+.fl-theme-bw .docs-template-header nav li {
     color: #ffffff !important;
     background: #000000 !important;
 }
@@ -688,7 +711,9 @@ html body {
 .fl-theme-wb .docs-template-header a,
 .fl-theme-wb .docs-template-footer,
 .fl-theme-wb .docs-template-footer a,
-.fl-theme-wb .docs-template-footer p {
+.fl-theme-wb .docs-template-footer p,
+.fl-theme-wb .docs-template-header nav ul,
+.fl-theme-wb .docs-template-header nav li {
     color: #000000 !important;
     background: #ffffff !important;
 }
@@ -705,7 +730,9 @@ html body {
 .fl-theme-by .docs-template-header a,
 .fl-theme-by .docs-template-footer,
 .fl-theme-by .docs-template-footer a,
-.fl-theme-by .docs-template-footer p {
+.fl-theme-by .docs-template-footer p,
+.fl-theme-by .docs-template-header nav ul,
+.fl-theme-by .docs-template-header nav li {
     color: #ff0 !important;
     background: #000000 !important;
 }
@@ -722,7 +749,9 @@ html body {
 .fl-theme-yb .docs-template-header a,
 .fl-theme-yb .docs-template-footer,
 .fl-theme-yb .docs-template-footer a,
-.fl-theme-yb .docs-template-footer p {
+.fl-theme-yb .docs-template-footer p,
+.fl-theme-yb .docs-template-header nav ul,
+.fl-theme-yb .docs-template-header nav li {
     color: #000000 !important;
     background: #ff0 !important;
 }
@@ -739,7 +768,9 @@ html body {
 .fl-theme-lgdg .docs-template-header a,
 .fl-theme-lgdg .docs-template-footer,
 .fl-theme-lgdg .docs-template-footer a,
-.fl-theme-lgdg .docs-template-footer p {
+.fl-theme-lgdg .docs-template-footer p,
+.fl-theme-lgdg .docs-template-header nav ul,
+.fl-theme-lgdg .docs-template-header nav li {
     color: #555555 !important;
     background: #bdbdbb !important;
 }
