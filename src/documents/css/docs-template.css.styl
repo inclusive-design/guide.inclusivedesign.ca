@@ -21,6 +21,8 @@ header-footer-hover-background ?= #00444D;
 header-footer-focus ?= 0.2rem solid #00444D;
 header-nav-link ?= #00444D;
 header-nav-background ?= #e4eee4;
+header-nav-hover-color ?= #e4eee4;
+header-nav-hover-background ?= #00444D;
 header-nav-border-top ?= 0.1rem dotted #fff;
 header-nav-border-bottom ?= 0.1rem solid #cfcfcf;
 header-menu-border ?= 0.2rem solid #cfcfcf;
@@ -45,12 +47,12 @@ logo-unicode ?= "\e91f";
 /* Table of Contents Sidebar */
 topics-background ?= #efefef;
 topics-item-color ?= #000;
-topics-active-color ?= #efefef;
-topics-active-background ?= #000;
-topics-item-hover-color ?= #000;
-topics-item-hover-background ?= #efefef;
-topics-item-hover-border ?= 0.2rem solid #000;
-topics-border-color ?= #cfcfcf;
+topics-active-color ?= #000;
+topics-active-background ?= #efefef;
+topics-item-hover-color ?= #fff;
+topics-item-hover-background ?= #000;
+topics-item-focus-border ?= 0.2rem solid #000;
+topics-border-color ?= #cfcfcf; // right border of topics container
 
 /* Table of Contents Hide-Show ribbon */
 hideShow-background ?= #efefef;
@@ -78,16 +80,98 @@ table-border-color ?= #e7e7e7;
 /* UIO Table of Contents */
 uio-topics-background ?= #efefef;
 
-/* Transition Time */
-// use the same time on transitions so everything moves the same time.
-transitionTime ?= 0.5s;
-
 /* Mixins */
-// generate the ribbon "tail" of the hideShow ribbon.
-contrastHideShowRibbonColor(foreground, background) {
-    border-bottom: 2.2rem solid foreground;
-    border-right: 2.1rem solid background;
-    border-top: 2.2rem solid foreground;
+/* Generate the ribbon "tail" of the hideShow ribbon.
+foregroundColor - the foreground colour of the contrast theme.
+backgroundColor - the background colour of the contrast theme.*/
+contrastThemeHideShowRibbonColor(foregroundColor, backgroundColor) {
+    border-bottom: 2.10rem solid foregroundColor;
+    border-right: 2.1rem solid backgroundColor;
+    border-top: 2.11rem solid foregroundColor;
+}
+
+/* Generate the parts which are within a .fl-inverted-color class.
+foregroundColor - the foreground colour of the contrast theme.
+backgroundColor - the background colour of the contrast theme.*/
+contrastThemeInverted(foregroundColor, backgroundColor) {
+    button:focus,
+    a:focus {
+        outline: 0.2rem solid backgroundColor !important;
+        background: foregroundColor;
+    }
+
+    button:hover {
+        outline: none !important;
+    }
+
+    a:hover,
+    a:hover *,
+    .ui-state-focus,
+    .ui-state-hover,
+    .ui-state-active,
+    .ui-state-active .docs-template-nav-mobile-icon,
+    .ui-state-focus .docs-template-nav-mobile-icon,
+    button:hover {
+         background: backgroundColor !important;
+         color: foregroundColor !important;
+     }
+
+     .docs-template-category-active {
+         font-weight: bold !important;
+
+         &.ui-state-focus,
+         &.ui-state-focus span {
+             color: backgroundColor !important;
+             background: foregroundColor !important;
+         }
+
+         span:before {
+             color: backgroundColor !important;
+         }
+     }
+}
+
+/* Generate the contrast theme styles for docs-template.
+foregroundColor - the foreground colour of the contrast theme.
+backgroundColor - the background colour of the contrast theme.*/
+contrastTheme(foregroundColor, backgroundColor) {
+    a:hover,
+    a {
+        transition: none;
+    }
+
+    a:focus {
+        outline: 0.2rem solid foregroundColor !important;
+    }
+
+    .docs-template-topics-hideShow:before,
+    a:hover,
+    a:hover code,
+    a:hover .docs-template-topics-item {
+        background-color: foregroundColor !important;
+        color: backgroundColor !important;
+    }
+
+    .fl-inverted-color {
+        contrastThemeInverted(foregroundColor, backgroundColor)
+    }
+
+    .docs-template-topics-hideShow:after {
+        contrastThemeHideShowRibbonColor(foregroundColor, backgroundColor)
+    }
+
+    figure a:hover {
+        outline: none !important;
+    }
+
+    figure a:hover img {
+        background-color: foregroundColor !important;
+    }
+
+    .docs-template-topics-hideShow a:hover {
+        background-color: backgroundColor !important;
+        color: foregroundColor !important;
+    }
 }
 
 @font-face {
@@ -138,6 +222,7 @@ html body {
     display: flex;
     flex-wrap: wrap;
     max-width: site-width;
+    margin: 0 auto;
 }
 
 .docs-template pre {
@@ -145,12 +230,19 @@ html body {
 }
 
 .docs-template td {
+    border: 0.5rem solid table-border-color;
     vertical-align: top;
 }
 
 .docs-template a {
     color: link-color;
     text-decoration: underline;
+    transition: backgroundColor 0.15s, background 0.15s, color 0.15s;
+    display:inline-block;
+}
+
+.docs-template a:hover {
+    transition: backgroundColor 0.15s, background 0.15s, color 0.15s;
 }
 
 /* override foundation, so UIO's line-spacing will work */
@@ -166,6 +258,7 @@ html body {
 .fl-prefsEditor-buttons button:focus,
 .docs-template a:focus {
     outline: button-focus;
+    text-decoration: none;
 }
 
 /* Skip links */
@@ -209,110 +302,145 @@ html body {
     display: none;
 }
 
-.docs-core-sidebar-visibility .docs-template-skip-topics {
+.docs-core-sidebar-expanded .docs-template-skip-topics {
     display: initial;
 }
 
+/* OVERRIDE JQUERY UI WIDGET THEME */
+
+.ui-icon-blank {
+    display: none;
+}
+
+.ui-menu.ui-widget-content {
+    background: header-footer-background;
+    color: header-footer-color;
+    border: none;
+}
+
+.ui-menu .ui-menu-item {
+    background: header-footer-backkground;
+    border: none;
+    padding: 0 0.3rem;
+}
+
 /* Header and Footer */
+.docs-template header {
+    background-color: header-footer-background;
+    margin: 0;
+    max-width: none;
+}
+
 .docs-template-header,
 .docs-template-footer {
     background-color: header-footer-background;
     color: header-footer-color;
     font-family: docs-fonts;
-}
 
-.docs-template-header p,
-.docs-template-footer p {
-    margin-bottom: 0;
-}
+    a {
+        color: header-footer-link;
+    }
 
-.docs-template-header a,
-.docs-template-footer a {
-    color: header-footer-link;
-}
+    a:focus {
+        outline: header-footer-focus;
+    }
 
-.docs-template-header a:focus,
-.docs-template-footer a:focus {
-    outline: header-footer-focus;
-}
-
-.docs-template-header a:hover,
-.docs-template-footer a:hover {
-    color: header-footer-hover-color;
-    background: header-footer-hover-background;
+    a:hover {
+       color: header-footer-hover-color;
+       background: header-footer-hover-background;
+   }
 }
 
 .docs-template-header {
-    font-size: 1.1rem;
-    text-align: right;
-    line-height: 2;
     max-width: 100%;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+
+    a {
+        text-decoration: none;
+    }
+
+    h1 {
+        color: inherit;
+    }
+
+    .inline-list {
+       margin-bottom: 0;
+       overflow: initial;
+    }
+
+    nav {
+        padding: 0.2rem 1rem;
+        background-color: header-nav-background;
+        border-top: header-nav-border-top;
+        border-bottom: header-nav-border-bottom;
+    }
+
+    nav.show-for-small-only {
+        background: header-footer-background;
+        border: none;
+        padding: 0;
+    }
+
+    nav li {
+        padding-bottom: 0.2rem;
+    }
+
+    nav span,
+    nav a {
+        color: header-nav-link;
+        padding: 0.2rem 1rem;
+        margin: 0;
+    }
 }
 
-.docs-template-header a {
-    text-decoration: none;
-}
-
-.docs-template-header .inline-list {
-   margin-bottom: 0;
-   overflow: initial;
-}
-
-.docs-template-header .docs-template-logo {
+.docs-template-logo {
     font-size: 1.6rem;
     letter-spacing: 0.2rem;
-    margin-bottom: 0.7rem;
-    text-align: left;
+    margin-bottom: 0.2rem;
     background: logo-background;
-}
-
-.docs-template-header .docs-template-logo a {
-    padding: 1rem;
+    padding: 0.3rem;
     color: logo-color;
+    display: inline-block;
+
+    &:hover {
+        background: logo-hover-background;
+        color: logo-hover-color;
+    }
+
+    &:focus {
+        outline: logo-focus;
+    }
+
+    &:before {
+        font-family: "logo";
+        content: logo-unicode;
+        font-size: 2rem;
+        text-align: bottom;
+        padding-right: 0.2rem;
+    }
+
+    h1 {
+        display: inline-block;
+        margin: 0;
+    }
 }
 
-.docs-template-header .docs-template-logo a:hover {
-    background: logo-hover-background;
-    color: logo-hover-color;
-}
-
-.docs-template-header .docs-template-logo a:focus {
-    outline: logo-focus;
-}
-
-.docs-template-header .docs-template-logoText:before {
-    font-family: "logo";
-    content: logo-unicode;
-    font-size: 2rem;
-    text-align: bottom;
-    padding-right: 0.2rem;
-}
-
-.docs-template-header nav {
-    padding: 0.2rem 1rem;
-    background-color: header-nav-background;
-    border-top: header-nav-border-top;
-    border-bottom: header-nav-border-bottom;
-}
-
-.docs-template-header nav.show-for-small-only {
-    background: header-footer-background;
-    border: none;
-    padding: 0;
-}
-
-.docs-template-header nav li {
-    padding-bottom: 0.2rem;
-}
-
-.docs-template-header nav a {
-    color: header-nav-link;
-    padding: 0.2rem 1rem;
+.docs-template-tagline {
+    font-size: 1rem;
+    display: block;
+    font-weight: normal;
+    color: inherit;
     margin: 0;
+    display: inline-block;
 }
 
 .docs-template-nav-mobile {
     padding: 0 0.5rem;
+}
+
+.docs-template-nav-mobile-icon {
+    color: header-footer-color;
 }
 
 .docs-template-nav-mobile-icon:before {
@@ -322,8 +450,60 @@ html body {
     display: inline-block;
 }
 
-.docs-template-dropDown .ui-menu-item {
-    padding-bottom: 0.3rem;
+.ui-state-active .docs-template-nav-mobile-icon,
+.ui-state-focus .docs-template-nav-mobile-icon {
+    background-color: header-nav-link;
+    color: header-nav-background;
+}
+
+.ui-state-active .docs-template-dropDown a {
+    color: header-nav-link;
+    background-color: header-nav-background;
+}
+
+.docs-template .docs-template-dropDown-header {
+    padding: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.docs-template-dropDown {
+    padding: 1rem;
+
+    li {
+        background: header-nav-background;
+    }
+
+    .ui-menu-item {
+        padding: 0.8rem;
+    }
+}
+
+.docs-template-dropDown-header.ui-state-hover,
+.docs-template-dropDown-header.ui-state-focus,
+.docs-template-dropDown-header.ui-state-active,
+.docs-template-dropDown li.ui-state-hover,
+.docs-template-dropDown li.ui-state-focus,
+.docs-template-dropDown li.ui-state-hover a,
+.docs-template-dropDown li.ui-state-focus a {
+    color: header-nav-hover-color;
+    background: header-nav-hover-background;
+}
+
+.docs-template-dropDown-header .docs-template-category-active {
+    &.ui-state-focus,
+    &.ui-state-focus span {
+        color: header-nav-link;
+        background: header-nav-background;
+    }
+}
+
+.docs-template-category-active {
+    span:before {
+        color: header-nav-link;
+        content: "\2590";
+        display: inline-block;
+        margin-right: 0.2rem;
+    }
 }
 
 .docs-template-footer {
@@ -331,10 +511,10 @@ html body {
     font-size: 1.1rem;
     text-align: center;
     max-width: 100%;
-}
 
-.docs-template-footer p {
-    font-size: 0.8rem;
+    p {
+        margin-bottom: 0;
+    }
 }
 
 /* Main body area - contains sidebar and article, excludes header and footer */
@@ -349,21 +529,18 @@ html body {
     color: articleBody-color;
     background: articleBody-background;
 
-    //////////////////////////////////////////////////////////////
-    // FLUID-5732.
-    // transition: width transitionTime;
-
     // make article wider to take more room.
     width: 91.66%;
 }
 
-.docs-core-sidebar-visibility .docs-template-articleBody {
+.docs-core-sidebar-expanded .docs-template-articleBody {
     // put width back to the same as Foundation's medium-8
-    width: 70%;
+    width: 75%;
+}
 
-    //////////////////////////////////////////////////////////////
-    // FLUID-5732.
-    // transition: width transitionTime;
+.docs-template-404.docs-core-sidebar-expanded .docs-template-articleBody {
+    width: 100%;
+    max-width: none;
 }
 
 .docs-template-articleBody * {
@@ -407,19 +584,10 @@ html body {
     background: 0;
 }
 
-.docs-template-articleBody table td {
-    border: 1rem solid table-border-color;
-}
-
 /* Topics list */
 .docs-template-topics-container {
     background: topics-background;
     border-right: 0.2rem solid topics-border-color;
-
-    /////////////////////////////////////////////
-    // FLUID-5732. We only want this added after page load.
-    // transition: width transitionTime;
-    /////////////////////////////////////////////
 
     flex-grow: 0;
     -webkit-flex-grow: 0;
@@ -431,123 +599,129 @@ html body {
     width: 1px;
 }
 
-.docs-template-topics-container a {
-    text-decoration: none;
-}
-
-.docs-core-sidebar-visibility .docs-template-topics-container {
+.docs-core-sidebar-expanded .docs-template-topics-container {
     overflow: auto;
     padding: 1.5rem;
     width: 25%; // put width back to the same as Foundation's medium-3
-
-    //////////////////////////////////////////////////////////////
-    // FLUID-5732. Uncomment this once FLUID-5732 above is fixed.
-    // transition: width transitionTime;
-    //////////////////////////////////////////////////////////////
-
     flex-grow: 2;
     -webkit-flex-grow: 2;
 }
 
-.docs-core-sidebar-visibility .docs-template-topics {
+.docs-core-sidebar-expanded .docs-template-topics {
     display: initial; // restore tabbability of topics
 }
 
 .docs-template-topics-hideShow {
     line-height: 2.3rem !important; // prevent UIO from changing this.
     margin: -4.4rem 0 0 -2rem;
-    padding: 0.5rem;
-    min-width: 9rem;
-    width: 9rem;
+    padding: 0.6rem;
+    min-width: 13rem;
     background: hideShow-background;
     z-index: 1;
-}
 
-.docs-template-topics-hideShow:after {
-    contrastHideShowRibbonColor(hideShow-background, docs-body-background)
-    content: "";
-    position:absolute;
-    right: 0;
-    display:block;
-    top: 0;
-}
+    &:after {
+        contrastThemeHideShowRibbonColor(hideShow-background, docs-body-background)
+        content: "";
+        position:absolute;
+        right: 0;
+        display:block;
+        top: 0;
+    }
 
-.docs-template-topics-hideShow a {
-    color: hideShow-color;
-    margin-right: 0rem;
-    margin-top: 0rem;
-    background: hideShow-background;
-    padding: 0.5rem;
-    display: inline-block;
-}
+    &:before {
+        content: "\2630";
+        font-size: 1.5rem;
+        font-weight: bold;
+        display: inline-block;
+        color: hideShow-color;
+    }
 
-.docs-template-topics-hideShow a:before {
-    content: "\2630";
-    font-size: 1.5rem;
-    font-weight: bold;
-    display: inline-block;
-}
+    &:hover,
+    &:focus {
+        outline: none;
+    }
 
-.docs-template-topics-hideShow a:hover {
-    color: hideShow-hover-color;
-    background: hideShow-hover-background;
-}
+    a {
+        color: hideShow-color;
+        margin-right: 0rem;
+        margin-top: 0rem;
+        background: hideShow-background;
+        padding: 0.4rem;
+        display: inline-block;
+        text-align: center;
+    }
 
-.docs-template-topics-hideShow a:focus {
-    outline: hideShow-focus;
+    a:hover {
+        color: hideShow-hover-color;
+        background: hideShow-hover-background;
+    }
+
+    a:focus {
+        outline: 0.2rem solid hideShow-color;
+    }
 }
 
 .docs-template-topics {
     width: 100%;
     display: none;
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        padding: 0.6rem 0.2rem 0.6rem 0;
+    }
+
+    .docs-template-topics-active:before {
+        content: "\2590";
+        display: inline-block;
+        margin-right: 0.2rem;
+    }
+
+    a {
+        display: inline-block;
+        color: topics-item-color;
+
+        &:hover {
+            background: topics-item-hover-background;
+            text-decoration: none;
+            color: topics-item-hover-color;
+        }
+
+        &:focus {
+            outline: topics-item-focus-border;
+        }
+    }
+
+    .docs-template-topics-active {
+        color: topics-active-color;
+        background: topics-active-background;
+        display: inline-block;
+    }
+
+    .docs-template-category {
+        font-family: 'OpenSans-Bold';
+        margin-bottom: 1rem;
+        font-weight: bold;
+        font-size: 1.6rem;
+        word-wrap: break-word;
+    }
+
+    .docs-template-sectionName {
+        font-weight: normal;
+        font-size: 1rem;
+        margin:0;
+    }
 }
 
-.docs-template-topics a {
-    display: inline-block;
-}
-
-.docs-template-topics ul {
-    list-style-type: none;
-}
-
-.docs-template-topics li {
-    padding: 0.6rem 0.2rem 0.6rem 0;
-}
-
-.docs-template-topics .docs-template-category {
-    font-family: 'OpenSans-Bold';
-    margin-bottom: 1rem;
-    font-weight: bold;
-    font-size: 1.6rem;
-    word-wrap: break-word;
-}
-
-.docs-template-topics .docs-template-sectionName {
-    font-weight: normal;
-    font-size: 1rem;
-    margin:0;
-}
-
-.docs-template-topics .docs-template-topics-item {
+.docs-template-topics-item {
     padding: 0.2rem;
     border: none;
     color: topics-item-color;
     display:inline-block;
     width:100%;
     text-decoration: inherit;
-}
-
-.docs-template-topics a:focus,
-.docs-template-topics a:hover {
-    color: topics-item-hover-color;
-    background: topics-item-hover-background;
-    outline: topics-item-hover-border;
-    text-decoration: none;
-}
-
-.docs-template-topics .docs-template-topics-item.docs-template-topics-active {
-    color: topics-active-color;
-    background: topics-active-background;
 }
 
 /* Main Content Area */
@@ -561,7 +735,7 @@ html body {
 }
 
 .docs-template-githubLink {
-    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .docs-template-githubLink a:before {
@@ -573,20 +747,15 @@ html body {
     padding-right: 0.5rem;
 }
 
-.docs-template-articleBody h1 {
-    font-size: 3.0rem;
-    font-family: docs-header-font;
-}
-
-.docs-template-articleBody h2 {
-    font-size: 2.5rem;
-    font-family: docs-header-font;
-}
-
+.docs-template-articleBody h1,
+.docs-template-articleBody h2,
 .docs-template-articleBody h3 {
-    font-size: 1.5rem;
     font-family: docs-header-font;
 }
+
+.docs-template-articleBody h1 { font-size: 3.0rem; }
+.docs-template-articleBody h2 { font-size: 2.5rem; }
+.docs-template-articleBody h3 { font-size: 1.5rem; }
 
 .docs-template-articleBody > p:first-child {
     font-size: 1.4rem;
@@ -639,14 +808,20 @@ html body {
     a:hover {
         background: figure-background;
         // override the default link hover style.
-    }
-
-    a:hover img {
         outline: 0.2rem solid link-hover-background;
     }
 }
 
+.docs-template-404 .docs-template-articleBody {
+    width: 100%;
+    max-width: none;
+}
+
 /* Infusion UIO */
+
+.fl-prefsEditor-separatedPanel .fl-prefsEditor-showHide {
+    min-width: 7rem;
+}
 
 .fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
     margin-right: 2rem;
@@ -680,168 +855,44 @@ html body {
 }
 
 /* Styles for high-contrast themes */
-.fl-theme-yb .docs-template-fluidLogoText::before {
-    color: #ff0 !important;
-}
-.fl-theme-wb .docs-template-fluidLogoText::before {
-    color: #ffffff !important;
-}
-.fl-theme-by .docs-template-fluidLogoText::before,
-.fl-theme-bw .docs-template-fluidLogoText::before {
-    color: #000000 !important;
-}
-.fl-theme-lgdg .docs-template-fluidLogoText::before {
-    color: #bdbdbb !important;
-}
-
-.fl-theme-bw .fl-inverted-color {
-    button:focus,
-    a:focus,
-    .ui-state-focus {
-        outline: 0.2rem solid #fff !important;
-    }
-
-    .fl-prefsEditor-buttons button:focus,
-    .fl-prefsEditor-buttons button:hover {
-         background: #fff !important;
-         color: #000 !important;
-     }
-}
-
-.fl-theme-by .fl-inverted-color {
-    button:focus,
-    a:focus,
-    .ui-state-focus {
-        outline: 0.2rem solid #ff0 !important;
-    }
-
-    .fl-prefsEditor-buttons button:focus,
-    .fl-prefsEditor-buttons button:hover {
-        background: #ff0 !important;
-        color: #000 !important;
+.fl-theme-bw,
+.fl-theme-wb,
+.fl-theme-by,
+.fl-theme-yb,
+.fl-theme-lgdg {
+    a:hover .docs-template-topics-item {
+        outline: none !important;
     }
 }
 
-.fl-theme-wb .fl-inverted-color {
-    button:focus,
-    a:focus,
-    .ui-state-focus {
-        outline: 0.2rem solid #000 !important;
-    }
-
-    .fl-prefsEditor-buttons button:focus,
-    .fl-prefsEditor-buttons button:hover {
-        background: #000 !important;
-        color: #fff !important;
-    }
+.fl-theme-bw {
+    contrastTheme(#000, #fff)
 }
 
-.fl-theme-yb .fl-inverted-color {
-    button:focus,
-    a:focus,
-    .ui-state-focus {
-        outline: 0.2rem solid #000 !important;
-    }
-
-    .fl-prefsEditor-buttons button:focus,
-    .fl-prefsEditor-buttons button:hover {
-        background: #000 !important;
-        color: #ff0 !important;
-    }
+.fl-theme-by {
+    contrastTheme(#000, #ff0)
 }
 
-.fl-theme-lgdg .fl-inverted-color {
-    button:focus,
-    a:focus,
-    .ui-state-focus {
-        outline: 0.2rem solid #555 !important;
-    }
-
-    .fl-prefsEditor-buttons button:focus,
-    .fl-prefsEditor-buttons button:hover {
-        background: #555 !important;
-        color: #bdbdbb !important;
-    }
+.fl-theme-wb {
+    contrastTheme(#fff, #000)
 }
 
-.fl-theme-bw a:focus,
-.fl-theme-bw .fl-prefsEditor-buttons button:focus,
-.fl-theme-by a:focus,
-.fl-theme-by .fl-prefsEditor-buttons button:focus {
-    outline: 0.2rem solid #000000 !important;
+.fl-theme-yb {
+    contrastTheme(#ff0, #000)
 }
 
-.fl-theme-wb a:focus,
-.fl-theme-wb .fl-prefsEditor-buttons button:focus {
-    outline: 0.2rem solid #ffffff !important;
+.fl-theme-lgdg {
+    contrastTheme(#bdbdbb, #555)
 }
 
-.fl-theme-yb a:focus,
-.fl-theme-yb .fl-prefsEditor-buttons button:focus {
-    outline: 0.2rem solid #ff0 !important;
-}
-
-.fl-theme-lgdg a:focus,
-.fl-theme-lgdg .fl-prefsEditor-buttons button:focus {
-    outline: 0.2rem solid #bdbdbb !important;
-}
-
-.fl-theme-by .ui-state-active,
-.fl-theme-by .ui-state-active .docs-template-nav-mobile-icon,
-.fl-theme-bw .ui-state-active,
-.fl-theme-bw .ui-state-active .docs-template-nav-mobile-icon {
-    background: #000 !important;;
-}
-
-.fl-theme-yb .ui-state-active,
-.fl-theme-yb .ui-state-active .docs-template-nav-mobile-icon {
-    background: #ff0 !important;;
-}
-
-.fl-theme-wb .ui-state-active,
-.fl-theme-wb .ui-state-active .docs-template-nav-mobile-icon {
-    background: #fff !important;;
-}
-
-.fl-theme-lgdg .ui-state-active,
-.fl-theme-lgdg .ui-state-active .docs-template-nav-mobile-icon {
-    background: #bdbdbb !important;;
-}
-
-.fl-theme-bw .docs-template-topics-hideShow:after {
-    contrastHideShowRibbonColor(#000, #fff);
-}
-
-.fl-theme-wb .docs-template-topics-hideShow:after {
-    contrastHideShowRibbonColor(#fff, #000);
-}
-
-.fl-theme-yb .docs-template-topics-hideShow:after {
-    contrastHideShowRibbonColor(#ff0, #000);
-}
-
-.fl-theme-by .docs-template-topics-hideShow:after {
-    contrastHideShowRibbonColor(#000, #ff0);
-}
-
-.fl-theme-lgdg .docs-template-topics-hideShow:after {
-    contrastHideShowRibbonColor(#bdbdbb, #555);
-}
-
+// Mobile and small screens
 @media only screen and (max-width: 40em) {
-    .docs-template-header {
-        line-height: inherit;
-        padding-right: 0;
-        padding-bottom: 0.2rem;
-    }
 
-    .docs-template-header .docs-template-logo {
+    .docs-template-logo {
         font-size: 1rem;
-        margin-top: 1rem;
-        margin-bottom: 0rem;
     }
 
-    .docs-template-header .docs-template-logoText:before {
+    .docs-template-logo:before {
         font-size: 1rem;
     }
 
@@ -849,74 +900,55 @@ html body {
         margin-top: 0;
     }
 
+    .docs-template-header nav span,
     .docs-template-header nav a {
         color: header-nav-link;
         padding: 0.2rem;
     }
 
-    .docs-core-sidebar-visibility .docs-template-topics-container {
+    .docs-template-header h1 {
+        font-size: 1.4rem;
+    }
+
+    .docs-core-sidebar-expanded .docs-template-topics-container {
         width: 50%;
     }
 
-    .docs-core-sidebar-visibility .docs-template-articleBody {
+    .docs-core-sidebar-expanded .docs-template-articleBody {
         width: 50%;
+    }
+
+    .docs-template-topics-hideShow {
+        min-width: 10.8rem;
+        a {
+            font-size: 0.9rem;
+            padding-left: 0.2rem;
+            padding-right: 0.2rem;
+        }
+    }
+
+    .docs-template-404 .docs-template-articleBody {
+        width: 100%;
+        max-width: none;
+    }
+
+    .docs-template-articleBody h1 {
+        font-size: 2.0rem;
+    }
+
+    .docs-template-articleBody h2 {
+        font-size: 1.5rem;
+    }
+
+    .docs-template-articleBody h3 {
+        font-size: 1.2rem;
     }
 }
 
+// Larger screens
 @media only screen and (min-width: site-width) {
     .docs-template-container {
+        border-left: site-border;
         border-right: site-border;
     }
-}
-
-/* OVERRIDE JQUERY UI WIDGET THEME */
-
-.ui-icon-blank {
-    display: none;
-}
-
-.ui-menu.ui-widget-content {
-    background: header-footer-background;
-    border: none;
-}
-
-.ui-menu .ui-menu-item {
-    background: header-footer-backkground;
-    border: none;
-    padding: 0 0.3rem;
-}
-
-.ui-menu .ui-menu-item.docs-template-dropDown-header {
-    padding: 0;
-    margin-bottom: 0.5rem;
-}
-
-.docs-template-dropDown {
-    padding: 1rem;
-}
-
-.docs-template-dropDown li {
-    background: header-nav-background;
-}
-
-
-.docs-template-dropDown-header.ui-state-hover,
-.docs-template-dropDown-header.ui-state-focus,
-.docs-template-dropDown li.ui-state-hover,
-.docs-template-dropDown li.ui-state-focus,
-.docs-template-dropDown li.ui-state-hover a,
-.docs-template-dropDown li.ui-state-focus a {
-    color: header-footer-hover-color;
-    background: header-footer-hover-background;
-}
-
-
-.docs-template-dropDown li.ui-state-focus.docs-template-category-active a,
-.docs-template-dropDown li.docs-template-category-active a:hover  {
-    color: header-footer-link;
-    background: inherit;
-}
-
-#menu li.docs-template-category-active {
-    background: #fff;
 }

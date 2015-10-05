@@ -4,8 +4,10 @@
         <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <title>{{document.title}} | Documentation Template</title>
+        <link rel="icon" type="image/png" href="{{{getRelativeUrl '/images/favico.png' document.url}}}">
+
         <link rel="stylesheet" href="{{{getRelativeUrl '/css/normalize.css' document.url}}}">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
+        <link rel="stylesheet" href="{{{getRelativeUrl '/css/foundation.min.css' document.url}}}">
         <link rel="stylesheet" href="{{{getRelativeUrl '/css/highlightjs-custom.css' document.url}}}">
         <link rel="stylesheet" href="{{{getRelativeUrl '/lib/infusion/src/lib/jquery/ui/css/default-theme/jquery.ui.theme.css' document.url}}}">
 
@@ -14,26 +16,23 @@
         <link rel="stylesheet" type="text/css" href="{{{getRelativeUrl '/lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css' document.url}}}" />
         <link rel="stylesheet" href="{{{getRelativeUrl '/css/docs-template.css' document.url}}}">
 
-        <link rel="icon" type="image/png" href="{{{getRelativeUrl '/images/favico.png' document.url}}}">
-
         <script type="text/javascript" src="{{{getRelativeUrl '/lib/infusion/infusion-uio.js' document.url}}}"></script>
         <script type="text/javascript" src="{{{getRelativeUrl '/js/DocsCore.js' document.url}}}"></script>
-        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script type="text/javascript" src="{{{getRelativeUrl '/lib/jqueryui/jquery-ui.min.js' document.url}}}"></script>
     </head>
-    <body class="docs-template docs-core-sidebar-visibility">
+    <body class="docs-template docs-core-sidebar-expanded">
 
         <div class="container docs-template-container">
 
             <!-- Skip Link -->
-            <div id="skip">
+            <nav id="skip" class="fl-inverted-color">
                 <a href="#topics" class="docs-template-skip-topics">Skip to Topics</a>
                 <a href="#content" class="docs-template-skip-content">Skip to Content</a>
-            </div>
+            </nav>
             <!-- END skip link -->
 
 
-            <header class="row docs-template-header docs-template-header fl-inverted-color">
-
+            <header class="ignore-for-TOC row fl-inverted-color">
                 <!-- BEGIN markup for Preference Editor -->
                 <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
                     <!-- This is the div that will contain the Preference Editor component -->
@@ -49,8 +48,16 @@
                 </div>
                 <!-- END markup for Preference Editor -->
 
-                <div class="docs-template-logo small-12 column">
-                    <a class="docs-template-logoText" href="{{{getRelativeUrl '/index.html' document.url}}}" title="Documentation Template">Documentation Template</a>
+                <div class="small-12 column docs-template-header">
+                    <a class="docs-template-logo" href="{{{getRelativeUrl '/index.html' document.url}}}" title="Home: Documentation Template">
+                        <span class="show-for-sr">
+                            <h1>Documentation Template for IDRC Projects</h1>
+                        </span>
+                        <span aria-hidden="true">
+                            <h1>Documentation Template</h1>
+                            <span class="docs-template-tagline">Example Site</span>
+                        </span>
+                    </a>
 
                     {{! Show the menu for mobile screens }}
                     <nav class="right show-for-small-only docs-template-nav-mobile">
@@ -60,7 +67,7 @@
                                     {{! Highlight the (active) category the document belongs to. }}
                                     {{#each siteStructure}}
                                         {{#ifEqual category ../document.category}}
-                                            <li class="docs-template-category-active"><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}" aria-label="Currently on Category: {{category}}"><span aria-hidden="true">&#9616;</span> {{category}}</a></li>
+                                            <li class="docs-template-category-active"><span aria-label="Currently on Category: {{category}}">{{category}}</span></li>
                                         {{else}}
                                             <li><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{category}}</a></li>
                                         {{/ifEqual}}
@@ -71,22 +78,24 @@
                     </nav>
                 </div>
 
-                <nav class="small-12 column show-for-medium-up">
-                    <ul class="inline-list right">
-                    {{! Highlight the (active) category the document belongs to. }}
-                    {{#each siteStructure}}
-                        {{#ifEqual category ../document.category}}
-                            <li class="docs-template-category-active"><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}" aria-label="Currently on Category: {{category}}">&#9616; {{category}}</a></li>
-                        {{else}}
-                            <li><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{category}}</a></li>
-                        {{/ifEqual}}
-                    {{/each}}
-                    </ul>
-                </nav>
+                <div class="docs-template-header">
+                    <nav class="small-12 column show-for-medium-up">
+                        <ul class="inline-list right">
+                        {{! Highlight the (active) category the document belongs to. }}
+                        {{#each siteStructure}}
+                            {{#ifEqual category ../document.category}}
+                                <li class="docs-template-category-active"><span aria-label="Currently on Category: {{category}}">{{category}}</span></li>
+                            {{else}}
+                                <li><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{category}}</a></li>
+                            {{/ifEqual}}
+                        {{/each}}
+                        </ul>
+                    </nav>
+                </div>
             </header>
 
-            <div id="topics" class="docs-template-topics-container small-8 medium-3 column">
-                <nav id="tableOfContents" class="docs-template-topics" tabindex="-1">
+            <div class="docs-corec-sidebar-bar ignore-for-TOC docs-template-topics-container small-8 medium-3 column">
+                <nav id="topics" class="docs-template-topics" tabindex="-1">
                     {{#each siteStructure}}
                         {{! Output only the table of contents matching the current document's category }}
                         {{#ifEqual category ../document.category}}
@@ -97,9 +106,9 @@
                                     {{#each pages}}
                                         <li>
                                             {{#ifEqual href ../../../../document.url}}
-                                                <a href="{{getRelativeUrl href ../../../../../document.url}}" aria-label="Currently on: {{pageName}}"><span class="docs-template-topics-item docs-template-topics-active"><span aria-hidden="true">&#9616;</span> {{pageName}}</span></a>
+                                                <span aria-label="Currently on: {{pageName}}" class="docs-template-topics-active">{{pageName}}</span>
                                             {{else}}
-                                                <a href="{{getRelativeUrl href ../../../../../document.url}}"><span class="docs-template-topics-item">{{pageName}}</span></a>
+                                                <a href="{{getRelativeUrl href ../../../../../document.url}}">{{pageName}}</a>
                                             {{/ifEqual}}
                                         </li>
                                     {{/each}}
@@ -110,34 +119,53 @@
                 </nav>
             </div>
 
-            <article id="content" class="docs-template-articleBody small-12 medium-8 column" tabindex="-1">
+            <div class="docs-template-articleBody small-12 medium-8 column">
 
                 <div class="small-4 medium-1 column docs-template-topics-hideShow fl-inverted-color">
-                    <a href="#" class="docs-corec-topics" title="Visually Hide or Show List of Topics" aria-label="Visually Hide or Show List of Topics" role="button">Topics</a>
+                    <a href="#" class="docs-corec-sidebar-toggle">Topics</a>
                 </div>
 
-                <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
+                <article id="content">
+                    <h1>{{document.title}}</h1>
 
-                <h1>{{document.title}}</h1>
+                    <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
 
-                <p class="docs-template-githubLink"><a href="{{getGithubLocation}}" target="_blank">Edit this Page on GitHub</a></p>
 
-                <div class="docs-template-articleContent">
-                    {{{rewriteMdLinks content}}}
-                </div>
+                    <div class="docs-template-articleContent">
+                        {{{rewriteMdLinks content}}}
+                    </div>
 
-            </article>
+                    <p class="docs-template-githubLink"><a href="{{getGithubLocation}}" rel="nofollow" target="_blank" class="link-external">Edit this Page on GitHub</a></p>
+                </article>
+
+            </div>
 
             <footer class="row docs-template-footer fl-inverted-color">
-                <p>Created by the <a href="http://fluidproject.org/" target="_blank">Fluid Project</a>,<br/>
-                a project of the <a href="http://idrc.ocad.ca/" target="_blank">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca/" target="_blank">OCAD University</a>.</p>
+                <p>Created by the <a href="http://fluidproject.org/" rel="nofollow" target="_blank">Fluid Project</a>,<br/>
+                a project of the <a href="http://idrc.ocad.ca/" rel="nofollow" target="_blank">Inclusive Design Research Centre</a> at <a href="http://www.ocadu.ca/" target="_blank">OCAD University</a>.</p>
             </footer>
 
             <script type="text/javascript">
                 docsCore.init("{{{getRelativeUrl '/./' document.url}}}");
                 jQuery( "#menu" ).menu({
                     position: {my: "right top", at: "right bottom"},
-                    icons: {submenu:"ui-icon-blank"}
+                    icons: {submenu:"ui-icon-blank"},
+                    // Remove the anchors from the tabindex as they are triggered
+                    // via the select event. (see below)
+                    create: function (event, ui) {
+                        jQuery("#menu .ui-menu-item a").attr("tabindex", -1);
+                    },
+                    // The jQuery menu doesn't seem to like it when the <a> are
+                    // specified as the "item" and are nested under an <li>. There
+                    // seems to be styling issues and occassionally an error thrown.
+                    // The page transition work around below is used to maintian the semantic structure,
+                    // while allowing the menu to behave as normal.
+                    select: function( event, ui ) {
+                        var location = ui.item.children("a").attr("href");
+                        if (location) {
+                            window.location.href = location;
+                        }
+                    }
                 });
             </script>
         </div> <!-- end container -->
