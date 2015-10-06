@@ -35,7 +35,6 @@ sudo npm install -g docpad
 ```
 npm install
 ```
-(TODO: package.json looks for `docs-core` URL should point to Fluid's version, not jhung)
 6. Run docpad:
 ```
 docpad run
