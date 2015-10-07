@@ -50,6 +50,10 @@ docpad run
 To customize your site, the following files are worth examining:
 
 ```
+.\docpad.js                    Contains docpad configuration values.
+                               The githubDocRoot value should be changed to
+                               match your project.
+
 .\site-structure.json          Defines the sidebar Topics navigation
                                and the top-bar Category navigation.
 

@@ -9,14 +9,13 @@ You may obtain a copy of the ECL 2.0 License and BSD License at
 https://github.com/fluid-project/infusion/raw/master/Infusion-LICENSE.txt
 */
 
+// This project's repository on GitHub. Used to build URLs for "Edit on GitHub" links
+// Change this value to match your site.
+var githubDocRoot = "https://github.com/fluid-project/docs-template/blob/master/src/documents/";
+
 var path = require("path");
 var fs = require("fs");
 var docsCore = require("docs-core");
-
-// The documentation root on GitHub:
-// Used to build URLs for "Edit on GitHub" links
-var githubDocRoot = "https://github.com/fluid-project/docs-template/blob/master/src/documents/";
-
 var siteStructure = JSON.parse(fs.readFileSync("site-structure.json"));
 
 // We locate the images within the src/documents directory so that images can
