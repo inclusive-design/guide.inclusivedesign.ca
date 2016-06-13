@@ -1,86 +1,85 @@
 [
     {
-        "category": "Fruits",
-        "categoryHref":"/index.html",
+        "category": "Principles",
+        "categoryHref":"/principles/DiverseParticipationAndPerspectives.html",
         "sections":
         [
             {
-                "sectionName": "Citrus",
+                "sectionName": "",
                 "pages":
                 [
-                    { "pageName": "Oranges", "href": "/Oranges.html"},
-                    { "pageName": "Limes", "href": "/Limes.html" }
-                ]
-            },
-            {
-                "sectionName": "Berries",
-                "pages":
-                [
-                    { "pageName": "Cranberries", "href": "/Cranberries.html" }
+                    { "pageName": "Diverse Participation and Perspectives", "href": "/principles/DiverseParticipationAndPerspectives.html" },
+                    { "pageName": "One Size Fits One", "href": "/principles/OneSizeFitsOne.html" },
+                    { "pageName": "Integrated Solutions", "href": "/principles/IntegratedSolutions.html" },
+                    { "pageName": "Interconnectedness", "href": "/principles/Interconnectedness.html" },
+                    { "pageName": "Disability As Mismatch", "href": "/principles/DisabilityAsMismatch.html" },
+                    { "pageName": "Virtuous Cycles", "href": "/principles/VirtuousCycles.html" },
+                    { "pageName": "Autonomous User", "href": "/principles/AutonomousUser.html" },
+                    { "pageName": "User Continued Design", "href": "/principles/UserContinuedDesign.html" }
                 ]
             }
         ]
     },
     {
-        "category": "Veggies",
-        "categoryHref": "/index-veggies.html",
-        "sections":
-        [
-            {
-                "sectionName":"Root Vegegies",
-                "pages":
-                [
-                    { "pageName": "Potato", "href": "/Potato.html" },
-                    { "pageName": "Carrots", "href": "/Carrots.html"}
-                ]
-            }
-        ]
-    },
-    {
-        "category": "Desserts",
-        "categoryHref": "/index-desserts.html",
+        "category": "Practices",
+        "categoryHref": "/practices/Collaborate.html",
         "sections":
         [
             {
                 "sectionName":"",
                 "pages":
                 [
-                    { "pageName": "Black Forest", "href": "/BlackForest.html" },
-                    { "pageName": "Cheese Cake", "href": "/CheeseCake.html"},
-                    { "pageName": "Ice cream", "href": "/IceCream.html" },
-                    { "pageName": "Cookies", "href": "/Cookies.html"},
-                    { "pageName": "Black Forest", "href": "/BlackForest.html" },
-                    { "pageName": "Cheese Cake", "href": "/CheeseCake.html"},
-                    { "pageName": "Ice cream", "href": "/IceCream.html" },
-                    { "pageName": "Cookies", "href": "/Cookies.html"},
-                    { "pageName": "Black Forest", "href": "/BlackForest.html" },
-                    { "pageName": "Cheese Cake", "href": "/CheeseCake.html"},
-                    { "pageName": "Ice cream", "href": "/IceCream.html" },
-                    { "pageName": "Cookies", "href": "/Cookies.html"},
-                    { "pageName": "Black Forest", "href": "/BlackForest.html" },
-                    { "pageName": "Cheese Cake", "href": "/CheeseCake.html"},
-                    { "pageName": "Ice cream", "href": "/IceCream.html" },
-                    { "pageName": "Cookies", "href": "/Cookies.html"},
-                    { "pageName": "Black Forest", "href": "/BlackForest.html" },
-                    { "pageName": "Cheese Cake", "href": "/CheeseCake.html"},
-                    { "pageName": "Ice cream", "href": "/IceCream.html" },
-                    { "pageName": "Cookies", "href": "/Cookies.html"},
-                    { "pageName": "Black Forest", "href": "/BlackForest.html" },
-                    { "pageName": "Cheese Cake", "href": "/CheeseCake.html"},
-                    { "pageName": "Ice cream", "href": "/IceCream.html" },
-                    { "pageName": "Cookies", "href": "/Cookies.html"},
-                    { "pageName": "Black Forest", "href": "/BlackForest.html" },
-                    { "pageName": "Cheese Cake", "href": "/CheeseCake.html"},
-                    { "pageName": "Ice cream", "href": "/IceCream.html" },
-                    { "pageName": "Cookies", "href": "/Cookies.html"},
-                    { "pageName": "Black Forest", "href": "/BlackForest.html" },
-                    { "pageName": "Cheese Cake", "href": "/CheeseCake.html"},
-                    { "pageName": "Ice cream", "href": "/IceCream.html" },
-                    { "pageName": "Cookies", "href": "/Cookies.html"},
-                    { "pageName": "Black Forest", "href": "/BlackForest.html" },
-                    { "pageName": "Cheese Cake", "href": "/CheeseCake.html"},
-                    { "pageName": "Ice cream", "href": "/IceCream.html" },
-                    { "pageName": "Cookies", "href": "/Cookies.html"}
+                    { "pageName": "Collaborate", "href": "/practices/Collaborate.html"},
+                    { "pageName": "Practice Co-Design", "href": "/practices/PracticeCoDesign.html"},
+                    { "pageName": "IntegrateAccessibility From the Start", "href": "/practices/IntegrateAccessibilityFromTheStart.html"},
+                    { "pageName": "Work Openly", "href": "/practices/WorkOpenly.html"},
+                    { "pageName": "Focus On Functional Needs And Preferences", "href": "/practices/FocusOnFunctionalNeedsAndPreferences.html"},
+                    { "pageName": "Communicate Multimodally", "href": "/practices/CommunicateMultimodally.html"},
+                    { "pageName": "Test Frequently", "href": "/practices/TestFrequently.html"},
+                    { "pageName": "Facilitate Inclusively", "href": "/practices/FacilitateInclusively.html"},
+                    { "pageName": "Design For Adaptability and Flexibility", "href": "/practices/DesignForAdaptabilityAndFlexibility.html"},
+                    { "pageName": "Design For Uncertainty", "href": "/practices/DesignForUncertainty.html"}
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Tools",
+        "categoryHref": "/tools/UXWalkthroughs.html",
+        "sections":
+        [
+            {
+                "sectionName":"",
+                "pages":
+                [
+                    { "pageName": "UX Walkthroughs", "href": "/tools/UXWalkthroughs.html" },
+                    { "pageName": "Usability Testing", "href": "/tools/UsabilityTesting.html" },
+                    { "pageName": "Accessible Design Tools", "href": "/tools/AccessibleDesignTools.html" },
+                    { "pageName": "Accessible Development Tools", "href": "/tools/AccessibleDevelopmentTools.html" },
+                    { "pageName": "Accessible Communication Tools", "href": "/tools/AccessibleCommunicationTools.html" },
+                    { "pageName": "User States and Contexts", "href": "/tools/UserStatesAndContexts.html" },
+                    { "pageName": "Personae", "href": "/tools/Personae.html" },
+                    { "pageName": "Use Cases", "href": "/tools/UseCases.html" },
+                    { "pageName": "Mindmaps", "href": "/tools/Mindmaps.html" },
+                    { "pageName": "Wireframes", "href": "/tools/Wireframes.html" },
+                    { "pageName": "Prototyping", "href": "/tools/Prototyping.html" },
+                    { "pageName": "Multimodal Testing", "href": "/tools/MultimodalTesting.html" },
+                    { "pageName": "Synchronized Design Assets", "href": "/tools/SynchronizedDesignAssets.html" },
+                    { "pageName": "Infusion", "href": "/tools/Infusion.html" }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Activities",
+        "categoryHref": "/activities/MatchingGame.html",
+        "sections":
+        [
+            {
+                "sectionName":"",
+                "pages":
+                [
+                    { "pageName": "Matching Game", "href": "/activities/MatchingGame.html" }
                 ]
             }
 

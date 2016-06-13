@@ -21,7 +21,7 @@
         <script type="text/javascript" src="{{{getRelativeUrl '/js/DocsCore.js' document.url}}}"></script>
         <script type="text/javascript" src="{{{getRelativeUrl '/lib/jqueryui/jquery-ui.min.js' document.url}}}"></script>
     </head>
-    <body class="docs-template docs-core-sidebar-expanded docs-guidelines-category-{{document.category}}">
+    <body class="docs-template docs-guidelines-index">
 
         <div class="container docs-template-container">
 
@@ -115,38 +115,9 @@
                 </div>
             </header>
 
-            <div class="docs-corec-sidebar-bar ignore-for-TOC docs-template-topics-container small-8 medium-3 column">
-                <nav id="topics" class="docs-template-topics" tabindex="-1">
-                    {{#each siteStructure}}
-                        {{! Output only the table of contents matching the current document's category }}
-                        {{#ifEqual category ../document.category}}
-                            <h2 class="docs-template-category">{{category}}</h2>
-                            {{#each sections}}
-                                <h3 class="docs-template-sectionName">{{sectionName}}</h3>
-                                <ul>
-                                    {{#each pages}}
-                                        <li>
-                                            {{#ifEqual href ../../../../document.url}}
-                                                <span aria-label="Currently on: {{pageName}}" class="docs-template-topics-active">{{pageName}}</span>
-                                            {{else}}
-                                                <a href="{{getRelativeUrl href ../../../../../document.url}}">{{pageName}}</a>
-                                            {{/ifEqual}}
-                                        </li>
-                                    {{/each}}
-                                </ul>
-                            {{/each}}
-                        {{/ifEqual}}
-                    {{/each}}
-                </nav>
-            </div>
+            <div class="docs-template-articleBody row">
 
-            <div class="docs-template-articleBody small-12 medium-8 column">
-
-                <div class="small-4 medium-1 column docs-template-topics-hideShow fl-inverted-color">
-                    <a href="#" class="docs-corec-sidebar-toggle">Topics</a>
-                </div>
-
-                <article id="content">
+                <article id="content" class="small-12 column">
                     <h1>{{document.title}}</h1>
 
                     <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>

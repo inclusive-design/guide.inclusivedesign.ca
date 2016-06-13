@@ -1,0 +1,203 @@
+/* General styling */
+docs-fonts = "OpenSans-Light", Arial, Helvetica;
+docs-header-font = "RobotoSlab";
+button-focus = 0.2rem solid #275287; // blue
+link-color = #275287; // blue
+link-hover-color = #fff;
+link-hover-background = #275287;
+//site-width ?= 80rem; // the width of the entire site.
+//site-border ?= 0.1rem solid #ccc; // the borders that appear when site-width exceeded.
+
+/* Main Content Area */
+docs-body-background = #f2f2f2; // light grey
+docs-content-note-border = #000;
+
+/* Header and Footer */
+header-footer-color = #fff;
+header-footer-background = #3a4947;
+header-footer-link = #fff;
+header-footer-hover-color = #3a4947; // teal
+header-footer-hover-background = #fff;
+header-footer-focus = 0.2rem solid #fff;
+header-nav-link = #fff;
+header-nav-background = inherit;
+header-nav-hover-color = #185D5E; // lighter teal
+header-nav-hover-background = #fff;
+header-nav-border-top = none;
+header-nav-border-bottom = 0.1rem solid #cfcfcf; // grey
+header-active-category = 0.2rem solid #fff;
+
+/* Skip Links */
+skip-color = #fff;
+skip-background = #3a4947; // teal
+skip-focus-outer-border ?= #fff;
+skip-focus-inner-border ?= #3a4947; // teal
+skip-hover-color = #3a4947; // teal
+skip-hover-background = #fff;
+
+/* Logo */
+logo-color = #fff;
+logo-background = #3a4947; // teal
+logo-hover-color = #3a4947; // teal
+logo-hover-background = #fff;
+logo-focus = 0.2rem solid #fff;
+logo-font-path = "../fonts/floe-logo";
+logo-unicode = "\e600";
+
+/* Table of Contents Sidebar */
+topics-background = #fff;
+topics-item-color = #275287; // blue
+topics-active-color = #275287; // blue
+topics-active-background = #fff;
+topics-item-hover-color = #fff;
+topics-item-hover-background = #275287; // blue
+topics-item-focus-border = 0.2rem solid #275287; // blue
+//topics-border-color = #cfcfcf;
+
+/* Table of Contents Hide-Show ribbon */
+hideShow-background = #3a4947; // blue
+hideShow-color = #fff;
+hideShow-focus = 0.2rem solid #fff;
+hideShow-hover-color = #275287; // blue
+hideShow-hover-background = #fff;
+
+/* Article Body area */
+articleBody-color = #000;
+articleBody-background = #f2f2f2;
+
+figure-caption-border = #f2f2f2;
+figure-background = #fff;
+
+/* Code Blocks */
+code-block-background = #fff;
+code-block-border = 0.1rem dotted #aaa;
+code-block-color = #000;
+code-block-link-color = #275287; // blue
+
+/* Tables */
+table-border-color = #e7e7e7;
+
+/* UIO Table of Contents */
+uio-topics-background = #efefef;
+
+/* Colours for categories */
+principlesColor = #008b82;
+practicesColor = #0e75ba;
+toolsColor = #c02b56;
+activitiesColor = #ee3f23;
+
+@import "docs-template.css.styl";
+
+@font-face {
+    font-family: "DroidSans";
+    src: url("../fonts/DroidSans.ttf") format('truetype');
+}
+
+navTabs(color) {
+    border-bottom: 0.8rem solid color;
+    padding-bottom: 0;
+
+    .docs-template-category-active {
+        border-color: color;
+    }
+}
+
+.docs-guidelines-logo {
+    width: 3rem;
+    height: auto;
+    display: inline-block;
+    path,
+    circle {
+        fill: logo-color;
+    }
+}
+
+// Hack to prevent Sidebar expanded/ collapsed styles from affecting width on index
+.docs-guidelines-index {
+    &.docs-core-sidebar-expanded .docs-template-articleBody {
+        width: 90%;
+    }
+
+    .docs-template-articleBody {
+        padding-top: 2rem;
+    }
+}
+
+.docs-template-topics-container {
+    border-left-width: 0.3rem;
+    border-right-width: 0.3rem;
+}
+
+@media screen and (min-width: 40em) {
+    .docs-guidelines-category-Activities {
+        header nav {
+            navTabs(activitiesColor);
+        }
+
+        .docs-template-topics-container {
+            border-color: activitiesColor;
+        }
+    }
+
+    .docs-guidelines-category-Principles {
+        header nav {
+            navTabs(principlesColor);
+        }
+
+        .docs-template-topics-container {
+            border-color: principlesColor;
+        }
+    }
+    .docs-guidelines-category-Practices {
+        header nav {
+            navTabs(practicesColor);
+        }
+
+        .docs-template-topics-container {
+            border-color: practicesColor;
+        }
+    }
+
+    .docs-guidelines-category-Tools {
+        header nav {
+            navTabs(toolsColor);
+        }
+
+        .docs-template-topics-container {
+            border-color: toolsColor;
+        }
+    }
+
+    .docs-guidelines-navPrinciples {
+        background-color: principlesColor;
+    }
+
+    .docs-guidelines-navPractices {
+        background-color: practicesColor;
+    }
+
+    .docs-guidelines-navTools {
+        background-color: toolsColor;
+    }
+
+    .docs-guidelines-navActivities {
+        background-color: activitiesColor;
+    }
+
+    .docs-template-header li {
+        width: 20%;
+        border-top-right-radius:0.8rem;
+        border-top-left-radius: 0.8rem;
+        border-bottom: 0.2rem solid header-footer-background;
+    }
+
+    .docs-guidelines-index {
+        .docs-template-header nav {
+            padding-bottom: 0;
+        }
+
+        .docs-template-header li {
+            border-bottom: 0;
+        }
+    }
+}
