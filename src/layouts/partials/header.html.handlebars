@@ -1,0 +1,76 @@
+<header class="ignore-for-TOC row fl-inverted-color">
+    <!-- BEGIN markup for Preference Editor -->
+    <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+        <!-- This is the div that will contain the Preference Editor component -->
+        <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+
+        <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+        <div class="fl-panelBar">
+            <span class="fl-prefsEditor-buttons">
+                <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+            </span>
+        </div>
+    </div>
+    <!-- END markup for Preference Editor -->
+
+    <div class="small-12 column docs-template-header">
+        <a class="" href="{{{getRelativeUrl '/index.html' document.url}}}" title="Home: Documentation Template">
+            <!-- <div class="logo">  -->
+                <svg role="presentation" class="docs-guidelines-logo left" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 61.387 77.161" enable-background="new 0 0 61.387 77.161" xml:space="preserve">
+                <g id="idrc_symbol">
+                    <g>
+                        <path d="M21.701,12.809c6.365,10.428,14.345,23.502,19.237,34.619c2.625-3.069,6.783-7.631,10.449-11.338V10.161
+                            H20.086C20.613,11.026,21.151,11.909,21.701,12.809z"/>
+                        <path d="M42.243,50.534c1.541,3.866,2.62,7.419,3.018,10.443c0.454,3.457-0.195,6.477-1.783,8.285
+                            c-0.965,1.102-2.21,1.684-3.598,1.684c-1.236,0-2.506-0.635-3.576-1.787c-1.674-1.803-2.512-4.474-2.3-7.328
+                            c0.364-4.902,2.73-9.046,4.806-11.798C34.11,38.899,25.742,25.189,19.14,14.372c-0.885-1.45-1.746-2.86-2.565-4.211H1.387v65h50
+                            V40.393C47.85,44.087,44.233,48.127,42.243,50.534z"/>
+                        <path d="M38.501,67.117c0.568,0.612,1.097,0.829,1.378,0.829c0.514,0,0.952-0.217,1.344-0.662
+                            c0.986-1.125,1.395-3.393,1.062-5.916c-0.307-2.34-1.064-5.046-2.152-7.997c-1.489,2.304-2.887,5.306-3.138,8.682
+                            C36.847,64.049,37.411,65.942,38.501,67.117z"/>
+                    </g>
+                    <circle cx="56.887" cy="35.659" r="2.5"/>
+                    <path d="M19.387,4.16c0,1.654-1.345,3.001-3.001,3.001c-1.655,0-2.999-1.347-2.999-3.001
+                        c0-1.656,1.344-2.999,2.999-2.999C18.042,1.161,19.387,2.504,19.387,4.16z"/>
+                </g>
+                </svg>
+            <!-- </div> -->
+            <h1>Inclusive Design Guidelines</h1>
+        </a>
+
+        {{! Show the menu for mobile screens }}
+        <nav class="right show-for-small-only docs-template-nav-mobile">
+            <ul id="menu">
+                <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
+                    <ul class="docs-template-dropDown">
+                        {{! Highlight the (active) category the document belongs to. }}
+                        {{#each siteStructure}}
+                            {{#ifEqual category ../document.category}}
+                                <li class="docs-guidelines-nav{{category}} docs-template-category-active"><span aria-label="Currently on Category: {{category}}">{{category}}</span></li>
+                            {{else}}
+                                <li class="docs-guidelines-nav{{category}}"><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{category}}</a></li>
+                            {{/ifEqual}}
+                        {{/each}}
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="docs-template-header">
+        <nav class="small-12 column show-for-medium-up">
+            <ul class="inline-list">
+            {{! Highlight the (active) category the document belongs to. }}
+            {{#each siteStructure}}
+                {{#ifEqual category ../document.category}}
+                    <li class="docs-guidelines-nav{{category}} docs-template-category-active"><span aria-label="Currently on Category: {{category}}">{{category}}</span></li>
+                {{else}}
+                    <li class="docs-guidelines-nav{{category}}"><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{category}}</a></li>
+                {{/ifEqual}}
+            {{/each}}
+            </ul>
+        </nav>
+    </div>
+</header>

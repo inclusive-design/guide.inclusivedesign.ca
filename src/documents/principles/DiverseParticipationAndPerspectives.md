@@ -1,6 +1,6 @@
 ---
 title: Diverse Participation and Perspectives
-layout: default
+layout: content
 category: Principles
 ---
 

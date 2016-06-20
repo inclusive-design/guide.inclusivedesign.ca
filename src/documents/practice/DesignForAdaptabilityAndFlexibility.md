@@ -1,6 +1,6 @@
 ---
 title: Design for Adaptability and Flexibility
-layout: default
+layout: content
 category: Practices
 ---
 

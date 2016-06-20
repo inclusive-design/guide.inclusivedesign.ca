@@ -1,6 +1,6 @@
 ---
 title: Work Openly
-layout: default
+layout: content
 category: Practices
 ---
 

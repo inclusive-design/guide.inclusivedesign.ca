@@ -1,6 +1,6 @@
 ---
 title: Prototyping
-layout: default
+layout: content
 category: Tools
 ---
 

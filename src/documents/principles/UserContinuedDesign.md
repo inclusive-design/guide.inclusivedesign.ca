@@ -1,6 +1,6 @@
 ---
 title: User Continued Design
-layout: default
+layout: content
 category: Principles
 ---
 

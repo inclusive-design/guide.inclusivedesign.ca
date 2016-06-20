@@ -1,6 +1,6 @@
 ---
 title: Practice Co-Design
-layout: default
+layout: content
 category: Practices
 ---
 

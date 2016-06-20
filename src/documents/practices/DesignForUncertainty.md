@@ -1,6 +1,6 @@
 ---
 title: Design for Uncertainty
-layout: default
+layout: content
 category: Practices
 ---
 

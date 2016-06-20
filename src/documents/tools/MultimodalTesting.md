@@ -1,6 +1,6 @@
 ---
 title: Multimodal Testing
-layout: default
+layout: content
 category: Tools
 ---
 

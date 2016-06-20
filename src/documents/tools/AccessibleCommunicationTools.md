@@ -1,6 +1,6 @@
 ---
 title: Accessible Communication Tools
-layout: default
+layout: content
 category: Tools
 ---
 

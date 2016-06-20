@@ -1,6 +1,6 @@
 ---
 title: Accessible Development Tools
-layout: default
+layout: content
 category: Tools
 ---
 

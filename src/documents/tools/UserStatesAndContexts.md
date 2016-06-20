@@ -1,6 +1,6 @@
 ---
 title: User States and Contexts
-layout: default
+layout: content
 category: Tools
 ---
 

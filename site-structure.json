@@ -1,7 +1,7 @@
 [
     {
         "category": "Principles",
-        "categoryHref":"/principles/DiverseParticipationAndPerspectives.html",
+        "categoryHref":"/principles/",
         "sections":
         [
             {
@@ -22,7 +22,7 @@
     },
     {
         "category": "Practices",
-        "categoryHref": "/practices/Collaborate.html",
+        "categoryHref": "/practices/",
         "sections":
         [
             {
@@ -45,7 +45,7 @@
     },
     {
         "category": "Tools",
-        "categoryHref": "/tools/UXWalkthroughs.html",
+        "categoryHref": "/tools/",
         "sections":
         [
             {
@@ -72,7 +72,7 @@
     },
     {
         "category": "Activities",
-        "categoryHref": "/activities/MatchingGame.html",
+        "categoryHref": "/activities/",
         "sections":
         [
             {

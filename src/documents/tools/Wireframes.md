@@ -1,6 +1,6 @@
 ---
 title: Wireframes
-layout: default
+layout: content
 category: Tools
 ---
 

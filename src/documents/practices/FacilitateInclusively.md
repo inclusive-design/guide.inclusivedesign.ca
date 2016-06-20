@@ -1,6 +1,6 @@
 ---
 title: Facilitate Inclusively
-layout: default
+layout: content
 category: Practices
 ---
 

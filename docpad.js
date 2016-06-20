@@ -27,6 +27,10 @@ var rootPath = process.cwd();
 var imagesSrcDir = path.join(rootPath, "src", "documents", "images");
 var imagesDestDir = "out/images";
 
+var fs = require('fs');
+var partialsDir = 'src/layouts/partials';
+
+
 module.exports = {
     rootPath: rootPath,
     filesPaths: [
@@ -39,12 +43,25 @@ module.exports = {
         siteStructure: siteStructure
     },
     plugins: {
+        redirector: {
+            redirects: {
+                "/principles/":"/principles/DiverseParticipationAndPerspectives.html",
+                "/practices/":"/practices/Collaborate.html",
+                "/tools/":"/tools/UXWalkthroughs.html",
+                "/activities/":"/activities/MatchingGame.html"
+            }
+        },
         handlebars: {
             helpers: {
                 rewriteMdLinks: docsCore.helpers.rewriteMdLinks,
                 getGithubLocation: docsCore.helpers.makeGithubLocationHelper(githubDocRoot),
                 getRelativeUrl: docsCore.helpers.getRelativeUrl,
                 ifEqual: docsCore.helpers.ifEqual
+            },
+            partials: {
+                header: fs.readFileSync(partialsDir + '/' + 'header.html.handlebars', 'utf8'),
+                footer: fs.readFileSync(partialsDir + '/' + 'footer.html.handlebars', 'utf8'),
+                sidebar: fs.readFileSync(partialsDir + '/' + 'sidebar.html.handlebars', 'utf8')
             }
         },
         highlightjs: {

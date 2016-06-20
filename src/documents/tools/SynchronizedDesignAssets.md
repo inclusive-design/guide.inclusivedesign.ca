@@ -1,6 +1,6 @@
 ---
 title: Synchronized Design Assets
-layout: default
+layout: content
 category: Tools
 ---
 

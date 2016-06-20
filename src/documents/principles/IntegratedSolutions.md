@@ -1,6 +1,6 @@
 ---
 title: Integrated Solutions
-layout: default
+layout: content
 category: Principles
 ---
 

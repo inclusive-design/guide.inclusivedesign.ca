@@ -1,6 +1,6 @@
 ---
 title: Communicate Multimodally
-layout: default
+layout: content
 category: Practices
 ---
 

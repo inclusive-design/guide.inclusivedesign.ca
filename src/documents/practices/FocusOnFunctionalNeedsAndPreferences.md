@@ -1,6 +1,6 @@
 ---
 title: Focus on Functional Needs and Preferences
-layout: default
+layout: content
 category: Practices
 ---
 

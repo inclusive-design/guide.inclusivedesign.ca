@@ -21,7 +21,7 @@
         <script type="text/javascript" src="{{{getRelativeUrl '/js/DocsCore.js' document.url}}}"></script>
         <script type="text/javascript" src="{{{getRelativeUrl '/lib/jqueryui/jquery-ui.min.js' document.url}}}"></script>
     </head>
-    <body class="docs-template docs-guidelines-index">
+    <body class="docs-template docs-core-sidebar-expanded docs-guidelines-category-{{document.category}}">
 
         <div class="container docs-template-container">
 
@@ -34,9 +34,16 @@
 
             {{> header }}
 
-            <div class="docs-template-articleBody row">
+            {{> sidebar }}
 
-                <article id="content" class="small-12 column">
+
+            <div class="docs-template-articleBody small-12 medium-8 column">
+
+                <div class="small-4 medium-1 column docs-template-topics-hideShow fl-inverted-color">
+                    <a href="#" class="docs-corec-sidebar-toggle">Topics</a>
+                </div>
+
+                <article id="content">
                     <h1>{{document.title}}</h1>
 
                     <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>

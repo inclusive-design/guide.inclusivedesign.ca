@@ -1,6 +1,6 @@
 ---
 title: Accessible Design Tools
-layout: default
+layout: content
 category: Tools
 ---
 

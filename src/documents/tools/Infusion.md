@@ -1,6 +1,6 @@
 ---
 title: Infusion
-layout: default
+layout: content
 category: Tools
 ---
 

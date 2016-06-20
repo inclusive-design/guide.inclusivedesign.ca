@@ -10,6 +10,7 @@
     "docpad-plugin-handlebars": "~2.3.0",
     "docpad-plugin-highlightjs": "~2.3.0",
     "docpad-plugin-marked": "~2.3.0",
+    "docpad-plugin-redirector": "~2.0.1",
     "docpad-plugin-stylus": "~2.10.0",
     "docs-core": "fluid-project/docs-core"
   },

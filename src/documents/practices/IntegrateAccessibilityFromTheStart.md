@@ -1,6 +1,6 @@
 ---
 title: Integrate Accessibility From the Start
-layout: default
+layout: content
 category: Practices
 ---
 

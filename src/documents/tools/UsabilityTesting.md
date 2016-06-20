@@ -1,6 +1,6 @@
 ---
 title: Usability Testing
-layout: default
+layout: content
 category: Tools
 ---
 

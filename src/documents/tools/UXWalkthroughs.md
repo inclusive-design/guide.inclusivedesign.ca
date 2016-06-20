@@ -1,6 +1,6 @@
 ---
 title: UX Walkthroughs
-layout: default
+layout: content
 category: Tools
 ---
 

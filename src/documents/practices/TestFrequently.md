@@ -1,6 +1,6 @@
 ---
 title: Test Frequently
-layout: default
+layout: content
 category: Practices
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Virtuous Cycles
-layout: default
+layout: content
 category: Principles
 ---
 

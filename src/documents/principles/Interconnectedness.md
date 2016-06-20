@@ -1,6 +1,6 @@
 ---
 title: Interconnectedness
-layout: default
+layout: content
 category: Principles
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Use Cases
-layout: default
+layout: content
 category: Tools
 ---
 

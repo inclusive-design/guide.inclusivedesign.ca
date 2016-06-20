@@ -1,6 +1,6 @@
 ---
 title: Disability as Mismatch
-layout: default
+layout: content
 category: Principles
 ---
 

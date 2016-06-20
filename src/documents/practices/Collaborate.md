@@ -1,6 +1,6 @@
 ---
 title: Collaborate
-layout: default
+layout: content
 category: Practices
 ---
 

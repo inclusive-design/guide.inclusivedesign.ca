@@ -1,6 +1,6 @@
 ---
 title: Autonomous User
-layout: default
+layout: content
 category: Principles
 ---
 

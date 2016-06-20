@@ -1,6 +1,6 @@
 ---
 title: Matching Game
-layout: default
+layout: content
 category: Activities
 ---
 

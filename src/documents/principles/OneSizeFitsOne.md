@@ -1,6 +1,6 @@
 ---
 title: One Size Fits One
-layout: default
+layout: content
 category: Principles
 ---
 

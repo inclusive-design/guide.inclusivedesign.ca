@@ -100,15 +100,39 @@ navTabs(color) {
     .docs-template-category-active {
         border-color: color;
     }
+
+    a, span {
+        padding-left: 2rem;
+    }
+
+    span:before {
+        content: none;
+    }
+}
+
+.docs-template-header h1,
+.docs-template-header a {
+    display: inline-block;
+}
+
+.docs-template-header h1 {
+    padding: 0 1rem;
 }
 
 .docs-guidelines-logo {
     width: 3rem;
     height: auto;
-    display: inline-block;
+    margin: 0.2rem 0 0 0.5rem;
     path,
     circle {
         fill: logo-color;
+    }
+}
+
+a:hover .docs-guidelines-logo {
+    path,
+    circle {
+        fill: logo-hover-color;
     }
 }
 
@@ -121,6 +145,45 @@ navTabs(color) {
     .docs-template-articleBody {
         padding-top: 2rem;
     }
+
+    .docs-guidelines-index-section {
+        background-color: #fff;
+        padding: 1.5rem;
+        margin: 2rem 0;
+        border-radius: 0.2rem;
+        display:flex;
+        align-items:center;
+    }
+
+    ul {
+        list-style: none;
+        list-style-position: inside;
+    }
+}
+
+#guidelines-path {
+    height: auto;
+}
+
+.docs-guidelines-icon {
+    width: 1rem;
+    height: auto;
+}
+
+.docs-guidelines-iconPrinciples {
+    fill: principlesColor;
+}
+
+.docs-guidelines-iconPractices {
+    fill: practicesColor;
+}
+
+.docs-guidelines-iconTools {
+    fill: toolsColor;
+}
+
+.docs-guidelines-iconActivities {
+    fill: activitiesColor;
 }
 
 .docs-template-topics-container {
@@ -168,27 +231,52 @@ navTabs(color) {
         }
     }
 
+    .docs-guidelines-navPrinciples,
+    .docs-guidelines-navPractices,
+    .docs-guidelines-navTools,
+    .docs-guidelines-navActivities {
+        background-repeat: no-repeat;
+        background-position: 0.5rem 0.4rem;
+    }
+
     .docs-guidelines-navPrinciples {
         background-color: principlesColor;
+        background-image: url('/images/icon-circle.svg');
     }
 
     .docs-guidelines-navPractices {
         background-color: practicesColor;
+        background-image: url('/images/icon-diamond.svg');
     }
 
     .docs-guidelines-navTools {
         background-color: toolsColor;
+        background-image: url('/images/icon-square.svg');
     }
 
     .docs-guidelines-navActivities {
         background-color: activitiesColor;
+        background-image: url('/images/icon-hexagon.svg');
+
     }
 
-    .docs-template-header li {
-        width: 20%;
-        border-top-right-radius:0.8rem;
-        border-top-left-radius: 0.8rem;
-        border-bottom: 0.2rem solid header-footer-background;
+    .docs-template-header {
+        li {
+            width: 20%;
+            border-top-right-radius:0.8rem;
+            border-top-left-radius: 0.8rem;
+            border-bottom: 0.2rem solid header-footer-background;
+        }
+
+        li a {
+            transition: none;
+            width: 100%;
+        }
+
+        li a:hover {
+            border-top-right-radius: 0.8rem;
+            border-top-left-radius: 0.8rem;
+        }
     }
 
     .docs-guidelines-index {
