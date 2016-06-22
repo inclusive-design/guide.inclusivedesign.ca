@@ -34,10 +34,9 @@ enhance the work.
 * Keep track of meeting notes, sketches and research in a wiki or other open repository
 
 ## Why
-(Green Circle) One-Size-Fits-One
-(Green Circle) Disability as Mismatch
+(Green Circle) Diverse Participation and Perspectives
 
-## However
+## How
 (Red square) Accessible Communication Tools
 (Red square) Accessible Design Tools
 (Red square) Accessible Development Tools

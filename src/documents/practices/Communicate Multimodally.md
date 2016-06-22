@@ -10,7 +10,7 @@ Engaging in multi-modal communication can go beyond the specific or technical as
 
 ## Try
 * When preparing a slide presentation, include accompanying text descriptions
-* When holding a meeting, ensure that the space is physically accessible and how you might include remote participants
+* When holding a meeting, ensure that the space is physically accessible and consider how you might include remote participants
 * When posting shared design artifacts, ensure that both the artifacts and the forum you are using are accessible to all
 * Structure content and information in a well-organised, simple and easy to grasp format so that it is more accessible to new participants
 
