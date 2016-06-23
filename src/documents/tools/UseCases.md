@@ -8,7 +8,7 @@ Use cases describe particular scenarios in which a persona may encounter and use
 
 In an Inclusive design process it is important to include edge cases. These are personae and use-cases that describe both users with needs that are not typically considered in the design process, as well non-typical or unexpected uses of a product or service. Use-cases present a picture of a person in a specific context, with available tools, existing constraints and potential distractions, who is hoping to achieve a specific goal using the product or service in question.
 
-##Try
+## Try
 
 1. Determine what your persona is hoping to achieve with your product/system (be specic)
 2. Describe the context, available tools, constraints, potential distractions, etc.

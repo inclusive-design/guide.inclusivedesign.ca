@@ -8,7 +8,7 @@ Personae are models representing potential stakeholders who may use a product or
 
 When paired with the other tools, particularly User States and Contexts and UX Walkthroughs, and Use Cases, Personae can help to paint a clearer picture of a broad and diverse range of user needs and preferences. They must be developed and used with care in order to avoid stereotyping or fictionalising the user, and they must be tempered with the awareness that no single persona or group of personae can independently determine the full range of potential uses of a product or service.
 
-##Try
+## Try
 
 1. Think about various users in your domain with unmet needs
 2. Imagine a user, inspired by people you know, that is unique and doesn’t simply represent the norm, the average, or the typical

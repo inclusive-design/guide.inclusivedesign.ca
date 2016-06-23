@@ -8,7 +8,7 @@ Usability testing, also sometimes referred to as user testing, is a technique fo
 
 Usability testing can be performed on products or systems at any stage of development, from the early stages of design to production systems. It is most helpful to start early in the design process by performing usability tests with rough sketches or prototypes, and continuing to test more interactive prototypes as a product or system is iterated upon.
 
-##Try
+## Try
 1. Before you start, reassure the participant that you are testing the design, not them
 2. Ask them to “think aloud” to understand their behaviour in the context of what they are trying to accomplish, determine whether or not the design is meeting their needs, and identify any confusion about the purpose of a design feature or anticipated outcome of an interaction.
 3. Don’t help, react, interrupt, and draw attention to specific issues you care about.

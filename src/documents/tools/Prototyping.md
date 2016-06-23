@@ -12,7 +12,7 @@ In the next phase when your ideas are more refined you can spend a little more t
 
 In the final phases of the design and development process, high fidelity prototypes come in handy. Their look, feel, and function more closely reflect the final product. These prototypes are often presented in a final round of usability testing. In the product design field, 3D printing is commonly used to build high fidelity prototypes; in the digital world the Beta version of a website or application provides a good example.
 
-##Try
+## Try
 
 * There are several digital tools that help designers create interactive prototypes, many of which are available online - one of these tools that is fairly easy to learn and use is InVision.
 * If you are designing a product, you can use 3D printing to build high fidelity prototypes.

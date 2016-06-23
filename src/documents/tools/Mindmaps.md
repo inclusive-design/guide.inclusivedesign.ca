@@ -11,8 +11,8 @@ Creating a mindmap is one way to dig deeper into the more complex layers of how 
 To create an effective mindmap, start with the central concept or initial state. Next, list all the related sub-topics. Repeat this process for lower levels of topics and continue as needed. Then begin to map out the connections between the items you have listed. These connections may cross over multiple levels of the hierarchy.
 
 Although mindmaps are traditionally visual tools, they can be created and presented in ways that are accessible to non-visual users. For example, they can be created using digital tools that are compatible with screen readers, such as Google Draw. Or they can be presented to an audience with an accompanying text description that includes a step-by-step description of the flow of information.
-
-##Try
+  
+## Try
 
 1. Start with the central concept or initial state.
 2. List all the related sub-topics

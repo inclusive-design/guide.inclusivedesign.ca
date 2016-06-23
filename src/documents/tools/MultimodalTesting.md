@@ -9,7 +9,7 @@ When designing and developing a product or service, consider all the different w
 The audio experience of a digital interface can be tested in the very early stages of design with only sketches or paper prototypes, by having someone act as a human screen reader (by reading out the audio as a screen reader would). Once an interactive prototype is created, it can be tested with various input/output methods, including screen readers or other assistive technologies. Websites can be tested using various web accessibility checkers, however, these should be used only as an initial guide.
 
 
-##Try
+## Try
 
 1. Use the native screen reader on your computer (e.g. NVDA on Windows or Voice Over on Mac - both of which are free of charge) to run initial tests on a digital interface
 2. Navigate an interface without a mouse or track pad to test for keyboard-only interaction

@@ -34,10 +34,10 @@ enhance the work.
 * Keep track of meeting notes, sketches and research in a wiki or other open repository
 
 ## Why
-(Green Circle) Diverse Participation and Perspectives
+* (Green Circle) Diverse Participation and Perspectives
 
 ## How
-(Red square) Accessible Communication Tools
-(Red square) Accessible Design Tools
-(Red square) Accessible Development Tools
-(Red square) Synchronized Design Assets
+* (Red square) Accessible Communication Tools
+* (Red square) Accessible Design Tools
+* (Red square) Accessible Development Tools
+* (Red square) Synchronized Design Assets
