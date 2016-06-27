@@ -8,7 +8,7 @@ Wireframes provide a way to develop and present design ideas in the early stages
 
 Alongside the visual wireframes, it is best to also consider narratives, long descriptions, or written step-by-step "tours" through the wireframes as a way to create a textual alternative. Not only does this make the wireframes more accessible, but it is a good way to start imagining how the interface can be presented in alternative modes. Considering this in the early stages of design will result in more successfully integrated features.
 
-##Try
+## Try
 
 1. Start by listing the global features of your interface as well as features that are specific to individual screens, in order to get a clear idea of the features and functions needed
 2. Create a skeleton for each screen; features can be located within the screens and interaction behaviors assigned to each one

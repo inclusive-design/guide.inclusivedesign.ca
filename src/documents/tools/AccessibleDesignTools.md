@@ -10,7 +10,7 @@ The first category includes design tools used most commonly during the early ide
 
 The second category of design tools are used to execute a design idea. Almost none of the design tools most commonly in use (Adobe Creative Suite, etc.) have accessibility features (for example, the ability to attach descriptive text narratives to images).
 
-##Try
+## Try
 
 There are a limited number of design tools available in the first category that are free, open source and/or relatively easy to learn, such as:
 

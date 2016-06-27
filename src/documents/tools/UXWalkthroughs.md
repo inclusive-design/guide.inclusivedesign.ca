@@ -10,7 +10,7 @@ The UX Walkthrough technique is based on proven conventional inspection procedur
 
 A UX Walkthrough can be performed by novices as well as experienced evaluators. The result is a comprehensive and multidimensional report of usability and accessibility issues.
 
-##Try
+## Try
 1. Choose a user
 2. Specify an explicit user goal
 3. Prepare working software or prototype

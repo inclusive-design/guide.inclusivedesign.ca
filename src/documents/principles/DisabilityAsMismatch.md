@@ -16,8 +16,9 @@ Inclusive design considers this mismatch to be conditional, solvable through des
 * unique personal needs and learning styles (e.g. I prefer to listen rather than read).
 
 ## Try
-Record three examples of an experience of mismatch that you’ve had, no matter how large or small. For example - standing at an automated bank machine in the glare of the sun, I couldn’t see the screen at all. How did you feel when this happened? What did you do about it?
+Record three examples of an experience of mismatch that you’ve had, no matter how large or small. For example - standing at an automated bank machine in the glare of the sun, I couldn’t see the screen at all. How did you feel when this happened? What did you do about it? How could the design of the product or service be modified to meet your needs?
 
 ## Use
 (Blue diamond) Focus on functional needs and preferences
 (Blue diamond) Design for adaptability and flexibility
+(Red square) User States and Contexts

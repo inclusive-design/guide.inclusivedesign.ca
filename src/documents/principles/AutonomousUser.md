@@ -11,7 +11,7 @@ Designing for playful and engaging discovery in a low-risk environment creates a
 Wherever possible adaptability and flexibility should be designed into products and services. This puts more power into the hands of any one of us to create our own experience, and to modify this experience over time and/or in new contexts. Allowing for the sharing of information among users is another way to promote user autonomy; in this way an individual can depend on a growing community of people with similar interests and needs.
 
 ## Try
-Think of one your latest projects. List some of the areas that you have made assumptions about user needs, and made a design decision based on those assumptions. Rethink your process and imagine how you would redesign your product differently if you were giving the user the power to make those decisions.
+Consider moments of increased self-awareness in your life when a preference, like and dislike, or a need became clear to you. Was it a time when you were forced to adapt to a new situation? For example, while travelling, you slept in a different bed and discovered that a different kind of pillow helped with your neck pain? Or perhaps it was a time when someone offered you a new choice that you hadn’t been exposed to before. What aspects of the situation, environment, or the thing itself helped you to feel comfortable to try something new?
 
 ## Use
 (Blue diamond) Design for adaptability and flexibility
