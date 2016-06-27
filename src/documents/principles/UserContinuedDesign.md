@@ -11,5 +11,5 @@ For example, imagine that a learner has the ability to adapt the appearance of a
 For users, design can become a process of undoing, extending, or changing the design to suit themselves; to better match their environment, needs, preferences, personal tastes, and creative imperatives. In this way, inclusive design sustains the design process by encouraging user stewardship through actively supporting its own unexpected, creative, and ongoing redesign by users.
 
 ## Use
-(Blue diamond) Design for Adaptability and Flexibility
-(Blue diamond) Design for Uncertainty
+* ![Blue diamond](/images/icon-diamond.svg) [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)
+* ![Blue diamond](/images/icon-diamond.svg) [Design for Uncertainty](/practices/DesignForUncertainty.html)

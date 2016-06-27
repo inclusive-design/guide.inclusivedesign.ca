@@ -14,8 +14,6 @@ In other words, by understanding the interconnectedness of people and systems an
 Have you ever used something (a tool, a software package, an article of clothing, etc) for an unintended purpose? For example, using the heel of a boot as a hammer, or a chopstick as a musical instrument. Try to list as many of these examples as possible, from the simplest to the most complex. For each one, consider both the personal need or desire that inspired the unintended use, as well as any external forces that might have come into play, no matter how indirect or far-reaching they may seem. For example, consider the economic forces at play in the following: I had just moved to a new city to find a job, as a result my tools were packed away in a box, so I used my boot as a hammer to put a nail in the wall. 
 
 ## Use
-* (Blue diamond) Design for Adaptability and Flexibility
-
-* (Blue diamond) Design for uncertainty
-
-* (Orange pentagon) Cause and Effect
+* ![Blue diamond](/images/icon-diamond.svg) [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)
+* ![Blue diamond](/images/icon-diamond.svg) [Design for Uncertainty](/practices/DesignForUncertainty.html)
+* ![Orange hexagon](/images/icon-hexagon.svg) [Cause and Effect](/activities/CauseAndEffect.html)
