@@ -8,36 +8,24 @@ These guidelines are made up of four sections:
 <ul>
     <li>
         <a href="/principles/">
-            <svg class="docs-guidelines-icon docs-guidelines-iconPrinciples" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
-                 <path d="M19.504,10c0,5.25-4.256,9.504-9.504,9.504S0.496,15.25,0.496,10c0-5.248,4.256-9.504,9.504-9.504S19.504,4.752,19.504,10"/>
-            </svg>
+            {{> principlesIcon }}
             <strong>Principles</strong></a> - the broad ideas and defining values of inclusive design
         </a>
     </li>
     <li>
         <a href="/practices/">
-            <svg class="docs-guidelines-icon docs-guidelines-iconPractices" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
-            <rect x="3.284" y="3.281" transform="matrix(0.7073 0.707 -0.707 0.7073 9.9977 -4.1435)" width="13.436" height="13.438"/>
-            </svg>
+            {{> practicesIcon }}
             <strong>Practices</strong></a> - putting the principles of inclusive design into action
         </a>
     </li>
     <li>
         <a href="/tools/">
-            <svg class="docs-guidelines-icon docs-guidelines-iconTools" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
-                <rect x="0.501" y="0.5" width="19" height="19"/>
-            </svg>
+            {{> toolsIcon }}
             <strong>Tools</strong></a> - detailed descriptions of tools for use in your inclusive design process
     </li>
     <li>
         <a href="/activities/">
-            <svg class="docs-guidelines-icon docs-guidelines-iconActivities" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
-            <polygon points="9.936,19.5 1.74,14.691 1.809,5.192 10.066,0.5 18.26,5.309 18.193,14.808 "/>
-            </svg>
+            {{> activitiesIcon }}
             <strong>Activities</strong></a> - interesting and fun ways you can put it all together
         </a>
     </li>
