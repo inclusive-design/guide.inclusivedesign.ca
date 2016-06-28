@@ -8,6 +8,8 @@ In an inclusive design process, team members share ideas throughout the design/d
 
 An inclusive process encourages the exchange of ideas openly and fluidly, which not only improves the final outcome, but helps the entire team to be aware of the decisions that are being made along the way, thus minimizing last-minute surprises. To maximize participation, the communication tools themselves should be available to all and accessible to individuals with a wide range of needs.
 
+Accessible communication tools can help to build open communication channels and allow the sharing of ideas at any stage of completion within a team as well as within a larger community.
+
 ## Try
 
 * Post relevant and timely content on an open wiki

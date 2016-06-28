@@ -65,7 +65,8 @@
                     { "pageName": "Prototyping", "href": "/tools/Prototyping.html" },
                     { "pageName": "Multimodal Testing", "href": "/tools/MultimodalTesting.html" },
                     { "pageName": "Synchronized Design Assets", "href": "/tools/SynchronizedDesignAssets.html" },
-                    { "pageName": "Infusion", "href": "/tools/Infusion.html" }
+                    { "pageName": "Infusion", "href": "/tools/Infusion.html" },
+                    { "pageName": "Metadata Authoring", "href": "/tools/MetadataAuthoring.html" } 
                 ]
             }
         ]
@@ -79,7 +80,8 @@
                 "sectionName":"",
                 "pages":
                 [
-                    { "pageName": "Matching Game", "href": "/activities/MatchingGame.html" }
+                    { "pageName": "Matching Game", "href": "/activities/MatchingGame.html" },
+                    { "pageName": "Cause and Effect", "href": "/activities/CauseAndEffect.html" }
                 ]
             }
 

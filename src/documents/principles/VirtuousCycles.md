@@ -15,7 +15,7 @@ At the same time, inclusive solutions make education more accessible to individu
 ![Diagram showing the virtuous cycles as a result of digital inclusion.](/images/Virtuous_cycles_of_digital_inclusion.jpg)
 
 ## Use
-(Blue diamond) Design for uncertainty
-(Blue diamond) Work openly
-(Blue diamond) Practice co-design
-(Blue diamond) Facilitate inclusively
+* ![Blue diamond](/images/icon-diamond.svg) [Design for Uncertainty](/practices/DesignForUncertainty.html)
+* ![Blue diamond](/images/icon-diamond.svg) [Work Openly](/practices/WorkOpenly.html)
+* ![Blue diamond](/images/icon-diamond.svg) [Practice Co-design](/practices/PracticeCoDesign.html)
+* ![Blue diamond](/images/icon-diamond.svg) [Facilitate Inclusively](/practices/FacilitateInclusively.html)
