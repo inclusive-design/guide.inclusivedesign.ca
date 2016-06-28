@@ -178,8 +178,16 @@ a:hover .docs-guidelines-logo {
 }
 
 .docs-guidelines-tabs {
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     li {
-        width: 20%;
+        margin-left: 0.25rem;
+        margin-right: 0.25rem
+        flex-grow: 1;
+        min-width: 10rem;
         border-top-right-radius:0.8rem;
         border-top-left-radius: 0.8rem;
         border-bottom: 0.2rem solid header-footer-background;

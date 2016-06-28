@@ -29,7 +29,7 @@ var imagesDestDir = "out/images";
 
 var fs = require('fs');
 var partialsDir = 'src/layouts/partials';
-
+var staticImagesDir = 'src/static/images'
 
 module.exports = {
     rootPath: rootPath,
@@ -61,7 +61,12 @@ module.exports = {
             partials: {
                 header: fs.readFileSync(partialsDir + '/' + 'header.html.handlebars', 'utf8'),
                 footer: fs.readFileSync(partialsDir + '/' + 'footer.html.handlebars', 'utf8'),
-                sidebar: fs.readFileSync(partialsDir + '/' + 'sidebar.html.handlebars', 'utf8')
+                sidebar: fs.readFileSync(partialsDir + '/' + 'sidebar.html.handlebars', 'utf8'),
+                activitiesIcon: fs.readFileSync(staticImagesDir + '/' + 'icon-hexagon.svg', 'utf8'),
+                principlesIcon: fs.readFileSync(staticImagesDir + '/' + 'icon-circle.svg', 'utf8'),
+                practicesIcon: fs.readFileSync(staticImagesDir + '/' + 'icon-diamond.svg', 'utf8'),
+                toolsIcon: fs.readFileSync(staticImagesDir + '/' + 'icon-square.svg', 'utf8'),
+                idrcLogo: fs.readFileSync(staticImagesDir + '/' + 'idrc-logo.svg', 'utf8')
             }
         },
         highlightjs: {
