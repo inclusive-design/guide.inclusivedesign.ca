@@ -32,10 +32,10 @@ resulting in a virtuous cycle of inclusion.
 * Post meeting minutes, design artifacts, and other information in an accessible and open location, and alert the community to new postings
 
 ## Why
-(Green Circle) Diverse Participation and Perspectives
-(Green Circle) Virtuous Cycles
+* ![Green Circle](/images/icon-circle.svg) [Diverse Participation and Perspectives](/principles/DiverseParticipationAndPerspectives.html)
+* ![Green circle](/images/icon-circle.svg) [Virtuous Cycles](/principles/VirtuousCycles.html)
 
 ## How
-(Red square) Accessible Communication Tools
-(Red square) Accessible Design Tools
-(Red square) Accessible Development Tools
+* ![Red square](/images/icon-square.svg) [Accessible Communication Tools](/tools/AccessibleCommunicationTools.html)
+* ![Red square](/images/icon-square.svg) [Accessible Design Tools](/tools/AccessibleDesignTools.html)
+* ![Red square](/images/icon-square.svg) [Accessible Development Tools](/tools/AccessibleDevelopmentTools.html)

@@ -19,8 +19,8 @@ Thinking beyond technical limitations and avoiding getting bogged down in techni
 * Ensure that everyone has the necessary background information.
 
 ## Why
-(Green Circle) Diverse Participation and Perspectives
+* ![Green Circle](/images/icon-circle.svg) [Diverse Participation and Perspectives](/principles/DiverseParticipationAndPerspectives.html)
 
 ## How
-(Red square) Accessible communication tools
-(Red square) Accessible design tools
+* ![Red square](/images/icon-square.svg) [Accessible Communication Tools](/tools/AccessibleCommunicationTools.html)
+* ![Red square](/images/icon-square.svg) [Accessible Design Tools](/tools/AccessibleDesignTools.html)

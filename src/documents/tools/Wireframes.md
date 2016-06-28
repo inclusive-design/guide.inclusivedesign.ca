@@ -16,8 +16,8 @@ Alongside the visual wireframes, it is best to also consider narratives, long de
 
 ## Combine with
 
-(red square) UX Walkthroughs
-(red square) Usability Testing
-(red square) Personae
-(red square) Use-Cases
-(red square) Accessible Design Tools
+* ![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)
+* ![Red square](/images/icon-square.svg) [Usability Testing](/tools/UsabilityTesting.html)
+* ![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)
+* ![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)
+* ![Red square](/images/icon-square.svg) [Accessible Design Tools](/tools/AccessibleDesignTools.html)

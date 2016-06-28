@@ -1,5 +1,5 @@
 ---
-title: User Continued Design
+title: User-Continued Design
 layout: content
 category: Principles
 ---

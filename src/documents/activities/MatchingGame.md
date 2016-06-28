@@ -26,5 +26,5 @@ succeed, keeping in mind the principles, practices
 and tools of inclusive design.
 
 ## Why
-(Green Icon) One-Size-Fits-One
-(Green Icon) Disability as Mismatch
+* ![Green circle](/images/icon-circle.svg) [One-Size-Fits-One](/principles/OneSizeFitsOne.html)
+* ![Green circle](/images/icon-circle.svg) [Disability as Mismatch](/principles/DisabilityAsMismatch.html)

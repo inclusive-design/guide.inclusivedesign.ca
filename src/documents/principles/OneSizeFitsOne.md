@@ -1,5 +1,5 @@
 ---
-title: One Size Fits One
+title: One-Size-Fits-One
 layout: content
 category: Principles
 ---

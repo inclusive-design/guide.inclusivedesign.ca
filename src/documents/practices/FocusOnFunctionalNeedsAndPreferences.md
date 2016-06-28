@@ -13,9 +13,9 @@ Individual needs and preferences are complex and defined by much more than a med
 * Write personas and use-cases based on real people and real situations
 
 ## Why
-(Green Circle) Disability as Mismatch
+* ![Green Circle](/images/icon-circle.svg) [Disability as Mismatch](/principles/DisabilityAsMismatch.html)
 
 ## How
-(Red square) User States & Contexts
-(Red square) Personas
-(Red square) Use-cases
+* ![Red square](/images/icon-square.svg) [User States and Contexts](/tools/UserStatesAndContexts.html)
+* ![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)
+* ![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)

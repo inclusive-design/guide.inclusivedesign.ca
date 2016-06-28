@@ -17,10 +17,10 @@ In a co-design process, users participate fully in creating the tools, services 
 * Hire designers and others who themselves have a range of diverse needs
 
 ## Why
-(Green Circle) Diverse Participation and Perspectives
-(Green Circle) Integrated Solutions
+* ![Green Circle](/images/icon-circle.svg) [Diverse Participation and Perspectives](/principles/DiverseParticipationAndPerspectives.html)
+* ![Green Circle](/images/icon-circle.svg) [Integrated Solutions](/principles/IntegratedSolutions.html)
 
 ## How
-(Red square) Accessible Communication Tools
-(Red square) Accessible Design Tools
-(Red square) Accessible Development Tools
+* ![Red square](/images/icon-square.svg) [Accessible Communication Tools](/tools/AccessibleCommunicationTools.html)
+* ![Red square](/images/icon-square.svg) [Accessible Design Tools](/tools/AccessibleDesignTools.html)
+* ![Red square](/images/icon-square.svg) [Accessible Development Tools](/tools/AccessibleDevelopmentTools.html)

@@ -21,5 +21,5 @@ In the final phases of the design and development process, high fidelity prototy
 
 ## Combine with
 
-(red square) UX Walkthroughs
-(red square) Usability Testing
+* ![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)
+* ![Red square](/images/icon-square.svg) [Usability Testing](/tools/UsabilityTesting.html)

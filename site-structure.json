@@ -9,13 +9,13 @@
                 "pages":
                 [
                     { "pageName": "Diverse Participation and Perspectives", "href": "/principles/DiverseParticipationAndPerspectives.html" },
-                    { "pageName": "One Size Fits One", "href": "/principles/OneSizeFitsOne.html" },
+                    { "pageName": "One-Size-Fits-One", "href": "/principles/OneSizeFitsOne.html" },
                     { "pageName": "Integrated Solutions", "href": "/principles/IntegratedSolutions.html" },
                     { "pageName": "Interconnectedness", "href": "/principles/Interconnectedness.html" },
                     { "pageName": "Disability As Mismatch", "href": "/principles/DisabilityAsMismatch.html" },
                     { "pageName": "Virtuous Cycles", "href": "/principles/VirtuousCycles.html" },
                     { "pageName": "Autonomous User", "href": "/principles/AutonomousUser.html" },
-                    { "pageName": "User Continued Design", "href": "/principles/UserContinuedDesign.html" }
+                    { "pageName": "User-Continued Design", "href": "/principles/UserContinuedDesign.html" }
                 ]
             }
         ]
@@ -58,8 +58,8 @@
                     { "pageName": "Accessible Development Tools", "href": "/tools/AccessibleDevelopmentTools.html" },
                     { "pageName": "Accessible Communication Tools", "href": "/tools/AccessibleCommunicationTools.html" },
                     { "pageName": "User States and Contexts", "href": "/tools/UserStatesAndContexts.html" },
-                    { "pageName": "Personae", "href": "/tools/Personae.html" },
-                    { "pageName": "Use Cases", "href": "/tools/UseCases.html" },
+                    { "pageName": "Personas", "href": "/tools/Personas.html" },
+                    { "pageName": "Use-Cases", "href": "/tools/UseCases.html" },
                     { "pageName": "Mindmaps", "href": "/tools/Mindmaps.html" },
                     { "pageName": "Wireframes", "href": "/tools/Wireframes.html" },
                     { "pageName": "Prototyping", "href": "/tools/Prototyping.html" },

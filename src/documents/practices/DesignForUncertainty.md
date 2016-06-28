@@ -16,14 +16,14 @@ Staying open to new ideas in the design process for as long as possible, getting
 
 
 ## Why
-* (Green Circle) Interconnectedness
-* (Green Circle) Virtuous Cycles
+* ![Green circle](/images/icon-circle.svg) [Interconnectedness](/principles/Interconnectedness.html)
+* ![Green circle](/images/icon-circle.svg) [Virtuous Cycles](/principles/VirtuousCycles.html)
 
 ## How
-* (Blue diamond) Test Frequently
-* (Blue diamond) Practice Co-design
-* (Red square) UX Walkthroughs
-* (Red square) Usability Testing
-* (Red square) Prototyping
-* (Red square) Personae
-* (Red square) Personae and Use-cases
+* ![Blue diamond](/images/icon-diamond.svg) [Test Frequently](/practices/TestFrequently.html)
+* ![Blue diamond](/images/icon-diamond.svg) [Practice Co-design](/practices/PracticeCoDesign.html)
+* ![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)
+* ![Red square](/images/icon-square.svg) [Usability Testing](/tools/UsabilityTesting.html)
+* ![Red square](/images/icon-square.svg) [Prototyping](/tools/Prototyping.html)
+* ![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)
+* ![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)

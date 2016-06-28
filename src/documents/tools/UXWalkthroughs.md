@@ -18,4 +18,5 @@ A UX Walkthrough can be performed by novices as well as experienced evaluators. 
 5. Plan both the Heuristic Evaluation and the Cognitive Walkthrough
 6. Perform the walkthrough and record the results
 
-Please find more details about performing a UX Walkthrough at the following link: https://wiki.fluidproject.org/display/fluid/User+Experience+Walkthroughs
+Please find more details about performing a UX Walkthrough at the following link: 
+https://wiki.fluidproject.org/display/fluid/User+Experience+Walkthroughs
