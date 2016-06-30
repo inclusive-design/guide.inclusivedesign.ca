@@ -16,8 +16,8 @@ Alongside the visual wireframes, it is best to also consider narratives, long de
 
 ## Combine with
 
-* ![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)
-* ![Red square](/images/icon-square.svg) [Usability Testing](/tools/UsabilityTesting.html)
-* ![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)
-* ![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)
-* ![Red square](/images/icon-square.svg) [Accessible Design Tools](/tools/AccessibleDesignTools.html)
+<ul class="docs-guidelines-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
+<li>![Red square](/images/icon-square.svg) [Usability Testing](/tools/UsabilityTesting.html)</li>
+<li>![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)</li>
+<li>![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)</li>
+<li>![Red square](/images/icon-square.svg) [Accessible Design Tools](/tools/AccessibleDesignTools.html)</li></ul>

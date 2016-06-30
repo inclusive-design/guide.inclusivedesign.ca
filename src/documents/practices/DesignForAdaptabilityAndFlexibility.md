@@ -15,15 +15,15 @@ Adaptable and flexible products and services sustain the design process by activ
 * Provide features and channels for user feedback
 
 ## Why
-* ![Green circle](/images/icon-circle.svg) [Disability as Mismatch](/principles/DisabilityAsMismatch.html)
-* ![Green circle](/images/icon-circle.svg) [One-Size-Fits-One](/principles/OneSizeFitsOne.html)
-* ![Green circle](/images/icon-circle.svg) [Autonomous User](/principles/AutonomousUser.html)
-* ![Green circle](/images/icon-circle.svg) [User-Continued Design](/principles/UserContinuedDesign.html)
-* ![Green circle](/images/icon-circle.svg) [Integrated Solutions](/principles/IntegratedSolutions.html)
-* ![Green circle](/images/icon-circle.svg) [Interconnectedness](/principles/Interconnectedness.html)
+<ul class="docs-guidelines-articleContentUseWhyHow"><li>![Green circle](/images/icon-circle.svg) [Disability as Mismatch](/principles/DisabilityAsMismatch.html)</li>
+<li>![Green circle](/images/icon-circle.svg) [One-Size-Fits-One](/principles/OneSizeFitsOne.html)</li>
+<li>![Green circle](/images/icon-circle.svg) [Autonomous User](/principles/AutonomousUser.html)</li>
+<li>![Green circle](/images/icon-circle.svg) [User-Continued Design](/principles/UserContinuedDesign.html)</li>
+<li>![Green circle](/images/icon-circle.svg) [Integrated Solutions](/principles/IntegratedSolutions.html)</li>
+<li>![Green circle](/images/icon-circle.svg) [Interconnectedness](/principles/Interconnectedness.html)</li></ul>
 
 
 ## How
-* ![Red square](/images/icon-square.svg) [Infusion](/tools/Infusion.html)
-* ![Red square](/images/icon-square.svg) [Metadata Authoring](/tools/MetadataAuthoring.html)
+<ul class="docs-guidelines-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [Infusion](/tools/Infusion.html)</li>
+<li>![Red square](/images/icon-square.svg) [Metadata Authoring](/tools/MetadataAuthoring.html)</li></ul>
 

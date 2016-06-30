@@ -12,6 +12,6 @@ Authoring metatdata promotes cumulative accessibility of resources as third part
 For more information about metadata authoring please see http://handbook.floeproject.org/Metadata.html
 
 ## Combine with
-* ![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)
-* ![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)
+<ul class="docs-guidelines-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)</li>
+<li>![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)</li></ul>
 

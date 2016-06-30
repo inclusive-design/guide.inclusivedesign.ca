@@ -14,4 +14,8 @@ Wherever possible adaptability and flexibility should be designed into products 
 Consider moments of increased self-awareness in your life when a preference, like and dislike, or a need became clear to you. Was it a time when you were forced to adapt to a new situation? For example, while travelling, you slept in a different bed and discovered that a different kind of pillow helped with your neck pain? Or perhaps it was a time when someone offered you a new choice that you hadn’t been exposed to before. What aspects of the situation, environment, or the thing itself helped you to feel comfortable to try something new?
 
 ## Use
-* ![Blue diamond](/images/icon-diamond.svg) [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)
+<ul class="docs-guidelines-articleContentUse">
+    <li>
+        ![Blue diamond](/images/icon-diamond.svg) [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)
+    </li>
+</ul>

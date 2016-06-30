@@ -16,14 +16,14 @@ Staying open to new ideas in the design process for as long as possible, getting
 
 
 ## Why
-* ![Green circle](/images/icon-circle.svg) [Interconnectedness](/principles/Interconnectedness.html)
-* ![Green circle](/images/icon-circle.svg) [Virtuous Cycles](/principles/VirtuousCycles.html)
+<ul class="docs-guidelines-articleContentUseWhyHow"><li>![Green circle](/images/icon-circle.svg) [Interconnectedness](/principles/Interconnectedness.html)</li>
+<li>![Green circle](/images/icon-circle.svg) [Virtuous Cycles](/principles/VirtuousCycles.html)</li></ul>
 
 ## How
-* ![Blue diamond](/images/icon-diamond.svg) [Test Frequently](/practices/TestFrequently.html)
-* ![Blue diamond](/images/icon-diamond.svg) [Practice Co-design](/practices/PracticeCoDesign.html)
-* ![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)
-* ![Red square](/images/icon-square.svg) [Usability Testing](/tools/UsabilityTesting.html)
-* ![Red square](/images/icon-square.svg) [Prototyping](/tools/Prototyping.html)
-* ![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)
-* ![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)
+<ul class="docs-guidelines-articleContentUseWhyHow"><li>![Blue diamond](/images/icon-diamond.svg) [Test Frequently](/practices/TestFrequently.html)</li>
+<li>![Blue diamond](/images/icon-diamond.svg) [Practice Co-design](/practices/PracticeCoDesign.html)</li>
+<li>![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
+<li>![Red square](/images/icon-square.svg) [Usability Testing](/tools/UsabilityTesting.html)</li>
+<li>![Red square](/images/icon-square.svg) [Prototyping](/tools/Prototyping.html)</li>
+<li>![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)</li>
+<li>![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)</li></ul>

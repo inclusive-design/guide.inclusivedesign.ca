@@ -15,9 +15,9 @@ Engaging in multi-modal communication can go beyond the specific or technical as
 * Structure content and information in a well-organised, simple and easy to grasp format so that it is more accessible to new participants
 
 ## Why
-* ![Green Circle](/images/icon-circle.svg) [Diverse Participation and Perspectives](/principles/DiverseParticipationAndPerspectives.html)
+<ul class="docs-guidelines-articleContentUseWhyHow"><li>![Green Circle](/images/icon-circle.svg) [Diverse Participation and Perspectives](/principles/DiverseParticipationAndPerspectives.html)</li></ul>
 
 ## How
-* ![Red square](/images/icon-square.svg) [Accessible Communication Tools](/tools/AccessibleCommunicationTools.html)
-* ![Red square](/images/icon-square.svg) [Accessible Design Tools](/tools/AccessibleDesignTools.html)
+<ul class="docs-guidelines-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [Accessible Communication Tools](/tools/AccessibleCommunicationTools.html)</li>
+<li>![Red square](/images/icon-square.svg) [Accessible Design Tools](/tools/AccessibleDesignTools.html)</li></ul>
 
