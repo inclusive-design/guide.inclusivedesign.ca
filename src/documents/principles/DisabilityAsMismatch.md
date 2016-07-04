@@ -19,6 +19,16 @@ Inclusive design considers this mismatch to be conditional, solvable through des
 Record three examples of an experience of mismatch that you’ve had, no matter how large or small. For example - standing at an automated bank machine in the glare of the sun, I couldn’t see the screen at all. How did you feel when this happened? What did you do about it? How could the design of the product or service be modified to meet your needs?
 
 ## Use
-* ![Blue diamond](/images/icon-diamond.svg) [Focus on Functional Needs and Preferences](/practices/FocusOnFunctionalNeedsAndPreferences.html)
-* ![Blue diamond](/images/icon-diamond.svg) [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)
-* ![Red square](/images/icon-square.svg) [User States and Contexts](/tools/UserStatesAndContexts.html)
+<div class="docs-guidelines-articleContentUse">
+    <ul>
+        <li>
+            ![Blue diamond](/images/icon-diamond.svg) [Focus on Functional Needs and Preferences](/practices/FocusOnFunctionalNeedsAndPreferences.html)
+        </li>
+        <li>
+            ![Blue diamond](/images/icon-diamond.svg) [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)
+        </li>
+        <li>
+            ![Red square](/images/icon-square.svg) [User States and Contexts](/tools/UserStatesAndContexts.html)
+        </li>
+    </ul>
+</div>

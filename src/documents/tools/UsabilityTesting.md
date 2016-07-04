@@ -15,4 +15,5 @@ Usability testing can be performed on products or systems at any stage of develo
 4. Don’t ask leading questions
 5. Take a note of any problems the user encounters, suggestions for improvements, and if useful, the amount of time it takes to complete a task
 
-Please find more details about performing a UX Walkthrough at the following link: https://wiki.fluidproject.org/display/fluid/User+Experience+Walkthroughs
+Please find more details about performing a UX Walkthrough at the following link: 
+https://wiki.fluidproject.org/display/fluid/User+Experience+Walkthroughs

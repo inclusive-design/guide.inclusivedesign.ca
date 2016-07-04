@@ -15,15 +15,15 @@ Adaptable and flexible products and services sustain the design process by activ
 * Provide features and channels for user feedback
 
 ## Why
-* (Green Circle) Disability as Mismatch
-* (Green Circle) One-size-fits-one
-* (Green Circle) Autonomous User
-* (Green Circle) User-continued Design
-* (Green Circle) Integrated Solutions
-* (Green Circle) Interconnectedness
+<ul class="docs-guidelines-articleContentUseWhyHow"><li>![Green circle](/images/icon-circle.svg) [Disability as Mismatch](/principles/DisabilityAsMismatch.html)</li>
+<li>![Green circle](/images/icon-circle.svg) [One-Size-Fits-One](/principles/OneSizeFitsOne.html)</li>
+<li>![Green circle](/images/icon-circle.svg) [Autonomous User](/principles/AutonomousUser.html)</li>
+<li>![Green circle](/images/icon-circle.svg) [User-Continued Design](/principles/UserContinuedDesign.html)</li>
+<li>![Green circle](/images/icon-circle.svg) [Integrated Solutions](/principles/IntegratedSolutions.html)</li>
+<li>![Green circle](/images/icon-circle.svg) [Interconnectedness](/principles/Interconnectedness.html)</li></ul>
 
 
 ## How
-* (Red square) Infusion
-* (Red square) Metadata Authoring
+<ul class="docs-guidelines-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [Infusion](/tools/Infusion.html)</li>
+<li>![Red square](/images/icon-square.svg) [Metadata Authoring](/tools/MetadataAuthoring.html)</li></ul>
 

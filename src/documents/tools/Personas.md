@@ -1,5 +1,5 @@
 ---
-title: Personae
+title: Personas
 layout: content
 category: Tools
 ---
@@ -14,9 +14,9 @@ When paired with the other tools, particularly User States and Contexts and UX W
 2. Imagine a user, inspired by people you know, that is unique and doesn’t simply represent the norm, the average, or the typical
 3. Draft the rst version of your persona. Give them a name and describe their life, needs, preferences, likes and dislikes
 4. Re-iterate and evolve your persona as you collect more feedback form potential users and/or stakeholders
+ 
+## Combine with
 
-##Combine with
-
-(red square) UX Walkthroughs
-(red square) User States & Contexts
-(red square) Use-cases
+<ul class="docs-guidelines-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
+<li>![Red square](/images/icon-square.svg) [User States & Contexts](/tools/UserStatesAndContexts.html)</li>
+<li>![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)</li></ul>

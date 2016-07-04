@@ -1,5 +1,5 @@
 ---
-title: Use Cases
+title: Use-Cases
 layout: content
 category: Tools
 ---
@@ -15,7 +15,7 @@ In an Inclusive design process it is important to include edge cases. These are 
 3. Describe how the product can help your persona achieve their goals
 4. Re-iterate and evolve your use-cases as you collect more feedback form potential users and/or stakeholders as your project moves forward
 
-##Combine with
+## Combine with
 
-(red square) Personae
-(red square) User States & Contexts
+<ul class="docs-guidelines-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)</li>
+<li>![Red square](/images/icon-square.svg) [User States and Contexts](/tools/UserStatesAndContexts.html)</li></ul>

@@ -13,10 +13,10 @@ To support diverse participation and enable the design to be as closely linked a
 ## Try
 Make a list of the methods of communication used in your everyday life (meetings, informal discussions, video conferences, phone calls, social media, emails, etc.). Identify some possible barriers that might prevent some from participating in that communication. Consider your own challenges with these processes or those of someone you know.
 
-## Use
-* ![Blue diamond](/images/icon-diamond.svg) [Practice Co-design](/practices/PracticeCoDesign.html)
-* ![Blue diamond](/images/icon-diamond.svg) [Work Openly](/practices/WorkOpenly.html)
-* ![Blue diamond](/images/icon-diamond.svg) [Communicate Multimodally](/practices/CommunicateMultimodally.html)
-* ![Blue diamond](/images/icon-diamond.svg) [Facilitate Inclusively](/practices/FacilitateInclusively.html)
-* ![Blue diamond](/images/icon-diamond.svg) [Collaborate](/practices/Collaborate.html)
-* ![Blue diamond](/images/icon-diamond.svg) [Test frequently](/practices/TestFrequently.html)
+## Use 
+<ul class="docs-guidelines-articleContentUse"><li>![Blue diamond](/images/icon-diamond.svg) [Practice Co-design](/practices/PracticeCoDesign.html)</li>
+<li>![Blue diamond](/images/icon-diamond.svg) [Work Openly](/practices/WorkOpenly.html)</li>
+<li>![Blue diamond](/images/icon-diamond.svg) [Communicate Multimodally](/practices/CommunicateMultimodally.html)</li>
+<li>![Blue diamond](/images/icon-diamond.svg) [Facilitate Inclusively](/practices/FacilitateInclusively.html)</li>
+<li>![Blue diamond](/images/icon-diamond.svg) [Collaborate](/practices/Collaborate.html)</li>
+<li>![Blue diamond](/images/icon-diamond.svg) [Test frequently](/practices/TestFrequently.html)</li></ul>
