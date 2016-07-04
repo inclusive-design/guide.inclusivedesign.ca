@@ -28,7 +28,9 @@
                         {{! Highlight the (active) category the document belongs to. }}
                         {{#each siteStructure}}
                             {{#ifEqual category ../document.category}}
-                                <li class="docs-guidelines-nav{{category}} docs-template-category-active"><span aria-label="Currently on Category: {{category}}">{{category}}</span></li>
+                                <li class="docs-guidelines-nav{{category}} docs-template-category-active">
+                                    <span aria-label="Currently on Category: {{category}}">{{category}}</span>
+                                </li>
                             {{else}}
                                 <li class="docs-guidelines-nav{{category}}"><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{category}}</a></li>
                             {{/ifEqual}}
@@ -46,9 +48,9 @@
             {{! Highlight the (active) category the document belongs to. }}
             {{#each siteStructure}}
                 {{#ifEqual category ../document.category}}
-                    <li class="docs-guidelines-nav{{category}} docs-template-category-active"><span aria-label="Currently on Category: {{category}}">{{category}}</span></li>
+                    <li class="docs-guidelines-nav{{category}} docs-template-category-active"><span aria-label="Currently on Category: {{category}}">{{{getCategoryIcon category}}}{{category}}</span></li>
                 {{else}}
-                    <li class="docs-guidelines-nav{{category}}"><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{category}}</a></li>
+                    <li class="docs-guidelines-nav{{category}}"><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{{getCategoryIcon category}}}{{category}}</a></li>
                 {{/ifEqual}}
             {{/each}}
             </ul>

@@ -177,6 +177,26 @@ a:hover .docs-guidelines-logo {
     border-right-width: 0.3rem;
 }
 
+setNavTab(inputColor) {
+    a, span {
+        background-color: inputColor;
+    }
+
+    a:hover {
+        color: inputColor;
+        background-color: #fff;
+        border-color: inputColor;
+    }
+
+    a:hover svg {
+        fill: inputColor;
+    }
+
+    .docs-template-categoryActive {
+        border-color: inputColor;
+    }
+}
+
 .docs-guidelines-tabs {
     ul {
         display: flex;
@@ -187,24 +207,84 @@ a:hover .docs-guidelines-logo {
         margin-left: 0.25rem;
         margin-right: 0.25rem
         flex-grow: 1;
+        padding-bottom: 0;
+        border-bottom: 0.3rem solid header-footer-background;
+    }
+
+    a, span {
         min-width: 10rem;
         border-top-right-radius:0.8rem;
         border-top-left-radius: 0.8rem;
-        border-bottom: 0.2rem solid header-footer-background;
+        transition: none;
+        display:flex;
+        align-items:center;
+    }
 
-        a, span {
-            transition: none;
-            width: 100%;
-            padding-left: 2rem;
-        }
+    a {
+        transition: all 0.2s ease;
+    }
 
-        a:hover {
-            border-top-right-radius: 0.8rem;
-            border-top-left-radius: 0.8rem;
-        }
+    a:hover {
+        background-color: #fff;
+        transition: all 0.2s ease;
+        margin-top: -0.4rem;
+        border-bottom-width: 0.4rem;
+        border-bottom-style: solid;
+    }
+
+    svg {
+        fill: #fff;
+        margin-right: 0.2rem;
+    }
+
+    .docs-guidelines-navPrinciples {
+        setNavTab(principlesColor);
+    }
+
+    .docs-guidelines-navPractices {
+        setNavTab(practicesColor);
+    }
+
+    .docs-guidelines-navTools {
+        setNavTab(toolsColor);
+    }
+
+    .docs-guidelines-navActivities {
+        setNavTab(activitiesColor);
     }
 }
 
+setNavTabActive(inputColor) {
+    .docs-guidelines-tabs {
+        border-bottom: 0.8rem solid inputColor;
+
+        .docs-template-category-active {
+            border-color: inputColor;
+        }
+    }
+
+    .docs-template-topics-container {
+        border-color: inputColor;
+    }
+}
+
+.docs-guidelines-category-Activities {
+    setNavTabActive(activitiesColor);
+}
+
+.docs-guidelines-category-Principles {
+    setNavTabActive(principlesColor);
+}
+
+.docs-guidelines-category-Practices {
+    setNavTabActive(practicesColor);
+}
+
+.docs-guidelines-category-Tools {
+    setNavTabActive(toolsColor);
+}
+
+/* Overrides */
 .docs-template-header .docs-guidelines-tabs {
     padding-bottom: 0;
 
@@ -213,76 +293,6 @@ a:hover .docs-guidelines-logo {
     }
 }
 
-.docs-guidelines-tabs {
-    li {
-        background-repeat: no-repeat;
-        background-position: 0.5rem 0.4rem;
-    }
-
-    .docs-guidelines-navPrinciples {
-        background-color: principlesColor;
-        background-image: url('/images/icon-circle.svg');
-    }
-
-    .docs-guidelines-navPractices {
-        background-color: practicesColor;
-        background-image: url('/images/icon-diamond.svg');
-    }
-
-    .docs-guidelines-navTools {
-        background-color: toolsColor;
-        background-image: url('/images/icon-square.svg');
-    }
-
-    .docs-guidelines-navActivities {
-        background-color: activitiesColor;
-        background-image: url('/images/icon-hexagon.svg');
-    }
-}
-
-navTabs(color) {
-    border-bottom: 0.8rem solid color;
-
-    .docs-template-category-active {
-        border-color: color;
-    }
-}
-
-.docs-guidelines-category-Activities {
-    .docs-guidelines-tabs {
-        navTabs(activitiesColor);
-    }
-
-    .docs-template-topics-container {
-        border-color: activitiesColor;
-    }
-}
-
-.docs-guidelines-category-Principles {
-    .docs-guidelines-tabs {
-        navTabs(principlesColor);
-    }
-
-    .docs-template-topics-container {
-        border-color: principlesColor;
-    }
-}
-.docs-guidelines-category-Practices {
-    .docs-guidelines-tabs {
-        navTabs(practicesColor);
-    }
-
-    .docs-template-topics-container {
-        border-color: practicesColor;
-    }
-}
-
-.docs-guidelines-category-Tools {
-    .docs-guidelines-tabs {
-        navTabs(toolsColor);
-    }
-
-    .docs-template-topics-container {
-        border-color: toolsColor;
-    }
+.docs-template-header nav li {
+    padding-bottom: 0;
 }

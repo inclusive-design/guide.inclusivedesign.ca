@@ -16,6 +16,7 @@ var githubDocRoot = "https://github.com/fluid-project/docs-template/blob/master/
 var path = require("path");
 var fs = require("fs");
 var docsCore = require("docs-core");
+var guidelinesHelpers = require('./helpers/docs-guidelines.js');
 var siteStructure = JSON.parse(fs.readFileSync("site-structure.json"));
 
 // We locate the images within the src/documents directory so that images can
@@ -56,7 +57,8 @@ module.exports = {
                 rewriteMdLinks: docsCore.helpers.rewriteMdLinks,
                 getGithubLocation: docsCore.helpers.makeGithubLocationHelper(githubDocRoot),
                 getRelativeUrl: docsCore.helpers.getRelativeUrl,
-                ifEqual: docsCore.helpers.ifEqual
+                ifEqual: docsCore.helpers.ifEqual,
+                getCategoryIcon: guidelinesHelpers.helpers.getCategoryIcon
             },
             partials: {
                 header: fs.readFileSync(partialsDir + '/' + 'header.html.handlebars', 'utf8'),
