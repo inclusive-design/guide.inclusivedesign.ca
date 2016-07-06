@@ -96,19 +96,27 @@ activitiesColor = #ee3f23;
     src: url("../fonts/DroidSans.ttf") format('truetype');
 }
 
-.docs-template-header h1,
-.docs-template-header a {
-    display: inline-block;
+.docs-template-header {
+    a {
+        display:inline-flex;
+        align-items:center;
+    }
+
+    h1 {
+        padding: 0 1rem;
+    }
 }
 
-.docs-template-header h1 {
-    padding: 0 1rem;
+.docs-template-articleBody h1 {
+    color: #fff;
+    padding: 0 1rem 0 1rem;
+    margin: 2rem 0 2rem -1rem;
 }
 
 .docs-guidelines-logo {
     width: 3rem;
     height: auto;
-    margin: 0.2rem 0 0 0.5rem;
+    margin: 0.2rem 0.2rem 0 0.5rem;
     path,
     circle {
         fill: logo-color;
@@ -130,6 +138,10 @@ a:hover .docs-guidelines-logo {
 
     .docs-template-articleBody {
         padding-top: 2rem;
+    }
+
+    .docs-template-articleBody h1 {
+        color: #000;
     }
 
     .docs-guidelines-index-section {
@@ -156,19 +168,19 @@ a:hover .docs-guidelines-logo {
     height: auto;
 }
 
-.docs-guidelines-iconPrinciples {
+.docs-guidelines-iconPrinciples svg {
     fill: principlesColor;
 }
 
-.docs-guidelines-iconPractices {
+.docs-guidelines-iconPractices svg {
     fill: practicesColor;
 }
 
-.docs-guidelines-iconTools {
+.docs-guidelines-iconTools svg {
     fill: toolsColor;
 }
 
-.docs-guidelines-iconActivities {
+.docs-guidelines-iconActivities svg {
     fill: activitiesColor;
 }
 
@@ -266,6 +278,16 @@ setNavTabActive(inputColor) {
     .docs-template-topics-container {
         border-color: inputColor;
     }
+
+    .docs-template-topics-active {
+        background: inputColor;
+        color: #fff;
+    }
+
+    .docs-template-articleBody h1 {
+    	 background: inputColor;
+    	 color: #fff;
+    }
 }
 
 .docs-guidelines-category-Activities {
@@ -298,7 +320,7 @@ setNavTabActive(inputColor) {
 }
 
 
-/* General list styling for index */
+/* General list styling for topics sidebar */
 
 .docs-template-topics li a {
     display: inline-block;
@@ -313,112 +335,8 @@ setNavTabActive(inputColor) {
 }
 
 .docs-template-topics a:hover {
-        background: #000;
-        color: #fff;
-}
-
-/* category-specific styling starts here */
-
-/* ACTIVITIES */
-
-.docs-guidelines-category-Activities {
-    .docs-template-topics-container {
-        border-color: activitiesColor;
-    }
-
-    .docs-template-topics-active {
-        background: activitiesColor;
-        color: #fff;
-    }
-
-    .docs-template-articleBody h1 {
-    	 background: activitiesColor;
-    	 color: #fff;
-    }
-
-    .docs-template-articleBody h1 {
-        color: #fff;
-        padding: 0 1rem 0 1rem;
-        margin: 2rem 0 2rem -1rem;
-    }
-
-}
-
-/* PRINCIPLES */
-
-.docs-guidelines-category-Principles {
-    .docs-template-topics-container {
-        border-color: principlesColor;
-    }
-
-    .docs-template-topics-active {
-        background: principlesColor;
-        color: #fff;
-    }
-
-    .docs-template-articleBody h1 {
-    	 background: principlesColor;
-    	 color: #fff;
-    }
-
-    .docs-template-articleBody h1 {
-        color: #fff;
-        padding: 0 1rem 0 1rem;
-        margin: 2rem 0 2rem -1rem;
-    }
-
-}
-
-/* PRACTICES */
-
-
-.docs-guidelines-category-Practices {
-    .docs-template-topics-container {
-        border-color: practicesColor;
-    }
-
-    .docs-template-topics-active {
-        background: practicesColor;
-        color: #fff;
-}
-
-    .docs-template-articleBody h1 {
-    	 background: practicesColor;
-    	 color: #fff;
-    }
-
-    .docs-template-articleBody h1 {
-        color: #fff;
-        padding: 0 1rem 0 1rem;
-        margin: 2rem 0 2rem -1rem;
-    }
-
-}
-
-/* TOOLS */
-
-.docs-guidelines-category-Tools {
-    
-    .docs-template-topics-container {
-        border-color: toolsColor;
-    }
-
-    .docs-template-topics-active {
-        background: toolsColor;
-        color: #fff;
-    }
-
-    .docs-template-articleBody h1 {
-    	 background: toolsColor;
-    	 color: #fff;
-    }
-
-    .docs-template-articleBody h1 {
-        color: #fff;
-        padding: 0 1rem 0 1rem;
-        margin: 2rem 0 2rem -1rem;
-    }
-
+    background: #000;
+    color: #fff;
 }
 
 /* remove bullet styling for USE list - category icons are used instead */
@@ -429,4 +347,75 @@ setNavTabActive(inputColor) {
 
 .docs-guidelines-articleContentUseWhyHow li {
     list-style-type: none;
+}
+
+/* Contrast Themes */
+
+contrast-theme(foregroundColor, backgroundColor) {
+    .docs-guidelines-logo {
+        path, circle {
+            fill: backgroundColor;
+        }
+    }
+
+    a:hover .docs-guidelines-logo {
+        path, circle {
+            fill: foregroundColor;
+        }
+    }
+
+    .docs-guidelines-tabs {
+        li {
+            border-bottom: none;
+        }
+
+        .docs-template-category-active {
+            span {
+                border-color: backgroundColor !important;
+                background-color: backgroundColor !important;
+                color: foregroundColor !important;
+                border-bottom: 0.2rem solid backgroundColor !important;
+            }
+            svg {
+                fill: foregroundColor;
+            }
+        }
+
+        a {
+            border-style: solid;
+            border-bottom-style: none;
+
+            &:hover svg {
+                fill: foregroundColor !important;
+            }
+        }
+
+        svg {
+            fill: backgroundColor;
+        }
+    }
+
+    .docs-template-topics-active {
+        border-left: 0.3rem solid foregroundColor;
+    }
+}
+
+.fl-theme-bw {
+    contrast-theme(#000, #fff);
+}
+
+.fl-theme-wb {
+    contrast-theme(#fff, #000);
+}
+
+.fl-theme-yb {
+    contrast-theme(#ff0, #000);
+}
+
+.fl-theme-by {
+    contrast-theme(#000, #ff0);
+}
+
+.fl-theme-lgdg {
+    contrast-theme(#bdbdbb, #555);
 }

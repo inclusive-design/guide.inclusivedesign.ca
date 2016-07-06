@@ -8,24 +8,24 @@ These guidelines are made up of four sections:
 <ul>
     <li>
         <a href="/principles/">
-            {{{getCategoryIcon "principles"}}}
+            <span role="presentation" class="docs-guidelines-iconPrinciples">{{{getCategoryIcon "principles"}}}</span>
             <strong>Principles</strong></a> - the broad ideas and defining values of inclusive design
         </a>
     </li>
     <li>
         <a href="/practices/">
-            {{> practicesIcon }}
+            <span role="presentation" class="docs-guidelines-iconPractices">{{> practicesIcon }}</span>
             <strong>Practices</strong></a> - putting the principles of inclusive design into action
         </a>
     </li>
     <li>
         <a href="/tools/">
-            {{> toolsIcon }}
+            <span role="presentation" class="docs-guidelines-iconTools">{{> toolsIcon }}</span>
             <strong>Tools</strong></a> - detailed descriptions of tools for use in your inclusive design process
     </li>
     <li>
         <a href="/activities/">
-            {{> activitiesIcon }}
+            <span role="presentation" class="docs-guidelines-iconActivities">{{> activitiesIcon }}</span>
             <strong>Activities</strong></a> - interesting and fun ways you can put it all together
         </a>
     </li>
