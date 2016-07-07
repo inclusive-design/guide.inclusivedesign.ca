@@ -4,7 +4,7 @@ layout: index-template
 ---
 These guidelines are made up of four sections:
 
-<div class="docs-guidelines-index-section">
+<div id="docs-guidelines-index-icon-list">
 <ul>
     <li>
         <a href="/principles/">

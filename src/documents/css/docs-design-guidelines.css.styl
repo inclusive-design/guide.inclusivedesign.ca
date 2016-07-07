@@ -11,9 +11,6 @@ link-hover-background = #275287;
 /* Main Content Area */
 docs-body-background = #f2f2f2; // light grey
 docs-content-note-border = #000;
-// ul
-//   list-style-type none
-//   padding-left 0
 
 /* Header and Footer */
 header-footer-color = #fff;
@@ -97,6 +94,8 @@ activitiesColor = #ee3f23;
 }
 
 .docs-template-header {
+    margin-bottom: 2rem;
+
     a {
         display:inline-flex;
         align-items:center;
@@ -130,9 +129,9 @@ a:hover .docs-guidelines-logo {
     }
 }
 
-// Hack to prevent Sidebar expanded/ collapsed styles from affecting width on index
 .docs-guidelines-index {
     &.docs-core-sidebar-expanded .docs-template-articleBody {
+        // Hack to prevent Sidebar expanded/ collapsed styles from affecting width on index
         width: 90%;
     }
 
@@ -144,7 +143,7 @@ a:hover .docs-guidelines-logo {
         color: #000;
     }
 
-    .docs-guidelines-index-section {
+    #docs-guidelines-index-icon-list {
         background-color: #fff;
         padding: 1.5rem;
         margin: 2rem 0;
@@ -159,6 +158,7 @@ a:hover .docs-guidelines-logo {
     }
 }
 
+// Image that appears on the Index.
 #guidelines-path {
     height: auto;
 }
@@ -210,9 +210,11 @@ setNavTab(inputColor) {
 }
 
 .docs-guidelines-tabs {
+
     ul {
         display: flex;
         flex-wrap: wrap;
+        font-size: 1.5rem;
     }
 
     li {
@@ -266,7 +268,7 @@ setNavTab(inputColor) {
     }
 }
 
-setNavTabActive(inputColor) {
+setActiveCategory(inputColor) {
     .docs-guidelines-tabs {
         border-bottom: 0.8rem solid inputColor;
 
@@ -291,19 +293,19 @@ setNavTabActive(inputColor) {
 }
 
 .docs-guidelines-category-Activities {
-    setNavTabActive(activitiesColor);
+    setActiveCategory(activitiesColor);
 }
 
 .docs-guidelines-category-Principles {
-    setNavTabActive(principlesColor);
+    setActiveCategory(principlesColor);
 }
 
 .docs-guidelines-category-Practices {
-    setNavTabActive(practicesColor);
+    setActiveCategory(practicesColor);
 }
 
 .docs-guidelines-category-Tools {
-    setNavTabActive(toolsColor);
+    setActiveCategory(toolsColor);
 }
 
 /* Overrides */
@@ -315,13 +317,16 @@ setNavTabActive(inputColor) {
     }
 }
 
+.docs-template-header nav span, .docs-template-header nav a {
+    padding: 0.5rem 0 0.5rem 1.2rem;
+}
+
 .docs-template-header nav li {
     padding-bottom: 0;
 }
 
 
 /* General list styling for topics sidebar */
-
 .docs-template-topics li a {
     display: inline-block;
     width: 100%;
@@ -369,18 +374,6 @@ contrast-theme(foregroundColor, backgroundColor) {
             border-bottom: none;
         }
 
-        .docs-template-category-active {
-            span {
-                border-color: backgroundColor !important;
-                background-color: backgroundColor !important;
-                color: foregroundColor !important;
-                border-bottom: 0.2rem solid backgroundColor !important;
-            }
-            svg {
-                fill: foregroundColor;
-            }
-        }
-
         a {
             border-style: solid;
             border-bottom-style: none;
@@ -395,8 +388,27 @@ contrast-theme(foregroundColor, backgroundColor) {
         }
     }
 
-    .docs-template-topics-active {
+    .docs-template-category-active {
         border-left: 0.3rem solid foregroundColor;
+
+        span {
+            border-color: backgroundColor !important;
+            background-color: backgroundColor !important;
+            color: foregroundColor !important;
+            border-bottom: 0.2rem solid backgroundColor !important;
+        }
+        svg {
+            fill: foregroundColor;
+        }
+    }
+
+    #docs-guidelines-index-icon-list svg {
+        fill: foregroundColor;
+    }
+
+    #guidelines-path path {
+        stroke: foregroundColor;
+        fill: backgroundColor;    
     }
 }
 
