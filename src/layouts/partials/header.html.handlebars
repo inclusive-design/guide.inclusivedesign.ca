@@ -1,3 +1,10 @@
+<!-- Skip Link -->
+<nav id="skip" class="fl-inverted-color">
+    <a href="#topics" class="docs-template-skip-topics">Skip to Topics</a>
+    <a href="#content" class="docs-template-skip-content">Skip to Content</a>
+</nav>
+<!-- END skip link -->
+
 <header class="ignore-for-TOC row fl-inverted-color">
     <!-- BEGIN markup for Preference Editor -->
     <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
@@ -16,7 +23,7 @@
 
     <div class="small-12 column docs-template-header">
         <a class="" href="{{{getRelativeUrl '/index.html' document.url}}}" title="Home: Documentation Template">
-            <span class="docs-guidelines-logo">{{> idrcLogo }}</span>
+            <span class="docs-inclusive-design-guides-logo">{{> idrcLogo }}</span>
             <h1>Inclusive Design Guidelines</h1>
         </a>
 
@@ -28,11 +35,11 @@
                         {{! Highlight the (active) category the document belongs to. }}
                         {{#each siteStructure}}
                             {{#ifEqual category ../document.category}}
-                                <li class="docs-guidelines-nav{{category}} docs-template-category-active">
+                                <li class="docs-inclusive-design-guides-nav{{category}} docs-template-category-active">
                                     <span aria-label="Currently on Category: {{category}}">{{category}}</span>
                                 </li>
                             {{else}}
-                                <li class="docs-guidelines-nav{{category}}"><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{category}}</a></li>
+                                <li class="docs-inclusive-design-guides-nav{{category}}"><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{category}}</a></li>
                             {{/ifEqual}}
                         {{/each}}
                     </ul>
@@ -43,14 +50,14 @@
 
     {{! "Desktop" Menu }}
     <div class="docs-template-header">
-        <nav class="docs-guidelines-tabs small-12 column show-for-medium-up">
+        <nav class="docs-inclusive-design-guides-tabs small-12 column show-for-medium-up">
             <ul class="inline-list">
             {{! Highlight the (active) category the document belongs to. }}
             {{#each siteStructure}}
                 {{#ifEqual category ../document.category}}
-                    <li class="docs-guidelines-nav{{category}} docs-template-category-active"><span aria-label="Currently on Category: {{category}}">{{{getCategoryIcon category}}}{{category}}</span></li>
+                    <li class="docs-inclusive-design-guides-nav{{category}} docs-template-category-active"><span aria-label="Currently on Category: {{category}}">{{{getCategoryIcon category}}}{{category}}</span></li>
                 {{else}}
-                    <li class="docs-guidelines-nav{{category}}"><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{{getCategoryIcon category}}}{{category}}</a></li>
+                    <li class="docs-inclusive-design-guides-nav{{category}}"><a href="{{{getRelativeUrl categoryHref ../../document.url}}}" title="{{category}}">{{{getCategoryIcon category}}}{{category}}</a></li>
                 {{/ifEqual}}
             {{/each}}
             </ul>

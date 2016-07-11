@@ -112,7 +112,7 @@ activitiesColor = #ee3f23;
     margin: 2rem 0 2rem -1rem;
 }
 
-.docs-guidelines-logo {
+.docs-inclusive-design-guides-logo {
     width: 3rem;
     height: auto;
     margin: 0.2rem 0.2rem 0 0.5rem;
@@ -122,14 +122,14 @@ activitiesColor = #ee3f23;
     }
 }
 
-a:hover .docs-guidelines-logo {
+a:hover .docs-inclusive-design-guides-logo {
     path,
     circle {
         fill: logo-hover-color;
     }
 }
 
-.docs-guidelines-index {
+.docs-inclusive-design-guides-index {
     &.docs-core-sidebar-expanded .docs-template-articleBody {
         // Hack to prevent Sidebar expanded/ collapsed styles from affecting width on index
         width: 90%;
@@ -143,7 +143,7 @@ a:hover .docs-guidelines-logo {
         color: #000;
     }
 
-    #docs-guidelines-index-icon-list {
+    #docs-inclusive-design-guides-index-icon-list {
         background-color: #fff;
         padding: 1.5rem;
         margin: 2rem 0;
@@ -163,24 +163,24 @@ a:hover .docs-guidelines-logo {
     height: auto;
 }
 
-.docs-guidelines-icon {
+.docs-inclusive-design-guides-icon {
     width: 1rem;
     height: auto;
 }
 
-.docs-guidelines-iconPrinciples svg {
+.docs-inclusive-design-guides-iconPrinciples svg {
     fill: principlesColor;
 }
 
-.docs-guidelines-iconPractices svg {
+.docs-inclusive-design-guides-iconPractices svg {
     fill: practicesColor;
 }
 
-.docs-guidelines-iconTools svg {
+.docs-inclusive-design-guides-iconTools svg {
     fill: toolsColor;
 }
 
-.docs-guidelines-iconActivities svg {
+.docs-inclusive-design-guides-iconActivities svg {
     fill: activitiesColor;
 }
 
@@ -209,7 +209,7 @@ setNavTab(inputColor) {
     }
 }
 
-.docs-guidelines-tabs {
+.docs-inclusive-design-guides-tabs {
 
     ul {
         display: flex;
@@ -251,25 +251,25 @@ setNavTab(inputColor) {
         margin-right: 0.2rem;
     }
 
-    .docs-guidelines-navPrinciples {
+    .docs-inclusive-design-guides-navPrinciples {
         setNavTab(principlesColor);
     }
 
-    .docs-guidelines-navPractices {
+    .docs-inclusive-design-guides-navPractices {
         setNavTab(practicesColor);
     }
 
-    .docs-guidelines-navTools {
+    .docs-inclusive-design-guides-navTools {
         setNavTab(toolsColor);
     }
 
-    .docs-guidelines-navActivities {
+    .docs-inclusive-design-guides-navActivities {
         setNavTab(activitiesColor);
     }
 }
 
 setActiveCategory(inputColor) {
-    .docs-guidelines-tabs {
+    .docs-inclusive-design-guides-tabs {
         border-bottom: 0.8rem solid inputColor;
 
         .docs-template-category-active {
@@ -292,24 +292,24 @@ setActiveCategory(inputColor) {
     }
 }
 
-.docs-guidelines-category-Activities {
+.docs-inclusive-design-guides-category-Activities {
     setActiveCategory(activitiesColor);
 }
 
-.docs-guidelines-category-Principles {
+.docs-inclusive-design-guides-category-Principles {
     setActiveCategory(principlesColor);
 }
 
-.docs-guidelines-category-Practices {
+.docs-inclusive-design-guides-category-Practices {
     setActiveCategory(practicesColor);
 }
 
-.docs-guidelines-category-Tools {
+.docs-inclusive-design-guides-category-Tools {
     setActiveCategory(toolsColor);
 }
 
 /* Overrides */
-.docs-template-header .docs-guidelines-tabs {
+.docs-template-header .docs-inclusive-design-guides-tabs {
     padding-bottom: 0;
 
     span:before {
@@ -346,30 +346,30 @@ setActiveCategory(inputColor) {
 
 /* remove bullet styling for USE list - category icons are used instead */
 
-.docs-guidelines-articleContentUse li {
+.docs-inclusive-design-guides-articleContentUse li {
     list-style-type: none;
 }
 
-.docs-guidelines-articleContentUseWhyHow li {
+.docs-inclusive-design-guides-articleContentUseWhyHow li {
     list-style-type: none;
 }
 
 /* Contrast Themes */
 
 contrast-theme(foregroundColor, backgroundColor) {
-    .docs-guidelines-logo {
+    .docs-inclusive-design-guides-logo {
         path, circle {
             fill: backgroundColor;
         }
     }
 
-    a:hover .docs-guidelines-logo {
+    a:hover .docs-inclusive-design-guides-logo {
         path, circle {
             fill: foregroundColor;
         }
     }
 
-    .docs-guidelines-tabs {
+    .docs-inclusive-design-guides-tabs {
         li {
             border-bottom: none;
         }
@@ -402,13 +402,13 @@ contrast-theme(foregroundColor, backgroundColor) {
         }
     }
 
-    #docs-guidelines-index-icon-list svg {
+    #docs-inclusive-design-guides-index-icon-list svg {
         fill: foregroundColor;
     }
 
     #guidelines-path path {
         stroke: foregroundColor;
-        fill: backgroundColor;    
+        fill: backgroundColor;
     }
 }
 

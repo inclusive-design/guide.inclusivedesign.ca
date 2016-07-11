@@ -11,12 +11,12 @@ https://github.com/fluid-project/infusion/raw/master/Infusion-LICENSE.txt
 
 // This project's repository on GitHub. Used to build URLs for "Edit on GitHub" links
 // Change this value to match your site.
-var githubDocRoot = "https://github.com/jhung/docs-guidelines/tree/master/src/documents/";
+var githubDocRoot = "https://github.com/jhung/docs-inclusive-design-guides/tree/master/src/documents/";
 
 var path = require("path");
 var fs = require("fs");
 var docsCore = require("docs-core");
-var guidelinesHelpers = require('./helpers/docs-guidelines.js');
+var guidelinesHelpers = require('./helpers/docs-inclusive-design-guides.js');
 var siteStructure = JSON.parse(fs.readFileSync("site-structure.json"));
 
 // We locate the images within the src/documents directory so that images can
@@ -61,6 +61,7 @@ module.exports = {
                 getCategoryIcon: guidelinesHelpers.helpers.getCategoryIcon
             },
             partials: {
+                headMatter: fs.readFileSync(partialsDir + '/' + 'head-matter.html.handlebars', 'utf8'),
                 header: fs.readFileSync(partialsDir + '/' + 'header.html.handlebars', 'utf8'),
                 footer: fs.readFileSync(partialsDir + '/' + 'footer.html.handlebars', 'utf8'),
                 sidebar: fs.readFileSync(partialsDir + '/' + 'sidebar.html.handlebars', 'utf8'),

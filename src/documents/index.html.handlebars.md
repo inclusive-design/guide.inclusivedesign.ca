@@ -4,28 +4,28 @@ layout: index-template
 ---
 These guidelines are made up of four sections:
 
-<div id="docs-guidelines-index-icon-list">
+<div id="docs-inclusive-design-guides-index-icon-list">
 <ul>
     <li>
         <a href="/principles/">
-            <span role="presentation" class="docs-guidelines-iconPrinciples">{{{getCategoryIcon "principles"}}}</span>
+            <span role="presentation" class="docs-inclusive-design-guides-iconPrinciples">{{{getCategoryIcon "principles"}}}</span>
             <strong>Principles</strong></a> - the broad ideas and defining values of inclusive design
         </a>
     </li>
     <li>
         <a href="/practices/">
-            <span role="presentation" class="docs-guidelines-iconPractices">{{> practicesIcon }}</span>
+            <span role="presentation" class="docs-inclusive-design-guides-iconPractices">{{> practicesIcon }}</span>
             <strong>Practices</strong></a> - putting the principles of inclusive design into action
         </a>
     </li>
     <li>
         <a href="/tools/">
-            <span role="presentation" class="docs-guidelines-iconTools">{{> toolsIcon }}</span>
+            <span role="presentation" class="docs-inclusive-design-guides-iconTools">{{> toolsIcon }}</span>
             <strong>Tools</strong></a> - detailed descriptions of tools for use in your inclusive design process
     </li>
     <li>
         <a href="/activities/">
-            <span role="presentation" class="docs-guidelines-iconActivities">{{> activitiesIcon }}</span>
+            <span role="presentation" class="docs-inclusive-design-guides-iconActivities">{{> activitiesIcon }}</span>
             <strong>Activities</strong></a> - interesting and fun ways you can put it all together
         </a>
     </li>
@@ -38,7 +38,7 @@ The guidelines focus on the process of digital design. However, they can be appl
 and will remain a work in progress. The concepts and methods captured within them are <strong>ever-evolving</strong>
 as we learn more about how to design inclusion into all that we do.
 
-<div class="docs-guidelines-index-section row">
+<div class="docs-inclusive-design-guides-index-section row">
 <p class="medium-6 column">
 The Inclusive Design Guidelines are not meant to be followed in any particular order. You can begin wherever and whenever it makes sense for you, your team, and your process. Revisiting the guidelines at different stages in the project can be an effective way to integrate them into your work.
 </p>

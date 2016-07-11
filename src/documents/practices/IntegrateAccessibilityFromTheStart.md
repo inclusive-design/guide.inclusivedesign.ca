@@ -16,9 +16,9 @@ As designers, developers and others active in the design process, it is importan
 * Test your designs early and often with a broad range of users
 
 ## Why
-<ul class="docs-guidelines-articleContentUseWhyHow"><li>![Green Circle](/images/icon-circle.svg) [Integrated Solutions](/principles/IntegratedSolutions.html)</li></ul>
+<ul class="docs-inclusive-design-guides-articleContentUseWhyHow"><li>![Green Circle](/images/icon-circle.svg) [Integrated Solutions](/principles/IntegratedSolutions.html)</li></ul>
 
 ## How
-<ul class="docs-guidelines-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)</li>
+<ul class="docs-inclusive-design-guides-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)</li>
 <li>![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)</li>
 <li>![Red square](/images/icon-square.svg) [Usability Testing](/tools/UsabilityTesting.html)</li></ul>

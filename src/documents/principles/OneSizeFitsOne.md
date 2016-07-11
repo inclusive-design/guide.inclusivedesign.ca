@@ -14,5 +14,5 @@ In addition, one-size-fits-one design solutions give us the power to discover an
 Think of something you’ve come across in your daily life that demonstrates an adaptable design. For example, an office chair with multiple adjustment features, or a suitcase that can be turned into a backpack. How could this design be improved to offer additional or different adaptations? If you can’t think of anything, consider 3 adaptations you’d like to have on a product or tool you use on a regular basis.
 
 ## Use
-<ul class="docs-guidelines-articleContentUse"><li>![Blue diamond](/images/icon-diamond.svg) [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)</li>
+<ul class="docs-inclusive-design-guides-articleContentUse"><li>![Blue diamond](/images/icon-diamond.svg) [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)</li>
 <li>![Blue diamond](/images/icon-diamond.svg) [Design for Uncertainty](/practices/DesignForUncertainty.html)</li></ul>

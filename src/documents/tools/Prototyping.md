@@ -21,5 +21,5 @@ In the final phases of the design and development process, high fidelity prototy
 
 ## Combine with
 
-<ul class="docs-guidelines-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
+<ul class="docs-inclusive-design-guides-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
 <li>![Red square](/images/icon-square.svg) [Usability Testing](/tools/UsabilityTesting.html)</li></ul>

@@ -1,36 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <title>{{document.title}} | Documentation Template</title>
-        <link rel="icon" type="image/png" href="{{{getRelativeUrl '/images/favico.png' document.url}}}">
-
-        <link rel="stylesheet" href="{{{getRelativeUrl '/css/normalize.css' document.url}}}">
-        <link rel="stylesheet" href="{{{getRelativeUrl '/css/foundation.min.css' document.url}}}">
-        <link rel="stylesheet" href="{{{getRelativeUrl '/css/highlightjs-custom.css' document.url}}}">
-        <link rel="stylesheet" href="{{{getRelativeUrl '/lib/infusion/src/lib/jquery/ui/css/default-theme/jquery.ui.theme.css' document.url}}}">
-
-        <link rel="stylesheet" type="text/css" href="{{{getRelativeUrl '/lib/infusion/src/framework/preferences/css/Enactors.css' document.url}}}" />
-        <link rel="stylesheet" type="text/css" href="{{{getRelativeUrl '/lib/infusion/src/framework/preferences/css/PrefsEditor.css' document.url}}}" />
-        <link rel="stylesheet" type="text/css" href="{{{getRelativeUrl '/lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css' document.url}}}" />
-        <!-- <link rel="stylesheet" href="{{{getRelativeUrl '/css/docs-template.css' document.url}}}"> -->
-        <link rel="stylesheet" href="{{{getRelativeUrl '/css/docs-design-guidelines.css' document.url}}}">
-
-        <script type="text/javascript" src="{{{getRelativeUrl '/lib/infusion/infusion-uio.js' document.url}}}"></script>
-        <script type="text/javascript" src="{{{getRelativeUrl '/js/DocsCore.js' document.url}}}"></script>
-        <script type="text/javascript" src="{{{getRelativeUrl '/lib/jqueryui/jquery-ui.min.js' document.url}}}"></script>
+        {{> headMatter}}
     </head>
-    <body class="docs-template docs-guidelines-index">
+    <body class="docs-template docs-inclusive-design-guides-index">
 
         <div class="container docs-template-container">
-
-            <!-- Skip Link -->
-            <nav id="skip" class="fl-inverted-color">
-                <a href="#topics" class="docs-template-skip-topics">Skip to Topics</a>
-                <a href="#content" class="docs-template-skip-content">Skip to Content</a>
-            </nav>
-            <!-- END skip link -->
 
             {{> header }}
 
@@ -52,29 +27,6 @@
 
             {{> footer }}
 
-            <script type="text/javascript">
-                docsCore.init("{{{getRelativeUrl '/./' document.url}}}");
-                jQuery( "#menu" ).menu({
-                    position: {my: "right top", at: "right bottom"},
-                    icons: {submenu:"ui-icon-blank"},
-                    // Remove the anchors from the tabindex as they are triggered
-                    // via the select event. (see below)
-                    create: function (event, ui) {
-                        jQuery("#menu .ui-menu-item a").attr("tabindex", -1);
-                    },
-                    // The jQuery menu doesn't seem to like it when the <a> are
-                    // specified as the "item" and are nested under an <li>. There
-                    // seems to be styling issues and occassionally an error thrown.
-                    // The page transition work around below is used to maintian the semantic structure,
-                    // while allowing the menu to behave as normal.
-                    select: function( event, ui ) {
-                        var location = ui.item.children("a").attr("href");
-                        if (location) {
-                            window.location.href = location;
-                        }
-                    }
-                });
-            </script>
         </div> <!-- end container -->
 
     </body>
