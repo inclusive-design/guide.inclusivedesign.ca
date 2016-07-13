@@ -94,7 +94,6 @@ activitiesColor = #ee3f23;
 }
 
 .docs-template-header {
-    margin-bottom: 2rem;
 
     a {
         display:inline-flex;
@@ -102,7 +101,7 @@ activitiesColor = #ee3f23;
     }
 
     h1 {
-        padding: 0 1.8rem;
+        padding: 0 1rem;
     }
 }
 
@@ -180,6 +179,13 @@ a:hover .docs-inclusive-design-guides-logo {
 .docs-inclusive-design-guides-icon {
     width: 1rem;
     height: auto;
+}
+
+.docs-inclusive-design-guides-iconPrinciples svg,
+.docs-inclusive-design-guides-iconPractices svg,
+.docs-inclusive-design-guides-iconTools svg,
+.docs-inclusive-design-guides-iconActivities svg {
+    width: 1rem;
 }
 
 .docs-inclusive-design-guides-iconPrinciples svg {
@@ -262,7 +268,8 @@ setNavTab(inputColor) {
 
     svg {
         fill: #fff;
-        margin-right: 0.2rem;
+        margin-right: 0.5rem;
+        width: 1.2rem;
     }
 
     .docs-inclusive-design-guides-navPrinciples {
@@ -349,6 +356,14 @@ setActiveCategory(inputColor) {
 .docs-inclusive-design-guides .docs-template-header .show-for-small-only a {
     padding: 0;
 }
+
+/* Styles specific to small screens. Using Foundation 5 value for small screen width */
+@media only screen and (max-width: 40em) {
+    .docs-template-articleBody h1 {
+        font-size: 1.7rem;
+    }
+}
+
 
 /* General list styling for topics sidebar */
 .docs-template-topics li a {
