@@ -119,7 +119,7 @@ activitiesColor = #ee3f23;
     }
 }
 
-.docs-inclusive-design-guides-logo {
+.idg-logo {
     width: 3rem;
     height: auto;
     margin: 0.2rem 0.2rem 0 0.5rem;
@@ -129,14 +129,14 @@ activitiesColor = #ee3f23;
     }
 }
 
-a:hover .docs-inclusive-design-guides-logo {
+a:hover .idg-logo {
     path,
     circle {
         fill: logo-hover-color;
     }
 }
 
-.docs-inclusive-design-guides-index {
+.idg-index {
     &.docs-core-sidebar-expanded .docs-template-articleBody {
         // Hack to prevent Sidebar expanded/ collapsed styles from affecting width on index
         width: 90%;
@@ -150,8 +150,8 @@ a:hover .docs-inclusive-design-guides-logo {
         color: #000;
     }
 
-    .docs-inclusive-design-guides-highlight-section,
-    #docs-inclusive-design-guides-index-icon-list {
+    .idg-highlight-section,
+    #idg-index-icon-list {
         background-color: #fff;
         padding: 1.5rem;
         margin: 2rem 0;
@@ -167,37 +167,37 @@ a:hover .docs-inclusive-design-guides-logo {
 }
 
 // Image that appears on the Index.
-#guidelines-path {
+#idg-path-image {
     height: auto;
     padding-top: 1rem;
     width: 100%;
 }
 
-.docs-inclusive-design-guides-icon {
+.idg-icon {
     width: 1rem;
     height: auto;
 }
 
-.docs-inclusive-design-guides-iconPrinciples svg,
-.docs-inclusive-design-guides-iconPractices svg,
-.docs-inclusive-design-guides-iconTools svg,
-.docs-inclusive-design-guides-iconActivities svg {
+.idg-iconPrinciples svg,
+.idg-iconPractices svg,
+.idg-iconTools svg,
+.idg-iconActivities svg {
     width: 1rem;
 }
 
-.docs-inclusive-design-guides-iconPrinciples svg {
+.idg-iconPrinciples svg {
     fill: principlesColor;
 }
 
-.docs-inclusive-design-guides-iconPractices svg {
+.idg-iconPractices svg {
     fill: practicesColor;
 }
 
-.docs-inclusive-design-guides-iconTools svg {
+.idg-iconTools svg {
     fill: toolsColor;
 }
 
-.docs-inclusive-design-guides-iconActivities svg {
+.idg-iconActivities svg {
     fill: activitiesColor;
 }
 
@@ -226,7 +226,7 @@ setNavTab(inputColor) {
     }
 }
 
-.docs-inclusive-design-guides-tabs {
+.idg-tabs {
 
     ul {
         display: flex;
@@ -269,25 +269,25 @@ setNavTab(inputColor) {
         width: 1.2rem;
     }
 
-    .docs-inclusive-design-guides-navPrinciples {
+    .idg-navPrinciples {
         setNavTab(principlesColor);
     }
 
-    .docs-inclusive-design-guides-navPractices {
+    .idg-navPractices {
         setNavTab(practicesColor);
     }
 
-    .docs-inclusive-design-guides-navTools {
+    .idg-navTools {
         setNavTab(toolsColor);
     }
 
-    .docs-inclusive-design-guides-navActivities {
+    .idg-navActivities {
         setNavTab(activitiesColor);
     }
 }
 
 setActiveCategory(inputColor) {
-    .docs-inclusive-design-guides-tabs {
+    .idg-tabs {
         border-bottom: 0.8rem solid inputColor;
 
         .docs-template-category-active {
@@ -310,24 +310,24 @@ setActiveCategory(inputColor) {
     }
 }
 
-.docs-inclusive-design-guides-category-Activities {
+.idg-category-Activities {
     setActiveCategory(activitiesColor);
 }
 
-.docs-inclusive-design-guides-category-Principles {
+.idg-category-Principles {
     setActiveCategory(principlesColor);
 }
 
-.docs-inclusive-design-guides-category-Practices {
+.idg-category-Practices {
     setActiveCategory(practicesColor);
 }
 
-.docs-inclusive-design-guides-category-Tools {
+.idg-category-Tools {
     setActiveCategory(toolsColor);
 }
 
 /* Overrides */
-.docs-template-header .docs-inclusive-design-guides-tabs {
+.docs-template-header .idg-tabs {
     padding-bottom: 0;
 
     span:before {
@@ -349,8 +349,8 @@ setActiveCategory(inputColor) {
     display: inline;
 }
 
-.docs-inclusive-design-guides .docs-template-header .show-for-small-only span,
-.docs-inclusive-design-guides .docs-template-header .show-for-small-only a {
+.idg .docs-template-header .show-for-small-only span,
+.idg .docs-template-header .show-for-small-only a {
     padding: 0;
 }
 
@@ -382,30 +382,30 @@ setActiveCategory(inputColor) {
 
 /* remove bullet styling for USE list - category icons are used instead */
 
-.docs-inclusive-design-guides-articleContentUse li {
+.idg-articleContentUse li {
     list-style-type: none;
 }
 
-.docs-inclusive-design-guides-articleContentUseWhyHow li {
+.idg-articleContentUseWhyHow li {
     list-style-type: none;
 }
 
 /* Contrast Themes */
 
 contrast-theme(foregroundColor, backgroundColor) {
-    .docs-inclusive-design-guides-logo {
+    .idg-logo {
         path, circle {
             fill: backgroundColor;
         }
     }
 
-    a:hover .docs-inclusive-design-guides-logo {
+    a:hover .idg-logo {
         path, circle {
             fill: foregroundColor;
         }
     }
 
-    .docs-inclusive-design-guides-tabs {
+    .idg-tabs {
         li {
             border-bottom: none;
         }
@@ -438,7 +438,7 @@ contrast-theme(foregroundColor, backgroundColor) {
         }
     }
 
-    #docs-inclusive-design-guides-index-icon-list svg {
+    #idg-index-icon-list svg {
         fill: foregroundColor;
     }
 

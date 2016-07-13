@@ -22,14 +22,14 @@
         <link rel="stylesheet" type="text/css" href="/lib/infusion/src/framework/preferences/css/Enactors.css" />
         <link rel="stylesheet" type="text/css" href="/lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
         <link rel="stylesheet" type="text/css" href="/lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
-        <link rel="stylesheet" href="/css/docs-inclusive-design-guides.css">
+        <link rel="stylesheet" href="/css/idg.css">
 
         <script type="text/javascript" src="/lib/infusion/infusion-uio.js"></script>
         <script type="text/javascript" src="/js/DocsCore.js"></script>
         <script type="text/javascript" src="/lib/jqueryui/jquery-ui.min.js"></script>
     </head>
 
-    <body class="docs-template docs-inclusive-design-guides-index">
+    <body class="docs-template idg-index">
 
         <div class="container docs-template-container">
 
@@ -58,7 +58,7 @@
 
                 <div class="small-12 column docs-template-header">
                     <a class="" href="/index.html" title="">
-                        <span class="docs-inclusive-design-guides-logo">{{> idrcLogo }}</span>
+                        <span class="idg-logo">{{> idrcLogo }}</span>
                         <h1>Inclusive Design Guide</h1>
                     </a>
 
@@ -70,11 +70,11 @@
                                     {{! Highlight the (active) category the document belongs to. }}
                                     {{#each siteStructure}}
                                         {{#ifEqual category ../document.category}}
-                                            <li class="docs-inclusive-design-guides-nav{{category}} docs-template-category-active">
+                                            <li class="idg-nav{{category}} docs-template-category-active">
                                                 <span aria-label="Currently on Category: {{category}}">{{category}}</span>
                                             </li>
                                         {{else}}
-                                            <li class="docs-inclusive-design-guides-nav{{category}}"><a href="{{categoryHref}}" title="{{category}}">{{category}}</a></li>
+                                            <li class="idg-nav{{category}}"><a href="{{categoryHref}}" title="{{category}}">{{category}}</a></li>
                                         {{/ifEqual}}
                                     {{/each}}
                                 </ul>
@@ -85,14 +85,14 @@
 
                 {{! "Desktop" Menu }}
                 <div class="docs-template-header">
-                    <nav class="docs-inclusive-design-guides-tabs small-12 column show-for-medium-up">
+                    <nav class="idg-tabs small-12 column show-for-medium-up">
                         <ul class="inline-list">
                         {{! Highlight the (active) category the document belongs to. }}
                         {{#each siteStructure}}
                             {{#ifEqual category ../document.category}}
-                                <li class="docs-inclusive-design-guides-nav{{category}} docs-template-category-active"><span aria-label="Currently on Category: {{category}}">{{{getCategoryIcon category}}}{{category}}</span></li>
+                                <li class="idg-nav{{category}} docs-template-category-active"><span aria-label="Currently on Category: {{category}}">{{{getCategoryIcon category}}}{{category}}</span></li>
                             {{else}}
-                                <li class="docs-inclusive-design-guides-nav{{category}}"><a href="{{categoryHref}}" title="{{category}}">{{{getCategoryIcon category}}}{{category}}</a></li>
+                                <li class="idg-nav{{category}}"><a href="{{categoryHref}}" title="{{category}}">{{{getCategoryIcon category}}}{{category}}</a></li>
                             {{/ifEqual}}
                         {{/each}}
                         </ul>

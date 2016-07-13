@@ -1,4 +1,4 @@
-# About docs-inclusive-design-guides
+# About the Inclusive Design Guide
 
 This project contains the content related to the Inclusive Design Guides.
 
@@ -6,7 +6,7 @@ The HTML content is generated with `docpad` and uses the [`docs-template`](https
 
 # Building
 
-1. Get a local copy of the [`Inclusive Design Guides repository`](https://github.com/fluid-project/docs-inclusive-design-guides).
+1. Get a local copy of the [`Inclusive Design Guides repository`](https://github.com/inclusive-design/guides.inclusivedesign.ca).
 
 2. Install DocPad if it isn't already installed:
 ```
@@ -46,6 +46,9 @@ to production, you may need to be working from Master, not a fork.
 
 # Generating a Static version
 To create a static version of the site, run: `docpad generate --env static`. This will generate a version in the `./out/` directory which you can then view locally or upload to a web server.
+
+# Differences with docs-template
+The Inclusive Design Guide uses the `docs-template` project, but uses a slightly different template structure. The `docs-template` uses a single content template `default.html.handlebars`. The Inclusive Design Guide instead refactored that default template into partials located in the `/layouts/partials/` directory.
 
 # License Information
 The docs-template project is licensed under Creative Commons Attribution 3.0 - http://creativecommons.org/licenses/by/3.0/

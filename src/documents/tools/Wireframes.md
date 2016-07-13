@@ -16,7 +16,7 @@ Alongside the visual wireframes, it is best to also consider narratives, long de
 
 ## Combine with
 
-<ul class="docs-inclusive-design-guides-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
+<ul class="idg-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
 <li>![Red square](/images/icon-square.svg) [Usability Testing](/tools/UsabilityTesting.html)</li>
 <li>![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)</li>
 <li>![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)</li>

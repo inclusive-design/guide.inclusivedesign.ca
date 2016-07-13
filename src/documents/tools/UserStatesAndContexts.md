@@ -13,6 +13,6 @@ A user states and context map can be used to demonstrate user needs that are rep
 For more information and examples of User States & Context maps please refer to the following link https://wiki.fluidproject.org/display/fluid/%28Floe%29+User+states+and+contexts
 
 ## Combine with
-<ul class="docs-inclusive-design-guides-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)</li>
+<ul class="idg-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)</li>
 <li>![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)</li></ul>
 

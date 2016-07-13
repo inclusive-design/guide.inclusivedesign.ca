@@ -13,10 +13,10 @@ Individual needs and preferences are complex and defined by much more than a med
 * Write personas and use-cases based on real people and real situations
 
 ## Why
-<ul class="docs-inclusive-design-guides-articleContentUseWhyHow"><li>![Green Circle](/images/icon-circle.svg) [Disability as Mismatch](/principles/DisabilityAsMismatch.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li>![Green Circle](/images/icon-circle.svg) [Disability as Mismatch](/principles/DisabilityAsMismatch.html)</li></ul>
 
 ## How
-<ul class="docs-inclusive-design-guides-articleContentUseWhyHow">
+<ul class="idg-articleContentUseWhyHow">
 <li>![Red square](/images/icon-square.svg) [User States and Contexts](/tools/UserStatesAndContexts.html)</li>
 <li>![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)</li>
 <li>![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)</li></ul>

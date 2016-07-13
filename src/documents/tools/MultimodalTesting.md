@@ -17,6 +17,6 @@ The audio experience of a digital interface can be tested in the very early stag
 
 ## Combine with
 
-<ul class="docs-inclusive-design-guides-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
+<ul class="idg-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
 <li>![Red square](/images/icon-square.svg) [Usability Testing](/tools/UsabilityTesting.html)</li>
 <li>![Red square](/images/icon-square.svg) [Prototyping](/tools/Prototyping.html)</li></ul>

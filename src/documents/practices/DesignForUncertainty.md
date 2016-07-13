@@ -16,11 +16,11 @@ Staying open to new ideas in the design process for as long as possible, getting
 
 
 ## Why
-<ul class="docs-inclusive-design-guides-articleContentUseWhyHow"><li>![Green circle](/images/icon-circle.svg) [Interconnectedness](/principles/Interconnectedness.html)</li>
+<ul class="idg-articleContentUseWhyHow"><li>![Green circle](/images/icon-circle.svg) [Interconnectedness](/principles/Interconnectedness.html)</li>
 <li>![Green circle](/images/icon-circle.svg) [Virtuous Cycles](/principles/VirtuousCycles.html)</li></ul>
 
 ## How
-<ul class="docs-inclusive-design-guides-articleContentUseWhyHow"><li>![Blue diamond](/images/icon-diamond.svg) [Test Frequently](/practices/TestFrequently.html)</li>
+<ul class="idg-articleContentUseWhyHow"><li>![Blue diamond](/images/icon-diamond.svg) [Test Frequently](/practices/TestFrequently.html)</li>
 <li>![Blue diamond](/images/icon-diamond.svg) [Practice Co-design](/practices/PracticeCoDesign.html)</li>
 <li>![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
 <li>![Red square](/images/icon-square.svg) [Usability Testing](/tools/UsabilityTesting.html)</li>
