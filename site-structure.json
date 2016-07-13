@@ -31,7 +31,7 @@
                 [
                     { "pageName": "Collaborate", "href": "/practices/Collaborate.html"},
                     { "pageName": "Practice Co-Design", "href": "/practices/PracticeCoDesign.html"},
-                    { "pageName": "IntegrateAccessibility From the Start", "href": "/practices/IntegrateAccessibilityFromTheStart.html"},
+                    { "pageName": "Integrate Accessibility From the Start", "href": "/practices/IntegrateAccessibilityFromTheStart.html"},
                     { "pageName": "Work Openly", "href": "/practices/WorkOpenly.html"},
                     { "pageName": "Focus On Functional Needs And Preferences", "href": "/practices/FocusOnFunctionalNeedsAndPreferences.html"},
                     { "pageName": "Communicate Multimodally", "href": "/practices/CommunicateMultimodally.html"},
