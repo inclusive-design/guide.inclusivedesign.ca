@@ -34,10 +34,14 @@ enhance the work.
 * Keep track of meeting notes, sketches and research in a wiki or other open repository
 
 ## Why
-<ul class="idg-articleContentUseWhyHow"><li>![Green Circle](/images/icon-circle.svg) [Diverse Participation and Perspectives](/principles/DiverseParticipationAndPerspectives.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow">
+<li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [Diverse Participation and Perspectives](/principles/DiverseParticipationAndPerspectives.html)</li>
+</ul>
 
 ## How
-<ul class="idg-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [Accessible Communication Tools](/tools/AccessibleCommunicationTools.html)</li>
-<li>![Red square](/images/icon-square.svg) [Accessible Design Tools](/tools/AccessibleDesignTools.html)</li>
-<li>![Red square](/images/icon-square.svg) [Accessible Development Tools](/tools/AccessibleDevelopmentTools.html)</li>
-<li>![Red square](/images/icon-square.svg) [Synchronized Design Assets](/tools/SynchronizedDesignAssets.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow">
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Accessible Communication Tools](/tools/AccessibleCommunicationTools.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Accessible Design Tools](/tools/AccessibleDesignTools.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Accessible Development Tools](/tools/AccessibleDevelopmentTools.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Synchronized Design Assets](/tools/SynchronizedDesignAssets.html)</li>
+</ul>

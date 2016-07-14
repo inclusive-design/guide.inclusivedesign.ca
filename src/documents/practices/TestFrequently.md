@@ -17,10 +17,10 @@ Early and frequent usability testing is a critical component of an inclusive and
 * If you don't have access to the end users or you don't have the budget to involve them in the process, look for people who can represent your user group within your company or within your personal or professional network; run quick in-house usability tests to solicit feedback.
 
 ## Why
-<ul class="idg-articleContentUseWhyHow"><li>![Green Circle](/images/icon-circle.svg) [Diverse Participation and Perspectives](/principles/DiverseParticipationAndPerspectives.html)</li>
-<li>![Green Circle](/images/icon-circle.svg) [Integrated Solutions](/principles/IntegratedSolutions.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [Diverse Participation and Perspectives](/principles/DiverseParticipationAndPerspectives.html)</li>
+<li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [Integrated Solutions](/principles/IntegratedSolutions.html)</li></ul>
 
 ## How
-<ul class="idg-articleContentUseWhyHow"><li>![Blue diamond](/images/icon-diamond.svg) [Practice Co-design](/practices/PracticeCoDesign.html)</li>
-<li>![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
-<li>![Red square](/images/icon-square.svg) [Usability Testing](/tools/UsabilityTesting.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li><span role="presentation" class="idg-iconPractices">{{{getCategoryIcon "practices"}}}</span> [Practice Co-design](/practices/PracticeCoDesign.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Usability Testing](/tools/UsabilityTesting.html)</li></ul>

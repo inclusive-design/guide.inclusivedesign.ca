@@ -12,5 +12,14 @@ Define a chain of effects that takes you all the way from the initial Cause to t
 [Card deck: Cause and Effect](/images/Cause&Effect Cards.pdf)
 
 ## Why
-<ul class="idg-articleContentUseWhyHow"><li>![Green circle](/images/icon-circle.svg) [Interconnectedness](/principles/Interconnectedness.html)</li>
-<li>![Green circle](/images/icon-circle.svg) [Virtuous Cycles](/principles/VirtuousCycles.html)</li></ul>
+
+<ul class="idg-articleContentUseWhyHow">
+<li>
+<span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span>
+[Interconnectedness](/principles/Interconnectedness.html)
+</li>
+<li>
+<span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span>
+[Virtuous Cycles](/principles/VirtuousCycles.html)
+</li>
+</ul>

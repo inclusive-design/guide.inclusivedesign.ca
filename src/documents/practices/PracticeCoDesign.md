@@ -17,10 +17,10 @@ In a co-design process, users participate fully in creating the tools, services 
 * Hire designers and others who themselves have a range of diverse needs
 
 ## Why
-<ul class="idg-articleContentUseWhyHow"><li>![Green Circle](/images/icon-circle.svg) [Diverse Participation and Perspectives](/principles/DiverseParticipationAndPerspectives.html)</li>
-<li>![Green Circle](/images/icon-circle.svg) [Integrated Solutions](/principles/IntegratedSolutions.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [Diverse Participation and Perspectives](/principles/DiverseParticipationAndPerspectives.html)</li>
+<li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [Integrated Solutions](/principles/IntegratedSolutions.html)</li></ul>
 
 ## How
-<ul class="idg-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [Accessible Communication Tools](/tools/AccessibleCommunicationTools.html)</li>
-<li>![Red square](/images/icon-square.svg) [Accessible Design Tools](/tools/AccessibleDesignTools.html)</li>
-<li>![Red square](/images/icon-square.svg) [Accessible Development Tools](/tools/AccessibleDevelopmentTools.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Accessible Communication Tools](/tools/AccessibleCommunicationTools.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Accessible Design Tools](/tools/AccessibleDesignTools.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Accessible Development Tools](/tools/AccessibleDevelopmentTools.html)</li></ul>

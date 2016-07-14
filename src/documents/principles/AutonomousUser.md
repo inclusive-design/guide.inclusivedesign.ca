@@ -16,6 +16,6 @@ Consider moments of increased self-awareness in your life when a preference, lik
 ## Use
 <ul class="idg-articleContentUse">
     <li>
-        ![Blue diamond](/images/icon-diamond.svg) [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)
+        <span role="presentation" class="idg-iconPractices">{{{getCategoryIcon "practices"}}}</span> [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)
     </li>
 </ul>

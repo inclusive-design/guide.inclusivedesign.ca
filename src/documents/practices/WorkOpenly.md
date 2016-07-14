@@ -32,10 +32,10 @@ resulting in a virtuous cycle of inclusion.
 * Post meeting minutes, design artifacts, and other information in an accessible and open location, and alert the community to new postings
 
 ## Why
-<ul class="idg-articleContentUseWhyHow"><li>![Green Circle](/images/icon-circle.svg) [Diverse Participation and Perspectives](/principles/DiverseParticipationAndPerspectives.html)</li>
-<li>![Green circle](/images/icon-circle.svg) [Virtuous Cycles](/principles/VirtuousCycles.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [Diverse Participation and Perspectives](/principles/DiverseParticipationAndPerspectives.html)</li>
+<li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [Virtuous Cycles](/principles/VirtuousCycles.html)</li></ul>
 
 ## How
-<ul class="idg-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [Accessible Communication Tools](/tools/AccessibleCommunicationTools.html)</li>
-<li>![Red square](/images/icon-square.svg) [Accessible Design Tools](/tools/AccessibleDesignTools.html)</li>
-<li>![Red square](/images/icon-square.svg) [Accessible Development Tools](/tools/AccessibleDevelopmentTools.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Accessible Communication Tools](/tools/AccessibleCommunicationTools.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Accessible Design Tools](/tools/AccessibleDesignTools.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Accessible Development Tools](/tools/AccessibleDevelopmentTools.html)</li></ul>

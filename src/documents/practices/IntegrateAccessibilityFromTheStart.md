@@ -16,9 +16,9 @@ As designers, developers and others active in the design process, it is importan
 * Test your designs early and often with a broad range of users
 
 ## Why
-<ul class="idg-articleContentUseWhyHow"><li>![Green Circle](/images/icon-circle.svg) [Integrated Solutions](/principles/IntegratedSolutions.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [Integrated Solutions](/principles/IntegratedSolutions.html)</li></ul>
 
 ## How
-<ul class="idg-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)</li>
-<li>![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)</li>
-<li>![Red square](/images/icon-square.svg) [Usability Testing](/tools/UsabilityTesting.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Personas](/tools/Personas.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Use-Cases](/tools/UseCases.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Usability Testing](/tools/UsabilityTesting.html)</li></ul>

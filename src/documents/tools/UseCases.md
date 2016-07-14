@@ -17,5 +17,5 @@ In an Inclusive design process it is important to include edge cases. These are 
 
 ## Combine with
 
-<ul class="idg-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)</li>
-<li>![Red square](/images/icon-square.svg) [User States and Contexts](/tools/UserStatesAndContexts.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Personas](/tools/Personas.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [User States and Contexts](/tools/UserStatesAndContexts.html)</li></ul>

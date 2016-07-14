@@ -22,13 +22,13 @@ Record three examples of an experience of mismatch that you’ve had, no matter 
 <div class="idg-articleContentUse">
     <ul>
         <li>
-            ![Blue diamond](/images/icon-diamond.svg) [Focus on Functional Needs and Preferences](/practices/FocusOnFunctionalNeedsAndPreferences.html)
+            <span role="presentation" class="idg-iconPractices">{{{getCategoryIcon "practices"}}}</span> [Focus on Functional Needs and Preferences](/practices/FocusOnFunctionalNeedsAndPreferences.html)
         </li>
         <li>
-            ![Blue diamond](/images/icon-diamond.svg) [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)
+            <span role="presentation" class="idg-iconPractices">{{{getCategoryIcon "practices"}}}</span> [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)
         </li>
         <li>
-            ![Red square](/images/icon-square.svg) [User States and Contexts](/tools/UserStatesAndContexts.html)
+            <span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [User States and Contexts](/tools/UserStatesAndContexts.html)
         </li>
     </ul>
 </div>

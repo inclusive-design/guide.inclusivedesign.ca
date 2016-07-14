@@ -26,5 +26,5 @@ succeed, keeping in mind the principles, practices
 and tools of inclusive design.
 
 ## Why
-<ul class="idg-articleContentUseWhyHow"><li>![Green circle](/images/icon-circle.svg) [One-Size-Fits-One](/principles/OneSizeFitsOne.html)</li>
-<li>![Green circle](/images/icon-circle.svg) [Disability as Mismatch](/principles/DisabilityAsMismatch.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [One-Size-Fits-One](/principles/OneSizeFitsOne.html)</li>
+<li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [Disability as Mismatch](/principles/DisabilityAsMismatch.html)</li></ul>

@@ -16,14 +16,14 @@ Staying open to new ideas in the design process for as long as possible, getting
 
 
 ## Why
-<ul class="idg-articleContentUseWhyHow"><li>![Green circle](/images/icon-circle.svg) [Interconnectedness](/principles/Interconnectedness.html)</li>
-<li>![Green circle](/images/icon-circle.svg) [Virtuous Cycles](/principles/VirtuousCycles.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [Interconnectedness](/principles/Interconnectedness.html)</li>
+<li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [Virtuous Cycles](/principles/VirtuousCycles.html)</li></ul>
 
 ## How
-<ul class="idg-articleContentUseWhyHow"><li>![Blue diamond](/images/icon-diamond.svg) [Test Frequently](/practices/TestFrequently.html)</li>
-<li>![Blue diamond](/images/icon-diamond.svg) [Practice Co-design](/practices/PracticeCoDesign.html)</li>
-<li>![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
-<li>![Red square](/images/icon-square.svg) [Usability Testing](/tools/UsabilityTesting.html)</li>
-<li>![Red square](/images/icon-square.svg) [Prototyping](/tools/Prototyping.html)</li>
-<li>![Red square](/images/icon-square.svg) [Personas](/tools/Personas.html)</li>
-<li>![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li><span role="presentation" class="idg-iconPractices">{{{getCategoryIcon "practices"}}}</span> [Test Frequently](/practices/TestFrequently.html)</li>
+<li><span role="presentation" class="idg-iconPractices">{{{getCategoryIcon "practices"}}}</span> [Practice Co-design](/practices/PracticeCoDesign.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Usability Testing](/tools/UsabilityTesting.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Prototyping](/tools/Prototyping.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Personas](/tools/Personas.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Use-Cases](/tools/UseCases.html)</li></ul>

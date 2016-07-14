@@ -18,7 +18,7 @@ Integration is often avoided and is left to the end users. This approach can lea
 Think of one of your latest projects. List all the users or user-groups that it intends to serve. Now take some time to consider and list other possible and unexpected users who could benefit from this project. Then list the common needs that exist between diverse users or user-groups, which are being met by your design. Consider how your project leverages the curb-cut effect, and/or what changes to your design might allow it to do so.
 
 ## Use
-<ul class="idg-articleContentUse"><li>![Blue diamond](/images/icon-diamond.svg) [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)</li>
-<li>![Blue diamond](/images/icon-diamond.svg) [Practice Co-design](/practices/PracticeCoDesign.html)</li>
-<li>![Blue diamond](/images/icon-diamond.svg) [Integrate Accessibility from the Start](/practices/IntegrateAccessibilityFromTheStart.html)</li>
-<li>![Blue diamond](/images/icon-diamond.svg) [Test Frequently](/practices/TestFrequently.html)</li></ul>
+<ul class="idg-articleContentUse"><li><span role="presentation" class="idg-iconPractices">{{{getCategoryIcon "practices"}}}</span> [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)</li>
+<li><span role="presentation" class="idg-iconPractices">{{{getCategoryIcon "practices"}}}</span> [Practice Co-design](/practices/PracticeCoDesign.html)</li>
+<li><span role="presentation" class="idg-iconPractices">{{{getCategoryIcon "practices"}}}</span> [Integrate Accessibility from the Start](/practices/IntegrateAccessibilityFromTheStart.html)</li>
+<li><span role="presentation" class="idg-iconPractices">{{{getCategoryIcon "practices"}}}</span> [Test Frequently](/practices/TestFrequently.html)</li></ul>

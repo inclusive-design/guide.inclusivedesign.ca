@@ -15,15 +15,15 @@ Adaptable and flexible products and services sustain the design process by activ
 * Provide features and channels for user feedback
 
 ## Why
-<ul class="idg-articleContentUseWhyHow"><li>![Green circle](/images/icon-circle.svg) [Disability as Mismatch](/principles/DisabilityAsMismatch.html)</li>
-<li>![Green circle](/images/icon-circle.svg) [One-Size-Fits-One](/principles/OneSizeFitsOne.html)</li>
-<li>![Green circle](/images/icon-circle.svg) [Autonomous User](/principles/AutonomousUser.html)</li>
-<li>![Green circle](/images/icon-circle.svg) [User-Continued Design](/principles/UserContinuedDesign.html)</li>
-<li>![Green circle](/images/icon-circle.svg) [Integrated Solutions](/principles/IntegratedSolutions.html)</li>
-<li>![Green circle](/images/icon-circle.svg) [Interconnectedness](/principles/Interconnectedness.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [Disability as Mismatch](/principles/DisabilityAsMismatch.html)</li>
+<li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [One-Size-Fits-One](/principles/OneSizeFitsOne.html)</li>
+<li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [Autonomous User](/principles/AutonomousUser.html)</li>
+<li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [User-Continued Design](/principles/UserContinuedDesign.html)</li>
+<li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [Integrated Solutions](/principles/IntegratedSolutions.html)</li>
+<li><span role="presentation" class="idg-iconPrinciples">{{{getCategoryIcon "principles"}}}</span> [Interconnectedness](/principles/Interconnectedness.html)</li></ul>
 
 
 ## How
-<ul class="idg-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [Infusion](/tools/Infusion.html)</li>
-<li>![Red square](/images/icon-square.svg) [Metadata Authoring](/tools/MetadataAuthoring.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Infusion](/tools/Infusion.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Metadata Authoring](/tools/MetadataAuthoring.html)</li></ul>
 

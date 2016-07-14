@@ -17,6 +17,6 @@ When paired with the other tools, particularly User States and Contexts and UX W
  
 ## Combine with
 
-<ul class="idg-articleContentUseWhyHow"><li>![Red square](/images/icon-square.svg) [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
-<li>![Red square](/images/icon-square.svg) [User States & Contexts](/tools/UserStatesAndContexts.html)</li>
-<li>![Red square](/images/icon-square.svg) [Use-Cases](/tools/UseCases.html)</li></ul>
+<ul class="idg-articleContentUseWhyHow"><li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [UX Walkthroughs](/tools/UXWalkthroughs.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [User States & Contexts](/tools/UserStatesAndContexts.html)</li>
+<li><span role="presentation" class="idg-iconTools">{{{getCategoryIcon "Tools"}}}</span> [Use-Cases](/tools/UseCases.html)</li></ul>
