@@ -2,6 +2,7 @@
     {
         "category": "Principles",
         "categoryHref":"/principles/",
+        "defaultPage": "DiverseParticipationAndPerspectives.html",
         "sections":
         [
             {
@@ -23,6 +24,7 @@
     {
         "category": "Practices",
         "categoryHref": "/practices/",
+        "defaultPage": "Collaborate.html",
         "sections":
         [
             {
@@ -46,6 +48,7 @@
     {
         "category": "Tools",
         "categoryHref": "/tools/",
+        "defaultPage": "UXWalkthroughs.html",
         "sections":
         [
             {
@@ -66,7 +69,7 @@
                     { "pageName": "Multimodal Testing", "href": "/tools/MultimodalTesting.html" },
                     { "pageName": "Synchronized Design Assets", "href": "/tools/SynchronizedDesignAssets.html" },
                     { "pageName": "Infusion", "href": "/tools/Infusion.html" },
-                    { "pageName": "Metadata Authoring", "href": "/tools/MetadataAuthoring.html" } 
+                    { "pageName": "Metadata Authoring", "href": "/tools/MetadataAuthoring.html" }
                 ]
             }
         ]
@@ -74,6 +77,7 @@
     {
         "category": "Activities",
         "categoryHref": "/activities/",
+        "defaultPage": "MatchingGame.html",
         "sections":
         [
             {
