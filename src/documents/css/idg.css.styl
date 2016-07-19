@@ -425,8 +425,6 @@ contrast-theme(foregroundColor, backgroundColor) {
     }
 
     .docs-template-category-active {
-        border-left: 0.3rem solid foregroundColor;
-
         span {
             border-color: backgroundColor !important;
             background-color: backgroundColor !important;
@@ -435,6 +433,7 @@ contrast-theme(foregroundColor, backgroundColor) {
         }
         svg {
             fill: foregroundColor;
+            background-color: backgroundColor !important;
         }
     }
 
