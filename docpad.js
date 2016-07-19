@@ -11,7 +11,7 @@ https://github.com/fluid-project/infusion/raw/master/Infusion-LICENSE.txt
 
 // This project's repository on GitHub. Used to build URLs for "Edit on GitHub" links
 // Change this value to match your site.
-var githubDocRoot = "https://github.com/inclusive-design/guides.inclusivedesign.ca/tree/master/src/documents/";
+var githubDocRoot = "https://github.com/inclusive-design/guide.inclusivedesign.ca/tree/master/src/documents/";
 
 var path = require("path");
 var fs = require("fs");
