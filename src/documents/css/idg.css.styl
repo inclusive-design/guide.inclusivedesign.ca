@@ -425,17 +425,23 @@ contrast-theme(foregroundColor, backgroundColor) {
     }
 
     .docs-template-category-active {
+        
         span {
             border-color: backgroundColor !important;
             background-color: backgroundColor !important;
             color: foregroundColor !important;
             border-bottom: 0.2rem solid backgroundColor !important;
         }
+        
         svg {
             fill: foregroundColor;
             background-color: backgroundColor !important;
         }
     }
+    
+    .docs-template-topics-active {
+          border-left: 0.3rem solid foregroundColor; 
+        }
 
     .idg-iconPractices svg,
     .idg-iconPrinciples svg,
