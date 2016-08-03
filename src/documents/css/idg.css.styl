@@ -139,7 +139,7 @@ a:hover .idg-logo {
 .idg-index {
     &.docs-core-sidebar-expanded .docs-template-articleBody {
         // Hack to prevent Sidebar expanded/ collapsed styles from affecting width on index
-        width: 90%;
+        width: 100%;
     }
 
     .docs-template-articleBody {
@@ -355,11 +355,44 @@ setActiveCategory(inputColor) {
 
 /* Styles specific to small screens. Using Foundation 5 value for small screen width */
 @media only screen and (max-width: 40em) {
-    .docs-template-articleBody h1 {
-        font-size: 1.7rem;
+
+    * {
+        word-wrap: break-word;
+    }
+
+    .docs-template-articleBody {
+        h1 {
+            font-size: 1.3rem;
+        }
+    }
+
+    .idg-index .docs-template-articleBody {
+
+        &, .idg-highlight-section {
+            padding: 0;
+        }
+
+        ul {
+            margin:0;
+        }
+
+        figure {
+            margin: 1.5rem;
+        }
+
+        figcaption {
+            padding: 0.2rem;
+        }
+    }
+
+    .docs-core-sidebar-expanded .docs-template-topics-container {
+        padding: 0;
+    }
+
+    .fl-link-enhanced .docs-template-topics-hideShow {
+        min-width: 14rem;
     }
 }
-
 
 /* General list styling for topics sidebar */
 .docs-template-topics li a {
