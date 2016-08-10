@@ -85,6 +85,7 @@
                 "pages":
                 [
                     { "pageName": "Matching Game", "href": "/activities/MatchingGame.html" },
+                    { "pageName": "Inclusive Design Mapping", "href": "/activities/InclusiveDesignMapping.html" },
                     { "pageName": "Cause and Effect", "href": "/activities/CauseAndEffect.html" }
                 ]
             }
