@@ -139,7 +139,7 @@ a:hover .idg-logo {
 .idg-index {
     &.docs-core-sidebar-expanded .docs-template-articleBody {
         // Hack to prevent Sidebar expanded/ collapsed styles from affecting width on index
-        width: 90%;
+        width: 100%;
     }
 
     .docs-template-articleBody {
@@ -245,18 +245,12 @@ setNavTab(inputColor) {
         min-width: 10rem;
         border-top-right-radius:0.8rem;
         border-top-left-radius: 0.8rem;
-        transition: none;
         display:flex;
         align-items:center;
     }
 
-    a {
-        transition: background-color margin-top border-bottom 0.2s ease;
-    }
-
     a:hover {
         background-color: #fff;
-        transition: all 0.2s ease;
         margin-top: -0.4rem;
         border-bottom-width: 0.4rem;
         border-bottom-style: solid;
@@ -355,11 +349,46 @@ setActiveCategory(inputColor) {
 
 /* Styles specific to small screens. Using Foundation 5 value for small screen width */
 @media only screen and (max-width: 40em) {
-    .docs-template-articleBody h1 {
-        font-size: 1.7rem;
+
+    .docs-template-articleBody {
+        h1 {
+            font-size: 1.3rem;
+            word-wrap: break-word;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+        }
+    }
+
+    .idg-index .docs-template-articleBody {
+
+        &, .idg-highlight-section {
+            padding: 0;
+        }
+
+        ul {
+            margin:0;
+        }
+
+        figure {
+            margin: 1.5rem;
+        }
+
+        figcaption {
+            padding: 0.2rem;
+        }
+    }
+
+    .docs-core-sidebar-expanded .docs-template-topics-container {
+        padding: 0;
+        word-wrap: break-word;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+    }
+
+    .fl-link-enhanced .docs-template-topics-hideShow {
+        min-width: 14rem;
     }
 }
-
 
 /* General list styling for topics sidebar */
 .docs-template-topics li a {

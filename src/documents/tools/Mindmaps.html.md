@@ -8,9 +8,7 @@ Mindmaps are visual diagrams used for organizing often complex information relat
 
 Creating a mindmap is one way to dig deeper into the more complex layers of how a product or system might work. It can be used to explore different options, and/or to present a bigger picture of a complex system. In this way it enables designers or developers to better contextualize a specific topic, concept or system.
 
-To create an effective mindmap, start with the central concept or initial state. Next, list all the related sub-topics. Repeat this process for lower levels of topics and continue as needed. Then begin to map out the connections between the items you have listed. These connections may cross over multiple levels of the hierarchy.
-
-Although mindmaps are traditionally visual tools, they can be created and presented in ways that are accessible to non-visual users. For example, they can be created using digital tools that are compatible with screen readers, such as Google Draw. Or they can be presented to an audience with an accompanying text description that includes a step-by-step description of the flow of information.
+Note: Although mindmaps are traditionally visual tools, they can be created and presented in ways that are accessible to non-visual users. For example, they can be created using digital tools that are compatible with screen readers, such as Google Draw. Or they can be presented to an audience with an accompanying text description that includes a step-by-step description of the flow of information.
   
 ## Try
 
@@ -18,5 +16,3 @@ Although mindmaps are traditionally visual tools, they can be created and presen
 2. List all the related sub-topics
 3. Repeat this process for lower levels of topics and continue as needed
 4. Begin to map out the connections between the items you have listed. These connections may cross over multiple levels of the hierarchy.
-
-Note: Although mindmaps are traditionally visual tools, they can be created and presented in ways that are accessible to non-visual users. For example, they can be created using digital tools that are compatible with screen readers, such as Google Draw. Or they can be presented to an audience with an accompanying text description that includes a step-by-step description of the ow of information.
