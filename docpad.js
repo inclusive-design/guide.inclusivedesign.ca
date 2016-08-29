@@ -69,6 +69,7 @@ module.exports = {
                 principlesIcon: fs.readFileSync(staticImagesDir + '/' + 'icon-circle.svg', 'utf8'),
                 practicesIcon: fs.readFileSync(staticImagesDir + '/' + 'icon-diamond.svg', 'utf8'),
                 toolsIcon: fs.readFileSync(staticImagesDir + '/' + 'icon-square.svg', 'utf8'),
+                dimensionsIcon: fs.readFileSync(staticImagesDir + '/' + 'icon-dimension.svg', 'utf8'),
                 idrcLogo: fs.readFileSync(staticImagesDir + '/' + 'idrc-logo.svg', 'utf8')
             }
         },

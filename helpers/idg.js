@@ -23,6 +23,8 @@ module.exports.helpers.getCategoryIcon = function (category) {
             return (fs.readFileSync("src/static/images/icon-square.svg", 'utf8'));
         case ("activities"):
             return (fs.readFileSync("src/static/images/icon-hexagon.svg", 'utf8'));
+        case ("dimensions"):
+            return (fs.readFileSync("src/static/images/icon-dimension.svg", 'utf8'));
         default:
             return;
     }
