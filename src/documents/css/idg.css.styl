@@ -81,7 +81,7 @@ table-border-color = #e7e7e7;
 uio-topics-background = #efefef;
 
 /* Colours for categories */
-principlesColor = #008b82;
+insightsColor = #008b82;
 practicesColor = #0e75ba;
 toolsColor = #c02b56;
 activitiesColor = #ee3f23;
@@ -178,7 +178,7 @@ a:hover .idg-logo {
     height: auto;
 }
 
-.idg-iconPrinciples svg,
+.idg-iconInsights svg,
 .idg-iconPractices svg,
 .idg-iconTools svg,
 .idg-iconActivities svg,
@@ -193,8 +193,8 @@ a:hover .idg-logo {
     vertical-align: middle;
 }
 
-.idg-iconPrinciples svg {
-    fill: principlesColor;
+.idg-iconInsights svg {
+    fill: insightsColor;
 }
 
 .idg-iconPractices svg {
@@ -271,8 +271,8 @@ setNavTab(inputColor) {
         height: 1.2rem; // width and height required for IE11.
     }
 
-    .idg-navPrinciples {
-        setNavTab(principlesColor);
+    .idg-navInsights {
+        setNavTab(insightsColor);
     }
 
     .idg-navPractices {
@@ -316,8 +316,8 @@ setActiveCategory(inputColor) {
     setActiveCategory(activitiesColor);
 }
 
-.idg-category-Principles {
-    setActiveCategory(principlesColor);
+.idg-category-Insights {
+    setActiveCategory(insightsColor);
 }
 
 .idg-category-Practices {
@@ -481,7 +481,7 @@ contrast-theme(foregroundColor, backgroundColor) {
         }
 
     .idg-iconPractices svg,
-    .idg-iconPrinciples svg,
+    .idg-iconInsights svg,
     .idg-iconTools svg,
     .idg-iconActivities svg {
         fill: foregroundColor;
