@@ -150,8 +150,7 @@ a:hover .idg-logo {
         color: #000;
     }
 
-    .idg-highlight-section,
-    #idg-index-icon-list {
+    .idg-highlight-section {
         background-color: #fff;
         padding: 1.5rem;
         margin: 2rem 0;
@@ -159,19 +158,15 @@ a:hover .idg-logo {
         display:flex;
         align-items:center;
     }
+    
+    #idg-index-dimensions-list {
+        padding-top: 3rem;
+    }
 
     ul {
         list-style: none;
         list-style-position: inside;
     }
-}
-
-#idg-index-dimensions-list {
-    background-color: #FFF;
-    width: 100%;
-    padding: 3rem 1.5rem 1.5rem 1.5rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
 }
 
 // Image that appears on the Index.
@@ -495,13 +490,18 @@ contrast-theme(foregroundColor, backgroundColor) {
     .idg-iconPractices svg,
     .idg-iconInsights svg,
     .idg-iconTools svg,
-    .idg-iconActivities svg {
+    .idg-iconActivities svg,
+    .idg-iconDimensionsIndex svg {
         fill: foregroundColor;
     }
 
     #idg-path-image path {
         stroke: foregroundColor;
         fill: backgroundColor;
+    }
+    
+    .idg-highlight-section {
+        border: 0.2rem solid foregroundColor;
     }
 }
 
