@@ -15,7 +15,7 @@ module.exports.helpers = {};
 
 module.exports.helpers.getCategoryIcon = function (category) {
     switch (category.toLowerCase()) {
-        case ("principles"):
+        case ("insights"):
             return (fs.readFileSync("src/static/images/icon-circle.svg", 'utf8'));
         case ("practices"):
             return (fs.readFileSync("src/static/images/icon-diamond.svg", 'utf8'));
@@ -23,6 +23,8 @@ module.exports.helpers.getCategoryIcon = function (category) {
             return (fs.readFileSync("src/static/images/icon-square.svg", 'utf8'));
         case ("activities"):
             return (fs.readFileSync("src/static/images/icon-hexagon.svg", 'utf8'));
+        case ("dimensions"):
+            return (fs.readFileSync("src/static/images/icon-dimension.svg", 'utf8'));
         default:
             return;
     }

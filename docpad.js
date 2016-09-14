@@ -46,10 +46,19 @@ module.exports = {
     plugins: {
         redirector: {
             redirects: {
-                "/principles/":"/principles/DiverseParticipationAndPerspectives.html",
+                "/insights/":"/insights/DiverseParticipationAndPerspectives.html",
                 "/practices/":"/practices/Collaborate.html",
                 "/tools/":"/tools/UXWalkthroughs.html",
-                "/activities/":"/activities/MatchingGame.html"
+                "/activities/":"/activities/MatchingGame.html",
+                "/principles/":"/insights/",
+                "/principles/DiverseParticipationAndPerspectives.html": "/insights/DiverseParticipationAndPerspectives.html",
+                "/principles/AutonomousUser.html": "/insights/AutonomousUser.html",
+                "/principles/DisabilityAsMismatch.html": "/insights/DisabilityAsMismatch.html",
+                "/principles/IntegratedSolutions.html": "/insights/IntegratedSolutions.html",
+                "/principles/Interconnectedness.html": "/insights/Interconnectedness.html",
+                "/principles/OneSizeFitsOne.html": "/insights/OneSizeFitsOne.html",
+                "/principles/UserContinuedDesign.html": "/insights/UserContinuedDesign.html",
+                "/principles/VirtuousCycles.html": "/insights/VirtuousCycles.html"         
             }
         },
         handlebars: {
@@ -65,10 +74,6 @@ module.exports = {
                 header: fs.readFileSync(partialsDir + '/' + 'header.html.handlebars', 'utf8'),
                 footer: fs.readFileSync(partialsDir + '/' + 'footer.html.handlebars', 'utf8'),
                 sidebar: fs.readFileSync(partialsDir + '/' + 'sidebar.html.handlebars', 'utf8'),
-                activitiesIcon: fs.readFileSync(staticImagesDir + '/' + 'icon-hexagon.svg', 'utf8'),
-                principlesIcon: fs.readFileSync(staticImagesDir + '/' + 'icon-circle.svg', 'utf8'),
-                practicesIcon: fs.readFileSync(staticImagesDir + '/' + 'icon-diamond.svg', 'utf8'),
-                toolsIcon: fs.readFileSync(staticImagesDir + '/' + 'icon-square.svg', 'utf8'),
                 idrcLogo: fs.readFileSync(staticImagesDir + '/' + 'idrc-logo.svg', 'utf8')
             }
         },

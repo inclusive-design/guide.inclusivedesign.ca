@@ -81,7 +81,7 @@ table-border-color = #e7e7e7;
 uio-topics-background = #efefef;
 
 /* Colours for categories */
-principlesColor = #008b82;
+insightsColor = #008b82;
 practicesColor = #0e75ba;
 toolsColor = #c02b56;
 activitiesColor = #ee3f23;
@@ -150,14 +150,17 @@ a:hover .idg-logo {
         color: #000;
     }
 
-    .idg-highlight-section,
-    #idg-index-icon-list {
+    .idg-highlight-section {
         background-color: #fff;
         padding: 1.5rem;
         margin: 2rem 0;
         border-radius: 0.2rem;
         display:flex;
         align-items:center;
+    }
+    
+    #idg-index-dimensions-list {
+        padding-top: 3rem;
     }
 
     ul {
@@ -178,7 +181,7 @@ a:hover .idg-logo {
     height: auto;
 }
 
-.idg-iconPrinciples svg,
+.idg-iconInsights svg,
 .idg-iconPractices svg,
 .idg-iconTools svg,
 .idg-iconActivities svg {
@@ -186,8 +189,19 @@ a:hover .idg-logo {
     height: 1rem; //width and height required by IE11.
 }
 
-.idg-iconPrinciples svg {
-    fill: principlesColor;
+.idg-iconDimensions svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.idg-iconDimensionsIndex svg {
+    width: 3.5rem;
+    height: 3.5rem;
+    vertical-align: middle;
+}
+
+.idg-iconInsights svg {
+    fill: insightsColor;
 }
 
 .idg-iconPractices svg {
@@ -264,8 +278,8 @@ setNavTab(inputColor) {
         height: 1.2rem; // width and height required for IE11.
     }
 
-    .idg-navPrinciples {
-        setNavTab(principlesColor);
+    .idg-navInsights {
+        setNavTab(insightsColor);
     }
 
     .idg-navPractices {
@@ -309,8 +323,8 @@ setActiveCategory(inputColor) {
     setActiveCategory(activitiesColor);
 }
 
-.idg-category-Principles {
-    setActiveCategory(principlesColor);
+.idg-category-Insights {
+    setActiveCategory(insightsColor);
 }
 
 .idg-category-Practices {
@@ -474,15 +488,20 @@ contrast-theme(foregroundColor, backgroundColor) {
         }
 
     .idg-iconPractices svg,
-    .idg-iconPrinciples svg,
+    .idg-iconInsights svg,
     .idg-iconTools svg,
-    .idg-iconActivities svg {
+    .idg-iconActivities svg,
+    .idg-iconDimensionsIndex svg {
         fill: foregroundColor;
     }
 
     #idg-path-image path {
         stroke: foregroundColor;
         fill: backgroundColor;
+    }
+    
+    .idg-highlight-section {
+        border: 0.2rem solid foregroundColor;
     }
 }
 

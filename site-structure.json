@@ -1,7 +1,7 @@
 [
     {
-        "category": "Principles",
-        "categoryHref":"/principles/",
+        "category": "Insights",
+        "categoryHref":"/insights/",
         "defaultPage": "DiverseParticipationAndPerspectives.html",
         "sections":
         [
@@ -9,14 +9,14 @@
                 "sectionName": "",
                 "pages":
                 [
-                    { "pageName": "Diverse Participation and Perspectives", "href": "/principles/DiverseParticipationAndPerspectives.html" },
-                    { "pageName": "One-Size-Fits-One", "href": "/principles/OneSizeFitsOne.html" },
-                    { "pageName": "Integrated Solutions", "href": "/principles/IntegratedSolutions.html" },
-                    { "pageName": "Interconnectedness", "href": "/principles/Interconnectedness.html" },
-                    { "pageName": "Disability As Mismatch", "href": "/principles/DisabilityAsMismatch.html" },
-                    { "pageName": "Virtuous Cycles", "href": "/principles/VirtuousCycles.html" },
-                    { "pageName": "Autonomous User", "href": "/principles/AutonomousUser.html" },
-                    { "pageName": "User-Continued Design", "href": "/principles/UserContinuedDesign.html" }
+                    { "pageName": "Diverse Participation and Perspectives", "href": "/insights/DiverseParticipationAndPerspectives.html" },
+                    { "pageName": "One-Size-Fits-One", "href": "/insights/OneSizeFitsOne.html" },
+                    { "pageName": "Integrated Solutions", "href": "/insights/IntegratedSolutions.html" },
+                    { "pageName": "Interconnectedness", "href": "/insights/Interconnectedness.html" },
+                    { "pageName": "Disability As Mismatch", "href": "/insights/DisabilityAsMismatch.html" },
+                    { "pageName": "Virtuous Cycles", "href": "/insights/VirtuousCycles.html" },
+                    { "pageName": "Autonomous User", "href": "/insights/AutonomousUser.html" },
+                    { "pageName": "User-Continued Design", "href": "/insights/UserContinuedDesign.html" }
                 ]
             }
         ]
