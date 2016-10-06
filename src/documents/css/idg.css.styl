@@ -81,7 +81,7 @@ table-border-color = #e7e7e7;
 uio-topics-background = #efefef;
 
 /* Colours for categories */
-principlesColor = #008b82;
+insightsColor = #008b82;
 practicesColor = #0e75ba;
 toolsColor = #c02b56;
 activitiesColor = #ee3f23;
@@ -139,7 +139,7 @@ a:hover .idg-logo {
 .idg-index {
     &.docs-core-sidebar-expanded .docs-template-articleBody {
         // Hack to prevent Sidebar expanded/ collapsed styles from affecting width on index
-        width: 90%;
+        width: 100%;
     }
 
     .docs-template-articleBody {
@@ -150,14 +150,17 @@ a:hover .idg-logo {
         color: #000;
     }
 
-    .idg-highlight-section,
-    #idg-index-icon-list {
+    .idg-highlight-section {
         background-color: #fff;
         padding: 1.5rem;
         margin: 2rem 0;
         border-radius: 0.2rem;
         display:flex;
         align-items:center;
+    }
+    
+    #idg-index-dimensions-list {
+        padding-top: 3rem;
     }
 
     ul {
@@ -178,15 +181,27 @@ a:hover .idg-logo {
     height: auto;
 }
 
-.idg-iconPrinciples svg,
+.idg-iconInsights svg,
 .idg-iconPractices svg,
 .idg-iconTools svg,
 .idg-iconActivities svg {
     width: 1rem;
+    height: 1rem; //width and height required by IE11.
 }
 
-.idg-iconPrinciples svg {
-    fill: principlesColor;
+.idg-iconDimensions svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.idg-iconDimensionsIndex svg {
+    width: 3.5rem;
+    height: 3.5rem;
+    vertical-align: middle;
+}
+
+.idg-iconInsights svg {
+    fill: insightsColor;
 }
 
 .idg-iconPractices svg {
@@ -227,7 +242,6 @@ setNavTab(inputColor) {
 }
 
 .idg-tabs {
-
     ul {
         display: flex;
         flex-wrap: wrap;
@@ -246,18 +260,12 @@ setNavTab(inputColor) {
         min-width: 10rem;
         border-top-right-radius:0.8rem;
         border-top-left-radius: 0.8rem;
-        transition: none;
         display:flex;
         align-items:center;
     }
 
-    a {
-        transition: background-color margin-top border-bottom 0.2s ease;
-    }
-
     a:hover {
         background-color: #fff;
-        transition: all 0.2s ease;
         margin-top: -0.4rem;
         border-bottom-width: 0.4rem;
         border-bottom-style: solid;
@@ -267,10 +275,11 @@ setNavTab(inputColor) {
         fill: #fff;
         margin-right: 0.5rem;
         width: 1.2rem;
+        height: 1.2rem; // width and height required for IE11.
     }
 
-    .idg-navPrinciples {
-        setNavTab(principlesColor);
+    .idg-navInsights {
+        setNavTab(insightsColor);
     }
 
     .idg-navPractices {
@@ -314,8 +323,8 @@ setActiveCategory(inputColor) {
     setActiveCategory(activitiesColor);
 }
 
-.idg-category-Principles {
-    setActiveCategory(principlesColor);
+.idg-category-Insights {
+    setActiveCategory(insightsColor);
 }
 
 .idg-category-Practices {
@@ -356,11 +365,46 @@ setActiveCategory(inputColor) {
 
 /* Styles specific to small screens. Using Foundation 5 value for small screen width */
 @media only screen and (max-width: 40em) {
-    .docs-template-articleBody h1 {
-        font-size: 1.7rem;
+
+    .docs-template-articleBody {
+        h1 {
+            font-size: 1.3rem;
+            word-wrap: break-word;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+        }
+    }
+
+    .idg-index .docs-template-articleBody {
+
+        &, .idg-highlight-section {
+            padding: 0;
+        }
+
+        ul {
+            margin:0;
+        }
+
+        figure {
+            margin: 1.5rem;
+        }
+
+        figcaption {
+            padding: 0.2rem;
+        }
+    }
+
+    .docs-core-sidebar-expanded .docs-template-topics-container {
+        padding: 0;
+        word-wrap: break-word;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+    }
+
+    .fl-link-enhanced .docs-template-topics-hideShow {
+        min-width: 14rem;
     }
 }
-
 
 /* General list styling for topics sidebar */
 .docs-template-topics li a {
@@ -425,7 +469,6 @@ contrast-theme(foregroundColor, backgroundColor) {
     }
 
     .docs-template-category-active {
-        border-left: 0.3rem solid foregroundColor;
 
         span {
             border-color: backgroundColor !important;
@@ -433,21 +476,32 @@ contrast-theme(foregroundColor, backgroundColor) {
             color: foregroundColor !important;
             border-bottom: 0.2rem solid backgroundColor !important;
         }
+
         svg {
             fill: foregroundColor;
+            background-color: backgroundColor !important;
         }
     }
 
+    .docs-template-topics-active {
+          border-left: 0.3rem solid foregroundColor;
+        }
+
     .idg-iconPractices svg,
-    .idg-iconPrinciples svg,
+    .idg-iconInsights svg,
     .idg-iconTools svg,
-    .idg-iconActivities svg {
+    .idg-iconActivities svg,
+    .idg-iconDimensionsIndex svg {
         fill: foregroundColor;
     }
 
-    #guidelines-path path {
+    #idg-path-image path {
         stroke: foregroundColor;
         fill: backgroundColor;
+    }
+    
+    .idg-highlight-section {
+        border: 0.2rem solid foregroundColor;
     }
 }
 
