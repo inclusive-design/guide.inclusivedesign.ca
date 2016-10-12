@@ -158,7 +158,7 @@ a:hover .idg-logo {
         display:flex;
         align-items:center;
     }
-    
+
     #idg-index-dimensions-list {
         padding-top: 3rem;
     }
@@ -434,6 +434,21 @@ setActiveCategory(inputColor) {
     list-style-type: none;
 }
 
+/* Footer logos */
+footer svg {
+    width: 10rem;
+    height: 10rem; // Height required by IE11.
+    fill: #fff;
+    stroke: header-footer-background;
+}
+
+/* Special styling for P4All logo */
+svg #tree,
+svg #prosperity {
+    stroke: header-footer-background;
+    fill: header-footer-background;
+}
+
 /* Contrast Themes */
 
 contrast-theme(foregroundColor, backgroundColor) {
@@ -499,9 +514,20 @@ contrast-theme(foregroundColor, backgroundColor) {
         stroke: foregroundColor;
         fill: backgroundColor;
     }
-    
+
     .idg-highlight-section {
         border: 0.2rem solid foregroundColor;
+    }
+
+    footer svg {
+        stroke: foregroundColor;
+        fill: backgroundColor;
+    }
+
+    /* Special styling for P4All logo */
+    svg #prosperity, svg #tree {
+        stroke: backgroundColor;
+        fill: foregroundColor;
     }
 }
 
