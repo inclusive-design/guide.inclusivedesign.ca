@@ -436,15 +436,15 @@ setActiveCategory(inputColor) {
 
 /* Footer logos */
 footer svg {
-    width: 10rem;
-    height: 10rem; // Height required by IE11.
+    width: 6rem;
+    height: 7rem;
     fill: #fff;
     stroke: header-footer-background;
 }
 
-/* Special styling for P4All logo */
-svg #tree,
-svg #prosperity {
+/* Special styling for P4A Logo. The Tree and the "Propserity" text should
+appear inverted in order to look proper. */
+#tree, #prosperity {
     stroke: header-footer-background;
     fill: header-footer-background;
 }
@@ -506,10 +506,14 @@ contrast-theme(foregroundColor, backgroundColor) {
     .idg-iconInsights svg,
     .idg-iconTools svg,
     .idg-iconActivities svg,
-    .idg-iconDimensionsIndex svg {
+    .idg-iconDimensionsIndex svg,
+    #prosperity,
+    #tree {
         fill: foregroundColor;
+        stroke: backgroundColor;
     }
 
+    footer svg,
     #idg-path-image path {
         stroke: foregroundColor;
         fill: backgroundColor;
@@ -517,17 +521,6 @@ contrast-theme(foregroundColor, backgroundColor) {
 
     .idg-highlight-section {
         border: 0.2rem solid foregroundColor;
-    }
-
-    footer svg {
-        stroke: foregroundColor;
-        fill: backgroundColor;
-    }
-
-    /* Special styling for P4All logo */
-    svg #prosperity, svg #tree {
-        stroke: backgroundColor;
-        fill: foregroundColor;
     }
 }
 
