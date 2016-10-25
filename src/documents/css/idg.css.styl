@@ -435,6 +435,7 @@ setActiveCategory(inputColor) {
 }
 
 /* Footer logos */
+
 footer svg {
     width: 6rem;
     height: 7rem;
@@ -442,20 +443,69 @@ footer svg {
     stroke: header-footer-background;   
 }   
 
+/* remove hover and focus from the anchors (override template), apply to svgs only */
+a:hover.footer-logo-links { 
+    background: none; 
+}
+
+footer a:hover svg {
+    fill: header-footer-background;
+    background-color: #FFF;
+}
+
+a:focus.footer-logo-links {
+    outline: 0;
+}
+
+footer a:focus svg {
+    outline: header-footer-focus;
+}
+
+/* remove default link underline from svg logos */
 a.footer-logo-links {
     text-decoration: none;
 } 
 
-/* Special styling for P4A Logo. The Tree and the "Prosperity" text should
+/* Special styling for P4A Logo. The tree and "Prosperity" text should
 appear inverted in order to look proper. */
 #tree, #prosperity {
     stroke: header-footer-background;
     fill: header-footer-background;
 }
 
+a:hover #tree, a:hover #prosperity {
+    stroke: header-footer-background;
+    fill: #fff;
+}
+
 /* Contrast Themes */
 
 contrast-theme(foregroundColor, backgroundColor) {
+  
+/* remove hover and focus from the anchors (override template), apply to svgs only */  
+    a:hover.footer-logo-links {
+        background: none !important;
+    }
+    
+    a:focus.footer-logo-links {
+        outline: 0 !important;
+    }
+    
+    footer a:hover svg {
+        fill: foregroundColor;
+    }
+    
+    footer a:focus svg {
+        outline: 0.2rem solid backgroundColor;
+    }
+    
+/* Special styling for P4A Logo. The tree and "Prosperity" text should 
+appear inverted in order to look proper. */    
+    a:hover #tree, a:hover #prosperity {
+        stroke: foregroundColor;
+        fill: backgroundColor;
+    }
+    
     .idg-logo {
         path, circle {
             fill: backgroundColor;
