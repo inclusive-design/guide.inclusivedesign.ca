@@ -52,13 +52,14 @@ module.exports = {
                 "/activities/":"/activities/MatchingGame.html",
                 "/principles/":"/insights/",
                 "/principles/DiverseParticipationAndPerspectives.html": "/insights/DiverseParticipationAndPerspectives.html",
-                "/principles/AutonomousUser.html": "/insights/AutonomousUser.html",
+                "/principles/AutonomousUser.html": "/insights/PersonalDiscovery.html",
                 "/principles/DisabilityAsMismatch.html": "/insights/DisabilityAsMismatch.html",
                 "/principles/IntegratedSolutions.html": "/insights/IntegratedSolutions.html",
                 "/principles/Interconnectedness.html": "/insights/Interconnectedness.html",
                 "/principles/OneSizeFitsOne.html": "/insights/OneSizeFitsOne.html",
                 "/principles/UserContinuedDesign.html": "/insights/UserContinuedDesign.html",
-                "/principles/VirtuousCycles.html": "/insights/VirtuousCycles.html"
+                "/principles/VirtuousCycles.html": "/insights/VirtuousCycles.html",
+                "/insights/AutonomousUser.html": "/insights/PersonalDiscovery.html"
             }
         },
         handlebars: {
