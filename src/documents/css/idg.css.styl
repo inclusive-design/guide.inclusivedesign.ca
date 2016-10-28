@@ -407,21 +407,23 @@ setActiveCategory(inputColor) {
 }
 
 /* General list styling for topics sidebar */
-.docs-template-topics li a {
-    display: inline-block;
-    width: 100%;
-    padding-left: 1rem;
+.docs-template-topics {
+    li a {
+        display: inline-block;
+        width: 100%;
+        padding-left: 1rem;
+    }
+    
+    a:hover {
+        background: #000;
+        color: #fff;
+    }
 }
 
 .docs-template-topics-active {
     display: inline-block;
     width: 100%;
     padding-left: 1rem;
-}
-
-.docs-template-topics a:hover {
-    background: #000;
-    color: #fff;
 }
 
 /* remove bullet styling for USE list - category icons are used instead */
@@ -446,19 +448,17 @@ setActiveCategory(inputColor) {
 /* remove hover and focus from the anchors (override template), apply to svgs only */
 a:hover.footer-logo-links { 
     background: none; 
-}
-
-a:hover.footer-logo-links svg {
-    fill: header-footer-background;
-    background-color: #FFF;
+    svg {
+        fill: header-footer-background;
+        background-color: #FFF;
+    }
 }
 
 a:focus.footer-logo-links {
     outline: 0;
-}
-
-a:focus.footer-logo-links svg {
-    outline: header-footer-focus;
+    svg {
+        outline: header-footer-focus;
+    }
 }
 
 /* remove default link underline from svg logos */
@@ -485,18 +485,16 @@ contrast-theme(foregroundColor, backgroundColor) {
 /* remove hover and focus from the anchors (override template), apply to svgs only */  
     a:hover.footer-logo-links {
         background: none !important;
+        svg {
+            fill: foregroundColor;
+        }
     }
     
     a:focus.footer-logo-links {
         outline: 0 !important;
-    }
-    
-    a:hover.footer-logo-links svg {
-        fill: foregroundColor;
-    }
-    
-    footer a:focus svg {
-        outline: 0.2rem solid backgroundColor;
+        svg {
+            outline: 0.2rem solid backgroundColor;
+        }
     }
     
 /* Special styling for P4A Logo. The tree and "Prosperity" text should 
@@ -567,7 +565,7 @@ appear inverted in order to look proper. */
         stroke: backgroundColor;
     }
 
-    footer svg,
+    .footer-logo-links svg,
     #idg-path-image path {
         stroke: foregroundColor;
         fill: backgroundColor;
