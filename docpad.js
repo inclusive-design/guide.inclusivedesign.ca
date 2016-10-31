@@ -58,8 +58,7 @@ module.exports = {
                 "/principles/Interconnectedness.html": "/insights/Interconnectedness.html",
                 "/principles/OneSizeFitsOne.html": "/insights/OneSizeFitsOne.html",
                 "/principles/UserContinuedDesign.html": "/insights/UserContinuedDesign.html",
-                "/principles/VirtuousCycles.html": "/insights/VirtuousCycles.html",
-                "/insights/AutonomousUser.html": "/insights/PersonalDiscovery.html"         
+                "/principles/VirtuousCycles.html": "/insights/VirtuousCycles.html"      
             }
         },
         handlebars: {
