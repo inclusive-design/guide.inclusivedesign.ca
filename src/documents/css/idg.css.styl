@@ -142,6 +142,15 @@ a:hover .idg-logo {
         width: 100%;
     }
 
+    .idg-print-link {
+        width: 100%;
+        a {
+            float: right;
+            margin-top: 1rem;
+            margin-right: 1rem;
+        }
+    }
+
     .docs-template-articleBody {
         padding-top: 2rem;
     }
@@ -155,9 +164,13 @@ a:hover .idg-logo {
         padding: 1.5rem;
         margin: 2rem 0;
         border-radius: 0.2rem;
-        display:flex;
-        align-items:center;
+
+        figure {
+            margin: 0;
+        }
     }
+
+
 
     #idg-index-dimensions-list {
         padding-top: 3rem;
@@ -377,16 +390,10 @@ setActiveCategory(inputColor) {
 
     .idg-index .docs-template-articleBody {
 
-        &, .idg-highlight-section {
-            padding: 0;
-        }
+        padding: 0;
 
         ul {
             margin:0;
-        }
-
-        figure {
-            margin: 1.5rem;
         }
 
         figcaption {
@@ -413,7 +420,7 @@ setActiveCategory(inputColor) {
         width: 100%;
         padding-left: 1rem;
     }
-    
+
     a:hover {
         background: #000;
         color: #fff;
@@ -442,12 +449,12 @@ setActiveCategory(inputColor) {
     width: 6rem;
     height: 7rem;
     fill: #fff;
-    stroke: header-footer-background;   
-}   
+    stroke: header-footer-background;
+}
 
 /* remove hover and focus from the anchors (override template), apply to svgs only */
-a:hover.footer-logo-links { 
-    background: none; 
+a:hover.footer-logo-links {
+    background: none;
     svg {
         fill: header-footer-background;
         background-color: #FFF;
@@ -464,7 +471,7 @@ a:focus.footer-logo-links {
 /* remove default link underline from svg logos */
 a.footer-logo-links {
     text-decoration: none;
-} 
+}
 
 /* Special styling for P4A Logo. The tree and "Prosperity" text should
 appear inverted in order to look proper. */
@@ -481,29 +488,29 @@ a:hover #tree, a:hover #prosperity {
 /* Contrast Themes */
 
 contrast-theme(foregroundColor, backgroundColor) {
-  
-/* remove hover and focus from the anchors (override template), apply to svgs only */  
+
+/* remove hover and focus from the anchors (override template), apply to svgs only */
     a:hover.footer-logo-links {
         background: none !important;
         svg {
             fill: foregroundColor;
         }
     }
-    
+
     a:focus.footer-logo-links {
         outline: 0 !important;
         svg {
             outline: 0.2rem solid backgroundColor;
         }
     }
-    
-/* Special styling for P4A Logo. The tree and "Prosperity" text should 
-appear inverted in order to look proper. */    
+
+/* Special styling for P4A Logo. The tree and "Prosperity" text should
+appear inverted in order to look proper. */
     a:hover #tree, a:hover #prosperity {
         stroke: foregroundColor;
         fill: backgroundColor;
     }
-    
+
     .idg-logo {
         path, circle {
             fill: backgroundColor;
@@ -585,7 +592,7 @@ appear inverted in order to look proper. */
             text-decoration: none !important;
         }
 }
-    
+
 .fl-theme-bw {
     contrast-theme(#000, #fff);
 }
