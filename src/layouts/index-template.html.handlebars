@@ -9,13 +9,17 @@
 
             {{> header }}
 
+            <div class="idg-print-link">
+                <a href="{{{getRelativeUrl '/print/all.html' document.url}}}">Print the Guide (experimental)</a>
+            </div>
+
+
             <div class="docs-template-articleBody row">
 
                 <article id="content" class="small-12 column">
                     <h1>{{document.title}}</h1>
 
                     <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
-
                     <div class="docs-template-articleContent">
                         {{{rewriteMdLinks content}}}
                     </div>

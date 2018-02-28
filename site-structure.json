@@ -15,7 +15,7 @@
                     { "pageName": "Interconnectedness", "href": "/insights/Interconnectedness.html" },
                     { "pageName": "Disability As Mismatch", "href": "/insights/DisabilityAsMismatch.html" },
                     { "pageName": "Virtuous Cycles", "href": "/insights/VirtuousCycles.html" },
-                    { "pageName": "Autonomous User", "href": "/insights/AutonomousUser.html" },
+                    { "pageName": "Personal Discovery", "href": "/insights/PersonalDiscovery.html" },
                     { "pageName": "User-Continued Design", "href": "/insights/UserContinuedDesign.html" }
                 ]
             }
@@ -40,7 +40,8 @@
                     { "pageName": "Test Frequently", "href": "/practices/TestFrequently.html"},
                     { "pageName": "Facilitate Inclusively", "href": "/practices/FacilitateInclusively.html"},
                     { "pageName": "Design For Adaptability and Flexibility", "href": "/practices/DesignForAdaptabilityAndFlexibility.html"},
-                    { "pageName": "Design For Uncertainty", "href": "/practices/DesignForUncertainty.html"}
+                    { "pageName": "Design For Uncertainty", "href": "/practices/DesignForUncertainty.html"},
+                    { "pageName": "Design For Privacy", "href": "/practices/DesignForPrivacy.html"}
                 ]
             }
         ]
@@ -86,7 +87,8 @@
                 [
                     { "pageName": "Matching Game", "href": "/activities/MatchingGame.html" },
                     { "pageName": "Inclusive Design Mapping", "href": "/activities/InclusiveDesignMapping.html" },
-                    { "pageName": "Cause and Effect", "href": "/activities/CauseAndEffect.html" }
+                    { "pageName": "Cause and Effect", "href": "/activities/CauseAndEffect.html" },
+                    { "pageName": "Toddler-Grandparent Conversation", "href": "/activities/ToddlerGrandparentConversation.html" }
                 ]
             }
 
