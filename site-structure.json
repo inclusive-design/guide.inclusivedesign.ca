@@ -89,11 +89,11 @@
                     { "pageName": "Inclusive Design Mapping", "href": "/activities/InclusiveDesignMapping.html" },
                     { "pageName": "Cause and Effect", "href": "/activities/CauseAndEffect.html" },
                     { "pageName": "Toddler-Grandparent Conversation", "href": "/activities/ToddlerGrandparentConversation.html" },
-                    { "pageName": "Virtuous Tornado", "href": "/activities/VirtuousTornado.html" },
+                    { "pageName": "Virtuous Tornado", "href": "/activities/VirtuousTornado.html" }, 
+                    { "pageName": "Web of Strings", "href": "/activities/WebOfStrings.html" },
                     { "pageName": "Functional Mashup", "href": "/activities/FunctionalMashup.html"}
                 ]
             }
-
         ]
     }
 ]
