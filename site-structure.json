@@ -92,7 +92,8 @@
                     { "pageName": "Virtuous Tornado", "href": "/activities/VirtuousTornado.html" },
                     { "pageName": "Collaborative Art Warmup", "href": "/activities/CollaborativeArtWarmup.html" },
                     { "pageName": "Web of Strings", "href": "/activities/WebOfStrings.html" },
-                    { "pageName": "Functional Mashup", "href": "/activities/FunctionalMashup.html"}
+                    { "pageName": "Functional Mashup", "href": "/activities/FunctionalMashup.html"},
+                    { "pageName": "Create-a-Thon", "href": "/activities/Create-a-Thon.html"}
                 ]
             }
         ]
