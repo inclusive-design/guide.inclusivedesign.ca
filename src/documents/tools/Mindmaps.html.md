@@ -14,7 +14,7 @@ Note: Although mindmaps are traditionally visual tools, they can be created and 
   
 ## Try
 
-1. Start with the central concept or initial state.
-2. List all the related sub-topics
-3. Repeat this process for lower levels of topics and continue as needed
-4. Begin to map out the connections between the items you have listed. These connections may cross over multiple levels of the hierarchy.
+1. Starting with the central concept or initial state.
+2. Listing all the related sub-topics
+3. Repeating this process for lower levels of topics and continue as needed
+4. Beginning to map out the connections between the items you have listed. These connections may cross over multiple levels of the hierarchy.

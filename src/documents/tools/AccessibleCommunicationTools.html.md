@@ -12,10 +12,10 @@ Accessible communication tools can help to build open communication channels and
 
 ## Try
 
-* Post relevant and timely content on an open wiki
-* Use email lists and open channels or chat rooms to discuss issues
-* Conduct meetings with audio/video conferencing
-* Post events on an open, shared calendar
-* Use open repositories to share designs and code
-* Conduct open and regular community design and development critiques
-* Participate in daily update meetings to share concerns, issues, items of interest
+* Posting relevant and timely content on an open wiki
+* Using email lists and open channels or chat rooms to discuss issues
+* Conducting meetings with audio/video conferencing
+* Posting events on an open, shared calendar
+* Using open repositories to share designs and code
+* Conducting open and regular community design and development critiques
+* Participating in daily update meetings to share concerns, issues, items of interest

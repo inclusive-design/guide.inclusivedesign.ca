@@ -10,6 +10,6 @@ The main purpose of creating synchronized design assets is to provide the commun
 
 ## Try
 
-1. Store the latest version of a file on a cloud based sharing system, such as Dropbox.
-2. Provide a link to this file on a wiki page that is available to all members of your community. **Note**: The advantage of linking the file from a wiki page rather than sharing it directly via email, chat or other means is that people can leave comments and feedback about the design artifact in question, and a record of that discussion persists. In addition, it provides the community with a common location where they can access the latest version of a file. 
-3. Notify your team or the larger community of your posting via email.
+1. Storing the latest version of a file on a cloud based sharing system, such as Dropbox.
+2. Providing a link to this file on a wiki page that is available to all members of your community. **Note**: The advantage of linking the file from a wiki page rather than sharing it directly via email, chat or other means is that people can leave comments and feedback about the design artifact in question, and a record of that discussion persists. In addition, it provides the community with a common location where they can access the latest version of a file. 
+3. Notifying your team or the larger community of your posting via email.

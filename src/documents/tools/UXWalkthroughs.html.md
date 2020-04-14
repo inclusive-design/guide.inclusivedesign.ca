@@ -11,12 +11,12 @@ The UX Walkthrough technique is a synthesis of conventional methods (heuristic e
 A UX Walkthrough can be performed by novices as well as experienced evaluators. The result is a comprehensive and multidimensional report of usability and accessibility issues.
 
 ## Try
-1. Choose a user
-2. Specify an explicit user goal
-3. Prepare working software or prototype
-4. Choose an approach (for example, when testing a digital interface include screenreader users, keyboard-only users and users who have difficulty processing text)
-5. Plan both the Heuristic Evaluation and the Cognitive Walkthrough
-6. Perform the walkthrough and record the results
+1. Choosing a user
+2. Specifying an explicit user goal
+3. Preparing working software or prototype
+4. Choosing an approach (for example, when testing a digital interface include screenreader users, keyboard-only users and users who have difficulty processing text)
+5. Planing both the Heuristic Evaluation and the Cognitive Walkthrough
+6. Performing the walkthrough and record the results
 
 Please find more details about performing a UX Walkthrough at the following link: 
 https://wiki.fluidproject.org/display/fluid/User+Experience+Walkthroughs
