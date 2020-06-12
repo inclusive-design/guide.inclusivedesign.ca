@@ -22,6 +22,19 @@ docpad run
 ```
 5. Confirm everything is set up properly by opening `http://localhost:9778/` in a web browser.
 
+# Building Docker image
+
+You can serve the website from a [Docker](https://docs.docker.com/get-docker) container.
+
+Once you have Docker installed, run the following commands to build a Docker image and start a container:
+
+* Build the image: `docker build -t guide .`
+* Run the container: `docker run --name guide -p 8000:80 guide`
+
+The website will be available at [http://localhost:8000](http://localhost:8000)
+
+If you make changes to the website, repeat the steps to build the image and start a new container.
+
 # Modifying Content
 
 If you wish to edit or modify the design guides content, you will find the content located in the `./src/documents/` directory. Each category is located in its own sub-directory.
