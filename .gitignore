@@ -1,6 +1,6 @@
 /node_modules/
 /out/
-package-lock.json
+/dist/
 .DS_Store
 .Trashes
 Thumbs.db

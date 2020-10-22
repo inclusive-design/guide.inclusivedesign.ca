@@ -1,6 +1,7 @@
 .git
 node_modules
 out
+dist
 package-lock.json
 .DS_Store
 .Trashes

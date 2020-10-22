@@ -1,0 +1,4 @@
+{
+    "layout": "default",
+    "permalink": "/practices/{{ page.fileSlug }}.html"
+}
