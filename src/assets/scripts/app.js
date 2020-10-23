@@ -1,1 +1,3 @@
-require('docs-core/src/static/js/DocsCore');
+"use strict";
+
+require("docs-core/src/static/js/DocsCore");

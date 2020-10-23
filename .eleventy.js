@@ -2,50 +2,50 @@
 
 const fs = require("fs");
 const fluidPlugin = require("@fluid-project/eleventy-plugin-fluid");
-const parseTransform = require('./src/transforms/parse-transform.js');
+const parseTransform = require("./src/transforms/parse-transform.js");
 
 module.exports = function (config) {
-	config.setUseGitIgnore(false);
-	
-	// Layouts
-	config.addLayoutAlias('default', 'layouts/default.njk');
+    config.setUseGitIgnore(false);
 
-	// Plugins
-	config.addPlugin(fluidPlugin);
+    // Layouts
+    config.addLayoutAlias("default", "layouts/default.njk");
 
-	// Transforms
-	config.addTransform('parse', parseTransform);
+    // Plugins
+    config.addPlugin(fluidPlugin);
 
-	// Passthrough copy
-	config.addPassthroughCopy({"src/assets/images": "assets/images"});
-	config.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
-	config.addPassthroughCopy({"src/assets/print": "assets/print"});
-	config.addPassthroughCopy({"src/assets/print-branding": "assets/print-branding"});
-	config.addPassthroughCopy({"node_modules/docs-core/src/static/css": "assets/styles"})
-	config.addPassthroughCopy({"node_modules/docs-core/src/static/lib": "lib"})
+    // Transforms
+    config.addTransform("parse", parseTransform);
 
-	// BrowserSync
-	config.setBrowserSyncConfig({
-		callbacks: {
-			ready: (error, browserSync) => {
-				const content404 = fs.readFileSync('dist/404.html');
+    // Passthrough copy
+    config.addPassthroughCopy({"src/assets/images": "assets/images"});
+    config.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
+    config.addPassthroughCopy({"src/assets/print": "assets/print"});
+    config.addPassthroughCopy({"src/assets/print-branding": "assets/print-branding"});
+    config.addPassthroughCopy({"node_modules/docs-core/src/static/css": "assets/styles"});
+    config.addPassthroughCopy({"node_modules/docs-core/src/static/lib": "lib"});
 
-				browserSync.addMiddleware('*', (request, response) => {
-					// Provides the 404 content without redirect.
-					response.write(content404);
-					response.writeHead(404);
-					response.end();
-				});
-			}
-		}
-	});
+    // BrowserSync
+    config.setBrowserSyncConfig({
+        callbacks: {
+            ready: (error, browserSync) => {
+                const content404 = fs.readFileSync("dist/404.html");
 
-	return {
-		dir: {
-		  input: 'src',
-		  output: 'dist'
-		},
-		passthroughFileCopy: true,
-		markdownTemplateEngine: "njk"
+                browserSync.addMiddleware("*", (request, response) => {
+                    // Provides the 404 content without redirect.
+                    response.write(content404);
+                    response.writeHead(404);
+                    response.end();
+                });
+            }
+        }
+    });
+
+    return {
+        dir: {
+		  input: "src",
+		  output: "dist"
+        },
+        passthroughFileCopy: true,
+        markdownTemplateEngine: "njk"
  	};
 };

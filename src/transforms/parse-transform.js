@@ -1,15 +1,17 @@
-const jsdom = require('jsdom');
+"use strict";
+
+const jsdom = require("jsdom");
 const MarkdownIt = require("markdown-it");
 const { JSDOM } = jsdom;
 
 module.exports = (value, outputPath) => {
-	if (outputPath && outputPath.includes('.html')) {
-		const DOM = new JSDOM(value, {
-			resources: 'usable'
-		});
+    if (outputPath && outputPath.includes(".html")) {
+        const DOM = new JSDOM(value, {
+            resources: "usable"
+        });
 
         const document = DOM.window.document;
-        
+
         const md = new MarkdownIt({
             html: true,
             breaks: true,
@@ -17,29 +19,29 @@ module.exports = (value, outputPath) => {
         });
 
         const figures = [
-			...document.querySelectorAll('article figure')
+            ...document.querySelectorAll("article figure")
         ];
 
         const captions = [
-			...document.querySelectorAll('article figcaption')
+            ...document.querySelectorAll("article figcaption")
         ];
 
         const sections = [
-			...document.querySelectorAll('article idg-highlight-section')
+            ...document.querySelectorAll("article idg-highlight-section")
         ];
 
         const h2Elements = [
-            ...document.querySelectorAll('article h2')
+            ...document.querySelectorAll("article h2")
         ];
 
         if (h2Elements.length > 0) {
             h2Elements.forEach(h2 => {
-                if (!h2.nextElementSibling.tagName === 'UL') return;
+                if (!h2.nextElementSibling.tagName === "UL") {return;}
 
-                if (['Try', 'Use'].includes(h2.textContent)) {
-                    h2.nextElementSibling.classList.add('idg-articleContentUse');
-                } else if (['Combine With', 'How', 'Why'].includes(h2.textContent)) {
-                    h2.nextElementSibling.classList.add('idg-articleContentUseWhyHow');
+                if (["Try", "Use"].includes(h2.textContent)) {
+                    h2.nextElementSibling.classList.add("idg-articleContentUse");
+                } else if (["Combine With", "How", "Why"].includes(h2.textContent)) {
+                    h2.nextElementSibling.classList.add("idg-articleContentUseWhyHow");
                 }
             });
         }
@@ -62,8 +64,8 @@ module.exports = (value, outputPath) => {
             });
         }
 
-		return '<!DOCTYPE html>\r\n' + document.documentElement.outerHTML;
-	}
+        return "<!DOCTYPE html>\r\n" + document.documentElement.outerHTML;
+    }
 
-	return value;
+    return value;
 };
