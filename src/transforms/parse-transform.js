@@ -27,10 +27,6 @@ module.exports = (value, outputPath) => {
         const sections = [
 			...document.querySelectorAll('article idg-highlight-section')
         ];
-        
-		const links = [
-			...document.querySelectorAll('article a')
-        ];
 
         const h2Elements = [
             ...document.querySelectorAll('article h2')
@@ -65,19 +61,6 @@ module.exports = (value, outputPath) => {
                 sections.innerHTML = md.render(sections.innerHTML);
             });
         }
-
-		if (links.length > 0) {
-			links.forEach(link => {
-				if (
-					!link.href.startsWith('/') &&
-					!link.href.startsWith('#') &&
-					(!['localhost', 'handbook.floeproject.org'].includes(link.host))
-				) {
-                    link.setAttribute('rel', 'nofollow external');
-                    link.classList.add('link-external');
-				}
-			});
-		}
 
 		return '<!DOCTYPE html>\r\n' + document.documentElement.outerHTML;
 	}
