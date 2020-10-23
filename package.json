@@ -1,10 +1,11 @@
 {
-  "name": "docs-template",
-  "description": "Templates, styles, and sample content for a documentation website.",
-  "version": "0.0.1-SNAPSHOT",
+  "name": "docs-inclusive-design",
+  "description": "Strategies and best practices for inclusive design.",
+  "version": "0.1.0",
   "author": "Fluid Project",
-  "bugs": "http://issues.fluidproject.org/browse/FLUID",
-  "homepage": "http://www.fluidproject.org/",
+  "bugs": "http://github.com/inclusive-design/guide.inclusivedesign.ca/issues",
+  "repository": "http://github.com/inclusive-design/guide.inclusivedesign.ca",
+  "homepage": "https://guide.inclusivedesign.ca",
   "dependencies": {
     "@11ty/eleventy": "0.11.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "3.0.1",
@@ -35,16 +36,7 @@
     "stylus-loader": "3.0.2",
     "vue-template-compiler": "2.6.12"
   },
-  "licenses": [
-    {
-      "type": "BSD-3-Clause",
-      "url": "http://www.opensource.org/licenses/BSD-3-Clause"
-    },
-    {
-      "type": "ECL-2.0",
-      "url": "http://www.opensource.org/licenses/ECL-2.0"
-    }
-  ],
+  "license": "BSD-3-Clause",
   "keywords": [
     "fluid",
     "documentation",
