@@ -1,6 +1,2 @@
-/node_modules/
-/out/
-/dist/
-.DS_Store
-.Trashes
-Thumbs.db
+node_modules
+dist

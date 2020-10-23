@@ -23,6 +23,10 @@ module.exports = (value, outputPath) => {
         const captions = [
 			...document.querySelectorAll('article figcaption')
         ];
+
+        const sections = [
+			...document.querySelectorAll('article idg-highlight-section')
+        ];
         
 		const links = [
 			...document.querySelectorAll('article a')
@@ -53,6 +57,12 @@ module.exports = (value, outputPath) => {
         if (figures.length > 0) {
             figures.forEach(figure => {
                 figure.innerHTML = md.render(figure.innerHTML);
+            });
+        }
+
+        if (sections.length > 0) {
+            sections.forEach(sections => {
+                sections.innerHTML = md.render(sections.innerHTML);
             });
         }
 
