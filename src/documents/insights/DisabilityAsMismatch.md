@@ -1,6 +1,9 @@
 ---
 title: Disability as Mismatch
-category: Insights
+eleventyNavigation:
+    parent: Insights
+    key: Disability as Mismatch
+    order: 5
 ---
 
 The medical model defines disability as a trait; something permanent and limiting. In contrast, an inclusive design approach is one that perceives disability as a mismatch between our needs and the design features of a product, built environment, system or service. This shifts the responsibility to the design, and to the designer, to correct the mismatch. It shifts our perspective such that we understand the mismatch to be solvable through design, which encourages innovation.

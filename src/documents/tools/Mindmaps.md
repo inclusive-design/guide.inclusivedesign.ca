@@ -1,6 +1,9 @@
 ---
 title: Mindmaps
-category: Tools
+eleventyNavigation:
+    parent: Tools
+    key: Mindmaps
+    order: 9
 ---
 
 Mindmaps are visual diagrams used for organizing often complex information related to a specific topic or concept. They help designers, developers or others on the project to think through and reveal the interconnections between different pieces of information. Creating a mindmap can be useful in the early stages of a project to move from a loose narrative or vague concept into a more concrete picture of a system or workflow, prior to making more detailed design decisions about specific functions or interface layout etc.

@@ -1,6 +1,9 @@
 ---
 title: Accessible Communication Tools
-category: Tools
+eleventyNavigation:
+    parent: Tools
+    key: Accessible Communication Tools
+    order: 5
 ---
 
 In an inclusive design process, team members share ideas throughout the design/development process and at different stages of completion in order to solicit feedback from peers and stakeholders on an ongoing basis. This approach contrasts with that of many organizations that follow a waterfall approach, where pre-defined steps in the design and development process are followed in a strict order, requiring the completion of one step before moving to the next. With a waterfall approach members of different teams usually communicate only during the transition periods, when passing specific artifacts on from one step to another (e.g. handing off completed design mockups to developers).

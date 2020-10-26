@@ -1,6 +1,9 @@
 ---
 title: Work Openly
-category: Practices
+eleventyNavigation:
+    parent: Practices
+    key: Work Openly
+    order: 4
 ---
 
 Working transparently makes diverse participation possible,

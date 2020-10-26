@@ -1,6 +1,9 @@
 ---
 title: Virtuous Cycles
-category: Insights
+eleventyNavigation:
+    parent: Insights
+    key: Virtuous Cycles
+    order: 6
 ---
 
 Altering any factor in a complex system can cause an amplified reaction in other systems (e.g. changing the education system in one country can impact the world economy). This reaction can be negative (vicious) or positive (virtuous). The dynamics of connected and entangled global networks means that emerging technical practices have the potential to introduce powerful virtuous cycles of digital inclusion.

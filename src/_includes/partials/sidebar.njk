@@ -1,26 +1,14 @@
+{% set topics = collections.all | eleventyNavigation(category) %}
 <div class="docs-corec-sidebar-bar ignore-for-TOC docs-template-topics-container small-8 medium-3 column">
     <nav id="topics" class="docs-template-topics" tabindex="-1">
-    {% for collection in siteStructure %}
-        {% if collection.category === category %}
-            <!-- Output only the table of contents matching the current document's category -->
-            <h2 class="docs-template-category">{{ collection.category }}</h2>
-            {% for section in collection.sections %}
-                <span class="docs-template-sectionName">
-                    <h4>{{ section.sectionName }}</h4>
-                </span>
-                <ul>
-                    {% for topicPage in section.pages %}
-                        <li>
-                            {% if topicPage.href === page.url %}
-                                <span aria-label="Currently on: {{ topicPage.pageName }}" class="docs-template-topics-active">{{ topicPage.pageName }}</span>
-                            {% else %}
-                                <a href="{{ topicPage.href }}">{{ topicPage.pageName }}</a>
-                            {% endif %}
-                        </li>
-                    {% endfor %}
-                </ul>
+        <!-- Output only the table of contents matching the current document's category -->
+        <h2 class="docs-template-category">{{ category }}</h2>
+        <ul>
+            {% for topic in topics %}
+                <li>
+                    <a href="{{ topic.url }}"{% if topic.url === page.url %}class="docs-template-topics-active" aria-current="page"{% endif %}>{{ topic.key }}</a>
+                </li>
             {% endfor %}
-        {% endif %}
-    {% endfor %}
+        </ul>
     </nav>
 </div>

@@ -1,6 +1,9 @@
 ---
 title: Collaborate
-category: Practices
+eleventyNavigation:
+    parent: Practices
+    key: Collaborate
+    order: 1
 ---
 
 Working together with others toward a shared goal is an

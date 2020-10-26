@@ -1,6 +1,9 @@
 ---
 title: Integrated Solutions
-category: Insights
+eleventyNavigation:
+    parent: Insights
+    key: Integrated Solutions
+    order: 3
 ---
 
 Too often, design solutions that meet the needs of marginalized users, including users with disabilities, are segregated from the mainstream, resulting in unaffordable solutions and isolation of a particular population. For example, in the past, screen reader-accessible websites were created separately from the main site, often providing the user with a less engaging experience.

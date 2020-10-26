@@ -1,6 +1,9 @@
 ---
 title: Metadata Authoring
-category: Tools
+eleventyNavigation:
+    parent: Tools
+    key: Metadata Authoring
+    order: 15
 ---
 Content authors can use metadata to provide information about what needs a learning resource can accommodate. Metadata can be used to describe, among other things: what the technical/environmental requirements are for a given resource (e.g. is a mouse required to interact with the resource?); what sensory modalities are required to perceive the content of the resource (e.g. does the learner need to be able to hear the content?); what learning style the resource accommodates (e.g. is this a highly visual learning resource?).
 

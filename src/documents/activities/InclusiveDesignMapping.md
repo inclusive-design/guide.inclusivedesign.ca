@@ -1,6 +1,9 @@
 ---
 title: Inclusive Design Mapping
-category: Activities
+eleventyNavigation:
+    parent: Activities
+    key: Inclusive Design Mapping
+    order: 2
 ---
 
 This activity is intended to be used in the context of co-design, where a diverse set of co-designers, including people who presently have difficulty using the design, are active participants in the design process. 

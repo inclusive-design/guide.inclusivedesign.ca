@@ -2,6 +2,7 @@
 
 const fs = require("fs");
 const fluidPlugin = require("@fluid-project/eleventy-plugin-fluid");
+const navigationPlugin = require("@11ty/eleventy-navigation");
 const parseTransform = require("./src/transforms/parse-transform.js");
 
 module.exports = function (config) {
@@ -12,6 +13,7 @@ module.exports = function (config) {
 
     // Plugins
     config.addPlugin(fluidPlugin);
+    config.addPlugin(navigationPlugin);
 
     // Transforms
     config.addTransform("parse", parseTransform);

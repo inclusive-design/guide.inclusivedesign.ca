@@ -1,6 +1,9 @@
 ---
 title: Cause and Effect
-category: Activities
+eleventyNavigation:
+    parent: Activities
+    key: Cause and Effect
+    order: 3
 ---
 
 This activity demonstrates the potential to have a broader beneficial impact with our everyday actions. The challenge is to define a possible chain of events that could take you from a specific cause to an effect.

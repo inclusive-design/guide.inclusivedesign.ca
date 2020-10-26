@@ -1,6 +1,9 @@
 ---
 title: Prototyping
-category: Tools
+eleventyNavigation:
+    parent: Tools
+    key: Prototyping
+    order: 11
 ---
 
 Prototyping is an effective way to quickly communicate your ideas with others, solicit feedback, and learn through making and sharing your ideas. Prototypes can be used at different stages of your design and development process. In the early stages, try rough and low fidelity prototypes to test a number of different ideas. Don’t be bogged down with details and don’t try to make them look good. The purpose of these prototypes is to test a number of different ideas to find out whether they have the potential to be taken forward or not. Paper prototypes are good examples of rough and quick prototypes.

@@ -1,6 +1,9 @@
 ---
 title: Test Frequently
-category: Practices
+eleventyNavigation:
+    parent: Practices
+    key: Test Frequently
+    order: 7
 ---
 
 The earlier and more often user feedback can be solicited in the design process, the better. When usability testing is delayed, it becomes more difficult and costly to change the design. Waiting to have a fully functional prototype is not necessary; User Experience (UX) walkthroughs and usability testing can be done with rough prototypes or sketches.

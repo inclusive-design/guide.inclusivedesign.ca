@@ -1,6 +1,9 @@
 ---
 title: Interconnectedness
-category: Insights
+eleventyNavigation:
+    parent: Insights
+    key: Interconnectedness
+    order: 4
 ---
 
 Once we release a solution, it will become part of a larger system. Although we can determine specific functionalities for that solution and define a target user group, we cannot predict and control who will use our solution and how it will be used. Thus, design processes need to take into account the interactions of various systems with complex and unique humans, as well as the external social, cultural, economic and technological forces that exist for each of us.

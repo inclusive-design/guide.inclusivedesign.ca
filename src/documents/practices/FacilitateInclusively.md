@@ -1,6 +1,9 @@
 ---
 title: Facilitate Inclusively
-category: Practices
+eleventyNavigation:
+    parent: Practices
+    key: Facilitate Inclusively
+    order: 8
 ---
 
 When organising or leading a meeting or discussion, encouraging equal participation among members is important to ensure that everyone’s voice is heard. Using or creating a space that is accessible to all is the first step; facilitating participation from everyone present (whether remotely or locally) is the ultimate goal.

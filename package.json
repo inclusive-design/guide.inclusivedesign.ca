@@ -8,6 +8,7 @@
     "homepage": "https://guide.inclusivedesign.ca",
     "dependencies": {
         "@11ty/eleventy": "0.11.1",
+        "@11ty/eleventy-navigation": "0.1.6",
         "@fluid-project/eleventy-plugin-fluid": "github:fluid-project/eleventy-plugin-fluid#ee75b78",
         "docs-core": "fluid-project/docs-core"
     },

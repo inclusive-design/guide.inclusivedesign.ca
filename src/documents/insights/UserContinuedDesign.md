@@ -1,6 +1,9 @@
 ---
 title: User-Continued Design
-category: Insights
+eleventyNavigation:
+    parent: Insights
+    key: User-Continued Design
+    order: 8
 ---
 
 Inclusive design aims to extend the design process into the designed artifact itself, giving users the ability to continue the design process after the product has “shipped”, in order to adapt the design to better meet their needs. For users, design can become a process of undoing, extending, or changing the design to better match their context, needs and preferences. In this way, inclusive design sustains the design process by encouraging user stewardship through actively supporting its own unexpected, creative, and ongoing redesign by users.

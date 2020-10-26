@@ -1,6 +1,9 @@
 ---
 title: Multimodal Testing
-category: Tools
+eleventyNavigation:
+    parent: Tools
+    key: Multimodal Testing
+    order: 12
 ---
 
 When designing and developing a product or service, consider all the different ways that a user might interact with it. For example, in the case of a digital interface, ensure that you integrate features into your product to make it compatible with screen readers, keyboard only users, and single switches. When you are ready, you can test your design in a number of different ways. It is best to run usability tests with participants who have a broad range of needs and experiences.

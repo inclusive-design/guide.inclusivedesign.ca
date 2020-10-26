@@ -1,6 +1,9 @@
 ---
 title: Matching Game
-category: Activities
+eleventyNavigation:
+    parent: Activities
+    key: Matching Game
+    order: 1
 ---
 
 Ask someone to think of and briefly describe someone they know (their age, interests, where they live, etc), then ask someone else to describe a daily task or goal that they typically have. Consider the context or situation in which your persona is carrying out their task or goal (e.g. at home in the morning, or in the car on the highway, etc). Feel free to add any information that might help to describe the situation in more detail. Consider an existing product or service that might help your persona accomplish their goal in the given context.

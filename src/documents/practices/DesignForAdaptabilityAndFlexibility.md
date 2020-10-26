@@ -1,6 +1,9 @@
 ---
 title: Design for Adaptability and Flexibility
-category: Practices
+eleventyNavigation:
+    parent: Practices
+    key: Design for Adaptability and Flexibility
+    order: 9
 ---
 
 Designing for adaptability and flexibility means creating products or services that give the user more control over their experience, whether by including design features that allow for user configurability, or by building products or services that can easily be shared, remixed or repurposed by the user (e.g. building a digital tool using modular components). In addition, designing and building extensibility into products and services means that they can be used for a longer period of time, thus reducing their cost and increasing their reach.

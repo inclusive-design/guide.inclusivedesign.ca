@@ -1,6 +1,9 @@
 ---
 title: Web of Strings
-category: Activities
+eleventyNavigation:
+    parent: Activities
+    key: Web of Strings
+    order: 7
 ---
 
 This exercise is intended to be fun and highly collaborative. To complete the required task, participants must work together and be mindful of each other's needs.

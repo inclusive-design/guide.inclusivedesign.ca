@@ -1,6 +1,9 @@
 ---
 title: Focus on Functional Needs and Preferences
-category: Practices
+eleventyNavigation:
+    parent: Practices
+    key: Focus on Functional Needs and Preferences
+    order: 5
 ---
 
 When designing for users “at the margins”, including those with disabilities, the focus can often be put on the limitations of an individual or group of users, rather than on their functional needs related to completing a task or reaching a goal. Keeping the design focus on meeting a user’s needs puts the responsibility squarely on the features of the product or service to meet those needs - that is, if the users’ needs are not met, it is a failing of the design, rather than of the user (a mismatch). Also, by focusing on needs and preferences, our perspective is broadened to include others who may benefit from the same design features.

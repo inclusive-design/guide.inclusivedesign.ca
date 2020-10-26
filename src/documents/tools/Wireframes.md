@@ -1,6 +1,9 @@
 ---
 title: Wireframes
-category: Tools
+eleventyNavigation:
+    parent: Tools
+    key: Wireframes
+    order: 10
 ---
 
 Wireframes provide a way to develop and present design ideas in the early stages of a project. They can be made up of very rough paper sketches or can be more refined and detailed digital artifacts. In the early stages of designing an interface, they can be used to help plan the layout of the design. They are a good way to focus on the functionality of the design without getting into the details, such as style and colour.

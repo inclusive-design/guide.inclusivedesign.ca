@@ -1,6 +1,9 @@
 ---
 title: Synchronized Design Assets
-category: Tools
+eleventyNavigation:
+    parent: Tools
+    key: Synchronized Design Assets
+    order: 13
 ---
 
 When working collaboratively, designers need a platform that enables them to freely and easily share design artifacts. An ideal tool would allow versioning as well as structured commenting and discussion that is attached to the design artifacts (with associated archiving). The platforms that are currently available to developers, such as Github, are not compatible with most designers’ needs and workflows. Thus, designers have often been left to come up with alternative methods of collaborative file sharing, each with its own benefits and limitations.

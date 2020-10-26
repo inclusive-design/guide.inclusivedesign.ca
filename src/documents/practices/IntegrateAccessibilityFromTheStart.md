@@ -1,6 +1,9 @@
 ---
 title: Integrate Accessibility From the Start
-category: Practices
+eleventyNavigation:
+    parent: Practices
+    key: Integrate Accessibility From the Start
+    order: 3
 ---
 
 By considering accessibility and inclusion from the start of a project, it is much easier to integrate accessibility features into the design of the final product or service. Multiple modes of interaction and access are best considered from the beginning of the process.

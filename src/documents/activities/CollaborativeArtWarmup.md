@@ -1,6 +1,9 @@
 ---
 title: Collaborative Art Warmup
-category: Activities
+eleventyNavigation:
+    parent: Activities
+    key: Collaborative Art Warmup
+    order: 6
 ---
 
 This exercise is intended to be fun and quick. It can be used in meetings, co-design sessions or any other group context to help make participants comfortable in the space and in working collaboratively with each other. It introduces the practice of multi-modal communication and experience.

@@ -1,6 +1,9 @@
 ---
 title: Personal Discovery
-category: Insights
+eleventyNavigation:
+    parent: Insights
+    key: Personal Discovery
+    order: 7
 ---
 
 Allowing for personal discovery of needs and preferences is an important aspect of inclusive design. If an individual has never been exposed to something (e.g. changing settings on a digital device, or alternative learning or teaching methods), it is not enough to ask "what works for you?". That is, if someone is unaware of an available solution, there is no way for that individual to know that it will help them, or to know where to find it or even to be motivated to to seek it out.

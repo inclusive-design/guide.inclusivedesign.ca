@@ -1,6 +1,9 @@
 ---
 title: Usability Testing
-category: Tools
+eleventyNavigation:
+    parent: Tools
+    key: Usability Testing
+    order: 2
 ---
 
 Usability testing, also sometimes referred to as user testing, is a technique for evaluating the usability of a design by working with an actual or potential user of a product or system. At a basic level, a usability test usually involves a facilitator asking a user to complete a series of tasks (which may or may not be predetermined) while observing the interaction, noting any problems the user encounters, suggestions for improvements, and sometimes the amount of time it takes to complete a task. These findings are then fed back into the design and development cycle in order to improve the product or system. This does not mean that every suggestion made during testing should be directly incorporated into the design; rather it is the designer’s responsibility to consolidate and parlay the information into the next stage of the design.

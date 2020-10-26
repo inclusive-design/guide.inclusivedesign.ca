@@ -1,7 +1,11 @@
 ---
 title: Create-a-Thon
-category: Activities
+eleventyNavigation:
+    parent: Activities
+    key: Create-a-Thon
+    order: 9
 ---
+
 A Create-a-Thon (_CaT_) brings together a diverse group of people in order to collaboratively contribute to the design of a system, product or service. The key is to involve a diverse group of participants, including those individuals whose needs aren’t met (who find a product or service impossible or difficult to use), as well as people whose insights are not usually represented because they do not fit into a construct of "typical", "average", or the envisioned "target audience".
 
 <figure>

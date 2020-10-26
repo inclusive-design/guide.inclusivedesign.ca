@@ -34,14 +34,7 @@
             <ul id="menu">
                 <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
                     <ul class="docs-template-dropDown">
-                        <!-- Highlight the (active) category the document belongs to. -->
-                        {% for collection in siteStructure %}
-                            {% if collection.category === category %}
-                                <li class="idg-nav{{ collection.category}} docs-template-category-active"><span aria-label="Currently on Category: {{ collection.category }}">{{ collection.category }}</span></li>
-                            {% else %}
-                                <li class="idg-nav{{ collection.category}}"><a href="{{ collection.categoryHref }}{{ collection.defaultPage }}">{{ collection.category }}</a></li>
-                            {% endif %}
-                        {% endfor %}
+                    {% include 'partials/menu.njk' %}
                    </ul>
                 </li>
             </ul>
@@ -52,14 +45,7 @@
     <div class="docs-template-header">
         <nav class="idg-tabs small-12 column show-for-medium-up">
             <ul class="inline-list">
-            <!-- Highlight the (active) category the document belongs to. -->
-            {% for collection in siteStructure %}
-                {% if collection.category === category %}
-                    <li class="idg-nav{{ collection.category}} docs-template-category-active"><span aria-label="Currently on Category: {{ collection.category }}">{{ collection.category }}</span></li>
-                {% else %}
-                    <li class="idg-nav{{ collection.category}}"><a href="{{ collection.categoryHref }}{{ collection.defaultPage }}" title="{{ collection.category }}">{{ collection.category }}</a></li>
-                {% endif %}
-            {% endfor %}
+            {% include 'partials/menu.njk' %}
             </ul>
         </nav>
     </div>

@@ -1,6 +1,9 @@
 ---
 title: Infusion
-category: Tools
+eleventyNavigation:
+    parent: Tools
+    key: Infusion
+    order: 14
 ---
 
 Infusion is a code framework for building personalizable and adaptive applications using JavaScript and other web technologies. It also includes a growing collection of user interface components, built on top of jQuery, that help make it easier to build user interfaces by mixing and matching accessible components and then customizing them to suit your unique context. Infusion’s components are designed flexibly so that all their default features, styling and parts can be easily changed, replaced and added to.

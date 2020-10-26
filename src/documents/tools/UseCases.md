@@ -1,6 +1,9 @@
 ---
 title: Use-Cases
-category: Tools
+eleventyNavigation:
+    parent: Tools
+    key: Use-Cases
+    order: 8
 ---
 
 Use cases describe particular scenarios in which a user may encounter and use a product or service, providing more detail about specific tasks and goals as well as helping to map out the potential steps in a workflow. User personas and accompanying use cases are not meant to exhaustively describe all potential stakeholders or situations; rather they help to illustrate key goals, the main steps that should be taken towards achieving that goal, and behaviour patterns related to the design in question.

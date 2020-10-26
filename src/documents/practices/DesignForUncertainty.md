@@ -1,6 +1,9 @@
 ---
 title: Design for Uncertainty
-category: Practices
+eleventyNavigation:
+    parent: Practices
+    key: Design for Uncertainty
+    order: 10
 ---
 
 It is impossible to predict the infinite number of creative, serendipitous, and unexpected uses of a product or service. Embracing and encouraging this unpredictability is an important part of the inclusive design process. Although it relies on serendipity and other unknowable factors, unexpected uses can be encouraged by giving the user ways to extend, remix, share, repurpose, and in other ways personalise the “final product”.

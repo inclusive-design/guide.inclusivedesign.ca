@@ -1,6 +1,9 @@
 ---
 title: UX Walkthroughs
-category: Tools
+eleventyNavigation:
+    parent: Tools
+    key: UX Walkthroughs
+    order: 1
 ---
 
 A User Experience (UX) Walkthrough is a technique used to identify usability and accessibility issues in a website or application. It is a procedure for examining a user interface following a set protocol and making assessments based on predetermined criteria. It emphasizes paired or collaborative evaluation of user interfaces by designers and non-designers alike, and serves to bring a diversity of perspectives to bear on the design process.

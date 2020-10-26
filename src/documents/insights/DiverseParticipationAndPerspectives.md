@@ -1,6 +1,9 @@
 ---
 title: Diverse Participation and Perspectives
-category: Insights
+eleventyNavigation:
+    parent: Insights
+    key: Diverse Participation and Perspectives
+    order: 1
 ---
 
 In keeping with the edict “nothing about us without us”, this principle is about inviting a diversity of people with a broad range of needs, preferences, interests and skills into the design process, and in so doing, weakening the distinction between user and designer. Considering inclusion in all aspects and at all stages of the design process requires that our communication methods, group processes and daily interactions are inclusive. This helps to ensure that the products and services that are created will be more inclusive.

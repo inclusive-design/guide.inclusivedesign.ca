@@ -1,6 +1,9 @@
 ---
 title: Accessible Development Tools
-category: Tools
+eleventyNavigation:
+    parent: Tools
+    key: Accessible Development Tools
+    order: 4
 ---
 
 Accessible development tools can be grouped into two different categories:

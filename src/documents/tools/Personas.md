@@ -1,6 +1,9 @@
 ---
 title: Personas
-category: Tools
+eleventyNavigation:
+    parent: Tools
+    key: Personas
+    order: 7
 ---
 
 Personas are models representing potential stakeholders who may use a product or service. Although they are fictional people, their characteristics, needs, goals and motivations are rooted in the insights and feedback collected from various sources including formal or informal interviews/surveys or through familiarity with the needs and interests of self, co-workers, friends or family members. They begin as early, provisional sketches and often evolve through iterations as more information is gathered.

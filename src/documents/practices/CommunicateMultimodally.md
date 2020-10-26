@@ -1,6 +1,9 @@
 ---
 title: Communicate Multimodally
-category: Practices
+eleventyNavigation:
+    parent: Practices
+    key: Communicate Multimodally
+    order: 6
 ---
 
 When sharing design artifacts, giving a presentation, holding a meeting, bringing someone new into a design community or sharing information with that community, it is important to use multiple modes of communication to make it possible for more people to have access to the knowledge and activities of the group. For example, when preparing a slide presentation, consider the accompanying text description of your content so that members of your audience who cannot see the visuals also have a fully nuanced and engaging experience. When holding a meeting, ensure that the space is physically accessible but also how you might include remote participants. When posting shared design artifacts, consider both the accessibility of the artifacts themselves, as well as the forum you are using to display and share them.

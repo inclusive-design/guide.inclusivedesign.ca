@@ -1,6 +1,9 @@
 ---
 title: Design for Privacy
-category: Practices
+eleventyNavigation:
+    parent: Practices
+    key: Design for Privacy
+    order: 11
 ---
 
 More and more people rely on technology and “smart” services to provide convenience and accessibility in their everyday lives. For example, devices that allow voice commands to control lighting or other appliances in the home can significantly improve the accessibility of an interior space.
