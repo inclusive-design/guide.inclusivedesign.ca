@@ -36,13 +36,21 @@ module.exports = (value, outputPath) => {
 
         if (h2Elements.length > 0) {
             h2Elements.forEach(h2 => {
-                if (!h2.nextElementSibling.tagName === "UL") {return;}
+                const processNextUl = elem => {
+                    const h2 = elem;
+                    while (elem.nextElementSibling && elem.nextElementSibling.tagName !== "H2") {
+                        if (elem.nextElementSibling.tagName === "UL") {
+                            if (["Try", "Use"].includes(h2.textContent)) {
+                                elem.nextElementSibling.classList.add("idg-articleContentUse");
+                            } else if (["Combine With", "How", "Why"].includes(h2.textContent)) {
+                                elem.nextElementSibling.classList.add("idg-articleContentUseWhyHow");
+                            }
+                        }
+                        elem = elem.nextElementSibling;
+                    }
+                };
 
-                if (["Try", "Use"].includes(h2.textContent)) {
-                    h2.nextElementSibling.classList.add("idg-articleContentUse");
-                } else if (["Combine With", "How", "Why"].includes(h2.textContent)) {
-                    h2.nextElementSibling.classList.add("idg-articleContentUseWhyHow");
-                }
+                processNextUl(h2);
             });
         }
 
