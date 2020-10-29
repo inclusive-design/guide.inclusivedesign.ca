@@ -1,5 +1,7 @@
 # About the Inclusive Design Guide
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7d5c6794-ebd2-4908-8918-3207a3f54251/deploy-status)](https://app.netlify.com/sites/idrc-inclusive-design-guide/deploys)
+
 This project contains the content related to the Inclusive Design Guides.
 
 The HTML content is generated with `docpad` and uses the [`docs-template`](https://github.com/fluid-project/docs-template) project as its template.
