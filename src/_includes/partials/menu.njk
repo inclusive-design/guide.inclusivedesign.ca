@@ -1,6 +1,7 @@
 {% set navPages = collections.all | eleventyNavigation %}
                         <!-- Highlight the (active) category the document belongs to. -->
                         {% for item in navPages %}
-                            {% set iconUrl = 'svg/icon-' + item.key + '.svg' | lower %}
-                            <li class="idg-nav{{ item.key }}{% if item.key === category %} docs-template-category-active{% endif %}"><a href="{{ item.children[0].url }}{{ collection.defaultPage }}"{% if item.key === category %} aria-current="page"{% endif %}>{% include iconUrl %} {{ item.key }}</a></li>
+                            {% set slug = item.key | lower %}
+                            {% set iconPath = 'svg/icon-' + slug + '.svg' %}
+                            <li class="idg-nav{{ item.key }}{% if item.key === category %} docs-template-category-active{% endif %}"><a href="{{ item.children[0].url }}{{ collection.defaultPage }}"{% if item.key === category %} aria-current="page"{% endif %}>{% include iconPath %} {{ item.key }}</a></li>
                         {% endfor %}
