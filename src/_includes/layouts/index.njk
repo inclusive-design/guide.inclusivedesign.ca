@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include 'partials/head-matter.njk' %}
+    </head>
+    <body class="docs-template idg idg-index">
+
+        <div class="container docs-template-container">
+
+            {% include 'partials/header.njk' %}
+
+            <div class="idg-print-link">
+                <a href="/assets/print/all.html">Print the Guide (experimental)</a>
+            </div>
+
+
+            <div class="docs-template-articleBody row">
+
+                <article id="content" class="small-12 column">
+                    <h1>{{ title }}</h1>
+
+                    <div class="flc-toc-tocContainer docs-template-uio-toc"> </div>
+                    <div class="docs-template-articleContent">
+                        {{ content | safe }}
+                    </div>
+
+                    <p class="docs-template-githubLink"><a href="#TODO" rel="nofollow" target="_blank" class="link-external">Edit this Page on GitHub</a></p>
+                </article>
+
+            </div>
+
+            {% include 'partials/footer.njk' %}
+
+        </div> <!-- end container -->
+
+    </body>
+</html>
