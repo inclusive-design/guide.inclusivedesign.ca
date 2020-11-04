@@ -38,5 +38,5 @@ usability and privacy.
 
 ## How
 
-* {% include 'svg/icon-practices.svg' %} [Practice Co-design](/tools/PracticeCoDesign.html)
-* {% include 'svg/icon-practices.svg' %} [Design for Adaptability and Flexibility](/tools/DesignForAdaptabilityAndFlexibility.html)
+* {% include 'svg/icon-practices.svg' %} [Practice Co-design](/practices/PracticeCoDesign.html)
+* {% include 'svg/icon-practices.svg' %} [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)
