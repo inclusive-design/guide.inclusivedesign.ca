@@ -28,5 +28,5 @@ Putting control of online personal privacy into the hands of the user is an impo
 
 ## How
 
-* {% include 'svg/icon-practices.svg' %} [Practice Co-design](/tools/PracticeCoDesign.html)
-* {% include 'svg/icon-practices.svg' %} [Design for Adaptability and Flexibility](/tools/DesignForAdaptabilityAndFlexibility.html)
+* {% include 'svg/icon-practices.svg' %} [Practice Co-design](/practices/PracticeCoDesign.html)
+* {% include 'svg/icon-practices.svg' %} [Design for Adaptability and Flexibility](/practices/DesignForAdaptabilityAndFlexibility.html)
