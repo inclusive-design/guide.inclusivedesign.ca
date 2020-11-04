@@ -38,7 +38,7 @@ directory to the web root of your server.
 ## License Information
 
 The Inclusive Design Guide's code is licensed under the [BSD
-3-Clause](https://raw.githubusercontent.com/inclusive-design/guide.inclusivedesign.ca/blob/main/LICENSE.md) license.
+3-Clause](https://github.com/inclusive-design/guide.inclusivedesign.ca/blob/main/LICENSE.md) license.
 
 The Inclusive Design Guide's content is licensed under the [Creative Commons Attribution
 3.0](http://creativecommons.org/licenses/by/3.0/) license.
