@@ -28,12 +28,12 @@ strings you have, the denser your web will be, and the heavier the object it can
 
 ### Preparation
 
-* Place the empty containers at least 1 ft from each other. The further away the containers are from each other, the
+1. Place the empty containers at least 1 ft from each other. The further away the containers are from each other, the
   more challenging this activity becomes.
-* Lay out all of the strings so that they intersect at the middle, with the intersection point lying over top of one of
+2. Lay out all of the strings so that they intersect at the middle, with the intersection point lying over top of one of
   your containers (see Figures below).
-* Place the object on the intersection point of the strings, in the first container.
-* Each participant holds one end of a string.
+3. Place the object on the intersection point of the strings, in the first container.
+4. Each participant holds one end of a string.
 
 **Tip**: the strings do not necessarily need to be held by hand. For example, a participant may use their mouth, or the
 end of a string can be attached to a wheelchair.

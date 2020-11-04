@@ -29,14 +29,14 @@ to build prototypes (e.g. scissors, glue, tape, pipe cleaners, etc.).
 
 ### Steps
 
-* Break into smaller groups (3 to 5 people per group is usually best)
-* Keeping the objects on the cards hidden, each group selects the same number of cards from the main deck (this number
+1. Break into smaller groups (3 to 5 people per group is usually best)
+2. Keeping the objects on the cards hidden, each group selects the same number of cards from the main deck (this number
   can be decided by the larger group).
-* Each group then chooses or is assigned one function from a collection of functions - these can be determined by the
+3. Each group then chooses or is assigned one function from a collection of functions – these can be determined by the
   facilitator ahead of time or collectively by the group. The functions can be realistic or can be more experimental and
   exploratory. For example: communicating with a neighbour during a power failure, sending money to relatives overseas,
   taking your newborn baby to work, walking your dog in an airplane, looking after your parents remotely, etc.
-* The challenge for each group is to combine and use all of the objects on their cards to create something that fulfills
+4. The challenge for each group is to combine and use all of the objects on their cards to create something that fulfills
   the selected function. One way to approach this might be to tell a story about how your objects come together to
   fulfill the function.
 

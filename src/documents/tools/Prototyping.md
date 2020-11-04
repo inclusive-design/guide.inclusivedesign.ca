@@ -23,12 +23,12 @@ testing.
 
 ## Try
 
-1. There are several digital tools that help designers create interactive prototypes, many of which are available online.
+* There are several digital tools that help designers create interactive prototypes, many of which are available online.
   For example, InVision is a prototyping tool that is easy to learn and use.
-2. If you are designing a product, you can use 3D printing to build high fidelity prototypes.
-3. If you are working on a digital product, such as a website or an application, try publishing a beta version to get
+* If you are designing a product, you can use 3D printing to build high fidelity prototypes.
+* If you are working on a digital product, such as a website or an application, try publishing a beta version to get
   user feedback and fix the technical issues.
-4. If you are designing a service or a system, try roleplaying sessions to test your proposed solution.
+* If you are designing a service or a system, try roleplaying sessions to test your proposed solution.
 
 ## Combine with
 
