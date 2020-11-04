@@ -6,18 +6,19 @@ eleventyNavigation:
     order: 1
 ---
 
-Working together with others toward a shared goal is an
-important part of the inclusive design process. We all bring
-our unique experiences, skills and talents to the table; as a
-result, working collaboratively ensures more diverse
+Working together with others toward a shared goal is an important part of the inclusive design process. We all bring our
+unique experiences, skills and talents to the table; as a result, working collaboratively ensures more diverse
 perspectives and therefore a more inclusive design process.
 
-By working with others rather than in isolation we learn
-from one another; we share the responsibility for an
-outcome, and in doing so we learn to trust one another and
-rely on each other’s expertise.
+By working with others rather than in isolation we learn from one another; we share the responsibility for an outcome,
+and in doing so we learn to trust one another and rely on each other’s expertise.
 
-Learning to work collaboratively requires an adjustment in our approach. Gathering and incorporating ideas from a diverse group often takes more time and patience. Questions of ownership or credit sometimes arise. However, working collaboratively can give birth to new strategies of credit and ownership. For example, collaboration requires designing in the open, which can result in greater individual recognition by keeping a history of contributions to the work. The challenges of working collaboratively are far outweighed by the benefits, as the rich and diverse perspectives gained ultimately enhance the work.
+Learning to work collaboratively requires an adjustment in our approach. Gathering and incorporating ideas from a
+diverse group often takes more time and patience. Questions of ownership or credit sometimes arise. However, working
+collaboratively can give birth to new strategies of credit and ownership. For example, collaboration requires designing
+in the open, which can result in greater individual recognition by keeping a history of contributions to the work. The
+challenges of working collaboratively are far outweighed by the benefits, as the rich and diverse perspectives gained
+ultimately enhance the work.
 
 ## Try
 
