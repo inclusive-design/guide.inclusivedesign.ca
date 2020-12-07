@@ -31,46 +31,42 @@ own facets if they can't find a desired state or context within the provided set
 
 Choose the facets that are relevant to the needs, preferences and the context you are designing for or critiquing.
 
-<figure>
-[![A diagram showing individual facets of the Inclusive Design Mapping
-Tool](/assets/images/InclusiveDesignMappingTool01.png)](/assets/images/InclusiveDesignMappingTool01.png)
-<figcaption>
+{% figure "/assets/images/InclusiveDesignMappingTool01.png", "A diagram showing individual facets of the Inclusive
+Design Mapping Tool" %}
+
 *Figure 1:* Inclusive Design Mapping Tool - Choosing the Facets
-</figcaption>
-</figure>
+
+{% endfigure %}
 
 ## Step 2
 
 Map your needs, preferences and context on the selected facets. Next, using a different color, map the
 product/task/solution you are trying to critique or design.
 
-<figure>
-[![A diagram showing individual facets with "yourself" and "product"
-mapped](/assets/images/InclusiveDesignMappingTool02.png)](/assets/images/InclusiveDesignMappingTool02.png)
-<figcaption>
+{% figure "/assets/images/InclusiveDesignMappingTool02.png", "A diagram showing individual facets with “yourself” and “product”
+mapped" %}
+
 *Figure 2:* Inclusive Design Mapping Tool - Mapping onto the Facets
-</figcaption>
-</figure>
+
+{% endfigure %}
 
 ## Step 3
 
 Now you can put the facets together, draw a jagged outline, and shade in the gap between the two outlines.
 
-<figure>
-[![A diagram showing facets pieced together into a circle, with
-mappings](/assets/images/InclusiveDesignMappingTool03.png)](/assets/images/InclusiveDesignMappingTool03.png)
-<figcaption>
-*Figure 3:* Inclusive Design Mapping Tool - Mapping the Current State
-</figcaption>
-</figure>
+{% figure "/assets/images/InclusiveDesignMappingTool03.png", "A diagram showing facets pieced together into a circle, with
+mappings" %}
 
-<figure>
-[![A diagram showing the gap between self and product
-maps](/assets/images/InclusiveDesignMappingTool04.png)](/assets/images/InclusiveDesignMappingTool04.png)
-<figcaption>
+*Figure 3:* Inclusive Design Mapping Tool - Mapping the Current State
+
+{% endfigure %}
+
+{% figure "/assets/images/InclusiveDesignMappingTool04.png", "A diagram showing the gap between self and product
+maps" %}
+
 *Figure 4:* Inclusive Design Mapping Tool - Finding the Gap
-</figcaption>
-</figure>
+
+{% endfigure %}
 
 ## Step 4
 
@@ -78,10 +74,9 @@ Once you have a proposed new design, redo the map, with the goal of fully encomp
 users. While iterating through the design process, the mapping can be very useful for identifying where your design does
 not stretch enough to meet the needs of edge users.
 
-<figure>
-[![A diagram showing a new mapping with a positive
-gap](/assets/images/InclusiveDesignMappingTool05.png)](/assets/images/InclusiveDesignMappingTool05.png)
-<figcaption>
+{% figure "/assets/images/InclusiveDesignMappingTool05.png", "A diagram showing a new mapping with a positive
+gap" %}
+
 *Figure 5:* Inclusive Design Mapping Tool - Proposing the Desired State
-</figcaption>
-</figure>
+
+{% endfigure %}

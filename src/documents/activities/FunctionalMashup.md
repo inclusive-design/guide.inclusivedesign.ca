@@ -16,13 +16,14 @@ more creative and resourceful solutions, by thinking beyond the current or obvio
 You will need a deck of object cards. You can create your deck using any available materials. You might print images of
 different objects on paper or cardstock, use language learning flashcards, cut out magazine images and paste them onto
 cards, or find other ways to create a collection of random objects.
-<figure>
-[![An image showing a large selection of cards spread out on the floor, each with a different magazine image pasted
-on.](/assets/images/object_cards.jpg)](/assets/images/object_cards.jpg)
-<figcaption>
+
+{% figure "/assets/images/object_cards.jpg", "An image showing a large selection of cards spread out on the floor, each
+with a different magazine image pasted on." %}
+
 *Figure 1:* Example of a collection of object cards created by pasting random magazine images onto sheets of
-paper.</figcaption>
-</figure>
+paper.
+
+{% endfigure %}
 
 If desired and available you can provide additional tools and materials that can be used together with the object cards
 to build prototypes (e.g. scissors, glue, tape, pipe cleaners, etc.).

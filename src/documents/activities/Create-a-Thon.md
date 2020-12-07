@@ -12,12 +12,12 @@ whose needs aren’t met (who find a product or service impossible or difficult 
 are not usually represented because they do not fit into a construct of "typical", "average", or the envisioned "target
 audience".
 
-<figure>
-[![An image showing a group of four people participating in a Create-a-Thon, using building
-toys.](/assets/images/CaT-01.jpg)](/assets/images/CaT-01.jpg)
-<figcaption>
-*Figure 1:* A group collaborates together to build a marble track based on some basic requirements.</figcaption>
-</figure>
+{% figure "/assets/images/CaT-01.jpg", "An image showing a group of four people participating in a Create-a-Thon, using building
+toys." %}
+
+*Figure 1:* A group collaborates together to build a marble track based on some basic requirements.
+
+{% endfigure %}
 
 A _CaT_ encourages participants to collaboratively build an artifact by “designing by metaphor” and use it as a means to
 translate their ideas to the systems, products or services being designed or tested. This helps constrain the physical
@@ -35,13 +35,13 @@ as another and will contribute to rich designs and insights.
 It is possible, even desirable, to conduct several _CaTs_ at different stages throughout a design process to gain
 additional insights.
 
-<figure>
-[![An image of a Create-a-Thon participant describing their group's
-design.](/assets/images/CaT-02.jpg)](/assets/images/CaT-02.jpg)
-<figcaption>
+{% figure "/assets/images/CaT-02.jpg", "An image of a Create-a-Thon participant describing their group's
+design." %}
+
 *Figure 2:* A participant shares their group's design after being given the task of creating a software version of the
-physical marble track toy.</figcaption>
-</figure>
+physical marble track toy.
+
+{% endfigure %}
 
 ## Step 1
 

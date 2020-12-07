@@ -23,19 +23,19 @@ Consider a scatter-plot of the needs of any group of people. Everyone brings a v
 working, different skills and needs to the table. Consider where you might lie on the starburst when using a particular
 design.
 
-<figure>
-[![A diagram showing a cluster of black dots on a white starburst background. The dots are densest at the centre of the
-starburst and become more and more spaced out as they move away from the centre. Three concentric, coloured circles are
-drawn around the dots. In the centre, the smallest blue circle is labelled “Design works”, moving outward from centre
-the next yellow circle is labelled “Design is difficult to use”, and finally a red circle around the outside is labelled
-“Can’t use design”. ](/assets/images/VirtuousTornado01.png)](/assets/images/VirtuousTornado01.png)
-<figcaption>
+{% figure "/assets/images/VirtuousTornado01.png", "A diagram showing a cluster of black dots on a white starburst
+background. The dots are densest at the centre of the starburst and become more and more spaced out as they move away
+from the centre. Three concentric, coloured circles are drawn around the dots. In the centre, the smallest blue circle
+is labelled “Design works”, moving outward from centre the next yellow circle is labelled “Design is difficult to use”,
+and finally a red circle around the outside is labelled
+“Can’t use design”." %}
+
 *Figure 1:* The starburst plot shows a denser set of dots (representing the majority needs) in the centre, and more
 widely spaced dots the further you get from that centre (the minority needs). Distance represents difference. The closer
 the dots the more similar they are. The wider they are spaced from each other the more they differ. Design innovation
 happens at the outer edges.
-</figcaption>
-</figure>
+
+{% endfigure %}
 
 ## Identifying Needs - Mapping it Out
 
@@ -56,24 +56,21 @@ facets; this can help your team realise additional needs that may be associated 
 essential, and where you place each need is not critical - as long as the process you choose allows you to consider as
 many needs as possible.
 
-<figure>
-[![Image showing a circle broken into four quarters. Each quarter is labelled with “Designs that Help Me…” and is broken
-up into three equally spaced concentric sections, with “like & use” in the centre, “don’t like or having difficulty
-using” in the middle, and “can’t use” at the outer periphery.
-](/assets/images/VirtuousTornado02.png)](/assets/images/VirtuousTornado02.png)
-<figcaption>
-*Figure 2:* Template for mapping needs and characteristics in the context of a given design.
-</figcaption>
-</figure>
+{% figure "/assets/images/VirtuousTornado02.png", "Image showing a circle broken into four quarters. Each quarter is
+labelled with “Designs that Help Me…” and is broken up into three equally spaced concentric sections, with “like & use”
+in the centre, “don’t like or having difficulty using” in the middle, and “can’t use” at the outer periphery." %}
 
-<figure>
-[![ A photograph showing a large number of sticky notes on a table top. The sticky notes are covered in handwriting, and
-are stuck to and clustered on large paper wedges, which are themselves put together to form a circle.
-](/assets/images/VirtuousTornado03.png)](/assets/images/VirtuousTornado03.png)
-<figcaption>
+*Figure 2:* Template for mapping needs and characteristics in the context of a given design.
+
+{% endfigure %}
+
+{% figure "/assets/images/VirtuousTornado03.png", "A photograph showing a large number of sticky notes on a table top.
+The sticky notes are covered in handwriting, and are stuck to and clustered on large paper wedges, which are themselves
+put together to form a circle." %}
+
 *Figure 3:* An example of mapping needs and characteristics onto the wedges of a circle.
-</figcaption>
-</figure>
+
+{% endfigure %}
 
 ## Iterating on the Design - The Virtuous Tornado
 
@@ -97,17 +94,16 @@ Consider solving not only for the specific design challenge, but also consider c
 that will improve the ability to solve future challenges. In this way your design will become more adaptable and it will
 be easier to widen the range of needs and characteristics that it can meet in the future.
 
-<figure>
-[![A diagram showing a spiral in the centre which is getting wider and wider toward the top as it spirals outward. The
-spiral is split into five vertical and equal sections starting with “cycle 1” at the bottom and ending with “cycle 5” at
-the top. 5 corresponding injection points are indicated, showing the injection of needs and characteristics at each
-iteration point of the 5 cycles. At the base of the spiral the words co-design, develop, implement, evaluate and refine
-are shown forming a foundation. Three arrows move up through the centre of the spiral, from the foundation up and out to
-the following blocks of text: More resilient designs, more adaptable designs, more innovative designs, more inclusive
-designs, more accessible designs.](/assets/images/VirtuousTornado04.png)](/assets/images/VirtuousTornado04.png)
-<figcaption>
+{% figure "/assets/images/VirtuousTornado04.png", "A diagram showing a spiral in the centre which is getting wider and
+wider toward the top as it spirals outward. The spiral is split into five vertical and equal sections starting with
+“cycle 1” at the bottom and ending with “cycle 5” at the top. 5 corresponding injection points are indicated, showing
+the injection of needs and characteristics at each iteration point of the 5 cycles. At the base of the spiral the words
+co-design, develop, implement, evaluate and refine are shown forming a foundation. Three arrows move up through the
+centre of the spiral, from the foundation up and out to the following blocks of text: More resilient designs, more
+adaptable designs, more innovative designs, more inclusive designs, more accessible designs." %}
+
 *Figure 4:* The virtuous tornado describes an upward spiral into which needs and characteristics are injected at each
 design iteration. As the design moves up the spiral it expands to encompass these needs, becoming more and more
 inclusive in the process.
-</figcaption>
-</figure>
+
+{% endfigure %}

@@ -56,18 +56,18 @@ This activity helps participants gain a deeper understanding of the different wa
 accessed, perceived and interpreted. It also helps participants to think beyond typical communication methods in order
 to expand the range of people who can access and use the content.  
 
-<figure>
-[![An image showing a small sculpture made of lego and pipe cleaners on a table top, beside which lie two hand-written
-notes, one of which includes a title and description, while the other contains an artist statement.
-](/assets/images/collaborative_art.jpg)](/assets/images/collaborative_art.jpg)
-<figcaption>
-*Figure 1:* Example of collaborative art created using the Collaborative Art Warmup Activity.</figcaption>
-</figure>
+{% figure "/assets/images/collaborative_art.jpg", "An image showing a small sculpture made of lego and pipe cleaners on
+a table top, beside which lie two hand-written notes, one of which includes a title and description, while the other
+contains an artist statement." %}
 
-<figure>
-[![An image showing a small sculpture made of lego, a toy car, and pipe cleaners on a table top. Some handwritten notes
-lie on the table beside the sculpture and a bin of lego can be seen in the background.  
-](/assets/images/collaborative_art2.jpg)](/assets/images/collaborative_art2.jpg)
-<figcaption>
-*Figure 2:* Example of collaborative art created using the Collaborative Art Warmup Activity.</figcaption>
-</figure>
+*Figure 1:* Example of collaborative art created using the Collaborative Art Warmup Activity.
+
+{% endfigure %}
+
+{% figure "/assets/images/collaborative_art2.jpg", "An image showing a small sculpture made of lego, a toy car, and pipe
+cleaners on a table top. Some handwritten notes lie on the table beside the sculpture and a bin of lego can be seen in
+the background." %}
+
+*Figure 2:* Example of collaborative art created using the Collaborative Art Warmup Activity.
+
+{% endfigure %}

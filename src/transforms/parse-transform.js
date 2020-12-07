@@ -18,14 +18,6 @@ module.exports = (value, outputPath) => {
             linkify: true
         });
 
-        const figures = [
-            ...document.querySelectorAll("article figure")
-        ];
-
-        const captions = [
-            ...document.querySelectorAll("article figcaption")
-        ];
-
         const sections = [
             ...document.querySelectorAll("article idg-highlight-section")
         ];
@@ -51,18 +43,6 @@ module.exports = (value, outputPath) => {
                 };
 
                 processNextUl(h2);
-            });
-        }
-
-        if (captions.length > 0) {
-            captions.forEach(caption => {
-                caption.innerHTML = md.render(caption.innerHTML);
-            });
-        }
-
-        if (figures.length > 0) {
-            figures.forEach(figure => {
-                figure.innerHTML = md.render(figure.innerHTML);
             });
         }
 
