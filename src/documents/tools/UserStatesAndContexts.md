@@ -22,13 +22,12 @@ Needs that are commonly met are placed in the middle, and needs that are not wel
 demonstrates that the needs of users "on the edge" are greater in number, as well as the phenomena that by meeting edge
 needs, you also meet the mainstream needs of the middle.
 
-<figure>
-[![A diagram showing a States and Contexts map for two different
-users](/assets/images/StatesAndContextsToolMapped.png)](/assets/images/StatesAndContextsToolMapped.png)
-<figcaption>
+{% figure "/assets/images/StatesAndContextsToolMapped.png", "A diagram showing a States and Contexts map for two different
+users" %}
+
 *Figure 1:* An example of a User States and Contexts map
-</figcaption>
-</figure>
+
+{% endfigure %}
 
 ## Combine with
 
