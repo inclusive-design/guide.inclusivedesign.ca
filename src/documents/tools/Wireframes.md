@@ -12,9 +12,9 @@ Alongside the visual wireframes, it is best to also consider narratives, long de
 
 ## Try
 
-1. Start by listing the global features of your interface as well as features that are specific to individual screens, in order to get a clear idea of the features and functions needed
+1. Start by listing the global features of your interface as well as features that are specific to individual screens, in order to get a clear idea of the features and functions needed
 2. Create a skeleton for each screen; features can be located within the screens and interaction behaviors assigned to each one
-3. After several iterations and user testing sessions, create high fidelity wireframes that more closely reflect the look, feel and interactive behavior of your final product
+3. After several iterations and user testing sessions, create high fidelity wireframes that more closely reflect the look, feel and interactive behavior of your final product
 
 ## Combine with
 
