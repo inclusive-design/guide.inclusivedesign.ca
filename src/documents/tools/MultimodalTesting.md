@@ -23,7 +23,7 @@ only as an initial guide.
 1. Use the native screen reader on your computer (e.g. NVDA on Windows or Voice Over on Mac - both of which are free of
    charge) to run initial tests on a digital interface
 2. Navigate an interface without a mouse or track pad to test for keyboard-only interaction
-3. Find a user who is familiar with the specific assistive technology in question to test your designs, as their
+3. Find a user who is familiar with the specific assistive technology in question to test your designs, as their
    experience will provide more realistic and nuanced feedback related to their expectations of typical behaviour.
 
 ## Combine with

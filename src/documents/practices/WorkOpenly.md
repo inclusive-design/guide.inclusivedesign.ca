@@ -18,7 +18,7 @@ cultures and/or with different life experiences broadens everyone’s perspectiv
 to new ideas.
 
 Learning to work transparently requires an adjustment in the way that we approach our work. Sharing design ideas,
-sketches or unpolished mockups before they are complete can be scary at first. Learning to trust a community takes time
+sketches or unpolished mockups before they are complete can be scary at first. Learning to trust a community takes time
 and practice, but as more of us learn to work in this way, the more we can invite others into the process, resulting in
 a virtuous cycle of inclusion.
 

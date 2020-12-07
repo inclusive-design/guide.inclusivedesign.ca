@@ -9,7 +9,7 @@ eleventyNavigation:
 Allowing for personal discovery of needs and preferences is an important aspect of inclusive design. If an individual
 has never been exposed to something (e.g. changing settings on a digital device, or alternative learning or teaching
 methods), it is not enough to ask "what works for you?". That is, if someone is unaware of an available solution, there
-is no way for that individual to know that it will help them, or to know where to find it or even to be motivated to to
+is no way for that individual to know that it will help them, or to know where to find it or even to be motivated to
 seek it out.
 
 Designing for playful and engaging discovery in a low-risk environment creates a space for a user to learn about their

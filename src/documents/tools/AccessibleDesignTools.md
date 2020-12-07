@@ -18,7 +18,7 @@ controls, or to navigate and execute designs using a screen reader).
 
 ## Try
 
-There are a limited number of design tools available in the first category that are free, open source and/or relatively
+There are a limited number of design tools available in the first category that are free, open source and/or relatively
 easy to learn, such as:
 
 * [Google Draw](https://support.google.com/docs/answer/6058689?hl=en) - open source, can activate Accessibility options
@@ -27,7 +27,7 @@ easy to learn, such as:
   other sketching tools
 * Google Sketchup - Free but not very accessible
 
-There are several tools that enable designers to check the accessibility of their final design, such as:
+There are several tools that enable designers to check the accessibility of their final design, such as:
 
 * [Text and color combination](http://colorsafe.co/)
 * [WCAG contrast checker](http://contrastchecker.com/)

@@ -18,9 +18,9 @@ establish more stable and shared archives for their design projects, and makes i
 
 ## Try
 
-1. Store the latest version of a file on a cloud based sharing system, such as Dropbox.
-2. Provide a link to this file on a wiki page that is available to all members of your community. **Note**: The
-   advantage of linking the file from a wiki page rather than sharing it directly via email, chat or other means is that
+1. Store the latest version of a file on a cloud based sharing system, such as Dropbox.
+2. Provide a link to this file on a wiki page that is available to all members of your community. **Note**: The
+   advantage of linking the file from a wiki page rather than sharing it directly via email, chat or other means is that
    people can leave comments and feedback about the design artifact in question, and a record of that discussion
    persists. In addition, it provides the community with a common location where they can access the latest version of a
    file.
