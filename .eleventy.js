@@ -1,7 +1,7 @@
 "use strict";
 
 const fs = require("fs");
-const fluidPlugin = require("@fluid-project/eleventy-plugin-fluid");
+const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const parseTransform = require("./src/transforms/parse-transform.js");
 

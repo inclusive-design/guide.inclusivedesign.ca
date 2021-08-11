@@ -1,0 +1,18 @@
+{
+    "eslint": {
+        "js": {
+            "includes": ["./.eleventy.js"]
+        }
+    },
+    "lintspaces": {
+        "jsonindentation": {
+            "excludes": ["./src/_data/*.json"]
+        }
+    },
+    "markdownlint": {
+        "excludes": ["./src/documents/**/*.md", "./CHANGELOG.md"]
+    },
+    "stylelint": {
+        "excludes": ["./src/assets/print/**/*.*"]
+    }
+}
