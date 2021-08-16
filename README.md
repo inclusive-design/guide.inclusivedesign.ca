@@ -11,7 +11,7 @@ This project contains the content needed to build and deploy a copy of the Inclu
 1. Install the required NPM packages: `npm install`
 2. Run [Eleventy](http://11ty.dev) in development mode: `npm start`.
 
-The website will be available at http://localhost:8080.
+The website will be available at <http://localhost:8080>.
 
 ### To build and serve using Docker
 
@@ -32,10 +32,13 @@ If you make changes to the website, repeat the steps to build the image and star
 2. Run the build script: `npm run build`
 3. Upload the contents of the `./dist/` directory to the web root of your server.
 
-If you make changes to the website, repeat step 2 to build the website and upload any changed files from the `./dist/` directory to the web root of your server.
+If you make changes to the website, repeat step 2 to build the website and upload any changed files from the `./dist/`
+directory to the web root of your server.
 
 ## License Information
 
-The Inclusive Design Guide's code is licensed under the [BSD 3-Clause](https://raw.githubusercontent.com/inclusive-design/guide.inclusivedesign.ca/blob/main/LICENSE.md) license.
+The Inclusive Design Guide's code is licensed under the [BSD
+3-Clause](https://github.com/inclusive-design/guide.inclusivedesign.ca/blob/main/LICENSE.md) license.
 
-The Inclusive Design Guide's content is licensed under the [Creative Commons Attribution 3.0](http://creativecommons.org/licenses/by/3.0/) license.
+The Inclusive Design Guide's content is licensed under the [Creative Commons Attribution
+3.0](http://creativecommons.org/licenses/by/3.0/) license.

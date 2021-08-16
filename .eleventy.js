@@ -15,6 +15,11 @@ module.exports = function (config) {
     config.addPlugin(fluidPlugin);
     config.addPlugin(navigationPlugin);
 
+    // Shortcodes
+    config.addPairedShortcode("figure", function (content, img, alt) {
+        return `<figure>\n<a href="${img}"><img src="${img}" alt="${alt}" /></a><figcaption>${content}</figcaption>\n</figure>`;
+    });
+
     // Transforms
     config.addTransform("parse", parseTransform);
 
