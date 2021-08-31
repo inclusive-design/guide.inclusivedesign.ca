@@ -27,8 +27,6 @@ module.exports = function (config) {
     config.addPassthroughCopy({"src/_redirects": "_redirects"});
     config.addPassthroughCopy({"src/assets/images": "assets/images"});
     config.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
-    config.addPassthroughCopy({"src/assets/print": "assets/print"});
-    config.addPassthroughCopy({"src/assets/print-branding": "assets/print-branding"});
     config.addPassthroughCopy({"node_modules/docs-core/src/static/css": "assets/styles"});
     config.addPassthroughCopy({"node_modules/docs-core/src/static/lib": "lib"});
 
