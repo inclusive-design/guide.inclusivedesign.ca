@@ -3,7 +3,6 @@ title: Design for Privacy
 eleventyNavigation:
     parent: Practices
     key: Design for Privacy
-    order: 11
 ---
 
 More and more people rely on technology and “smart” services to provide convenience and accessibility in their everyday

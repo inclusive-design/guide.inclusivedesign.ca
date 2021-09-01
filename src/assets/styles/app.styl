@@ -137,11 +137,6 @@ a:hover .idg-logo {
 }
 
 .idg-index {
-    &.docs-core-sidebar-expanded .docs-template-articleBody {
-        // Hack to prevent Sidebar expanded/ collapsed styles from affecting width on index
-        width: 100%;
-    }
-
     .docs-template-articleBody {
         padding-top: 2rem;
     }
@@ -318,9 +313,13 @@ setActiveCategory(inputColor) {
         color: #fff;
     }
 
-    .docs-template-articleBody h1 {
-    	 background: inputColor;
-    	 color: #fff;
+    .docs-template-articleBody header {
+        background: inputColor;
+        color: #fff;
+
+        a {
+            color: inherit;
+        }
     }
 }
 
@@ -395,13 +394,6 @@ setActiveCategory(inputColor) {
         figcaption {
             padding: 0.2rem;
         }
-    }
-
-    .docs-core-sidebar-expanded .docs-template-topics-container {
-        padding: 0;
-        word-wrap: break-word;
-        -webkit-hyphens: auto;
-        hyphens: auto;
     }
 
     .fl-link-enhanced .docs-template-topics-hideShow {
@@ -607,4 +599,25 @@ appear inverted in order to look proper. */
 
 .fl-theme-lgdg {
     contrast-theme(#bdbdbb, #555);
+}
+
+// Breadcrumb
+
+.idg-breadcrumb {
+
+    ul {
+        margin: 0;
+
+        li {
+            display: inline;
+
+            &+li {
+                padding-inline-start: 0.25rem;
+                &::before {
+                    content: ">";
+                    padding-inline-end: 0.25rem;
+                }
+            }
+        }
+    }
 }

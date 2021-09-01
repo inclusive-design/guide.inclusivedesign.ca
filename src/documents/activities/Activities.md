@@ -1,5 +1,5 @@
 ---
-permalink: false
+title: Activities
 eleventyNavigation:
     key: Activities
     order: 4

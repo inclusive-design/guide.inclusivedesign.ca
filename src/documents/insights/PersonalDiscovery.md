@@ -3,7 +3,6 @@ title: Personal Discovery
 eleventyNavigation:
     parent: Insights
     key: Personal Discovery
-    order: 7
 ---
 
 Allowing for personal discovery of needs and preferences is an important aspect of inclusive design. If an individual

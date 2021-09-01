@@ -3,7 +3,6 @@ title: Functional Mashup
 eleventyNavigation:
     parent: Activities
     key: Functional Mashup
-    order: 8
 ---
 
 This activity can be used in a co-design or other group design session to encourage participants to work together toward

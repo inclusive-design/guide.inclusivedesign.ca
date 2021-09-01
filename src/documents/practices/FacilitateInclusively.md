@@ -3,7 +3,6 @@ title: Facilitate Inclusively
 eleventyNavigation:
     parent: Practices
     key: Facilitate Inclusively
-    order: 8
 ---
 
 When organising or leading a meeting or discussion, encouraging equal participation among members is important to ensure

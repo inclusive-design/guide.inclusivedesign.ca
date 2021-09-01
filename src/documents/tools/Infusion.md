@@ -3,7 +3,6 @@ title: Infusion
 eleventyNavigation:
     parent: Tools
     key: Infusion
-    order: 14
 ---
 
 Infusion is a code framework for building personalizable and adaptive applications using JavaScript and other web

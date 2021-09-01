@@ -3,7 +3,6 @@ title: Use-Cases
 eleventyNavigation:
     parent: Tools
     key: Use-Cases
-    order: 8
 ---
 
 Use cases describe particular scenarios in which a user may encounter and use a product or service, providing more

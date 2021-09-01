@@ -3,7 +3,6 @@ title: Integrate Accessibility From the Start
 eleventyNavigation:
     parent: Practices
     key: Integrate Accessibility From the Start
-    order: 3
 ---
 
 By considering accessibility and inclusion from the start of a project, it is much easier to integrate accessibility
@@ -20,7 +19,7 @@ solutions as well as expensive future retro-fitting can be avoided.
 
 As designers, developers and others active in the design process, it is important to become aware of our limited
 personal perspective (e.g. prioritizing the visual impact of an interface), as this helps us to understand and overcome
-our biases, which in turn keeps us open to new ideas and innovative solutions.  
+our biases, which in turn keeps us open to new ideas and innovative solutions.
 
 ## Try
 

@@ -3,7 +3,6 @@ title: Metadata Authoring
 eleventyNavigation:
     parent: Tools
     key: Metadata Authoring
-    order: 15
 ---
 Content authors can use metadata to provide information about what needs a learning resource can accommodate. Metadata
 can be used to describe, among other things: what the technical/environmental requirements are for a given resource

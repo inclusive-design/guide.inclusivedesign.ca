@@ -3,7 +3,6 @@ title: One-Size-Fits-One
 eleventyNavigation:
     parent: Insights
     key: One-Size-Fits-One
-    order: 2
 ---
 
 We all have diverse needs, and we all experience changes in our lives, in both the short-term and long-term, that affect

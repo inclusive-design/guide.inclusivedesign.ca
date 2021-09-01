@@ -3,7 +3,6 @@ title: Synchronized Design Assets
 eleventyNavigation:
     parent: Tools
     key: Synchronized Design Assets
-    order: 13
 ---
 
 When working collaboratively, designers need a platform that enables them to freely and easily share design artifacts.

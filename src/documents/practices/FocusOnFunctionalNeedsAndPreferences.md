@@ -3,7 +3,6 @@ title: Focus on Functional Needs and Preferences
 eleventyNavigation:
     parent: Practices
     key: Focus on Functional Needs and Preferences
-    order: 5
 ---
 
 When designing for users “at the margins”, including those with disabilities, the focus can often be put on the

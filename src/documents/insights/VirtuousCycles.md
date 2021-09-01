@@ -3,7 +3,6 @@ title: Virtuous Cycles
 eleventyNavigation:
     parent: Insights
     key: Virtuous Cycles
-    order: 6
 ---
 
 Altering any factor in a complex system can cause an amplified reaction in other systems (e.g. changing the education

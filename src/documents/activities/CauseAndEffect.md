@@ -3,7 +3,6 @@ title: Cause and Effect
 eleventyNavigation:
     parent: Activities
     key: Cause and Effect
-    order: 3
 ---
 
 This activity demonstrates the potential to have a broader beneficial impact with our everyday actions. The challenge is

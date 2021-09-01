@@ -3,7 +3,6 @@ title: Multimodal Testing
 eleventyNavigation:
     parent: Tools
     key: Multimodal Testing
-    order: 12
 ---
 
 When designing and developing a product or service, consider all the different ways that a user might interact with it.

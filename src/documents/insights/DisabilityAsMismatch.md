@@ -3,7 +3,6 @@ title: Disability as Mismatch
 eleventyNavigation:
     parent: Insights
     key: Disability as Mismatch
-    order: 5
 ---
 
 The medical model defines disability as a trait; something permanent and limiting. In contrast, an inclusive design

@@ -3,7 +3,6 @@ title: Accessible Design Tools
 eleventyNavigation:
     parent: Tools
     key: Accessible Design Tools
-    order: 3
 ---
 
 Accessible design tools can be grouped into two different categories:

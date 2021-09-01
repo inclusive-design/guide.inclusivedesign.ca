@@ -3,7 +3,6 @@ title: Collaborate
 eleventyNavigation:
     parent: Practices
     key: Collaborate
-    order: 1
 ---
 
 Working together with others toward a shared goal is an important part of the inclusive design process. We all bring our

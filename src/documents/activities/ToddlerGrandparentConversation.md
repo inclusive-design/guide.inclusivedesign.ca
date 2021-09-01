@@ -3,7 +3,6 @@ title: The Toddler-Grandparent Conversation
 eleventyNavigation:
     parent: Activities
     key: Toddler-Grandparent Conversation
-    order: 4
 ---
 
 Toddlers repeatedly ask “why?”. Why is the sky blue? Why do cats have tails? In this activity, we participate in an

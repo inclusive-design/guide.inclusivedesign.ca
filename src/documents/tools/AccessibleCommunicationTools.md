@@ -3,7 +3,6 @@ title: Accessible Communication Tools
 eleventyNavigation:
     parent: Tools
     key: Accessible Communication Tools
-    order: 5
 ---
 
 In an inclusive design process, team members share ideas throughout the design/development process and at different

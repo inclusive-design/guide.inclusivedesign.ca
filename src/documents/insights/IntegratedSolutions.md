@@ -3,7 +3,6 @@ title: Integrated Solutions
 eleventyNavigation:
     parent: Insights
     key: Integrated Solutions
-    order: 3
 ---
 
 Too often, design solutions that meet the needs of marginalized users, including users with disabilities, are segregated

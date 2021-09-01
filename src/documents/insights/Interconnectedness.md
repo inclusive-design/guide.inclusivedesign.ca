@@ -3,7 +3,6 @@ title: Interconnectedness
 eleventyNavigation:
     parent: Insights
     key: Interconnectedness
-    order: 4
 ---
 
 Once we release a solution, it will become part of a larger system. Although we can determine specific functionalities

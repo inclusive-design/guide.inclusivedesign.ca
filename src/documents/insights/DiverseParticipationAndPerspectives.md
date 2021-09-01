@@ -3,7 +3,6 @@ title: Diverse Participation and Perspectives
 eleventyNavigation:
     parent: Insights
     key: Diverse Participation and Perspectives
-    order: 1
 ---
 
 In keeping with the edict “nothing about us without us”, this principle is about inviting a diversity of people with a

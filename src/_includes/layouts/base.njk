@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include 'partials/head-matter.njk' %}
+    </head>
+    <body class="docs-template idg {% if bodyClass %}{{ bodyClass }}{% endif %}">
+
+        <div class="container docs-template-container">
+
+            {% include 'partials/header.njk' %}
+
+            <div class="docs-template-articleBody row">
+
+                <article id="content" class="small-12 column">
+                    {% block content %}{% endblock %}
+                </article>
+
+            </div>
+
+            {% include 'partials/footer.njk' %}
+
+        </div> <!-- end container -->
+
+    </body>
+</html>

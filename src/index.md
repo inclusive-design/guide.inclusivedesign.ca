@@ -1,6 +1,6 @@
 ---
 title: Welcome to The Inclusive Design Guide
-layout: layouts/index.njk
+layout: "layouts/index.njk"
 ---
 
 The Inclusive Design Guide can be applied to digital design as well as to the design of **services**, the **built
@@ -51,7 +51,7 @@ design can be put into action.
   The sections and items that make up the Inclusive Design Guide are not meant to be followed in any particular order.
   You can begin wherever and whenever it makes sense for you, your team, and your process. Revisiting the guide at
   different stages in the project can be an effective way to integrate it into your work.
-  
+
   </figcaption>
   <span class="small-12 medium-6 large-4 column"> {% include 'svg/schematic.svg' %} </span>
   </figure>
