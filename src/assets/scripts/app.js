@@ -18,7 +18,7 @@ jQuery("#menu").menu({
     icons: {submenu: "ui-icon-blank"},
     // Remove the anchors from the tabindex as they are triggered
     // via the select event. (see below)
-    create: function (event, ui) {
+    create: function () {
         jQuery("#menu .ui-menu-item a").attr("tabindex", -1);
     },
     // The jQuery menu doesn't seem to like it when the <a> are
