@@ -8,9 +8,9 @@ documents{{ page.url | replace('.html', '.md') }}
 
 {% block content %}
 
-<header>
-    <nav class="idg-breadcrumb" aria-label="breadcrumb">
-        <ul>
+<header class="category-header bg-category-{{ category | lower }} color-primary">
+    <nav class="" aria-label="breadcrumb">
+        <ul class="breadcrumbs inline-list">
             <li><a href="/">Home</a></li>
             {% for page in navPages %}
             <li><a href="{{ page.url }}">{{ page.key }}</a></li>

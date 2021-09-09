@@ -3,23 +3,32 @@
     <head>
         {% include 'partials/head-matter.njk' %}
     </head>
-    <body class="docs-template idg {% if bodyClass %}{{ bodyClass }}{% endif %}">
+    <body class="">
+        <a id="skip-to-content" href="#main" class="">Skip to Content</a>
 
-        <div class="container docs-template-container">
+        <!-- BEGIN markup for Preference Editor -->
+        <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
+            <!-- This is the div that will contain the Preference Editor component -->
+            <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
 
-            {% include 'partials/header.njk' %}
-
-            <div class="docs-template-articleBody row">
-
-                <article id="content" class="small-12 column">
-                    {% block content %}{% endblock %}
-                </article>
-
+            <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
+            <div class="fl-panelBar wrapper bg-primary">
+                <span class="fl-prefsEditor-buttons">
+                    <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
+                    <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
+                </span>
             </div>
+        </div>
+        <!-- END markup for Preference Editor -->
 
-            {% include 'partials/footer.njk' %}
+        {% include 'partials/header.njk' %}
 
-        </div> <!-- end container -->
+        <main id="main" class="wrapper">
+            <article class="">
+                {% block content %}{% endblock %}
+            </article>
+        </main>
 
+        {% include 'partials/footer.njk' %}
     </body>
 </html>

@@ -1,49 +1,23 @@
-<!-- Skip Link -->
-<nav id="skip" class="fl-inverted-color">
-    {% if category %}
-    <a href="#topics" class="docs-template-skip-topics">Skip to Topics</a>
-    {% endif %}
-    <a href="#content" class="docs-template-skip-content">Skip to Content</a>
-</nav>
-<!-- END skip link -->
-
-<header class="ignore-for-TOC row fl-inverted-color">
-    <!-- BEGIN markup for Preference Editor -->
-    <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
-        <!-- This is the div that will contain the Preference Editor component -->
-        <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
-
-        <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
-        <div class="fl-panelBar">
-            <span class="fl-prefsEditor-buttons">
-                <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
-                <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-            </span>
-        </div>
-    </div>
-    <!-- END markup for Preference Editor -->
-
-    <div class="small-12 column docs-template-header">
-        <a class="" href="/index.html" title="Home: Documentation Template">
-            <span class="idg-logo">{% include 'svg/idrc-logo.svg' %}</span>
-            <h1>The Inclusive Design Guide</h1>
+<header class="ignore-for-TOC wrapper bg-primary color-primary">
+    <div class="">
+        <a class="banner" href="/index.html" title="Home: Documentation Template">
+            <span class="banner__logo">{% include 'svg/idrc-logo.svg' %}</span>
+            <h1 class="banner__heading">The Inclusive Design Guide</h1>
         </a>
 
         <!-- Mobile Menu -->
-        <nav class="right show-for-small-only docs-template-nav-mobile">
+        {# <nav class="">
             <ul id="menu">
-                <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
-                    <ul class="docs-template-dropDown">
+                <li class=""><span class=""></span>
+                    <ul class="">
                     {% include 'partials/menu.njk' %}
                    </ul>
                 </li>
             </ul>
-        </nav>
-    </div>
+        </nav> #}
 
-    <!-- "Desktop" Menu -->
-    <div class="docs-template-header">
-        <nav class="idg-tabs small-12 column show-for-medium-up">
+            <!-- "Desktop" Menu -->
+        <nav class="menu" aria-label="menu">
             <ul class="inline-list">
             {% include 'partials/menu.njk' %}
             </ul>

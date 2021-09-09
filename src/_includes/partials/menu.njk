@@ -3,8 +3,8 @@
 {% for item in navPages %}
     {% set slug = item.key | lower %}
     {% set iconPath = 'svg/icon-' + slug + '.svg' %}
-    <li class="idg-nav{{ item.key }}{% if item.key === category %} docs-template-category-active{% endif %}">
-        <a href="{{ item.url }}"{% if item.key === category %} aria-current="page"{% endif %}>
+    <li class="">
+        <a href="{{ item.url }}" class="bg-category-{{ item.key | lower }}" {% if item.key === category %} aria-current="page"{% endif %}>
             {% include iconPath %} {{ item.key }}
         </a>
     </li>
