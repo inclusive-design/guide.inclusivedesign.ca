@@ -520,12 +520,11 @@ html body {
 
 /* the article body */
 .docs-template-articleBody  {
-    padding: 5.5rem 2rem 6rem 2rem;
     color: articleBody-color;
     background: articleBody-background;
 
     // make article wider to take more room.
-    width: 91.66%;
+    width: 100%;
 }
 
 .docs-template-articleBody * {
@@ -567,6 +566,10 @@ html body {
     border-bottom: 0.1rem dotted code-block-link-color;
     color: code-block-link-color;
     background: 0;
+}
+
+.docs-template-articleBody  article>* {
+    padding-inline: 2.5rem;
 }
 
 /* Topics list */
