@@ -3,7 +3,6 @@ title: Wireframes
 eleventyNavigation:
     parent: Tools
     key: Wireframes
-    order: 10
 ---
 
 Wireframes provide a way to develop and present design ideas in the early stages of a project. They can be made up of

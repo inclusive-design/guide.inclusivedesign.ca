@@ -3,7 +3,6 @@ title: Create-a-Thon
 eleventyNavigation:
     parent: Activities
     key: Create-a-Thon
-    order: 9
 ---
 
 A Create-a-Thon (_CaT_) brings together a diverse group of people in order to collaboratively contribute to the design

@@ -1,0 +1,39 @@
+{% extends "layouts/base.njk" %}
+
+{% set bodyClass = "idg-category-" + category %}
+{% set editLinkPath %}
+documents{{ page.url | replace('.html', '.md') }}
+{% endset %}
+{% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+
+{% block content %}
+
+<header>
+    <nav class="idg-breadcrumb" aria-label="Breadcrumb">
+        <ul>
+            <li><a href="/">Home</a></li>
+            {% for page in navPages %}
+            <li><a href="{{ page.url }}">{{ page.key }}</a></li>
+            {% endfor %}
+            <li aria-current="page">{{ eleventyNavigation.key }}</li>
+        </ul>
+    </nav>
+    <h1>{{ title }}</h1>
+</header>
+
+{% include "partials/content.njk" %}
+
+{% if not navPages.length %}
+{% set childPages = collections.all | eleventyNavigation(eleventyNavigation.key) %}
+<nav aria-label="{{ eleventyNavigation.key }} contents">
+    <ul>
+        {% for page in childPages %}
+        <li><a href="{{ page.url }}">{{ page.key }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
+{% endif %}
+
+{% include "partials/editOnGitHub.njk" %}
+
+{% endblock %}

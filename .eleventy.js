@@ -8,9 +8,6 @@ const parseTransform = require("./src/transforms/parse-transform.js");
 module.exports = function (config) {
     config.setUseGitIgnore(false);
 
-    // Layouts
-    config.addLayoutAlias("default", "layouts/default.njk");
-
     // Plugins
     config.addPlugin(fluidPlugin);
     config.addPlugin(navigationPlugin);

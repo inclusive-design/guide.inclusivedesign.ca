@@ -3,7 +3,6 @@ title: Collaborative Art Warmup
 eleventyNavigation:
     parent: Activities
     key: Collaborative Art Warmup
-    order: 6
 ---
 
 This exercise is intended to be fun and quick. It can be used in meetings, co-design sessions or any other group context
@@ -25,13 +24,13 @@ Break into small groups (3 or 4 people per group is best) and find a workstation
 ### Step 2
 
 Each group collaboratively builds a small art installation or artwork using any of the available materials. This step
-can take between 4-7 minutes.  
+can take between 4-7 minutes.
 
-Tip: Don’t worry too much about the outcome, take risks and play.  
+Tip: Don’t worry too much about the outcome, take risks and play.
 
 Tip: If there are members in your group that require audio description, make sure to describe the available materials at
 the start and to describe the artwork as it takes form. Allow for tactile exploration of the materials and the artwork
-as well.  
+as well.
 
 Tip: To ensure that everyone gets a chance to participate, you can have each group member take a turn adding something
 to the artwork.
@@ -54,7 +53,7 @@ Each group returns to their original station and shares the title, description a
 
 This activity helps participants gain a deeper understanding of the different ways artwork or other content may be
 accessed, perceived and interpreted. It also helps participants to think beyond typical communication methods in order
-to expand the range of people who can access and use the content.  
+to expand the range of people who can access and use the content.
 
 {% figure "/assets/images/collaborative_art.jpg", "An image showing a small sculpture made of lego and pipe cleaners on
 a table top, beside which lie two hand-written notes, one of which includes a title and description, while the other

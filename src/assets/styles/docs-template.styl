@@ -297,14 +297,6 @@ html body {
     z-index: 1;
 }
 
-.docs-template-skip-topics {
-    display: none;
-}
-
-.docs-core-sidebar-expanded .docs-template-skip-topics {
-    display: initial;
-}
-
 /* OVERRIDE JQUERY UI WIDGET THEME */
 
 .ui-icon-blank {
@@ -524,22 +516,11 @@ html body {
 
 /* the article body */
 .docs-template-articleBody  {
-    padding: 5.5rem 2rem 6rem 2rem;
     color: articleBody-color;
     background: articleBody-background;
 
     // make article wider to take more room.
-    width: 91.66%;
-}
-
-.docs-core-sidebar-expanded .docs-template-articleBody {
-    // put width back to the same as Foundation's medium-8
-    width: 75%;
-}
-
-.docs-template-404.docs-core-sidebar-expanded .docs-template-articleBody {
     width: 100%;
-    max-width: none;
 }
 
 .docs-template-articleBody * {
@@ -583,6 +564,10 @@ html body {
     background: 0;
 }
 
+.docs-template-articleBody  article>* {
+    padding-inline: 2.5rem;
+}
+
 /* Topics list */
 .docs-template-topics-container {
     background: topics-background;
@@ -596,18 +581,6 @@ html body {
     padding-right: 0;
     padding-left: 0;
     width: 1px;
-}
-
-.docs-core-sidebar-expanded .docs-template-topics-container {
-    overflow: auto;
-    padding: 1.5rem;
-    width: 25%; // put width back to the same as Foundation's medium-3
-    flex-grow: 2;
-    -webkit-flex-grow: 2;
-}
-
-.docs-core-sidebar-expanded .docs-template-topics {
-    display: block; // restore tabbability of topics
 }
 
 .docs-template-topics-hideShow {
@@ -910,14 +883,6 @@ html body {
 
     .docs-template-header h1 {
         font-size: 1.4rem;
-    }
-
-    .docs-core-sidebar-expanded .docs-template-topics-container {
-        width: 50%;
-    }
-
-    .docs-core-sidebar-expanded .docs-template-articleBody {
-        width: 50%;
     }
 
     .docs-template-topics-hideShow {

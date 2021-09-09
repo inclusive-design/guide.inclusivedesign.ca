@@ -3,7 +3,6 @@ title: Communicate Multimodally
 eleventyNavigation:
     parent: Practices
     key: Communicate Multimodally
-    order: 6
 ---
 
 When sharing design artifacts, giving a presentation, holding a meeting, bringing someone new into a design community or

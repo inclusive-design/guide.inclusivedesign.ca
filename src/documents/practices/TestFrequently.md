@@ -3,7 +3,6 @@ title: Test Frequently
 eleventyNavigation:
     parent: Practices
     key: Test Frequently
-    order: 7
 ---
 
 The earlier and more often user feedback can be solicited in the design process, the better. When usability testing is

@@ -3,7 +3,6 @@ title: Personas
 eleventyNavigation:
     parent: Tools
     key: Personas
-    order: 7
 ---
 
 Personas are models representing potential stakeholders who may use a product or service. Although they are fictional

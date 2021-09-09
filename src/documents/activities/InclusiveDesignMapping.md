@@ -3,7 +3,6 @@ title: Inclusive Design Mapping
 eleventyNavigation:
     parent: Activities
     key: Inclusive Design Mapping
-    order: 2
 ---
 
 This activity is intended to be used in the context of co-design, where a diverse set of co-designers, including people

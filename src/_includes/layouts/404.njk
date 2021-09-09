@@ -1,12 +1,10 @@
 {% extends "layouts/base.njk" %}
 
-{% set bodyClass = "idg-index" %}
-{% set editLinkPath = "index.md" %}
+{% set bodyClass = "idg-category-404" %}
 
 {% block content %}
 
 <h1>{{ title }}</h1>
 {% include "partials/content.njk" %}
-{% include "partials/editOnGitHub.njk" %}
 
 {% endblock %}

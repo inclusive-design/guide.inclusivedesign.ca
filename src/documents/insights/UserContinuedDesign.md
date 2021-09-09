@@ -3,7 +3,6 @@ title: User-Continued Design
 eleventyNavigation:
     parent: Insights
     key: User-Continued Design
-    order: 8
 ---
 
 Inclusive design aims to extend the design process into the designed artifact itself, giving users the ability to

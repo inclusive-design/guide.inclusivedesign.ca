@@ -3,7 +3,6 @@ title: Practice Co-Design
 eleventyNavigation:
     parent: Practices
     key: Practice Co-Design
-    order: 2
 ---
 
 The practice of co-design allows users to become active participants in the design process by facilitating their direct

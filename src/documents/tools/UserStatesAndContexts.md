@@ -3,7 +3,6 @@ title: User States and Contexts
 eleventyNavigation:
     parent: Tools
     key: User States and Contexts
-    order: 6
 ---
 
 User states and contexts is a use-modelling tool for conceptualizing, designing, and evaluating the ability of a design

@@ -3,7 +3,6 @@ title: Design for Adaptability and Flexibility
 eleventyNavigation:
     parent: Practices
     key: Design for Adaptability and Flexibility
-    order: 9
 ---
 
 Designing for adaptability and flexibility means creating products or services that give the user more control over

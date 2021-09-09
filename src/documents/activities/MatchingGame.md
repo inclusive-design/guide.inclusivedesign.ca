@@ -3,7 +3,6 @@ title: Matching Game
 eleventyNavigation:
     parent: Activities
     key: Matching Game
-    order: 1
 ---
 
 Ask someone to think of and briefly describe someone they know (their age, interests, where they live, etc), then ask

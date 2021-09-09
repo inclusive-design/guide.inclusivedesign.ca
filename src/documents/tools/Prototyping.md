@@ -3,7 +3,6 @@ title: Prototyping
 eleventyNavigation:
     parent: Tools
     key: Prototyping
-    order: 11
 ---
 
 Prototyping is an effective way to quickly communicate your ideas with others, solicit feedback, and learn through

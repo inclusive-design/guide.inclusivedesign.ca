@@ -3,7 +3,6 @@ title: Design for Uncertainty
 eleventyNavigation:
     parent: Practices
     key: Design for Uncertainty
-    order: 10
 ---
 
 It is impossible to predict the infinite number of creative, serendipitous, and unexpected uses of a product or service.

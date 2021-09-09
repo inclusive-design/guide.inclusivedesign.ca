@@ -3,7 +3,6 @@ title: Virtuous Tornado
 eleventyNavigation:
     parent: Activities
     key: Virtuous Tornado
-    order: 5
 ---
 
 ## Introduction &mdash; Innovation at the Edges

@@ -3,7 +3,6 @@ title: UX Walkthroughs
 eleventyNavigation:
     parent: Tools
     key: UX Walkthroughs
-    order: 1
 ---
 
 A User Experience (UX) Walkthrough is a technique used to identify usability and accessibility issues in a website or

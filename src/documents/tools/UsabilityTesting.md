@@ -3,7 +3,6 @@ title: Usability Testing
 eleventyNavigation:
     parent: Tools
     key: Usability Testing
-    order: 2
 ---
 
 Usability testing, also sometimes referred to as user testing, is a technique for evaluating the usability of a design

@@ -3,7 +3,6 @@ title: Mindmaps
 eleventyNavigation:
     parent: Tools
     key: Mindmaps
-    order: 9
 ---
 
 Mindmaps are visual diagrams used for organizing often complex information related to a specific topic or concept. They
@@ -23,7 +22,7 @@ Note: Although mindmaps are traditionally visual tools, they can be created and 
 non-visual users. For example, they can be created using digital tools that are compatible with screen readers, such as
 Google Draw. Or they can be presented to an audience with an accompanying text description that includes a step-by-step
 description of the flow of information.
-  
+
 ## Try
 
 1. Start with the central concept or initial state.

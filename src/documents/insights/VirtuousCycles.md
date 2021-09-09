@@ -3,7 +3,6 @@ title: Virtuous Cycles
 eleventyNavigation:
     parent: Insights
     key: Virtuous Cycles
-    order: 6
 ---
 
 Altering any factor in a complex system can cause an amplified reaction in other systems (e.g. changing the education
@@ -16,7 +15,8 @@ met, individuals have greater access to participation (e.g. in a design process)
 demands. This pushes so-called “outlier” solutions into the mainstream, making inclusively designed solutions more
 affordable. This in turn increases individual spending power and prosperity, further increasing access to participation.
 
-{% figure "/assets/images/VirtuousCyclesOfDigitalInclusion.jpg", "Diagram showing the virtuous cycles as a result of digital inclusion." %}
+{% figure "/assets/images/VirtuousCyclesOfDigitalInclusion.jpg",
+"Diagram showing the virtuous cycles as a result of digital inclusion." %}
 
 *Figure 1:* The virtuous cycles triggered by digital inclusion
 
