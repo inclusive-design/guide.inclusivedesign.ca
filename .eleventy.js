@@ -25,7 +25,9 @@ module.exports = function (config) {
     config.addPassthroughCopy({"src/assets/images": "assets/images"});
     config.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
     config.addPassthroughCopy({"node_modules/docs-core/src/static/css": "assets/styles"});
-    config.addPassthroughCopy({"node_modules/docs-core/src/static/lib": "lib"});
+    config.addPassthroughCopy({"node_modules/jquery-ui/themes": "lib/jquery-ui/themes"});
+    config.addPassthroughCopy({"node_modules/jquery-ui/ui": "lib/jquery-ui/ui"});
+
 
     // BrowserSync
     config.setBrowserSyncConfig({

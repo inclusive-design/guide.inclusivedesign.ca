@@ -27,18 +27,19 @@
     "dependencies": {
         "@11ty/eleventy": "0.12.1",
         "@11ty/eleventy-navigation": "0.3.2",
-        "eleventy-plugin-fluid": "0.2.1",
-        "docs-core": "fluid-project/docs-core"
+        "docs-core": "fluid-project/docs-core",
+        "eleventy-plugin-fluid": "0.3.0",
+        "infusion": "4.0.0-dev.20210622T193827Z.ac6adb829.FLUID-6629",
+        "jquery-ui": "1.12.1"
     },
     "devDependencies": {
         "@commitlint/cli": "13.1.0",
         "@commitlint/config-conventional": "13.1.0",
         "cross-env": "7.0.3",
         "debug": "4.3.2",
-        "fluid-lint-all": "1.1.4",
+        "fluid-lint-all": "1.1.5",
         "html-minifier": "4.0.0",
         "husky": "4.3.0",
-        "infusion": "3.0.0-dev.20200326T173810Z.24ddb2718",
         "jsdom": "16.7.0",
         "laravel-mix": "6.0.27",
         "move-file": "2.1.0",
