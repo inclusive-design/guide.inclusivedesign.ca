@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ lang }}">
     <head>
         {% include 'partials/head-matter.njk' %}
     </head>
@@ -20,6 +20,6 @@
             {% include 'partials/footer.njk' %}
 
         </div> <!-- end container -->
-        {% uioInit %}
+        {% uioInit config.languages[lang].uioSlug, config.languages[lang].dir %}
     </body>
 </html>

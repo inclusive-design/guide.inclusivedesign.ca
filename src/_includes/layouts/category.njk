@@ -4,18 +4,18 @@
 {% set editLinkPath %}
 documents{{ page.url | replace('.html', '.md') }}
 {% endset %}
-{% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+{% set navPages = collections[category + "_" + lang] | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
 
 {% block content %}
 
 <header>
     <nav class="idg-breadcrumb" aria-label="Breadcrumb">
         <ul>
-            <li><a href="/">Home</a></li>
+            <li><a href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}">Home</a></li>
             {% for page in navPages %}
-            <li><a href="{{ page.url }}">{{ page.key }}</a></li>
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
             {% endfor %}
-            <li aria-current="page">{{ eleventyNavigation.key }}</li>
+            <li aria-current="page">{{ eleventyNavigation.title }}</li>
         </ul>
     </nav>
     <h1>{{ title }}</h1>
@@ -24,11 +24,12 @@ documents{{ page.url | replace('.html', '.md') }}
 {% include "partials/content.njk" %}
 
 {% if not navPages.length %}
-{% set childPages = collections.all | eleventyNavigation(eleventyNavigation.key) %}
+{% set childPages = collections[category + "_" + lang] | eleventyNavigation(eleventyNavigation.key) %}
 <nav aria-label="{{ eleventyNavigation.key }} contents">
     <ul>
-        {% for page in childPages %}
-        <li><a href="{{ page.url }}">{{ page.key }}</a></li>
+        {# Output page links in alphabetical order #}
+        {% for page in childPages |sort(false, true, "title") %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
         {% endfor %}
     </ul>
 </nav>

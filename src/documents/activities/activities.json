@@ -1,5 +1,0 @@
-{
-    "layout": "layouts/category.njk",
-    "permalink": "/activities/{{ page.fileSlug }}.html",
-    "category": "Activities"
-}

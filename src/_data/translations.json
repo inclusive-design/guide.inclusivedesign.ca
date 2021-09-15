@@ -1,0 +1,14 @@
+{
+    "en-CA": {
+        "activities": "activities",
+        "insights": "insights",
+        "practices": "practices",
+        "tools": "tools"
+    },
+    "fr": {
+        "activities": "activités",
+        "insights": "idées",
+        "practices": "pratiques",
+        "tools": "outils"
+    }
+}

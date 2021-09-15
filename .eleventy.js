@@ -5,6 +5,9 @@ const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const parseTransform = require("./src/transforms/parse-transform.js");
 
+// Import data files
+const siteConfig = require("./src/_data/config.json");
+
 module.exports = function (config) {
     config.setUseGitIgnore(false);
 
@@ -28,6 +31,21 @@ module.exports = function (config) {
     config.addPassthroughCopy({"node_modules/jquery-ui/themes": "lib/jquery-ui/themes"});
     config.addPassthroughCopy({"node_modules/jquery-ui/ui": "lib/jquery-ui/ui"});
 
+    // Custom collections
+    Object.keys(siteConfig.languages).forEach(lang => {
+        config.addCollection(`Activities_${lang}`, collection => {
+            return collection.getFilteredByGlob(`./src/documents/activities/${lang}/*.md`);
+        });
+        config.addCollection(`Insights_${lang}`, collection => {
+            return collection.getFilteredByGlob(`./src/documents/insights/${lang}/*.md`);
+        });
+        config.addCollection(`Practices_${lang}`, collection => {
+            return collection.getFilteredByGlob(`./src/documents/practices/${lang}/*.md`);
+        });
+        config.addCollection(`Tools_${lang}`, collection => {
+            return collection.getFilteredByGlob(`./src/documents/tools/${lang}/*.md`);
+        });
+    });
 
     // BrowserSync
     config.setBrowserSyncConfig({
@@ -42,6 +60,13 @@ module.exports = function (config) {
                     response.end();
                 });
             }
+        }
+    });
+
+    config.on("beforeBuild", () => {
+        if (!siteConfig.languages[siteConfig.defaultLanguage]) {
+            process.exitCode = 1;
+            throw new Error(`The default language, ${siteConfig.defaultLanguage}, configured in src/_data/config.json is not one of your site's supported languages.`);
         }
     });
 
