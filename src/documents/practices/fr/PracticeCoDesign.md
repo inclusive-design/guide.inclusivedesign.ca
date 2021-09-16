@@ -27,11 +27,11 @@ de conception tout en intégrant les perspectives propres aux communautés et in
 
 ## Pourquoi
 
-* {% include 'svg/icon-insights.svg' %} [Des perspectives et contributions variées](../../idees/des-perspectives-et-contributions-variees/)
-* {% include 'svg/icon-insights.svg' %} [Des solutions harmonisées](../../insights/idees/des-solutions-harmonisees/)
+* {% icon "insights" %} [Des perspectives et contributions variées](../../idees/des-perspectives-et-contributions-variees/)
+* {% icon "insights" %} [Des solutions harmonisées](../../insights/idees/des-solutions-harmonisees/)
 
 ## Comment
 
-* {% include 'svg/icon-tools.svg' %} [Les Outils de communication qui sont accessibles](../../outils/les-outils-de-communication-qui-sont-accessibles/)
-* {% include 'svg/icon-tools.svg' %} [Les Outils de conception qui sont accessibles](../../outils/les-outils-de-conception-qui-sont-accessibles/)
-* {% include 'svg/icon-tools.svg' %} [Les Outils de développement qui sont accessibles](../../outils/les-outils-de-developpement-qui-sont-accessibles/)
+* {% icon "tools" %} [Les Outils de communication qui sont accessibles](../../outils/les-outils-de-communication-qui-sont-accessibles/)
+* {% icon "tools" %} [Les Outils de conception qui sont accessibles](../../outils/les-outils-de-conception-qui-sont-accessibles/)
+* {% icon "tools" %} [Les Outils de développement qui sont accessibles](../../outils/les-outils-de-developpement-qui-sont-accessibles/)

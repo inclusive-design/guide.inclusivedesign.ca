@@ -35,6 +35,6 @@ besoins ?
 
 ## Utilise
 
-* {% include 'svg/icon-practices.svg' %} [Gardez l'esprit pratique](../../pratiques/gardez-lesprit-pratique/)
-* {% include 'svg/icon-practices.svg' %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
-* {% include 'svg/icon-activities.svg' %} [La carte d'une conception inclusive](../../activites/la-carte-dune-conception-inclusive/)
+* {% icon "practices" %} [Gardez l'esprit pratique](../../pratiques/gardez-lesprit-pratique/)
+* {% icon "practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
+* {% icon "activities" %} [La carte d'une conception inclusive](../../activites/la-carte-dune-conception-inclusive/)

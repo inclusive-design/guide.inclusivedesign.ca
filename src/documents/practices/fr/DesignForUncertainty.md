@@ -27,15 +27,15 @@ avec plaisir et aisance sont autant de façon de tenir compte des surprises.
 
 ## Pourquoi
 
-* {% include 'svg/icon-insights.svg' %} [Interconnexion](../../idees/interconnexion/)
-* {% include 'svg/icon-insights.svg' %} [Des cercles vertueux](../../idees/des-cercles-vertueux/)
+* {% icon "insights" %} [Interconnexion](../../idees/interconnexion/)
+* {% icon "insights" %} [Des cercles vertueux](../../idees/des-cercles-vertueux/)
 
 ## Comment
 
-* {% include 'svg/icon-practices.svg' %} [Testez fréquemment](../../pratiques/testez-frequemment/)
-* {% include 'svg/icon-practices.svg' %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
-* {% include 'svg/icon-tools.svg' %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
-* {% include 'svg/icon-tools.svg' %} [Le test utilisateur](../../outils/le-test-utilisateur/)
-* {% include 'svg/icon-tools.svg' %} [Le prototypage](../../outils/le-prototypage/)
-* {% include 'svg/icon-tools.svg' %} [Les personas](../../outils/les-personas/)
-* {% include 'svg/icon-tools.svg' %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
+* {% icon "practices" %} [Testez fréquemment](../../pratiques/testez-frequemment/)
+* {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
+* {% icon "tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
+* {% icon "tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
+* {% icon "tools" %} [Le prototypage](../../outils/le-prototypage/)
+* {% icon "tools" %} [Les personas](../../outils/les-personas/)
+* {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)

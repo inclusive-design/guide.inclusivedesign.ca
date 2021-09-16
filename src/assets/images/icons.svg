@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="icon-activities" viewBox="0 0 20 20" role="presentation">
+        <title>Activities</title>
+        <path d="M9.936 19.5L1.74 14.691l.069-9.499L10.066.5l8.194 4.809-.067 9.499z"/>
+    </symbol>
+    <symbol id="icon-insights" viewBox="-0.503 1.458 19.995 20.014" role="presentation">
+        <title>Insights</title>
+        <path d="M17.942 11.517a8.44 8.44 0 0 1-8.441 8.441 8.44 8.44 0 0 1-8.441-8.441c0-4.675 3.779-8.455 8.441-8.455 4.662 0 8.441 3.779 8.441 8.455"/>
+    </symbol>
+    <symbol id="icon-practices" viewBox="0 0 20 20" role="presentation">
+        <title>Practices</title>
+        <path d="M10 .499l9.504 9.5-9.5 9.504-9.504-9.5z"/>
+    </symbol>
+    <symbol id="icon-tools" viewBox="-0.55 1.438 20 20" role="presentation">
+        <title>Tools</title>
+        <path d="M2.192 4.281h14.52v14.526H2.192z"/>
+    </symbol>
+</svg>

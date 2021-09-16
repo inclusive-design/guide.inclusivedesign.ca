@@ -29,9 +29,9 @@ participants with a diverse range of needs, interests, personalities and ideas.
 
 ## Why
 
-* {% include 'svg/icon-insights.svg' %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
+* {% icon "insights" %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
 
 ## How
 
-* {% include 'svg/icon-tools.svg' %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
-* {% include 'svg/icon-tools.svg' %} [Accessible Design Tools](../../tools/accessible-design-tools/)
+* {% icon "tools" %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
+* {% icon "tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)

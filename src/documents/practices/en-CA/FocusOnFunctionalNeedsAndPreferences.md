@@ -25,10 +25,10 @@ broad range of users are included.
 
 ## Why
 
-* {% include 'svg/icon-insights.svg' %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
+* {% icon "insights" %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
 
 ## How
 
-* {% include 'svg/icon-tools.svg' %} [User States and Contexts](../../tools/user-states-and-contexts/)
-* {% include 'svg/icon-tools.svg' %} [Personas](../../tools/personas/)
-* {% include 'svg/icon-tools.svg' %} [Use-Cases](../../tools/use-cases/)
+* {% icon "tools" %} [User States and Contexts](../../tools/user-states-and-contexts/)
+* {% icon "tools" %} [Personas](../../tools/personas/)
+* {% icon "tools" %} [Use-Cases](../../tools/use-cases/)

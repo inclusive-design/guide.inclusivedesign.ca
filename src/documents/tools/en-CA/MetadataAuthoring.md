@@ -23,5 +23,5 @@ For more information about metadata authoring please see <http://handbook.floepr
 
 ## Combine with
 
-* {% include 'svg/icon-tools.svg' %} [Personas](../../tools/personas/)
-* {% include 'svg/icon-tools.svg' %} [Use-Cases](../../tools/use-cases/)
+* {% icon "tools" %} [Personas](../../tools/personas/)
+* {% icon "tools" %} [Use-Cases](../../tools/use-cases/)

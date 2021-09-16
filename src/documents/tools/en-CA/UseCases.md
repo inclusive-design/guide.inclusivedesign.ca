@@ -27,5 +27,5 @@ question.
 
 ## Combine with
 
-* {% include 'svg/icon-tools.svg' %} [Personas](../../tools/personas/)
-* {% include 'svg/icon-tools.svg' %} [User States and Contexts](../../tools/user-states-and-contexts/)
+* {% icon "tools" %} [Personas](../../tools/personas/)
+* {% icon "tools" %} [User States and Contexts](../../tools/user-states-and-contexts/)

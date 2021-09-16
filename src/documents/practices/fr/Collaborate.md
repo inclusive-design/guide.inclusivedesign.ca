@@ -31,11 +31,11 @@ améliorent la qualité de l'ensemble.
 
 ## Pourquoi
 
-* {% include 'svg/icon-insights.svg' %} [Des perspectives et contributions variées](../../idees/des-perspectives-et-contributions-variees/)
+* {% icon "insights" %} [Des perspectives et contributions variées](../../idees/des-perspectives-et-contributions-variees/)
 
 ## Comment
 
-* {% include 'svg/icon-tools.svg' %} [Les Outils de communication qui sont accessibles](../../outils/les-outils-de-communication-qui-sont-accessibles/)
-* {% include 'svg/icon-tools.svg' %} [Les Outils de conception qui sont accessibles](../../outils/les-outils-de-conception-qui-sont-accessibles/)
-* {% include 'svg/icon-tools.svg' %} [Les Outils de développement qui sont accessibles](../../outils/les-outils-de-developpement-qui-sont-accessibles/)
-* {% include 'svg/icon-tools.svg' %} [Les outils de conception synchronisés](../../outils/les-outils-de-conception-synchronises/)
+* {% icon "tools" %} [Les Outils de communication qui sont accessibles](../../outils/les-outils-de-communication-qui-sont-accessibles/)
+* {% icon "tools" %} [Les Outils de conception qui sont accessibles](../../outils/les-outils-de-conception-qui-sont-accessibles/)
+* {% icon "tools" %} [Les Outils de développement qui sont accessibles](../../outils/les-outils-de-developpement-qui-sont-accessibles/)
+* {% icon "tools" %} [Les outils de conception synchronisés](../../outils/les-outils-de-conception-synchronises/)

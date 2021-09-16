@@ -33,6 +33,6 @@ service.
 
 ## Combine with
 
-* {% include 'svg/icon-tools.svg' %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
-* {% include 'svg/icon-tools.svg' %} [User States & Contexts](../../tools/user-states-and-contexts/)
-* {% include 'svg/icon-tools.svg' %} [Use-Cases](../../tools/use-cases/)
+* {% icon "tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
+* {% icon "tools" %} [User States & Contexts](../../tools/user-states-and-contexts/)
+* {% icon "tools" %} [Use-Cases](../../tools/use-cases/)

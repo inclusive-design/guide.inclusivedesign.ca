@@ -31,4 +31,4 @@ the thing itself helped you to feel comfortable to try something new?
 
 ## Use
 
-* {% include 'svg/icon-practices.svg' %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
+* {% icon "practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)

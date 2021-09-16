@@ -33,5 +33,5 @@ step.
 
 ## Why
 
-* {% include 'svg/icon-insights.svg' %} [Interconnectedness](../../insights/interconnectedness/)
-* {% include 'svg/icon-insights.svg' %} [Virtuous Cycles](../../insights/virtuous-cycles/)
+* {% icon "insights" %} [Interconnectedness](../../insights/interconnectedness/)
+* {% icon "insights" %} [Virtuous Cycles](../../insights/virtuous-cycles/)

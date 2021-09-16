@@ -19,6 +19,9 @@ module.exports = function (config) {
     config.addPairedShortcode("figure", function (content, img, alt) {
         return `<figure>\n<a href="${img}"><img src="${img}" alt="${alt}" /></a><figcaption>${content}</figcaption>\n</figure>`;
     });
+    config.addShortcode("icon", function (collection) {
+        return `<svg class="idg-icon-${collection}"><use xlink:href="/assets/images/icons.svg#icon-${collection}"></use></svg>`;
+    });
 
     // Transforms
     config.addTransform("parse", parseTransform);

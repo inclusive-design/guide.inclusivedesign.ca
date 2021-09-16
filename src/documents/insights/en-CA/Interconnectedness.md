@@ -22,9 +22,9 @@ of our systems and increasing their reach.
 
 ## Try
 
-* {% include 'svg/icon-activities.svg' %} [Cause and Effect](../../activities/cause-and-effect/)
+* {% icon "activities" %} [Cause and Effect](../../activities/cause-and-effect/)
 
 ## Use
 
-* {% include 'svg/icon-practices.svg' %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
-* {% include 'svg/icon-practices.svg' %} [Design for Uncertainty](../../practices/design-for-uncertainty/)
+* {% icon "practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
+* {% icon "practices" %} [Design for Uncertainty](../../practices/design-for-uncertainty/)

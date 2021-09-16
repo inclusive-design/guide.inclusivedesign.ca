@@ -23,9 +23,9 @@ conception inclusive.
 
 ## Comment
 
-* {% include 'svg/icon-tools.svg' %} [Les personas](../../outils/les-personas/)
+* {% icon "tools" %} [Les personas](../../outils/les-personas/)
 
 ## Pourquoi
 
-* {% include 'svg/icon-insights.svg' %} [Taillé sur mesure](../../idees/taille-sur-mesure/)
-* {% include 'svg/icon-insights.svg' %} [Le handicap comme discordance](../../idees/le-handicap-comme-discordance/)
+* {% icon "insights" %} [Taillé sur mesure](../../idees/taille-sur-mesure/)
+* {% icon "insights" %} [Le handicap comme discordance](../../idees/le-handicap-comme-discordance/)

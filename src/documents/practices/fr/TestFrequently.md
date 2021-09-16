@@ -31,11 +31,11 @@ aboutisse à un concept de produit réussi en limitant fortement de coûteux cha
 
 ## Pourquoi
 
-* {% include 'svg/icon-insights.svg' %} [Des perspectives et contributions variées](../../idees/des-perspectives-et-contributions-variees/)
-* {% include 'svg/icon-insights.svg' %} [Des solutions harmonisées](../../idees/des-solutions-harmonisees/)
+* {% icon "insights" %} [Des perspectives et contributions variées](../../idees/des-perspectives-et-contributions-variees/)
+* {% icon "insights" %} [Des solutions harmonisées](../../idees/des-solutions-harmonisees/)
 
 ## Comment
 
-* {% include 'svg/icon-practices.svg' %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
-* {% include 'svg/icon-tools.svg' %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
-* {% include 'svg/icon-tools.svg' %} [Le test utilisateur](../../outils/le-test-utilisateur/)
+* {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
+* {% icon "tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
+* {% icon "tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)

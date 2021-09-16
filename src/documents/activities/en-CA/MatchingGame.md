@@ -20,9 +20,9 @@ allow them to succeed, keeping in mind the insights, practices and tools of incl
 
 ## How
 
-* {% include 'svg/icon-tools.svg' %} [Personas](../../tools/personas/)
+* {% icon "tools" %} [Personas](../../tools/personas/)
 
 ## Why
 
-* {% include 'svg/icon-insights.svg' %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
-* {% include 'svg/icon-insights.svg' %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
+* {% icon "insights" %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
+* {% icon "insights" %} [Disability as Mismatch](../../insights/disability-as-mismatch/)

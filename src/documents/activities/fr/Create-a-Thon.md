@@ -74,5 +74,5 @@ l'article [« Create-a-Thon »](https://handbook.floeproject.org/Create-a-Thon.h
 
 ## A combiner avec
 
-* {% include 'svg/icon-tools.svg' %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
-* {% include 'svg/icon-tools.svg' %} [L'expérience utilisateur pas à pas](../../outils/lexperience-utilisateur-pas-a-pas/)
+* {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
+* {% icon "tools" %} [L'expérience utilisateur pas à pas](../../outils/lexperience-utilisateur-pas-a-pas/)

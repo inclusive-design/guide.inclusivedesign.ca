@@ -30,5 +30,5 @@ users" %}
 
 ## Combine with
 
-* {% include 'svg/icon-tools.svg' %} [Personas](../../tools/personas/)
-* {% include 'svg/icon-tools.svg' %} [Use-Cases](../../tools/use-cases/)
+* {% icon "tools" %} [Personas](../../tools/personas/)
+* {% icon "tools" %} [Use-Cases](../../tools/use-cases/)

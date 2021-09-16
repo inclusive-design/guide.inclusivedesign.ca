@@ -19,5 +19,5 @@ modes.
 
 ## Use
 
-* {% include 'svg/icon-practices.svg' %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
-* {% include 'svg/icon-practices.svg' %} [Design for Uncertainty](../../practices/design-for-uncertainty/)
+* {% icon "practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
+* {% icon "practices" %} [Design for Uncertainty](../../practices/design-for-uncertainty/)

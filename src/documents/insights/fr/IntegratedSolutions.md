@@ -36,7 +36,7 @@ Comment pourriez vous harmoniser les solutions pour qu'elles répondent à ces b
 
 ## Utilise
 
-* {% include 'svg/icon-practices.svg' %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
-* {% include 'svg/icon-practices.svg' %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
-* {% include 'svg/icon-practices.svg' %} [Intégrez l'accessibilité dès le commencement](../../pratiques/integrez-laccessibilite-des-le-commencement/)
-* {% include 'svg/icon-practices.svg' %} [Testez fréquemment](../../pratiques/testez-frequemment/)
+* {% icon "practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
+* {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
+* {% icon "practices" %} [Intégrez l'accessibilité dès le commencement](../../pratiques/integrez-laccessibilite-des-le-commencement/)
+* {% icon "practices" %} [Testez fréquemment](../../pratiques/testez-frequemment/)

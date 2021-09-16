@@ -31,10 +31,10 @@ rester ouvert à des idées neuves et des solutions innovantes.
 
 ## Pourquoi
 
-* {% include 'svg/icon-insights.svg' %} [Des solutions harmonisées](../../idees/des-solutions-harmonisees/)
+* {% icon "insights" %} [Des solutions harmonisées](../../idees/des-solutions-harmonisees/)
 
 ## Comment
 
-* {% include 'svg/icon-tools.svg' %} [Les personas](../../outils/les-personas/)
-* {% include 'svg/icon-tools.svg' %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
-* {% include 'svg/icon-tools.svg' %} [Le test utilisateur](../../outils/le-test-utilisateur/)
+* {% icon "tools" %} [Les personas](../../outils/les-personas/)
+* {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
+* {% icon "tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)

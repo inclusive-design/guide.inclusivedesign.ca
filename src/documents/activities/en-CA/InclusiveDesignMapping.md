@@ -22,9 +22,9 @@ own facets if they can't find a desired state or context within the provided set
 
 ## Why
 
-* {% include 'svg/icon-insights.svg' %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
-* {% include 'svg/icon-insights.svg' %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
-* {% include 'svg/icon-insights.svg' %} [Interconnectedness](../../insights/interconnectedness/)
+* {% icon "insights" %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
+* {% icon "insights" %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
+* {% icon "insights" %} [Interconnectedness](../../insights/interconnectedness/)
 
 ## Step 1
 

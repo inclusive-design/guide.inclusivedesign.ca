@@ -28,10 +28,10 @@ richesse.
 
 ## Pourquoi
 
-* {% include 'svg/icon-insights.svg' %} [Le handicap comme discordance](../../idees/le-handicap-comme-discordance/)
+* {% icon "insights" %} [Le handicap comme discordance](../../idees/le-handicap-comme-discordance/)
 
 ## Comment
 
-* {% include 'svg/icon-tools.svg' %} [L'expérience utilisateur pas à pas](../../outils/lexperience-utilisateur-pas-a-pas/)
-* {% include 'svg/icon-tools.svg' %} [Les personas](../../outils/les-personas/)
-* {% include 'svg/icon-tools.svg' %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
+* {% icon "tools" %} [L'expérience utilisateur pas à pas](../../outils/lexperience-utilisateur-pas-a-pas/)
+* {% icon "tools" %} [Les personas](../../outils/les-personas/)
+* {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)

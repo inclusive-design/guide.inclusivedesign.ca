@@ -32,6 +32,6 @@ happened? What did you do about it? How could the design of the product or servi
 
 ## Use
 
-* {% include 'svg/icon-practices.svg' %} [Focus on Functional Needs and Preferences](../../practices/focus-on-functional-needs-and-preferences/)
-* {% include 'svg/icon-practices.svg' %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
-* {% include 'svg/icon-activities.svg' %} [Inclusive Design Mapping](../../activities/inclusive-design-mapping/)
+* {% icon "practices" %} [Focus on Functional Needs and Preferences](../../practices/focus-on-functional-needs-and-preferences/)
+* {% icon "practices" %}  [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
+* {% icon "activities" %}  [Inclusive Design Mapping](../../activities/inclusive-design-mapping/)

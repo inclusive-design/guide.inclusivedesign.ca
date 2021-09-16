@@ -26,11 +26,11 @@ members are directly impacted by the design.
 
 ## Why
 
-* {% include 'svg/icon-insights.svg' %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
-* {% include 'svg/icon-insights.svg' %} [Integrated Solutions](../../insights/integrated-solutions/)
+* {% icon "insights" %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
+* {% icon "insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
 
 ## How
 
-* {% include 'svg/icon-tools.svg' %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
-* {% include 'svg/icon-tools.svg' %} [Accessible Design Tools](../../tools/accessible-design-tools/)
-* {% include 'svg/icon-tools.svg' %} [Accessible Development Tools](../../tools/accessible-development-tools/)
+* {% icon "tools" %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
+* {% icon "tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)
+* {% icon "tools" %} [Accessible Development Tools](../../tools/accessible-development-tools/)

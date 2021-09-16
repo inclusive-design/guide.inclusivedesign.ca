@@ -30,9 +30,9 @@ participating in that communication. Consider your own challenges with these pro
 
 ## Use
 
-* {% include 'svg/icon-practices.svg' %} [Practice Co-design](../../practices/practice-co-design/)
-* {% include 'svg/icon-practices.svg' %} [Work Openly](../../practices/work-openly/)
-* {% include 'svg/icon-practices.svg' %} [Communicate Multimodally](../../practices/communicate-multimodally/)
-* {% include 'svg/icon-practices.svg' %} [Facilitate Inclusively](../../practices/facilitate-inclusively/)
-* {% include 'svg/icon-practices.svg' %} [Collaborate](../../practices/collaborate/)
-* {% include 'svg/icon-practices.svg' %} [Test frequently](../../practices/test-frequently/)
+* {% icon "practices" %} [Practice Co-design](../../practices/practice-co-design/)
+* {% icon "practices" %} [Work Openly](../../practices/work-openly/)
+* {% icon "practices" %} [Communicate Multimodally](../../practices/communicate-multimodally/)
+* {% icon "practices" %} [Facilitate Inclusively](../../practices/facilitate-inclusively/)
+* {% icon "practices" %} [Collaborate](../../practices/collaborate/)
+* {% icon "practices" %} [Test frequently](../../practices/test-frequently/)

@@ -30,14 +30,14 @@ pour s'adapter aux besoins actuels et futurs de l'utilisateur ce qui le rend, de
 
 ## Pourquoi
 
-* {% include 'svg/icon-insights.svg' %} [Le handicap comme discordance](../../idees/le-handicap-comme-discordance/)
-* {% include 'svg/icon-insights.svg' %} [Taillé sur mesure](../../idees/taille-sur-mesure/)
-* {% include 'svg/icon-insights.svg' %} [L'exploration personnelle](../../idees/lexploration-personnelle/)
-* {% include 'svg/icon-insights.svg' %} [La conception entre les mains de l'utilisateur](../../idees/la-conception-entre-les-mains-de-lutilisateur/)
-* {% include 'svg/icon-insights.svg' %} [Des solutions harmonisées](../../idees/des-solutions-harmonisees/)
-* {% include 'svg/icon-insights.svg' %} [Interconnexion](../../idees/interconnexion/)
+* {% icon "insights" %} [Le handicap comme discordance](../../idees/le-handicap-comme-discordance/)
+* {% icon "insights" %} [Taillé sur mesure](../../idees/taille-sur-mesure/)
+* {% icon "insights" %} [L'exploration personnelle](../../idees/lexploration-personnelle/)
+* {% icon "insights" %} [La conception entre les mains de l'utilisateur](../../idees/la-conception-entre-les-mains-de-lutilisateur/)
+* {% icon "insights" %} [Des solutions harmonisées](../../idees/des-solutions-harmonisees/)
+* {% icon "insights" %} [Interconnexion](../../idees/interconnexion/)
 
 ## Comment
 
-* {% include 'svg/icon-tools.svg' %} [Infusion](../../outils/infusion/)
-* {% include 'svg/icon-tools.svg' %} [La rédaction de métadonnées](../../outils/la-redaction-de-metadonnees/)
+* {% icon "tools" %} [Infusion](../../outils/infusion/)
+* {% icon "tools" %} [La rédaction de métadonnées](../../outils/la-redaction-de-metadonnees/)

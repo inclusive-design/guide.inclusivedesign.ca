@@ -29,10 +29,10 @@ our biases, which in turn keeps us open to new ideas and innovative solutions.
 
 ## Why
 
-* {% include 'svg/icon-insights.svg' %} [Integrated Solutions](../../insights/integrated-solutions/)
+* {% icon "insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
 
 ## How
 
-* {% include 'svg/icon-tools.svg' %} [Personas](../../tools/personas/)
-* {% include 'svg/icon-tools.svg' %} [Use-Cases](../../tools/use-cases/)
-* {% include 'svg/icon-tools.svg' %} [Usability Testing](../../tools/usability-testing/)
+* {% icon "tools" %} [Personas](../../tools/personas/)
+* {% icon "tools" %} [Use-Cases](../../tools/use-cases/)
+* {% icon "tools" %} [Usability Testing](../../tools/usability-testing/)

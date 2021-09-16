@@ -2,12 +2,11 @@
 <!-- Highlight the (active) category the document belongs to. -->
 {% for item in navPages %}
     {% set slug = item.key | lower %}
-    {% set iconPath = 'svg/icon-' + slug + '.svg' %}
     {% if item.lang === lang %}
     {% set inCategory = item.key === category %}
     <li class="idg-nav{{ item.key }}{% if inCategory %} docs-template-category-active{% endif %}">
         <a href="{{ item.url }}"{% if inCategory %} aria-current="page"{% endif %}>
-            {% include iconPath %} {{ item.title }}
+            {% icon slug %} {{ item.title }}
         </a>
     </li>
     {% endif %}

@@ -31,11 +31,11 @@ usability and privacy.
 
 ## Why
 
-* {% include 'svg/icon-insights.svg' %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
-* {% include 'svg/icon-insights.svg' %} [Integrated Solutions](../../insights/integrated-solutions/)
-* {% include 'svg/icon-insights.svg' %} [Personal Discovery](../../insights/personal-discovery/)
+* {% icon "insights" %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
+* {% icon "insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
+* {% icon "insights" %} [Personal Discovery](../../insights/personal-discovery/)
 
 ## How
 
-* {% include 'svg/icon-practices.svg' %} [Practice Co-design](../../practices/practice-co-design/)
-* {% include 'svg/icon-practices.svg' %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
+* {% icon "practices" %} [Practice Co-design](../../practices/practice-co-design/)
+* {% icon "practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)

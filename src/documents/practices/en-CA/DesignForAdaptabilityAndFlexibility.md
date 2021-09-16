@@ -26,14 +26,14 @@ sustainable.
 
 ## Why
 
-* {% include 'svg/icon-insights.svg' %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
-* {% include 'svg/icon-insights.svg' %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
-* {% include 'svg/icon-insights.svg' %} [Personal Discovery](../../insights/personal-discovery/)
-* {% include 'svg/icon-insights.svg' %} [User-Continued Design](../../insights/user-continued-design/)
-* {% include 'svg/icon-insights.svg' %} [Integrated Solutions](../../insights/integrated-solutions/)
-* {% include 'svg/icon-insights.svg' %} [Interconnectedness](../../insights/interconnectedness/)
+* {% icon "insights" %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
+* {% icon "insights" %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
+* {% icon "insights" %} [Personal Discovery](../../insights/personal-discovery/)
+* {% icon "insights" %} [User-Continued Design](../../insights/user-continued-design/)
+* {% icon "insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
+* {% icon "insights" %} [Interconnectedness](../../insights/interconnectedness/)
 
 ## How
 
-* {% include 'svg/icon-tools.svg' %} [Infusion](../../tools/infusion/)
-* {% include 'svg/icon-tools.svg' %} [Metadata Authoring](../../tools/metadata-authoring/)
+* {% icon "tools" %} [Infusion](../../tools/infusion/)
+* {% icon "tools" %} [Metadata Authoring](../../tools/metadata-authoring/)

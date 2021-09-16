@@ -28,5 +28,5 @@ imaginer trois ajustements que vous souhaiteriez apporter à un produit ou un ou
 
 ## Utilise
 
-* {% include 'svg/icon-practices.svg' %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
-* {% include 'svg/icon-practices.svg' %} [Tenez compte des surprises](../../pratiques/tenez-compte-des-surprises/)
+* {% icon "practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
+* {% icon "practices" %} [Tenez compte des surprises](../../pratiques/tenez-compte-des-surprises/)

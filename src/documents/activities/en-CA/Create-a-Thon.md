@@ -75,5 +75,5 @@ Handbook](https://handbook.floeproject.org/Create-a-Thon.html).
 
 ## Combine With
 
-* {% include 'svg/icon-tools.svg' %} [Use-cases](../../tools/use-cases/)
-* {% include 'svg/icon-tools.svg' %} [User states and contexts](../../tools/user-states-and-contexts/)
+* {% icon "tools" %} [Use-cases](../../tools/use-cases/)
+* {% icon "tools" %} [User states and contexts](../../tools/user-states-and-contexts/)

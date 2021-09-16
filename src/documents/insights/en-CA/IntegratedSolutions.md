@@ -33,7 +33,7 @@ integrate these two solutions together such that it could meet the needs of both
 
 ## Use
 
-* {% include 'svg/icon-practices.svg' %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
-* {% include 'svg/icon-practices.svg' %} [Practice Co-design](../../practices/practice-co-design/)
-* {% include 'svg/icon-practices.svg' %} [Integrate Accessibility from the Start](../../practices/integrate-accessibility-from-the-start/)
-* {% include 'svg/icon-practices.svg' %} [Test Frequently](../../practices/test-frequently/)
+* {% icon "practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
+* {% icon "practices" %} [Practice Co-design](../../practices/practice-co-design/)
+* {% icon "practices" %} [Integrate Accessibility from the Start](../../practices/integrate-accessibility-from-the-start/)
+* {% icon "practices" %} [Test Frequently](../../practices/test-frequently/)

@@ -31,11 +31,11 @@ personnes à adopter cette approche et alimenter ainsi un cercle vertueux de l'i
 
 ## Pourquoi
 
-* {% include 'svg/icon-insights.svg' %} [Des perspectives et contributions variées](../../idees/des-perspectives-et-contributions-variees/)
-* {% include 'svg/icon-insights.svg' %} [Des cercles vertueux](../../idees/des-cercles-vertueux/)
+* {% icon "insights" %} [Des perspectives et contributions variées](../../idees/des-perspectives-et-contributions-variees/)
+* {% icon "insights" %} [Des cercles vertueux](../../idees/des-cercles-vertueux/)
 
 ## Comment
 
-* {% include 'svg/icon-tools.svg' %} [Les Outils de communication qui sont accessibles](../../outils/les-outils-de-communication-qui-sont-accessibles/)
-* {% include 'svg/icon-tools.svg' %} [Les Outils de conception qui sont accessibles](../../outils/les-outils-de-conception-qui-sont-accessibles/)
-* {% include 'svg/icon-tools.svg' %} [Les Outils de développement qui sont accessibles](../../outils/les-outils-de-developpement-qui-sont-accessibles/)
+* {% icon "tools" %} [Les Outils de communication qui sont accessibles](../../outils/les-outils-de-communication-qui-sont-accessibles/)
+* {% icon "tools" %} [Les Outils de conception qui sont accessibles](../../outils/les-outils-de-conception-qui-sont-accessibles/)
+* {% icon "tools" %} [Les Outils de développement qui sont accessibles](../../outils/les-outils-de-developpement-qui-sont-accessibles/)

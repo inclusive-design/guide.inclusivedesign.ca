@@ -55,5 +55,5 @@ to build prototypes (e.g. scissors, glue, tape, pipe cleaners, etc.).
 The goal of this activity is to promote creative thinking over immediate feasibility. It encourages participants to dig
 deeper to find unexpected and creative ways of addressing a problem.
 
-* {% include 'svg/icon-practices.svg' %} [Practice Co-Design](../../practices/practice-co-design/)
-* {% include 'svg/icon-practices.svg' %} [Collaborate](../../practices/collaborate)
+* {% icon "practices" %} [Practice Co-Design](../../practices/practice-co-design/)
+* {% icon "practices" %} [Collaborate](../../practices/collaborate)

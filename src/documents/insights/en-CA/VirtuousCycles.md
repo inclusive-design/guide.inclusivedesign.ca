@@ -24,7 +24,7 @@ affordable. This in turn increases individual spending power and prosperity, fur
 
 ## Use
 
-* {% include 'svg/icon-practices.svg' %} [Design for Uncertainty](../../practices/design-for-uncertainty/)
-* {% include 'svg/icon-practices.svg' %} [Work Openly](../../practices/work-openly/)
-* {% include 'svg/icon-practices.svg' %} [Practice Co-design](../../practices/practice-co-design/)
-* {% include 'svg/icon-practices.svg' %} [Facilitate Inclusively](../../practices/facilitate-inclusively/)
+* {% icon "practices" %} [Design for Uncertainty](../../practices/design-for-uncertainty/)
+* {% icon "practices" %} [Work Openly](../../practices/work-openly/)
+* {% icon "practices" %} [Practice Co-design](../../practices/practice-co-design/)
+* {% icon "practices" %} [Facilitate Inclusively](../../practices/facilitate-inclusively/)

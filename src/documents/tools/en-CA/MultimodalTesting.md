@@ -27,6 +27,6 @@ only as an initial guide.
 
 ## Combine with
 
-* {% include 'svg/icon-tools.svg' %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
-* {% include 'svg/icon-tools.svg' %} [Usability Testing](../../tools/usability-testing/tools/UsabilityTesting)
-* {% include 'svg/icon-tools.svg' %} [Prototyping](../../tools/prototyping/)
+* {% icon "tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
+* {% icon "tools" %} [Usability Testing](../../tools/usability-testing/tools/UsabilityTesting)
+* {% icon "tools" %} [Prototyping](../../tools/prototyping/)

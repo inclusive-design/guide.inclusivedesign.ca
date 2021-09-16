@@ -26,8 +26,8 @@ this in the early stages of design will result in more successfully integrated f
 
 ## Combine with
 
-* {% include 'svg/icon-tools.svg' %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
-* {% include 'svg/icon-tools.svg' %} [Usability Testing](../../tools/usability-testing/)
-* {% include 'svg/icon-tools.svg' %} [Personas](../../tools/personas/)
-* {% include 'svg/icon-tools.svg' %} [Use-Cases](../../tools/use-cases/)
-* {% include 'svg/icon-tools.svg' %} [Accessible Design Tools](../../tools/accessible-design-tools/)
+* {% icon "tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
+* {% icon "tools" %} [Usability Testing](../../tools/usability-testing/)
+* {% icon "tools" %} [Personas](../../tools/personas/)
+* {% icon "tools" %} [Use-Cases](../../tools/use-cases/)
+* {% icon "tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)

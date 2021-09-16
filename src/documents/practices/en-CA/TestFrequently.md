@@ -28,11 +28,11 @@ achieve a successful design solution, and safeguards against costly after-the-fa
 
 ## Why
 
-* {% include 'svg/icon-insights.svg' %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
-* {% include 'svg/icon-insights.svg' %} [Integrated Solutions](../../insights/integrated-solutions/)
+* {% icon "insights" %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
+* {% icon "insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
 
 ## How
 
-* {% include 'svg/icon-practices.svg' %} [Practice Co-design](../../practices/practice-co-design/)
-* {% include 'svg/icon-tools.svg' %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
-* {% include 'svg/icon-tools.svg' %} [Usability Testing](../../tools/usability-testing/)
+* {% icon "practices" %} [Practice Co-design](../../practices/practice-co-design/)
+* {% icon "tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
+* {% icon "tools" %} [Usability Testing](../../tools/usability-testing/)

@@ -32,9 +32,9 @@ d'autres personnes de communiquer. Pensez à vos propres difficultés d'utilisat
 
 ## Outils
 
-* {% include 'svg/icon-practices.svg' %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
-* {% include 'svg/icon-practices.svg' %} [Travaillez en toute transparence](../../pratiques/travaillez-en-toute-transparence/)
-* {% include 'svg/icon-practices.svg' %} [Variez les moyens de communiquer](../../pratiques/variez-les-moyens-de-communiquer/)
-* {% include 'svg/icon-practices.svg' %} [Faites plus simple et plus inclusif](../../pratiques/faites-plus-simple-et-plus-inclusif/)
-* {% include 'svg/icon-practices.svg' %} [Travaillez de concert](../../pratiques/travaillez-de-concert/)
-* {% include 'svg/icon-practices.svg' %} [Testez fréquemment](../../pratiques/testez-frequemment/)
+* {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
+* {% icon "practices" %} [Travaillez en toute transparence](../../pratiques/travaillez-en-toute-transparence/)
+* {% icon "practices" %} [Variez les moyens de communiquer](../../pratiques/variez-les-moyens-de-communiquer/)
+* {% icon "practices" %} [Faites plus simple et plus inclusif](../../pratiques/faites-plus-simple-et-plus-inclusif/)
+* {% icon "practices" %} [Travaillez de concert](../../pratiques/travaillez-de-concert/)
+* {% icon "practices" %} [Testez fréquemment](../../pratiques/testez-frequemment/)

@@ -25,15 +25,15 @@ can be embraced.
 
 ## Why
 
-* {% include 'svg/icon-insights.svg' %} [Interconnectedness](../../insights/interconnectedness/)
-* {% include 'svg/icon-insights.svg' %} [Virtuous Cycles](../../insights/virtuous-cycles/)
+* {% icon "insights" %} [Interconnectedness](../../insights/interconnectedness/)
+* {% icon "insights" %} [Virtuous Cycles](../../insights/virtuous-cycles/)
 
 ## How
 
-* {% include 'svg/icon-practices.svg' %} [Test Frequently](../../practices/test-frequently/)
-* {% include 'svg/icon-practices.svg' %} [Practice Co-design](../../practices/practice-co-design/)
-* {% include 'svg/icon-tools.svg' %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
-* {% include 'svg/icon-tools.svg' %} [Usability Testing](../../tools/usability-testing/)
-* {% include 'svg/icon-tools.svg' %} [Prototyping](../../tools/prototyping/)
-* {% include 'svg/icon-tools.svg' %} [Personas](../../tools/personas/)
-* {% include 'svg/icon-tools.svg' %} [Use-Cases](../../tools/use-cases/)
+* {% icon "practices" %} [Test Frequently](../../practices/test-frequently/)
+* {% icon "practices" %} [Practice Co-design](../../practices/practice-co-design/)
+* {% icon "tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
+* {% icon "tools" %} [Usability Testing](../../tools/usability-testing/)
+* {% icon "tools" %} [Prototyping](../../tools/prototyping/)
+* {% icon "tools" %} [Personas](../../tools/personas/)
+* {% icon "tools" %} [Use-Cases](../../tools/use-cases/)
