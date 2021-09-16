@@ -1,7 +1,10 @@
 {% extends "layouts/base.njk" %}
 
 {% set bodyClass = "idg-index" %}
-{% set editLinkPath = "index.md" %}
+
+{% set editLinkPath %}
+{{ page.filePathStem}}.md
+{% endset %}
 
 {% block content %}
 
