@@ -37,6 +37,8 @@ persona ou un ensemble de personas ne saurait décrire l’ensemble des utilisat
 
 ## A combiner avec
 
+{% unmarkedList %}
 * {% icon "tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
 * {% icon "tools" %} [L'expérience utilisateur pas à pas](../../outils/lexperience-utilisateur-pas-a-pas/)
 * {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
+{% endunmarkedList %}

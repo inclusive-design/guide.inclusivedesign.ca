@@ -24,9 +24,11 @@ leurs propres facettes s'ils n'en trouvent pas qui correspond à un contexte don
 
 ## Pourquoi
 
+{% unmarkedList %}
 * {% icon "insights" %} [Taillé sur mesure](../../idees/taille-sur-mesure/)
 * {% icon "insights" %} [Le handicap comme discordance](../../idees/le-handicap-comme-discordance/)
 * {% icon "insights" %} [Interconnexion](../../idees/interconnexion/)
+{% endunmarkedList %}
 
 ## Première étape
 

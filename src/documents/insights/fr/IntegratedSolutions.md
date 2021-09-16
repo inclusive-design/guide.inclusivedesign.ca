@@ -36,7 +36,9 @@ Comment pourriez vous harmoniser les solutions pour qu'elles répondent à ces b
 
 ## Utilise
 
+{% unmarkedList %}
 * {% icon "practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
 * {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
 * {% icon "practices" %} [Intégrez l'accessibilité dès le commencement](../../pratiques/integrez-laccessibilite-des-le-commencement/)
 * {% icon "practices" %} [Testez fréquemment](../../pratiques/testez-frequemment/)
+{% endunmarkedList %}

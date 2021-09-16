@@ -28,8 +28,10 @@ meilleure intégration de ces fonctionnalités alternatives.
 
 ## A combiner avec
 
+{% unmarkedList %}
 * {% icon "tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
 * {% icon "tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
 * {% icon "tools" %} [Les personas](../../outils/les-personas/)
 * {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
 * {% icon "tools" %} [Les Outils de conception qui sont accessibles](../../outils/les-outils-de-conception-qui-sont-accessibles/)
+{% endunmarkedList %}

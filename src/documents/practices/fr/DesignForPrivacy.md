@@ -35,11 +35,15 @@ et le confort d'utilisation.
 
 ## Pourquoi
 
+{% unmarkedList %}
 * {% icon "insights" %} [Taillé sur mesure](../../idees/taille-sur-mesure/)
 * {% icon "insights" %} [Des solutions harmonisées](../../idees/des-solutions-harmonisees/)
 * {% icon "insights" %} [L'exploration personnelle](../../idees/lexploration-personnelle/)
+{% endunmarkedList %}
 
 ## Comment
 
+{% unmarkedList %}
 * {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
 * {% icon "practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
+{% endunmarkedList %}

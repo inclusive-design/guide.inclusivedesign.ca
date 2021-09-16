@@ -36,5 +36,7 @@ conception. Un des participants peut noter les réponses à chaque étape.
 
 ## Pourquoi
 
+{% unmarkedList %}
 * {% icon "insights" %} [Interconnexion](../../idees/interconnexion/)
 * {% icon "insights" %} [Des cercles vertueux](../../idees/des-cercles-vertueux/)
+{% endunmarkedList %}

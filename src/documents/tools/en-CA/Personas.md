@@ -33,6 +33,8 @@ service.
 
 ## Combine with
 
+{% unmarkedList %}
 * {% icon "tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
 * {% icon "tools" %} [User States & Contexts](../../tools/user-states-and-contexts/)
 * {% icon "tools" %} [Use-Cases](../../tools/use-cases/)
+{% endunmarkedList %}

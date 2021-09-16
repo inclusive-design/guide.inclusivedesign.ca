@@ -31,11 +31,15 @@ améliorent la qualité de l'ensemble.
 
 ## Pourquoi
 
+{% unmarkedList %}
 * {% icon "insights" %} [Des perspectives et contributions variées](../../idees/des-perspectives-et-contributions-variees/)
+{% endunmarkedList %}
 
 ## Comment
 
+{% unmarkedList %}
 * {% icon "tools" %} [Les Outils de communication qui sont accessibles](../../outils/les-outils-de-communication-qui-sont-accessibles/)
 * {% icon "tools" %} [Les Outils de conception qui sont accessibles](../../outils/les-outils-de-conception-qui-sont-accessibles/)
 * {% icon "tools" %} [Les Outils de développement qui sont accessibles](../../outils/les-outils-de-developpement-qui-sont-accessibles/)
 * {% icon "tools" %} [Les outils de conception synchronisés](../../outils/les-outils-de-conception-synchronises/)
+{% endunmarkedList %}

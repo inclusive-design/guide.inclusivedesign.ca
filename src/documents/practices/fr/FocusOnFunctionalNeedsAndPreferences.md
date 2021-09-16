@@ -28,10 +28,14 @@ richesse.
 
 ## Pourquoi
 
+{% unmarkedList %}
 * {% icon "insights" %} [Le handicap comme discordance](../../idees/le-handicap-comme-discordance/)
+{% endunmarkedList %}
 
 ## Comment
 
+{% unmarkedList %}
 * {% icon "tools" %} [L'expérience utilisateur pas à pas](../../outils/lexperience-utilisateur-pas-a-pas/)
 * {% icon "tools" %} [Les personas](../../outils/les-personas/)
 * {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
+{% endunmarkedList %}

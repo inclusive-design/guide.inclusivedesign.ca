@@ -75,5 +75,7 @@ Handbook](https://handbook.floeproject.org/Create-a-Thon.html).
 
 ## Combine With
 
+{% unmarkedList %}
 * {% icon "tools" %} [Use-cases](../../tools/use-cases/)
 * {% icon "tools" %} [User states and contexts](../../tools/user-states-and-contexts/)
+{% endunmarkedList %}

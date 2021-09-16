@@ -28,5 +28,7 @@ et distractions potentielles, qui espère atteindre un objectif déterminé au m
 
 ## A combiner avec
 
+{% unmarkedList %}
 * {% icon "tools" %} [Les personas](../../outils/les-personas/)
 * {% icon "tools" %} [L'expérience utilisateur pas à pas](../../outils/lexperience-utilisateur-pas-a-pas/)
+{% endunmarkedList %}

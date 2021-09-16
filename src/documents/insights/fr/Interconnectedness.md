@@ -26,9 +26,13 @@ l'évolution naturelle de nos systèmes, leur croissance et leur portée.
 
 ## En pratique
 
+{% unmarkedList %}
 * {% icon "activities" %} [De cause à effet](../../activites/de-cause-a-effet/)
+{% endunmarkedList %}
 
 ## Utilise
 
+{% unmarkedList %}
 * {% icon "practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
 * {% icon "practices" %} [Tenez compte des surprises](../../pratiques/tenez-compte-des-surprises/)
+{% endunmarkedList %}

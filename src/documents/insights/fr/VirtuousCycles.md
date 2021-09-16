@@ -26,7 +26,9 @@ individuelle et le pouvoir d'achat ce qui améliore encore l'accès à la partic
 
 ## Utilise
 
+{% unmarkedList %}
 * {% icon "practices" %} [Tenez compte des surprises](../../pratiques/tenez-compte-des-surprises/)
 * {% icon "practices" %} [Travaillez en toute transparence](../../pratiques/travaillez-en-toute-transparence/)
 * {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
 * {% icon "practices" %} [Faites plus simple et plus inclusif](../../pratiques/faites-plus-simple-et-plus-inclusif/)
+{% endunmarkedList %}

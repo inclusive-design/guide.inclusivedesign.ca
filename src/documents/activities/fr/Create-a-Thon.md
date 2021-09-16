@@ -74,5 +74,7 @@ l'article [« Create-a-Thon »](https://handbook.floeproject.org/Create-a-Thon.h
 
 ## A combiner avec
 
+{% unmarkedList %}
 * {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
 * {% icon "tools" %} [L'expérience utilisateur pas à pas](../../outils/lexperience-utilisateur-pas-a-pas/)
+{% endunmarkedList %}

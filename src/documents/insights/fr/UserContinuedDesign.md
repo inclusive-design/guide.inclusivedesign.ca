@@ -20,5 +20,7 @@ enseignants experts abrités derrière des postures « d'autorité » ou « admi
 
 ## Utilise
 
+{% unmarkedList %}
 * {% icon "practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
 * {% icon "practices" %} [Tenez compte des surprises](../../pratiques/tenez-compte-des-surprises/)
+{% endunmarkedList %}

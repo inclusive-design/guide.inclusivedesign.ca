@@ -31,5 +31,7 @@ testing.
 
 ## Combine with
 
+{% unmarkedList %}
 * {% icon "tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
 * {% icon "tools" %} [Usability Testing](../../tools/usability-testing/)
+{% endunmarkedList %}

@@ -27,11 +27,14 @@ avec plaisir et aisance sont autant de façon de tenir compte des surprises.
 
 ## Pourquoi
 
+{% unmarkedList %}
 * {% icon "insights" %} [Interconnexion](../../idees/interconnexion/)
 * {% icon "insights" %} [Des cercles vertueux](../../idees/des-cercles-vertueux/)
+{% endunmarkedList %}
 
 ## Comment
 
+{% unmarkedList %}
 * {% icon "practices" %} [Testez fréquemment](../../pratiques/testez-frequemment/)
 * {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
 * {% icon "tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
@@ -39,3 +42,4 @@ avec plaisir et aisance sont autant de façon de tenir compte des surprises.
 * {% icon "tools" %} [Le prototypage](../../outils/le-prototypage/)
 * {% icon "tools" %} [Les personas](../../outils/les-personas/)
 * {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
+{% endunmarkedList %}

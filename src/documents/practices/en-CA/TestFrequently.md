@@ -28,11 +28,15 @@ achieve a successful design solution, and safeguards against costly after-the-fa
 
 ## Why
 
+{% unmarkedList %}
 * {% icon "insights" %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
 * {% icon "insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
+{% endunmarkedList %}
 
 ## How
 
+{% unmarkedList %}
 * {% icon "practices" %} [Practice Co-design](../../practices/practice-co-design/)
 * {% icon "tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
 * {% icon "tools" %} [Usability Testing](../../tools/usability-testing/)
+{% endunmarkedList %}

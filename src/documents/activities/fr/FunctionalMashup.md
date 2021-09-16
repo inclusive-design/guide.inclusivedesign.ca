@@ -58,5 +58,7 @@ partir des cartes-objet (des ciseaux, de la colle, du ruban adhésif, etc.)
 Le but de cette activité est d'encourager la pensée créative plutôt que la faisabilité immédiate. Elle permet aux
 participants d'aller chercher plus loin des réponses créatives et inattendues à un problème.
 
+{% unmarkedList %}
 * {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
 * {% icon "practices" %} [Travaillez de concert](../../pratiques/travaillez-de-concert/)
+{% endunmarkedList %}

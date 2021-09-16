@@ -3,7 +3,7 @@
 const fs = require("fs");
 const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
-const parseTransform = require("./src/transforms/parse-transform.js");
+const wrap = require("./src/shortcodes/wrap.js");
 
 // Import data files
 const siteConfig = require("./src/_data/config.json");
@@ -16,12 +16,10 @@ module.exports = function (config) {
     config.addPlugin(navigationPlugin);
 
     // Shortcodes
+    config.addPairedShortcode("unmarkedList", (content) => wrap(content, "idg-unmarkedList"));
     config.addShortcode("icon", function (collection) {
         return `<svg class="idg-icon-${collection}"><use xlink:href="/assets/images/icons.svg#icon-${collection}"></use></svg>`;
     });
-
-    // Transforms
-    config.addTransform("parse", parseTransform);
 
     // Passthrough copy
     config.addPassthroughCopy({"src/_redirects": "_redirects"});

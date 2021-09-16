@@ -22,9 +22,13 @@ of our systems and increasing their reach.
 
 ## Try
 
+{% unmarkedList %}
 * {% icon "activities" %} [Cause and Effect](../../activities/cause-and-effect/)
+{% endunmarkedList %}
 
 ## Use
 
+{% unmarkedList %}
 * {% icon "practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
 * {% icon "practices" %} [Design for Uncertainty](../../practices/design-for-uncertainty/)
+{% endunmarkedList %}

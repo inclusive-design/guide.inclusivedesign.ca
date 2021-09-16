@@ -26,5 +26,7 @@ Pour obtenir plus d'information quand à la création de métadonnées, vous pou
 
 ## A combiner avec
 
+{% unmarkedList %}
 * {% icon "tools" %} [Les personas](../../outils/les-personas/)
 * {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
+{% endunmarkedList %}

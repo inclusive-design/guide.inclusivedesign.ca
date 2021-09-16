@@ -33,4 +33,6 @@ et à essayer quelque chose de nouveau ?
 
 ## Utilise
 
+{% unmarkedList %}
 * {% icon "practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
+{% endunmarkedList %}

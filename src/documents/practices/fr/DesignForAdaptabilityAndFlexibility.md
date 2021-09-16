@@ -30,14 +30,18 @@ pour s'adapter aux besoins actuels et futurs de l'utilisateur ce qui le rend, de
 
 ## Pourquoi
 
+{% unmarkedList %}
 * {% icon "insights" %} [Le handicap comme discordance](../../idees/le-handicap-comme-discordance/)
 * {% icon "insights" %} [Taillé sur mesure](../../idees/taille-sur-mesure/)
 * {% icon "insights" %} [L'exploration personnelle](../../idees/lexploration-personnelle/)
 * {% icon "insights" %} [La conception entre les mains de l'utilisateur](../../idees/la-conception-entre-les-mains-de-lutilisateur/)
 * {% icon "insights" %} [Des solutions harmonisées](../../idees/des-solutions-harmonisees/)
 * {% icon "insights" %} [Interconnexion](../../idees/interconnexion/)
+{% endunmarkedList %}
 
 ## Comment
 
+{% unmarkedList %}
 * {% icon "tools" %} [Infusion](../../outils/infusion/)
 * {% icon "tools" %} [La rédaction de métadonnées](../../outils/la-redaction-de-metadonnees/)
+{% endunmarkedList %}

@@ -26,14 +26,18 @@ sustainable.
 
 ## Why
 
+{% unmarkedList %}
 * {% icon "insights" %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
 * {% icon "insights" %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
 * {% icon "insights" %} [Personal Discovery](../../insights/personal-discovery/)
 * {% icon "insights" %} [User-Continued Design](../../insights/user-continued-design/)
 * {% icon "insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
 * {% icon "insights" %} [Interconnectedness](../../insights/interconnectedness/)
+{% endunmarkedList %}
 
 ## How
 
+{% unmarkedList %}
 * {% icon "tools" %} [Infusion](../../tools/infusion/)
 * {% icon "tools" %} [Metadata Authoring](../../tools/metadata-authoring/)
+{% endunmarkedList %}

@@ -23,9 +23,13 @@ conception inclusive.
 
 ## Comment
 
+{% unmarkedList %}
 * {% icon "tools" %} [Les personas](../../outils/les-personas/)
+{% endunmarkedList %}
 
 ## Pourquoi
 
+{% unmarkedList %}
 * {% icon "insights" %} [Taillé sur mesure](../../idees/taille-sur-mesure/)
 * {% icon "insights" %} [Le handicap comme discordance](../../idees/le-handicap-comme-discordance/)
+{% endunmarkedList %}

@@ -28,11 +28,15 @@ ultimately enhance the work.
 
 ## Why
 
+{% unmarkedList %}
 * {% icon "insights" %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
+{% endunmarkedList %}
 
 ## How
 
+{% unmarkedList %}
 * {% icon "tools" %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
 * {% icon "tools" %} [Accessible Design Tools](../../tools/tools/accessible-design-tools/)
 * {% icon "tools" %} [Accessible Development Tools](../../tools/tools/accessible-development-tools/)
 * {% icon "tools" %} [Synchronized Design Assets](../../tools/tools/synchronized-design-assets/)
+{% endunmarkedList %}

@@ -25,11 +25,15 @@ can be embraced.
 
 ## Why
 
+{% unmarkedList %}
 * {% icon "insights" %} [Interconnectedness](../../insights/interconnectedness/)
 * {% icon "insights" %} [Virtuous Cycles](../../insights/virtuous-cycles/)
+{% endunmarkedList %}
+
 
 ## How
 
+{% unmarkedList %}
 * {% icon "practices" %} [Test Frequently](../../practices/test-frequently/)
 * {% icon "practices" %} [Practice Co-design](../../practices/practice-co-design/)
 * {% icon "tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
@@ -37,3 +41,4 @@ can be embraced.
 * {% icon "tools" %} [Prototyping](../../tools/prototyping/)
 * {% icon "tools" %} [Personas](../../tools/personas/)
 * {% icon "tools" %} [Use-Cases](../../tools/use-cases/)
+{% endunmarkedList %}
