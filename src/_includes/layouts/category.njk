@@ -9,31 +9,35 @@ documents{{ page.url | replace('.html', '.md') }}
 {% block content %}
 
 <header class="category-header bg-category-{{ category | lower }} color-primary">
-    <nav class="" aria-label="breadcrumb">
-        <ul class="breadcrumbs inline-list">
-            <li><a href="/">Home</a></li>
-            {% for page in navPages %}
-            <li><a href="{{ page.url }}">{{ page.key }}</a></li>
-            {% endfor %}
-            <li aria-current="page">{{ eleventyNavigation.key }}</li>
-        </ul>
-    </nav>
-    <h1>{{ title }}</h1>
+    <div class="wrapper">
+        <nav aria-label="breadcrumb">
+            <ul class="breadcrumbs inline-list">
+                <li><a href="/">Home</a></li>
+                {% for page in navPages %}
+                <li><a href="{{ page.url }}">{{ page.key }}</a></li>
+                {% endfor %}
+                <li aria-current="page">{{ eleventyNavigation.key }}</li>
+            </ul>
+        </nav>
+        <h1 class="article-title">{{ title }}</h1>
+    </div>
 </header>
 
-{% include "partials/content.njk" %}
+<div class="wrapper">
+    {% include "partials/content.njk" %}
 
-{% if not navPages.length %}
-{% set childPages = collections.all | eleventyNavigation(eleventyNavigation.key) %}
-<nav aria-label="{{ eleventyNavigation.key }} contents">
-    <ul>
-        {% for page in childPages %}
-        <li><a href="{{ page.url }}">{{ page.key }}</a></li>
-        {% endfor %}
-    </ul>
-</nav>
-{% endif %}
+    {% if not navPages.length %}
+    {% set childPages = collections.all | eleventyNavigation(eleventyNavigation.key) %}
+    <nav aria-label="{{ eleventyNavigation.key }} contents">
+        <ul>
+            {% for page in childPages %}
+            <li><a href="{{ page.url }}">{{ page.key }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+    {% endif %}
 
-{% include "partials/editOnGitHub.njk" %}
+    {% include "partials/editOnGitHub.njk" %}
+</div>
 
 {% endblock %}

@@ -42,14 +42,9 @@ body {
 }
 
 main {
-    width: 100%;
     font-size: 1.2rem;
     flex-grow: 1;
-}
-
-header,
-footer {
-    width: 100vw;
+    line-height: 1.6;
 }
 
 /* Utility */
@@ -92,6 +87,11 @@ footer {
 
 .bg-category-activities {
     background-color: #ee3f23;
+}
+
+.article-title {
+  font-size: 3rem;
+  font-weight: normal;
 }
 
 /* Components */
@@ -200,7 +200,6 @@ footer a {
 
 .breadcrumbs li+li::before {
     content: ">";
-    padding-inline: 0.25rem;
 }
 
 .breadcrumbs a {
@@ -208,13 +207,7 @@ footer a {
 }
 
 .category-header {
-    padding-block: 1rem 0.5rem;
-    padding-inline-start: 1.2rem;
-    width: calc(100% - 1.2rem);
-}
-
-.category-header h1 {
-    margin-block-end: 0;
+    padding: 1.2rem;
 }
 
 /* UIO Specifc styling */

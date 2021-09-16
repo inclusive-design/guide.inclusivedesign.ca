@@ -12,7 +12,7 @@
             <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
 
             <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
-            <div class="fl-panelBar wrapper bg-primary">
+            <div class="fl-panelBar bg-primary">
                 <span class="fl-prefsEditor-buttons">
                     <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
                     <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
@@ -23,7 +23,7 @@
 
         {% include 'partials/header.njk' %}
 
-        <main id="main" class="wrapper">
+        <main id="main">
             <article class="">
                 {% block content %}{% endblock %}
             </article>

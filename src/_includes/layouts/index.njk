@@ -4,9 +4,9 @@
 {% set editLinkPath = "index.md" %}
 
 {% block content %}
-
+<div class="wrapper">
 <h1>{{ title }}</h1>
 {% include "partials/content.njk" %}
 {% include "partials/editOnGitHub.njk" %}
-
+</div>
 {% endblock %}
