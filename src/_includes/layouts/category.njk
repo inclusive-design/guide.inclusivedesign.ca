@@ -10,33 +10,37 @@
 
 {% block content %}
 
-<header>
-    <nav class="idg-breadcrumb" aria-label="Breadcrumb">
-        <ul>
-            <li><a href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}">Home</a></li>
-            {% for page in navPages %}
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-            {% endfor %}
-            <li aria-current="page">{{ eleventyNavigation.title }}</li>
-        </ul>
-    </nav>
-    <h1>{{ title }}</h1>
+<header class="category-header bg-category-{{ category | lower }} color-primary">
+    <div class="wrapper">
+        <nav class="idg-breadcrumb" aria-label="Breadcrumb">
+            <ul class="breadcrumbs inline-list">
+                <li><a href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}">Home</a></li>
+                {% for page in navPages %}
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+                <li aria-current="page">{{ eleventyNavigation.title }}</li>
+            </ul>
+        </nav>
+        <h1 class="article-title">{{ title }}</h1>
+    </div>
 </header>
 
-{% include "partials/content.njk" %}
+<div class="wrapper">
+    {% include "partials/content.njk" %}
 
-{% if not navPages.length %}
-{% set childPages = collections[category + "_" + lang] | eleventyNavigation(eleventyNavigation.key) %}
-<nav aria-label="{{ eleventyNavigation.key }} contents">
-    <ul>
-        {# Output page links in alphabetical order #}
-        {% for page in childPages |sort(false, true, "title") %}
-        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
-        {% endfor %}
-    </ul>
-</nav>
-{% else %}
-{% include "partials/editOnGitHub.njk" %}
-{% endif %}
+    {% if not navPages.length %}
+    {% set childPages = collections[category + "_" + lang] | eleventyNavigation(eleventyNavigation.key) %}
+    <nav aria-label="{{ eleventyNavigation.key }} contents">
+        <ul>
+            {# Output page links in alphabetical order #}
+            {% for page in childPages |sort(false, true, "title") %}
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+    {% else %}
+    {% include "partials/editOnGitHub.njk" %}
+    {% endif %}
+</div>
 
 {% endblock %}

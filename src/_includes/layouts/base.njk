@@ -3,23 +3,19 @@
     <head>
         {% include 'partials/head-matter.njk' %}
     </head>
-    <body class="docs-template idg {% if bodyClass %}{{ bodyClass }}{% endif %}">
+    <body class="">
 
-        <div class="container docs-template-container">
+      {% include 'partials/header.njk' %}
 
-            {% include 'partials/header.njk' %}
-
-            <div class="docs-template-articleBody">
-
-                <article id="content" class="small-12">
-                    {% block content %}{% endblock %}
-                </article>
-
-            </div>
-
-            {% include 'partials/footer.njk' %}
+      <main id="main">
+          <article class="">
+              {% block content %}{% endblock %}
+          </article>
+      </main>
 
         </div> <!-- end container -->
         {% uioInit config.languages[lang].uioSlug, config.languages[lang].dir %}
+
+        {% include 'partials/footer.njk' %}
     </body>
 </html>

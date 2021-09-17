@@ -4,30 +4,29 @@
 </nav>
 <!-- END skip link -->
 
-<header class="ignore-for-TOC row fl-inverted-color">
+<header class="ignore-for-TOC bg-primary color-primary">
+    <div class="wrapper">
     {% uioTemplate %}
 
-    <div class="small-12 column docs-template-header">
-        <a class="" href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}" title="Home: Documentation Template">
-            <span class="idg-logo">{% include 'svg/idrc-logo.svg' %}</span>
-            <h1>The Inclusive Design Guide</h1>
+    <div class="wrapper">
+        <a class="banner" href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}" title="Home: Documentation Template">
+            <span class="idg-logo banner__logo">{% include 'svg/idrc-logo.svg' %}</span>
+            <h1 class="banner__heading">The Inclusive Design Guide</h1>
         </a>
 
         <!-- Mobile Menu -->
-        <nav class="right show-for-small-only docs-template-nav-mobile">
+        {# <nav class="">
             <ul id="menu">
-                <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
-                    <ul class="docs-template-dropDown">
+                <li class=""><span class=""></span>
+                    <ul class="">
                     {% include 'partials/menu.njk' %}
                    </ul>
                 </li>
             </ul>
-        </nav>
-    </div>
+        </nav> #}
 
-    <!-- "Desktop" Menu -->
-    <div class="docs-template-header">
-        <nav class="idg-tabs small-12 column show-for-medium-up">
+            <!-- "Desktop" Menu -->
+        <nav class="menu" aria-label="menu">
             <ul class="inline-list">
             {% include 'partials/menu.njk' %}
             </ul>

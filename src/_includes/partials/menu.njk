@@ -4,8 +4,9 @@
     {% set slug = item.key | lower %}
     {% if item.lang === lang %}
     {% set inCategory = item.key === category %}
-    <li class="idg-nav{{ item.key }}{% if inCategory %} docs-template-category-active{% endif %}">
-        <a href="{{ item.url }}"{% if inCategory %} aria-current="page"{% endif %}>
+    {# <li class="idg-nav{{ item.key }}{% if inCategory %} docs-template-category-active{% endif %}"> #}
+    <li>
+        <a href="{{ item.url }}" class="bg-category-{{ item.key | lower }}" {% if inCategory %} aria-current="page"{% endif %}>
             {% icon slug %} {{ item.title }}
         </a>
     </li>

@@ -1,0 +1,224 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../fonts/OpenSans-Light.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../fonts/OpenSans-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "RobotoSlab";
+    src: url("../fonts/RobotoSlab-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "RobotoSlab-Bold";
+    src: url("../fonts/RobotoSlab-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "github";
+    src: url("../fonts/github-1.eot#iefix") format("embedded-opentype"),
+         url("../fonts/github-1.ttf"),
+         url("../fonts/github-1.eot");
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #000;
+    font-family: OpenSans,Arial,Helvetica;
+}
+
+main {
+    font-size: 1.2rem;
+    flex-grow: 1;
+    line-height: 1.6;
+}
+
+/* Utility */
+
+.wrapper {
+    margin:0 auto;
+    max-width:80rem;
+    padding-inline: 1.125rem;
+}
+
+.inline-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.inline-list li {
+    display: inline;
+}
+
+.bg-primary {
+    background-color: #3a4947;
+}
+
+.color-primary {
+    color: #fff;
+}
+
+.bg-category-insights {
+    background-color: #008b82;
+}
+
+.bg-category-practices {
+    background-color: #0e75ba;
+}
+
+.bg-category-tools {
+    background-color: #c02b56;
+}
+
+.bg-category-activities {
+    background-color: #ee3f23;
+}
+
+.article-title {
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+/* Components */
+
+#skip-to-content {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+#skip-to-content:focus {
+    clip: auto;
+    clip-path: none;
+    color: var(--ll-text-color);
+    height: auto;
+    overflow: auto;
+    width: auto;
+}
+
+.banner {
+    display: inline-flex;
+    color: inherit;
+    text-decoration: none;
+    align-items: center;
+}
+
+.banner__heading {
+    font-size: 2.75rem;
+    color: inherit;
+}
+
+.banner__logo {
+    width: 3rem;
+    height: 4.325rem;
+    margin-block-start: .2rem;
+    margin-inline-end: 1.2rem;
+}
+
+.banner__logo svg * {
+    fill: #fff;
+}
+
+.menu {
+    font-size: 1.5rem;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    flex-grow: 1;
+}
+
+.menu li+li {
+    margin-inline-start: 0.5rem;
+}
+
+.menu a {
+    border-top-right-radius: .8rem;
+    border-top-left-radius: .8rem;
+    color: inherit;
+    padding-inline: 1.2rem 0;
+    padding-block: .5rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.menu svg {
+    fill: #fff;
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-inline-end: .5rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+footer svg {
+    width: 6rem;
+    height: 7rem;
+    fill: #fff;
+    stroke: #3a4947;
+}
+
+footer a {
+    color: inherit;
+}
+
+.footer_logo {
+    text-decoration: none;
+}
+
+#prosperity, #tree {
+    stroke: #3a4947;
+    fill: #3a4947;
+}
+
+.breadcrumbs li+li::before {
+    content: ">";
+}
+
+.breadcrumbs a {
+    color: inherit;
+}
+
+.category-header {
+    padding: 1.2rem;
+}
+
+/* UIO Specifc styling */
+
+.fl-prefsEditor-separatedPanel .fl-panelBar {
+    border-bottom: none;
+    background-color: #3a4947;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
+    margin-right: 0;
+}

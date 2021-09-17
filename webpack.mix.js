@@ -22,7 +22,7 @@ mix.setPublicPath("dist/assets");
 mix.js("./src/assets/scripts/app.js", "dist/assets/scripts");
 
 // Compile Stylus and process with PostCSS.
-mix.stylus("./src/assets/styles/app.styl", "dist/assets/styles");
+mix.postCss("./src/assets/styles/app.css", "dist/assets/styles");
 
 // Don't modify stylesheet url() functions.
 mix.options({
