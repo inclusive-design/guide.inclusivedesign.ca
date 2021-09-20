@@ -32,8 +32,8 @@ aboutisse à un concept de produit réussi en limitant fortement de coûteux cha
 ## Pourquoi
 
 {% unmarkedList %}
-* {% icon "insights" %} [Des perspectives et contributions variées](../../idees/des-perspectives-et-contributions-variees/)
-* {% icon "insights" %} [Des solutions harmonisées](../../idees/des-solutions-harmonisees/)
+* {% icon "insights" %} [Des perspectives et contributions variées](../../perspectives/des-perspectives-et-contributions-variees/)
+* {% icon "insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
 {% endunmarkedList %}
 
 ## Comment
