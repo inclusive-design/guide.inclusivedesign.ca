@@ -3,12 +3,38 @@
         "activities": "activities",
         "insights": "insights",
         "practices": "practices",
-        "tools": "tools"
+        "tools": "tools",
+        "skipLink": "Skip to Content",
+        "breadcrumb": "Breadcrumb",
+        "home": "Home",
+        "edit": "Edit this Page on GitHub",
+        "footer": {
+            "createdBy": "Created by the",
+            "communityMembers": "community members",
+            "of": "of the",
+            "at": "at",
+            "supportedBy": "and supported by",
+            "hostedWith": "Hosted with",
+            "licensedUnder": "This documentation is licensed under a"
+        }
     },
     "fr": {
         "activities": "activités",
         "insights": "perspectives",
         "practices": "pratiques",
-        "tools": "outils"
+        "tools": "outils",
+        "skipLink": "Accéder au contenu",
+        "breadcrumb": "Breadcrumb",
+        "home": "Home",
+        "edit": "modifier cette page sur GitHub",
+        "footer": {
+            "createdBy": "Créé par la",
+            "communityMembers": "communauté des membres",
+            "of": "du",
+            "at": "de",
+            "supportedBy": "and supported by",
+            "hostedWith": "Hébergé par",
+            "licensedUnder": "Le contenu de ce site est sous licence"
+        }
     }
 }

@@ -5,6 +5,7 @@ const fluidPlugin = require("eleventy-plugin-fluid");
 const navigationPlugin = require("@11ty/eleventy-navigation");
 const wrap = require("./src/shortcodes/wrap.js");
 const generateLocaleLinks = require("./src/shortcodes/generateLocaleLinks.js");
+const translate = require("./src/shortcodes/translate.js");
 
 // Import data files
 const siteConfig = require("./src/_data/config.json");
@@ -22,6 +23,7 @@ module.exports = function (config) {
         return `<svg class="idg-icon-${collection}"><use xlink:href="/assets/images/icons.svg#icon-${collection}"></use></svg>`;
     });
     config.addShortcode("localeLink", generateLocaleLinks);
+    config.addShortcode("translate", translate);
 
     // Passthrough copy
     config.addPassthroughCopy({"src/_redirects": "_redirects"});

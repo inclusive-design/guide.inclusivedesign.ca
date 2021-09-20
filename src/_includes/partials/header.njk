@@ -1,6 +1,6 @@
 <!-- Skip Link -->
 <nav id="skip" class="fl-inverted-color">
-    <a href="#content" class="docs-template-skip-content">Skip to Content</a>
+    <a href="#content" class="docs-template-skip-content">{% translate "skipLink", lang %}</a>
 </nav>
 <!-- END skip link -->
 
@@ -12,7 +12,7 @@
     <div class="small-12 column docs-template-header">
         <a class="" href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}" title="Home: Documentation Template">
             <span class="idg-logo">{% include 'svg/idrc-logo.svg' %}</span>
-            <h1>The Inclusive Design Guide</h1>
+            <h1>{{ site[lang].title }}</h1>
         </a>
 
         <!-- Mobile Menu -->

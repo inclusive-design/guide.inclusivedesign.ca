@@ -11,7 +11,7 @@
 {% block content %}
 
 <header>
-    <nav class="idg-breadcrumb" aria-label="Breadcrumb">
+    <nav class="idg-breadcrumb" aria-label="{% translate "breadcrumb", lang %}">
         <ul>
             <li><a href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}">Home</a></li>
             {% for page in navPages %}
