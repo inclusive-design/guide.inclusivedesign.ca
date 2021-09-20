@@ -7,9 +7,7 @@
 <header class="ignore-for-TOC row fl-inverted-color">
     {% uioTemplate %}
 
-    {# TODO: Fix styling #}
-    {# TODO: Fix or remove from 404 page #}
-    {% localeLink lang, category, collections %}
+    {% localeLink lang, page, category, collections %}
 
     <div class="small-12 column docs-template-header">
         <a class="" href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}" title="Home: Documentation Template">
