@@ -25,33 +25,42 @@
 
 @font-face {
     font-family: "github";
-    src: url("../fonts/github-1.eot#iefix") format("embedded-opentype"),
-         url("../fonts/github-1.ttf"),
-         url("../fonts/github-1.eot");
+    src:
+        url("../fonts/github-1.eot#iefix") format("embedded-opentype"),
+        url("../fonts/github-1.ttf"),
+        url("../fonts/github-1.eot");
+}
+
+:root {
+    --insightsColor: #008b82;
+    --practicesColor: #0e75ba;
+    --toolsColor: #c02b56;
+    --activitiesColor: #ee3f23;
+    --headerBGColor: #3a4947;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 100vh;
-    margin: 0;
     background-color: #f2f2f2;
     color: #000;
-    font-family: OpenSans,Arial,Helvetica;
+    display: flex;
+    flex-direction: column;
+    font-family: OpenSans, Arial, Helvetica;
+    justify-content: flex-start;
+    margin: 0;
+    min-height: 100vh;
 }
 
 main {
-    font-size: 1.2rem;
     flex-grow: 1;
+    font-size: 1.2rem;
     line-height: 1.6;
 }
 
 /* Utility */
 
 .wrapper {
-    margin:0 auto;
-    max-width:80rem;
+    margin: 0 auto;
+    max-width: 80rem;
     padding-inline: 1.125rem;
 }
 
@@ -66,7 +75,7 @@ main {
 }
 
 .bg-primary {
-    background-color: #3a4947;
+    background-color: var(--headerBGColor);
 }
 
 .color-primary {
@@ -74,27 +83,48 @@ main {
 }
 
 .bg-category-insights {
-    background-color: #008b82;
+    background-color: var(--insightsColor);
 }
 
 .bg-category-practices {
-    background-color: #0e75ba;
+    background-color: var(--practicesColor);
 }
 
 .bg-category-tools {
-    background-color: #c02b56;
+    background-color: var(--toolsColor);
 }
 
 .bg-category-activities {
-    background-color: #ee3f23;
+    background-color: var(--activitiesColor);
 }
+
+.idg-icon-practices {
+    fill: var(--practicesColor);
+}
+
+.idg-icon-activities {
+    fill: var(--activitiesColor);
+}
+
+.idg-icon-tools {
+    fill: var(--toolsColor);
+}
+
+.idg-icon-insights {
+    fill: var(--insightsColor);
+}
+
+#prosperity,
+#tree {
+    fill: var(--headerBGColor);
+}
+
+/* Block */
 
 .article-title {
-  font-size: 3rem;
-  font-weight: normal;
+    font-size: 3rem;
+    font-weight: normal;
 }
-
-/* Components */
 
 #skip-to-content {
     clip: rect(0 0 0 0);
@@ -116,22 +146,22 @@ main {
 }
 
 .banner {
-    display: inline-flex;
-    color: inherit;
-    text-decoration: none;
     align-items: center;
+    color: inherit;
+    display: inline-flex;
+    text-decoration: none;
 }
 
 .banner__heading {
-    font-size: 2.75rem;
     color: inherit;
+    font-size: 2.75rem;
 }
 
 .banner__logo {
-    width: 3rem;
     height: 4.325rem;
-    margin-block-start: .2rem;
+    margin-block-start: 0.2rem;
     margin-inline-end: 1.2rem;
+    width: 3rem;
 }
 
 .banner__logo svg * {
@@ -151,38 +181,38 @@ main {
     flex-grow: 1;
 }
 
-.menu li+li {
+.menu li + li {
     margin-inline-start: 0.5rem;
 }
 
 .menu a {
-    border-top-right-radius: .8rem;
-    border-top-left-radius: .8rem;
-    color: inherit;
-    padding-inline: 1.2rem 0;
-    padding-block: .5rem;
-    display: flex;
     align-items: center;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    color: inherit;
+    display: flex;
+    padding-block: 0.5rem;
+    padding-inline: 1.2rem 0;
     text-decoration: none;
 }
 
 .menu svg {
     fill: #fff;
     height: 1.2rem;
+    margin-inline-end: 0.5rem;
     width: 1.2rem;
-    margin-inline-end: .5rem;
 }
 
 footer {
-    text-align: center;
     font-size: 1.1rem;
+    text-align: center;
 }
 
 footer svg {
-    width: 6rem;
-    height: 7rem;
     fill: #fff;
-    stroke: #3a4947;
+    height: 7rem;
+    stroke: var(--headerBGColor);
+    width: 6rem;
 }
 
 footer a {
@@ -193,13 +223,9 @@ footer a {
     text-decoration: none;
 }
 
-#prosperity, #tree {
-    stroke: #3a4947;
-    fill: #3a4947;
-}
-
-.breadcrumbs li+li::before {
+.breadcrumbs li + li::before {
     content: ">";
+    padding: 0 0.6rem;
 }
 
 .breadcrumbs a {
@@ -210,11 +236,32 @@ footer a {
     padding: 1.2rem;
 }
 
+.list-articles ul {
+    padding-left: 0;
+}
+
+.list-articles li {
+    list-style-type: none;
+    margin-left: 1rem; /* offset to align SVG icon with default list style */
+}
+
+.list-articles li svg {
+    height: 1rem; /* width and height required by IE11. */
+    width: 1rem;
+}
+
+.idg-iconDimensionsIndex,
+.idg-iconDimensionsIndex svg {
+    height: 3.5rem;
+    vertical-align: middle;
+    width: 3.5rem;
+}
+
 /* UIO Specifc styling */
 
 .fl-prefsEditor-separatedPanel .fl-panelBar {
+    background-color: var(--headerBGColor);
     border-bottom: none;
-    background-color: #3a4947;
     display: flex;
     justify-content: flex-end;
 }
