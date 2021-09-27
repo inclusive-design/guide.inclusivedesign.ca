@@ -7,6 +7,7 @@
         "skipLink": "Skip to Content",
         "breadcrumb": "Breadcrumb",
         "home": "Home",
+        "contents": "contents",
         "edit": "Edit this Page on GitHub",
         "footer": {
             "createdBy": "Created by the",
@@ -23,9 +24,10 @@
         "insights": "perspectives",
         "practices": "pratiques",
         "tools": "outils",
-        "skipLink": "Accéder au contenu",
-        "breadcrumb": "Breadcrumb",
-        "home": "Home",
+        "skipLink": "Accès direct au contenu",
+        "breadcrumb": "Fil d'Ariane",
+        "home": "Accueil",
+        "contents": "sommaire",
         "edit": "modifier cette page sur GitHub",
         "footer": {
             "createdBy": "Créé par la",
