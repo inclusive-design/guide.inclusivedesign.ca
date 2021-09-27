@@ -1,16 +1,18 @@
 <!-- Skip Link -->
 <nav>
-    <a id="skip-to-content" href="#content">Skip to Content</a>
+    <a id="skip-to-content" href="#content">{% translate "skipLink", lang %}</a>
 </nav>
 <!-- END skip link -->
 
 <header class="ignore-for-TOC bg-primary color-primary">
     {% uioTemplate %}
 
+    {% localeLink lang, translationKey, category, collections %}
+
     <div class="wrapper">
         <a class="banner" href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}" title="Home: Documentation Template">
-            <span class="idg-logo banner__logo">{% include 'svg/idrc-logo.svg' %}</span>
-            <h1 class="banner__heading">The Inclusive Design Guide</h1>
+            <span class="banner__logo">{% include 'svg/idrc-logo.svg' %}</span>
+            <h1 class="banner__heading">{{ site[lang].title }}</h1>
         </a>
 
         <!-- Mobile Menu -->

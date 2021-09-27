@@ -32,8 +32,8 @@ personnes à adopter cette approche et alimenter ainsi un cercle vertueux de l'i
 ## Pourquoi
 
 {% unmarkedList %}
-* {% icon "insights" %} [Des perspectives et contributions variées](../../idees/des-perspectives-et-contributions-variees/)
-* {% icon "insights" %} [Des cercles vertueux](../../idees/des-cercles-vertueux/)
+* {% icon "insights" %} [Des perspectives et contributions variées](../../perspectives/des-perspectives-et-contributions-variees/)
+* {% icon "insights" %} [Des cercles vertueux](../../perspectives/des-cercles-vertueux/)
 {% endunmarkedList %}
 
 ## Comment

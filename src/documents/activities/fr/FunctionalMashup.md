@@ -17,8 +17,8 @@ Il vous faudra un jeu de cartes-objets. Vous pouvez créer vos cartes avec toute
 imprimer des images d'objets sur des feuilles ou fiches bristol, modifier des cartes à jouer en y collant des images
 découpées dans des magazines ou trouver d'autres façons de rassembler une collection d'objets choisis au hasard.
 
-{% figure "/assets/images/object_cards.jpg", "An image showing a large selection of cards spread out on the floor, each
-with a different magazine image pasted on." %}
+{% figure "/assets/images/object_cards.jpg", "Une photographie montrant un large échantillon de cartes-objets étalées
+sur le sol. On a collé sur chacune une image issue d'un magazine." %}
 
 *Illustration 1 :* Un exemple de collection de cartes-objet créée en collant des images découpées dans des magazines sur
 des feuilles de papiers.

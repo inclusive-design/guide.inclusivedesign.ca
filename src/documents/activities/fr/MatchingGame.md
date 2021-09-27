@@ -30,6 +30,6 @@ conception inclusive.
 ## Pourquoi
 
 {% unmarkedList %}
-* {% icon "insights" %} [Taillé sur mesure](../../idees/taille-sur-mesure/)
-* {% icon "insights" %} [Le handicap comme discordance](../../idees/le-handicap-comme-discordance/)
+* {% icon "insights" %} [Taillé sur mesure](../../perspectives/taille-sur-mesure/)
+* {% icon "insights" %} [Le handicap comme discordance](../../perspectives/le-handicap-comme-discordance/)
 {% endunmarkedList %}

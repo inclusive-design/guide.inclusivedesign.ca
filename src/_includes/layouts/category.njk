@@ -12,9 +12,13 @@
 
 <header class="category-header bg-category-{{ category | lower }} color-primary">
     <div class="wrapper">
-        <nav class="idg-breadcrumb" aria-label="Breadcrumb">
+        <nav class="idg-breadcrumb" aria-label="{% translate "breadcrumb", lang %}">
             <ul class="breadcrumbs inline-list">
-                <li><a href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}">Home</a></li>
+                <li>
+                    <a href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}">
+                        {% translate "home", lang %}
+                    </a>
+                </li>
                 {% for page in navPages %}
                 <li><a href="{{ page.url }}">{{ page.title }}</a></li>
                 {% endfor %}
@@ -30,7 +34,7 @@
 
     {% if not navPages.length %}
     {% set childPages = collections[category + "_" + lang] | eleventyNavigation(eleventyNavigation.key) %}
-    <nav aria-label="{{ eleventyNavigation.key }} contents">
+    <nav aria-label="{{ eleventyNavigation.key }} {% translate "contents", lang %}">
         <ul>
             {# Output page links in alphabetical order #}
             {% for page in childPages |sort(false, true, "title") %}
@@ -42,5 +46,4 @@
     {% include "partials/editOnGitHub.njk" %}
     {% endif %}
 </div>
-
 {% endblock %}

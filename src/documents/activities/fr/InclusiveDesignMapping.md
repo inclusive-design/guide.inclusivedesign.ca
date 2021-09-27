@@ -15,7 +15,7 @@ personnes se trouvant à la limite et qui sont donc généralement exclues du pr
 personne pour pouvoir répondre aux besoins d'une autre.
 
 Dans cette activité, les co-concepteurs choisissent les facettes appropriées (ou « tranches ») dans
-[le jeu des facettes d'une conception inclusive](/assets/images/InclusiveDesignMappingFacets.pdf) (pdf à télécharger),
+[Facettes de la carte d'une conception inclusive](/assets/images/InclusiveDesignMappingFacets.pdf) (pdf à télécharger),
 afin d'établir une carte des besoins de l'utilisateur ainsi que des contraintes fonctionnelles liées à un produit ou
 service. Une fois la carte établie, les écarts entre les besoins et les contraintes peuvent être identifiés.
 
@@ -25,9 +25,9 @@ leurs propres facettes s'ils n'en trouvent pas qui correspond à un contexte don
 ## Pourquoi
 
 {% unmarkedList %}
-* {% icon "insights" %} [Taillé sur mesure](../../idees/taille-sur-mesure/)
-* {% icon "insights" %} [Le handicap comme discordance](../../idees/le-handicap-comme-discordance/)
-* {% icon "insights" %} [Interconnexion](../../idees/interconnexion/)
+* {% icon "insights" %} [Taillé sur mesure](../../perspectives/taille-sur-mesure/)
+* {% icon "insights" %} [Le handicap comme discordance](../../perspectives/le-handicap-comme-discordance/)
+* {% icon "insights" %} [Interconnexion](../../perspectives/interconnexion/)
 {% endunmarkedList %}
 
 ## Première étape
@@ -35,10 +35,10 @@ leurs propres facettes s'ils n'en trouvent pas qui correspond à un contexte don
 Choisissez quelle facette correspond à vos besoins, préférences ou contexte que vous analysez ou avec lesquels vous
 travaillez.
 
-{% figure "/assets/images/InclusiveDesignMappingTool01.png", "A diagram showing individual facets of the Inclusive
-Design Mapping Tool" %}
+{% figure "/assets/images/InclusiveDesignMappingTool01.png", "Un schéma représentant les différentes facettes de la
+carte d'une conception inclusive" %}
 
-*Figure 1:* Inclusive Design Mapping Tool - Choosing the Facets
+*Illustration 1:* La carte d'une conception inclusive – Choisir les facettes
 
 {% endfigure %}
 
@@ -47,10 +47,10 @@ Design Mapping Tool" %}
 Identifiez vos besoins, préférences et contexte sur les facettes sélectionnées puis, avec une couleur différente,
 identifiez le produit, tâche ou solution avec lequel vous travaillez
 
-{% figure "/assets/images/InclusiveDesignMappingTool02.png", "A diagram showing individual facets with “yourself” and “product”
-mapped" %}
+{% figure "/assets/images/InclusiveDesignMappingTool02.png", "Un schéma représentant les différentes facettes.
+« Vous-même » et « le produit » ont été identifiés" %}
 
-*Figure 2:* Inclusive Design Mapping Tool - Mapping onto the Facets
+*Illustration 2:* La carte d'une conception inclusive – identifier les facettes
 
 {% endfigure %}
 
@@ -58,17 +58,17 @@ mapped" %}
 
 Vous pouvez joindre les différentes facettes, relier les points et hachurer les écarts entre les deux lignes.
 
-{% figure "/assets/images/InclusiveDesignMappingTool03.png", "A diagram showing facets pieced together into a circle, with
-mappings" %}
+{% figure "/assets/images/InclusiveDesignMappingTool03.png", "Un schéma représentant les différents facettes assemblées
+et reliées entres elles pour former un cercle" %}
 
-*Figure 3:* Inclusive Design Mapping Tool - Mapping the Current State
+*Illustration 3:* La carte d'une conception inclusive – Dresser la carte du stade actuel de la conception
 
 {% endfigure %}
 
-{% figure "/assets/images/InclusiveDesignMappingTool04.png", "A diagram showing the gap between self and product
-maps" %}
+{% figure "/assets/images/InclusiveDesignMappingTool04.png", "Un schéma qui met en évidence l'écart entre « vous même »
+et « le produit »" %}
 
-*Figure 4:* Inclusive Design Mapping Tool - Finding the Gap
+*Illustration 4:* La carte d'une conception inclusive – Identifier les écarts
 
 {% endfigure %}
 
@@ -78,9 +78,9 @@ Une fois que vous avez imaginé un nouveau concept, refaites la carte en ayant s
 l'utilisateur dans celui du produit ou service. En répétant ce travail tout au long du processus de conception, la carte
 peut montrer où votre concept peut faire plus de place aux besoins de l'utilisateur limite.
 
-{% figure "/assets/images/InclusiveDesignMappingTool05.png", "A diagram showing a new mapping with a positive
-gap" %}
+{% figure "/assets/images/InclusiveDesignMappingTool05.png", "Un schéma montrant un nouvel arrangement de la carte où
+les écarts ont été comblés." %}
 
-*Figure 5:* Inclusive Design Mapping Tool - Proposing the Desired State
+*Illustration 5:* La carte d'une conception inclusive – Proposition d'une cartographie idéale.
 
 {% endfigure %}

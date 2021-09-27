@@ -28,8 +28,8 @@ de conception tout en intégrant les perspectives propres aux communautés et in
 ## Pourquoi
 
 {% unmarkedList %}
-* {% icon "insights" %} [Des perspectives et contributions variées](../../idees/des-perspectives-et-contributions-variees/)
-* {% icon "insights" %} [Des solutions harmonisées](../../insights/idees/des-solutions-harmonisees/)
+* {% icon "insights" %} [Des perspectives et contributions variées](../../perspectives/des-perspectives-et-contributions-variees/)
+* {% icon "insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
 {% endunmarkedList %}
 
 ## Comment

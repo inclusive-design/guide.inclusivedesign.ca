@@ -36,9 +36,9 @@ et le confort d'utilisation.
 ## Pourquoi
 
 {% unmarkedList %}
-* {% icon "insights" %} [Taillé sur mesure](../../idees/taille-sur-mesure/)
-* {% icon "insights" %} [Des solutions harmonisées](../../idees/des-solutions-harmonisees/)
-* {% icon "insights" %} [L'exploration personnelle](../../idees/lexploration-personnelle/)
+* {% icon "insights" %} [Taillé sur mesure](../../perspectives/taille-sur-mesure/)
+* {% icon "insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
+* {% icon "insights" %} [L'exploration personnelle](../../perspectives/lexploration-personnelle/)
 {% endunmarkedList %}
 
 ## Comment

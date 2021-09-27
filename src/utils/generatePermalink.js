@@ -16,12 +16,10 @@ module.exports = (data, collectionType) => {
     const slug = slugFilter(data.title);
     const collectionSlug = slugFilter(translations[lang][collectionType] || "");
 
-    if (collectionType === "pages" || slug === collectionSlug) {
-        if (data.page.fileSlug === lang) {
-            return (lang === config.defaultLanguage) ? "/" : `/${langSlug}/`;
-        }
-
-        return (lang === config.defaultLanguage) ? `/${slug}/` : `/${langSlug}/${slug}/`;
+    if (collectionType === "pages" && data.page.fileSlug === lang) {
+        return (lang === config.defaultLanguage) ? "/" : `/${langSlug}/`;
+    } else if (data.eleventyNavigation && data.eleventyNavigation.key === data.category) {
+        return (lang === config.defaultLanguage) ? `/${collectionSlug}/` : `/${langSlug}/${collectionSlug}/`;
     } else {
         return (lang === config.defaultLanguage) ? `/${collectionSlug}/${slug}/` : `/${langSlug}/${collectionSlug}/${slug}/`;
     }

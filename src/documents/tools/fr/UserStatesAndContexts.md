@@ -23,8 +23,8 @@ Les besoins qui sont généralement satisfaits sont placés au centre et ceux qu
 sont placés en périphérie. Cela démontre que les besoins des utilisateurs « à la périphérie », sont plus nombreux mais
 aussi qu’en répondant à ces besoins, on répond également aux besoins situés au centre.
 
-{% figure "/assets/images/StatesAndContextsToolMapped.png", "A diagram showing a States and Contexts map for two different
-users" %}
+{% figure "/assets/images/StatesAndContextsToolMapped.png", "Un schéma  montrant la carte des états et contextes de deux
+utilisateurs différents." %}
 
 *Illustration 1 :* Un exemple de carte des états et contextes de l'utilisateur
 

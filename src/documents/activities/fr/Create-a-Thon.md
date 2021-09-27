@@ -11,8 +11,8 @@ les besoins attendent une solution (et qui trouvent qu'utiliser un produit ou se
 ainsi que des personnes dont les points de vue ne sont généralement pas pris en compte car elles ne correspondent pas
 aux modèles « typiques », « moyens » ou au « public visé » prévu.
 
-{% figure "/assets/images/CaT-01.jpg", "An image showing a group of four people participating in a Create-a-Thon, using building
-toys." %}
+{% figure "/assets/images/CaT-01.jpg", "La photographie de quatre personnes qui participent à un créathon avec des jeux
+de construction." %}
 
 *Illustration 1 :* Un groupe collabore à la création d'un circuit de billes en partant de règles simples.
 
@@ -35,10 +35,11 @@ Chaque histoire a son importance et contribue à enrichir les concepts et les id
 Il est possible, et même souhaitable, d'organiser plusieurs Créathons à différentes étapes du processus de conception
 pour produire de nouvelles idées.
 
-{% figure "/assets/images/CaT-02.jpg", "An image of a Create-a-Thon participant describing their group's
-design." %}
+{% figure "/assets/images/CaT-02.jpg", "La photographie d'une personne qui présente le travail de son groupe à
+l'occasion d'un créathon." %}
 
-*Illustration 2 :* Un participant présente le concept de son groupe qui avait pour tâche de créer une version informatique du circuit de billes.
+*Illustration 2 :* Un participant présente le concept de son groupe qui avait pour tâche de créer une version
+informatique du circuit de billes.
 
 {% endfigure %}
 

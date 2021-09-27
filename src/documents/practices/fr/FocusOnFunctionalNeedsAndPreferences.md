@@ -29,7 +29,7 @@ richesse.
 ## Pourquoi
 
 {% unmarkedList %}
-* {% icon "insights" %} [Le handicap comme discordance](../../idees/le-handicap-comme-discordance/)
+* {% icon "insights" %} [Le handicap comme discordance](../../perspectives/le-handicap-comme-discordance/)
 {% endunmarkedList %}
 
 ## Comment

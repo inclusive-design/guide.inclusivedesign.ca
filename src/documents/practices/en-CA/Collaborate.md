@@ -36,7 +36,7 @@ ultimately enhance the work.
 
 {% unmarkedList %}
 * {% icon "tools" %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
-* {% icon "tools" %} [Accessible Design Tools](../../tools/tools/accessible-design-tools/)
-* {% icon "tools" %} [Accessible Development Tools](../../tools/tools/accessible-development-tools/)
-* {% icon "tools" %} [Synchronized Design Assets](../../tools/tools/synchronized-design-assets/)
+* {% icon "tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)
+* {% icon "tools" %} [Accessible Development Tools](../../tools/accessible-development-tools/)
+* {% icon "tools" %} [Synchronized Design Assets](../../tools/synchronized-design-assets/)
 {% endunmarkedList %}

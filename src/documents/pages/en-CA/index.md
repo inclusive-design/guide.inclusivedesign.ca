@@ -38,10 +38,9 @@ Design:**](http://idrc.ocadu.ca/about-the-idrc/49-resources/online-resources/art
 
 Striving to work within these dimensions as we practice inclusive design, there have been many "aha" moments and
 exciting learning opportunities. We have aimed to capture these moments here in the Guide, in our growing constellation
-of [**Insights**](/insights/DiverseParticipationAndPerspectives.html). We have also gathered together a collection of
-[**Practices**](/practices/Collaborate.html), [**Tools**](/tools/UXWalkthroughs.html) and
-[**Activities**](/activities/MatchingGame.html) in the Guide which describe some of the specific ways in which inclusive
-design can be put into action.
+of [**Insights**](./insights/). We have also gathered together a collection of [**Practices**](./practices/),
+[**Tools**](./tools/) and [**Activities**](./activities/) in the Guide which describe some of the specific ways in which
+inclusive design can be put into action.
 
 <div class="idg-highlight-section row">
   <figure>

@@ -31,7 +31,7 @@ des participants portant différents besoins, centres d'intérêt, personnalité
 ## Pourquoi
 
 {% unmarkedList %}
-* {% icon "insights" %} [Des perspectives et contributions variées](../../idees/des-perspectives-et-contributions-variees/)
+* {% icon "insights" %} [Des perspectives et contributions variées](../../perspectives/des-perspectives-et-contributions-variees/)
 {% endunmarkedList %}
 
 ## Comment

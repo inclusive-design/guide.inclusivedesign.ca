@@ -32,7 +32,7 @@ rester ouvert à des idées neuves et des solutions innovantes.
 ## Pourquoi
 
 {% unmarkedList %}
-* {% icon "insights" %} [Des solutions harmonisées](../../idees/des-solutions-harmonisees/)
+* {% icon "insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
 {% endunmarkedList %}
 
 ## Comment

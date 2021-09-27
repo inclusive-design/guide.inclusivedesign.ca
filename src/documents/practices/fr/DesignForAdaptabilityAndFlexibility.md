@@ -31,12 +31,12 @@ pour s'adapter aux besoins actuels et futurs de l'utilisateur ce qui le rend, de
 ## Pourquoi
 
 {% unmarkedList %}
-* {% icon "insights" %} [Le handicap comme discordance](../../idees/le-handicap-comme-discordance/)
-* {% icon "insights" %} [Taillé sur mesure](../../idees/taille-sur-mesure/)
-* {% icon "insights" %} [L'exploration personnelle](../../idees/lexploration-personnelle/)
-* {% icon "insights" %} [La conception entre les mains de l'utilisateur](../../idees/la-conception-entre-les-mains-de-lutilisateur/)
-* {% icon "insights" %} [Des solutions harmonisées](../../idees/des-solutions-harmonisees/)
-* {% icon "insights" %} [Interconnexion](../../idees/interconnexion/)
+* {% icon "insights" %} [Le handicap comme discordance](../../perspectives/le-handicap-comme-discordance/)
+* {% icon "insights" %} [Taillé sur mesure](../../perspectives/taille-sur-mesure/)
+* {% icon "insights" %} [L'exploration personnelle](../../perspectives/lexploration-personnelle/)
+* {% icon "insights" %} [La conception entre les mains de l'utilisateur](../../perspectives/la-conception-entre-les-mains-de-lutilisateur/)
+* {% icon "insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
+* {% icon "insights" %} [Interconnexion](../../perspectives/interconnexion/)
 {% endunmarkedList %}
 
 ## Comment

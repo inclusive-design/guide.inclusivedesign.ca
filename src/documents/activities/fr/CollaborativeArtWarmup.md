@@ -57,17 +57,17 @@ Cette activité permets aux participants de mieux comprendre les différentes fa
 différentes façon de la percevoir et de l'interpréter. Elle permet aussi de voir plus loin que les méthodes courantes de
 communication de façon à étendre les possibilité d'accès et d'utilisation à un plus grand nombre de personnes.
 
-{% figure "/assets/images/collaborative_art.jpg", "An image showing a small sculpture made of lego and pipe cleaners on
-a table top, beside which lie two hand-written notes, one of which includes a title and description, while the other
-contains an artist statement." %}
+{% figure "/assets/images/collaborative_art.jpg", "La photographie d'une sculpture en légos et fil chenille posée sur
+une table. On voit à côté deux notes écrites à la main, l'une d'elle avec un titre et une description, l'autre avec une
+présentation de l'artiste." %}
 
 *Illustration 1:* Exemple d’œuvre créée dans le cadre d'un échauffement artistique
 
 {% endfigure %}
 
-{% figure "/assets/images/collaborative_art2.jpg", "An image showing a small sculpture made of lego, a toy car, and pipe
-cleaners on a table top. Some handwritten notes lie on the table beside the sculpture and a bin of lego can be seen in
-the background." %}
+{% figure "/assets/images/collaborative_art2.jpg", "La photographie d'une sculpture faite à partir de légos d'une petite
+voiture et de fil chenille. Sur la même table, on peut voir des notes écrites à la main ainsi qu'une boîte contenant des
+briques de couleur en arrière plan." %}
 
 *Illustration 2:* Exemple d’œuvre créée dans le cadre d'un échauffement artistique
 

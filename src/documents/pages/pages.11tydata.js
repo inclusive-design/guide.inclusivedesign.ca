@@ -18,7 +18,19 @@ module.exports = {
 
             return data.page.fileSlug;
         },
-        /* Build a permalink using the title and language key. */
-        permalink: data => generatePermalink(data, "pages")
+        /* Build a permalink using the title and language key, or to the 404 page. */
+        permalink: data => {
+            if (data.page.fileSlug !== "404") {
+                return generatePermalink(data, "pages");
+            }
+
+            let lang = getLang(data.page.filePathStem, "pages");
+
+            if (lang !== data.config.defaultLanguage) {
+                return `/${data.config.languages[lang].slug}/404.html`;
+            }
+            return "/404.html";
+
+        }
     }
 };

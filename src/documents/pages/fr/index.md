@@ -1,55 +1,57 @@
 ---
-title: Welcome to The Inclusive Design Guide
+title: Bienvenue dans le Guide pour une Conception Inclusive
 ---
 
-The Inclusive Design Guide can be applied to digital design as well as to the design of **services**, the **built
-environment** and **physical products**. It can be applied to processes like **workshops**, **meetings**,
-**conferences**, and even our daily interactions with one another. It can be used by anyone. The Guide is ever-evolving
-as we learn more about how to design inclusion into all that we do. **We rely on your feedback and contributions to
-continue developing these ideas**.
+Le Guide pour une Conception Inclusive peut s'appliquer au design digital ainsi qu'aux **services**, à
+l'**environnement** urbain et aux **objets tangibles**. Il peut s’appliquer aux **ateliers**, aux **réunions**, aux
+**conférences** ainsi qu'à nos rapports humains quotidiens. Il peut être utilisé par tout le monde. Le Guide est en
+constante évolution au fur et à mesure que nous adoptons une démarche inclusive dans tout ce que nous faisons.
+**Nous comptons sur vos commentaires et contributions pour continuer à développer ces idées.**
 
-An [animated introduction to the Guide](https://www.youtube.com/watch?v=ESyrapafICE) is also available. It provides
-descriptions of each of the guide's sections and its printable design cards.
+Une introduction [animée au Guide](https://www.youtube.com/watch?v=ESyrapafICE) est également disponible. Elle offre une
+descriptions de chaque sections du Guide et de ses fiches pratiques imprimables.
 
 <div class="idg-highlight-section" id="idg-index-dimensions-list">
 
-At the Inclusive Design Research Centre and the Inclusive Design Institute we stress the [**Three Dimensions of
-Inclusive
-Design:**](http://idrc.ocadu.ca/about-the-idrc/49-resources/online-resources/articles-and-papers/443-whatisinclusivedesign)
+Au Centre de Recherche pour une Conception  Inclusive comme à l'Institut pour une Conception  Inclusive, nous mettons en
+avant les [**Trois Dimensions d'une Conception Inclusive**]
+(http://idrc.ocadu.ca/about-the-idrc/49-resources/online-resources/articles-and-papers/443-whatisinclusivedesign) :
 
-* {% include 'svg/icon-dimension.svg' %} **Recognize Diversity and Uniqueness**
+* {% include 'svg/icon-dimension.svg' %} **Prendre en compte la diversité et la singularité**
 
-  As individuals spread out from the hypothetical average, the needs of individuals that are outliers, or at the
-  margins, become ever more diverse. Most individuals stray from the average in some facet of their needs or goals. This
-  means that a mass solution does not work well.
+  Quand les personnes sont définies par rapport à une moyenne, les besoins d'individus vivant des circonstances
+  particulières ou se situant à la marge paraissent encore plus variés. La plupart des personnes s'éloignent de la
+  moyenne dans l'expression de leurs besoins ou de leurs buts. Une unique solution ne peut donc pas être suffisamment
+  adaptée.
 
-* {% include 'svg/icon-dimension.svg' %} **Inclusive Process and Tools**
+* {% include 'svg/icon-dimension.svg' %} **Utiliser Des outils et des processus favorisant l'inclusivité**
 
-  Inclusive design teams should be as diverse as possible and include individuals who have a lived experience of the
-  users the designs are intended for.  This also respects the edict “nothing about us without us” without relegating
-  people with disabilities to the role of subjects of research or token participants in design exercises.</p>
+  Les groupes de concepteurs devraient être aussi divers que possible en comprenant des individus qui partagent le même
+  vécu que les futurs utilisateurs. Cela suit le principe « rien n'est conçu pour nous s'il est conçu sans nous » en
+  évitant de reléguer une personne en situation de handicap au rôle de sujet d'une recherche ou à celui de participant
+  pour la forme à un exercice de conception.
 
-* {% include 'svg/icon-dimension.svg' %} **Broader Beneficial Impact**
+* {% include 'svg/icon-dimension.svg' %} **Rechercher un impact et des bénéfices plus larges**
 
-  It is the responsibility of inclusive designers to be aware of the context and broader impact of any design and strive
-  to effect a beneficial impact beyond the intended beneficiary of the design.
+  C'est la responsabilité du concepteur d'avoir connaissance du contexte d'utilisation et des retombées de ses
+  réalisations et de toujours rechercher un impact positif qui puisse être ressenti au delà du cercle des bénéficiaires
+  initialement prévus.
 
 </div>
 
-Striving to work within these dimensions as we practice inclusive design, there have been many "aha" moments and
-exciting learning opportunities. We have aimed to capture these moments here in the Guide, in our growing constellation
-of [**Insights**](/insights/DiverseParticipationAndPerspectives.html). We have also gathered together a collection of
-[**Practices**](/practices/Collaborate.html), [**Tools**](/tools/UXWalkthroughs.html) and
-[**Activities**](/activities/MatchingGame.html) in the Guide which describe some of the specific ways in which inclusive
-design can be put into action.
+En respectant le cadre de ces trois dimensions dans notre pratique d'une conception inclusive, nous avons vécu plusieurs
+moments qui ont fait « tilt » et eu des opportunités d'apprentissage passionnantes. Notre but a été de capturer ces
+moments dans le Guide en un panorama de plus en plus large de [**Perspectives**](./perspectives). Nous avons également
+rassemblé une collection de [**Pratiques**](./pratiques), d'[**Outils**](./outils) et d'[**Activités**](./activites) dans
+le Guide qui donnent des exemples de mise en œuvre d'une conception inclusive.
 
 <div class="idg-highlight-section row">
   <figure>
   <figcaption class="small-12 medium-6 large-8 column">
 
-  The sections and items that make up the Inclusive Design Guide are not meant to be followed in any particular order.
-  You can begin wherever and whenever it makes sense for you, your team, and your process. Revisiting the guide at
-  different stages in the project can be an effective way to integrate it into your work.
+  Les sections et articles qui forment le Guide pour une Conception Inclusive ne suivent pas un ordre de lecture
+  pré-établi. Vous pouvez commencer où et quand bon vous semble pour vous, votre équipe et vos façons de travailler.
+  Reprendre le Guide à différentes étapes de votre projet peut être une bonne façon de l'intégrer à votre travail.
 
   </figcaption>
   <span class="small-12 medium-6 large-4 column"> {% include 'svg/schematic.svg' %} </span>
