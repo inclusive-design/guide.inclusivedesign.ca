@@ -24,12 +24,12 @@ Imaginez une projection en nuage de points des besoins d'un groupe de personnes.
 différentes d'être et de travailler. Imaginez où vous vous trouvez dans cette projection quand vous utilisez un design
 particulier.
 
-{% figure "/assets/images/VirtuousTornado01.png", "A diagram showing a cluster of black dots on a white starburst
-background. The dots are densest at the centre of the starburst and become more and more spaced out as they move away
-from the centre. Three concentric, coloured circles are drawn around the dots. In the centre, the smallest blue circle
-is labelled “Design works”, moving outward from centre the next yellow circle is labelled “Design is difficult to use”,
-and finally a red circle around the outside is labelled
-“Can’t use design”." %}
+{% figure "/assets/images/VirtuousTornado01.png", "Un schéma représente un nuage de points dispersés sur un arrière-plan
+blanc en forme d'étoile. Les points sont concentrés au milieu de l'étoile et sont de plus en plus dispersés à mesure
+qu'ils s'éloignent vers la périphérie. Trois cercles concentriques, de différentes couleurs sont dessinés autour des
+points. Au centre, le plus petit cercle, colorié en bleu, est identifié « le prototype fonctionne ». Le cercle suivant à
+partir du centre, est colorié en jaune et est identifié « le prototype est difficile à utiliser ». Le cercle rouge,
+enfin, situé à la périphérie est identifié « le prototype ne peut pas être utilisé." %}
 
 *Illustration 1 :* Le nuage montre un ensemble plus dense de points (les besoins majoritaires), au centre et des points
 plus espacés à mesure qu'on s'éloigne du centre (les besoins minoritaires). La distance représente la différence. Plus
@@ -59,17 +59,18 @@ individuelles. Cela peut aider votre équipe à voir des besoins supplémentaire
 Cette organisation n'est pas essentielle et ce n'est pas capital  d'être exact dans le placement de chaque besoin,
 l'important étant que votre mode d'organisation vous permette de prendre en compte autant de besoins que possible.
 
-{% figure "/assets/images/VirtuousTornado02.png", "Image showing a circle broken into four quarters. Each quarter is
-labelled with “Designs that Help Me…” and is broken up into three equally spaced concentric sections, with “like & use”
-in the centre, “don’t like or having difficulty using” in the middle, and “can’t use” at the outer periphery." %}
+{% figure "/assets/images/VirtuousTornado02.png", "Un schéma représente un cercle divisé en quartiers. Chaque quartier
+est identifié « ce prototype m'aide à... » et se divise en trois secteurs concentriques avec, au centre, « j'aime et je
+l'utilise », au milieu, « Je n'aime pas ou j'ai des difficultés à l'utiliser » et, à la périphérie, « Je ne peux pas
+l'utiliser »." %}
 
 *Illustration 2 :* Modèle pour placer les besoins et caractéristiques dans le contexte d'un concept donné.
 
 {% endfigure %}
 
-{% figure "/assets/images/VirtuousTornado03.png", "A photograph showing a large number of sticky notes on a table top.
-The sticky notes are covered in handwriting, and are stuck to and clustered on large paper wedges, which are themselves
-put together to form a circle." %}
+{% figure "/assets/images/VirtuousTornado03.png", "Une photographie d'un grand nombre de petites notes repositionnables
+disposées sur une table. Les notes sont couvertes d'écriture manuscrite, collées et superposées sur des grandes feuilles
+en forme de « portions » qui sont à leur tour assemblées en « camembert »." %}
 
 *Illustration 3 :* Un exemple de carte des besoins et caractéristiques sur les portions d'un cercle
 
@@ -100,13 +101,14 @@ processus de conception qui peuvent améliorer la capacité de répondre à des 
 cette façon plus flexible et il répond plus facilement à l'ensemble des besoins et caractéristiques qui émergeront
 ensuite.
 
-{% figure "/assets/images/VirtuousTornado04.png", "A diagram showing a spiral in the centre which is getting wider and
-wider toward the top as it spirals outward. The spiral is split into five vertical and equal sections starting with
-“cycle 1” at the bottom and ending with “cycle 5” at the top. 5 corresponding injection points are indicated, showing
-the injection of needs and characteristics at each iteration point of the 5 cycles. At the base of the spiral the words
-co-design, develop, implement, evaluate and refine are shown forming a foundation. Three arrows move up through the
-centre of the spiral, from the foundation up and out to the following blocks of text: More resilient designs, more
-adaptable designs, more innovative designs, more inclusive designs, more accessible designs." %}
+{% figure "/assets/images/VirtuousTornado04.png", "Un schéma représentant une spirale qui s'élargit de plus en plus en
+hauteur. La spirale est divisée en cinq étages successifs nommés en partant du « cycle 1 » tout en bas pour aller
+jusqu'au « cycle 5» au sommet. Cinq points d'injection dans la spirale sont indiqués pour représenter cinq injections de
+besoins et caractéristiques, une à chaque étage du cycle de la spirale. À la base, les mots « co-élaborer »,
+« développer », « mettre en œuvre », « évaluer » et « perfectionner » forment le socle d'où part la spirale. Trois
+flèches émergent depuis le centre de la spirale, depuis le socle jusqu'en haut où elles pointent cinq expressions :
+« Des concepts plus résilients », « Des concepts plus souples », « Des concepts plus innovants », « Des concepts plus
+inclusifs », « des concepts plus accessibles »" %}
 
 *Illustration 4 :* La tornade vertueuse est une spirale ascendante qui montre comment des besoins et caractéristiques
 sont ajoutés à chaque fois que l'on répète le processus. A mesure que le processus monte dans la spirale il prend de

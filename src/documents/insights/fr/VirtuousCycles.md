@@ -20,7 +20,7 @@ individuelle et le pouvoir d'achat ce qui améliore encore l'accès à la partic
 {% figure "/assets/images/VirtuousCyclesOfDigitalInclusion.jpg",
 "Diagram showing the virtuous cycles as a result of digital inclusion." %}
 
-*Figure 1:* The virtuous cycles triggered by digital inclusion
+*Illustration 1:* Les cercles vertueux amorcés par l'inclusion numérique
 
 {% endfigure %}
 

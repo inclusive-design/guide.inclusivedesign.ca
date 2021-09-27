@@ -56,11 +56,11 @@ personne ne prenne le dessus par rapport aux autres. Les participants apprennent
 l'objet de rouler ou tomber de la toile, en se concentrant sur le déplacement vers l'objectif et une étroite
 collaboration.
 
-{% figure "/assets/images/web_of_strings_diagram.png", "A diagram showing 8
-evenly-spaced straight lines that all intersect at their mid-point, creating a kind of giant asterisk or starburst. The
-lines are labeled with numbers 1 through 8. Underlying the intersection point there is a circle labeled “first
-container” and a short distance away there is a second circle labeled “second container”. Lying on top of the
-intersection point is a smaller circle labeled “object”. Text reads “8 strings set up for 16 participants”" %}
+{% figure "/assets/images/web_of_strings_diagram.png", "Un schéma représentant 8 lignes également espacées qui se
+croisent en leur milieu pour former une sorte de très grande étoile ou astérisque. Les lignes sont numérotées de 1 à 8.
+Sous le point d'intersection des lignes on peut voir un cercle nommé « premier récipient» et un peu plus loin un cercle
+similaire nommé « deuxième récipient ». Déposé à l'endroit ou les lignes se croisent, on peut voir un cercle plus petit
+nommé « objet ».  Le schéma est intitulé « 8 cordes préparées pour 16 participants. »" %}
 
 *Illustration 1 :* La disposition des différents éléments pour préparer l'activité. Chaque participant tient le bout
 d'une corde, soit dans sa main, soit attaché à une chaise roulante ou de toute manière qui lui convienne. L'objet est
@@ -68,18 +68,18 @@ déplacé du premier au second récipient en utilisant seulement la toile de cor
 
 {% endfigure %}
 
-{% figure "/assets/images/web_of_strings_layout.jpg", "An image showing a
-several blue strings laid out on the floor, all intersecting at their midpoint and forming a web in the shape of a large
-asterisk. The central intersection point of the strings lies on top of a white bowl, and an orange ball lies on top of
-the intersection point of the strings. Nearby sits another white bowl of the same size." %}
+{% figure "/assets/images/web_of_strings_layout.jpg", "Une photographie représentant plusieurs cordelettes bleues
+étalées sur le sol pour former une étoile. Là où les cordes se rejoignent on a glissé, sous les cordes, un bol blanc,
+et, dans le bol blanc, sur les cordes, on a placé une balle orange. On voit à proximité un second bol blanc de la même
+taille." %}
 
 *Illustration 2 :*  La disposition des différents éléments pour préparer l'activité
 
 {% endfigure %}
 
-{% figure "/assets/images/web_of_strings_closeup.jpg", "An image showing a closeup view of the intersection point of the
-web of strings raised above the floor, on which balances an orange ball. On the floor below a white bowl can be seen, as
-well as several participants standing in the background holding the ends of the strings." %}
+{% figure "/assets/images/web_of_strings_closeup.jpg", "Un photographie montrant plus en détail le point d'intersection
+des cordes tendues au-dessus du sol. Une balle orange s'y trouve posée en équilibre. On voit un bol blanc sur le sol et,
+en arrière plan, plusieurs participants qui tiennent le bout des cordes." %}
 
 *Illustration 3 :* La toile de cordes en action
 
