@@ -18,7 +18,7 @@ de rendre plus abordable les solutions conçues selon les principes de l'inclusi
 individuelle et le pouvoir d'achat ce qui améliore encore l'accès à la participation.
 
 {% figure "/assets/images/VirtuousCyclesOfDigitalInclusion.jpg",
-"Diagram showing the virtuous cycles as a result of digital inclusion." %}
+"Un diagramme qui représente le cercle vertueux résultant d'un inclusion digitale." %}
 
 *Illustration 1:* Les cercles vertueux amorcés par l'inclusion numérique
 
