@@ -20,7 +20,7 @@ module.exports = function (config) {
     // Shortcodes
     config.addPairedShortcode("unmarkedList", (content) => wrap(content, "list-articles"));
     config.addShortcode("icon", function (collection) {
-        return `<svg class="idg-icon-${collection}"><use xlink:href="/assets/images/icons.svg#icon-${collection}"></use></svg>`;
+        return `<svg class="icon-${collection}"><use xlink:href="/assets/images/icons.svg#icon-${collection}"></use></svg>`;
     });
     config.addShortcode("localeLink", generateLocaleLinks);
     config.addShortcode("translate", translate);

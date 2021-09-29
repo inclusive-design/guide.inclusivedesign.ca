@@ -1,10 +1,11 @@
-<footer class="bg-primary color-primary">
-    <div class="wrapper">
+<footer class="header-footer-bg header-footer-color">
+    <div class="wrapper wrapper_site_footer">
         <p>{% translate "footer.createdBy", lang %} <a href="https://wiki.fluidproject.org/display/fluid/The+Inclusive+Design+Guide" rel="nofollow" target="_blank">{% translate "footer.communityMembers", lang %}</a> {% translate "footer.of", lang %}</br>
         <a href="{{ site[lang].orgURL }}" rel="nofollow" target="_blank">{{ site[lang].org }}</a> {% translate "footer.at", lang %} <a href="{{ site[lang].ocadURL }}" target="_blank">{{ site[lang].ocad }}</a>,
         {% translate "footer.supportedBy", lang %}</p>
         <p>
-            <a class="footer-logo-links" aria-label="FLOE Project" href="http://www.floeproject.org/" target="_blank">{% include 'svg/logo-floe.svg' %}</a> <a class="footer-logo-links" aria-label="Prosperity for All" href="http://www.prosperity4all.eu/" target="_blank">{% include 'svg/logo-P4A.svg' %}</a><br/>
+            <a class="footer__logo-links" aria-label="FLOE Project" href="http://www.floeproject.org/" target="_blank">{% include 'svg/logo-floe.svg' %}</a>
+            <a class="footer__logo-links" aria-label="Prosperity for All" href="http://www.prosperity4all.eu/" target="_blank">{% include 'svg/logo-P4A.svg' %}</a><br/>
         </p>
         <p>{% translate "footer.hostedWith", lang %} <a href="https://netlify.com/">Netlify</a>.</p>
         <p>

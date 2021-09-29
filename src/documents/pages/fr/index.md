@@ -11,7 +11,7 @@ constante évolution au fur et à mesure que nous adoptons une démarche inclusi
 Une introduction [animée au Guide](https://www.youtube.com/watch?v=ESyrapafICE) est également disponible. Elle offre une
 descriptions de chaque sections du Guide et de ses fiches pratiques imprimables.
 
-<div class="idg-highlight-section" id="idg-index-dimensions-list">
+<div class="index__highlight" id="idg-index-dimensions-list">
 
 Au Centre de Recherche pour une Conception  Inclusive comme à l'Institut pour une Conception  Inclusive, nous mettons en
 avant les [**Trois Dimensions d'une Conception Inclusive**]
@@ -45,15 +45,15 @@ moments dans le Guide en un panorama de plus en plus large de [**Perspectives**]
 rassemblé une collection de [**Pratiques**](./pratiques), d'[**Outils**](./outils) et d'[**Activités**](./activites) dans
 le Guide qui donnent des exemples de mise en œuvre d'une conception inclusive.
 
-<div class="idg-highlight-section row">
+<div class="index__highlight">
   <figure>
-  <figcaption class="small-12 medium-6 large-8 column">
+  <figcaption>
 
   Les sections et articles qui forment le Guide pour une Conception Inclusive ne suivent pas un ordre de lecture
   pré-établi. Vous pouvez commencer où et quand bon vous semble pour vous, votre équipe et vos façons de travailler.
   Reprendre le Guide à différentes étapes de votre projet peut être une bonne façon de l'intégrer à votre travail.
 
   </figcaption>
-  <span class="small-12 medium-6 large-4 column"> {% include 'svg/schematic.svg' %} </span>
+  <span> {% include 'svg/schematic.svg' %} </span>
   </figure>
 </div>

@@ -10,9 +10,9 @@
 
 {% block content %}
 
-<header class="category-header bg-category-{{ category | lower }} color-primary">
+<header class="category-header {{ category | lower }}-bg header-footer-color">
     <div class="wrapper">
-        <nav class="idg-breadcrumb" aria-label="{% translate "breadcrumb", lang %}">
+        <nav  aria-label="{% translate "breadcrumb", lang %}">
             <ul class="breadcrumbs inline-list">
                 <li>
                     <a href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}">
@@ -29,12 +29,12 @@
     </div>
 </header>
 
-<div class="wrapper">
+<div class="wrapper wrapper__article">
     {% include "partials/content.njk" %}
 
     {% if not navPages.length %}
     {% set childPages = collections[category + "_" + lang] | eleventyNavigation(eleventyNavigation.key) %}
-    <nav aria-label="{{ eleventyNavigation.key }} {% translate "contents", lang %}">
+    <nav class="list-articles__contents" aria-label="{{ eleventyNavigation.key }} {% translate "contents", lang %}">
         <ul>
             {# Output page links in alphabetical order #}
             {% for page in childPages |sort(false, true, "title") %}
