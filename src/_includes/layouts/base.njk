@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-{% set lang %}{{ lang | default(config.defaultLanguage) }}{% endset %}
-<html lang="{{ lang }}" dir="{{ config.languages[lang].dir }}">
+<html lang="{{ locale }}" dir="{{ langDir }}">
     <head>
         {% include 'partials/head-matter.njk' %}
     </head>
@@ -21,6 +20,6 @@
             {% include 'partials/footer.njk' %}
 
         </div> <!-- end container -->
-        {% uioInit config.languages[lang].uioSlug, config.languages[lang].dir %}
+        {% uioInit config.languages[locale].uioSlug, langDir %}
     </body>
 </html>
