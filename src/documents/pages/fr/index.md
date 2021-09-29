@@ -17,21 +17,21 @@ Au Centre de Recherche pour une Conception  Inclusive comme à l'Institut pour u
 avant les [**Trois Dimensions d'une Conception Inclusive**]
 (http://idrc.ocadu.ca/about-the-idrc/49-resources/online-resources/articles-and-papers/443-whatisinclusivedesign) :
 
-* {% include 'svg/icon-dimension.svg' %} **Prendre en compte la diversité et la singularité**
+* {% include "svg/icon-dimension.svg" %} **Prendre en compte la diversité et la singularité**
 
   Quand les personnes sont définies par rapport à une moyenne, les besoins d'individus vivant des circonstances
   particulières ou se situant à la marge paraissent encore plus variés. La plupart des personnes s'éloignent de la
   moyenne dans l'expression de leurs besoins ou de leurs buts. Une unique solution ne peut donc pas être suffisamment
   adaptée.
 
-* {% include 'svg/icon-dimension.svg' %} **Utiliser Des outils et des processus favorisant l'inclusivité**
+* {% include "svg/icon-dimension.svg" %} **Utiliser Des outils et des processus favorisant l'inclusivité**
 
   Les groupes de concepteurs devraient être aussi divers que possible en comprenant des individus qui partagent le même
   vécu que les futurs utilisateurs. Cela suit le principe « rien n'est conçu pour nous s'il est conçu sans nous » en
   évitant de reléguer une personne en situation de handicap au rôle de sujet d'une recherche ou à celui de participant
   pour la forme à un exercice de conception.
 
-* {% include 'svg/icon-dimension.svg' %} **Rechercher un impact et des bénéfices plus larges**
+* {% include "svg/icon-dimension.svg" %} **Rechercher un impact et des bénéfices plus larges**
 
   C'est la responsabilité du concepteur d'avoir connaissance du contexte d'utilisation et des retombées de ses
   réalisations et de toujours rechercher un impact positif qui puisse être ressenti au delà du cercle des bénéficiaires
@@ -54,6 +54,6 @@ le Guide qui donnent des exemples de mise en œuvre d'une conception inclusive.
   Reprendre le Guide à différentes étapes de votre projet peut être une bonne façon de l'intégrer à votre travail.
 
   </figcaption>
-  <span class="small-12 medium-6 large-4 column"> {% include 'svg/schematic.svg' %} </span>
+  <span class="small-12 medium-6 large-4 column"> {% include "svg/schematic.svg" %} </span>
   </figure>
 </div>

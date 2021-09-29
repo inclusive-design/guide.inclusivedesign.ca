@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ locale }}" dir="{{ langDir }}">
     <head>
-        {% include 'partials/head-matter.njk' %}
+        {% include "partials/head-matter.njk" %}
     </head>
     <body class="docs-template idg {% if bodyClass %}{{ bodyClass }}{% endif %}">
 
         <div class="container docs-template-container">
 
-            {% include 'partials/header.njk' %}
+            {% include "partials/header.njk" %}
 
             <div class="docs-template-articleBody">
 
@@ -17,7 +17,7 @@
 
             </div>
 
-            {% include 'partials/footer.njk' %}
+            {% include "partials/footer.njk" %}
 
         </div> <!-- end container -->
         {% uioInit config.languages[locale].uioSlug, langDir %}

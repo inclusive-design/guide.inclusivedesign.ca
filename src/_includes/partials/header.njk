@@ -11,7 +11,7 @@
 
     <div class="small-12 column docs-template-header">
         <a class="" href="/{% if not (locale === config.defaultLanguage) %}{{ config.languages[locale].slug }}{% endif %}" title="{{ _i("Home: ${siteName}", {siteName: _(site.title)}) }}">
-            <span class="idg-logo">{% include 'svg/idrc-logo.svg' %}</span>
+            <span class="idg-logo">{% include "svg/idrc-logo.svg" %}</span>
             <h1>{{ _(site.title) }}</h1>
         </a>
 
@@ -20,7 +20,7 @@
             <ul id="menu">
                 <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
                     <ul class="docs-template-dropDown">
-                    {% include 'partials/menu.njk' %}
+                    {% include "partials/menu.njk" %}
                    </ul>
                 </li>
             </ul>
@@ -31,7 +31,7 @@
     <div class="docs-template-header">
         <nav class="idg-tabs small-12 column show-for-medium-up">
             <ul class="inline-list">
-            {% include 'partials/menu.njk' %}
+            {% include "partials/menu.njk" %}
             </ul>
         </nav>
     </div>
