@@ -1,12 +1,12 @@
 <footer class="row docs-template-footer fl-inverted-color">
     <p>
-        {% set org %}</br><a href='{{ _(site.orgURL) }}' rel='nofollow' target='_blank'>{{ _(site.org) }}</a>{% endset %}
-        {% set ocad %}<a href='{{ _(site.ocadURL) }}' target='_blank'>{{ _(site.ocad) }}</a>{% endset %}
-        {{ _i("Created by the ${communityLink}community members${closeLink} of ${org} at ${ocad}, and supported by", {
-            closeLink: "</a>",
-            communityLink: "<a href='https://wiki.fluidproject.org/display/fluid/The+Inclusive+Design+Guide' rel='nofollow' target='_blank'>",
-            org: org,
-            ocad: ocad
+        {% set footer_community %}<a href='https://wiki.fluidproject.org/display/fluid/The+Inclusive+Design+Guide' rel='nofollow' target='_blank'>{{ _("community members") }}</a>{% endset %}
+        {% set footer_org %}</br><a href='{{ _(site.orgURL) }}' rel='nofollow' target='_blank'>{{ _(site.org) }}</a>{% endset %}
+        {% set footer_institute %}<a href='{{ _(site.instituteURL) }}' target='_blank'>{{ _(site.institute) }}</a>{% endset %}
+        {{ _i("Created by the ${community} of the ${org} at ${institute}, and supported by", {
+            community: footer_community,
+            org: footer_org,
+            institute: footer_institute
         }) | safe }}
     </p>
 

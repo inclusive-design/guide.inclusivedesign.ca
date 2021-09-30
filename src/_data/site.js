@@ -24,7 +24,7 @@ module.exports = () => {
         "licenseURL": i18n._(locale, "https://creativecommons.org/licenses/by/3.0/"),
         "org": i18n._(locale, "Inclusive Design Research Centre"),
         "orgURL": i18n._(locale, "https://idrc.ocad.ca/"),
-        "ocad": i18n._(locale, "OCAD University"),
-        "ocadURL": i18n._(locale, "https://www.ocadu.ca/")
+        "institute": i18n._(locale, "OCAD University"),
+        "instituteURL": i18n._(locale, "https://www.ocadu.ca/")
     };
 };
