@@ -30,13 +30,17 @@ our biases, which in turn keeps us open to new ideas and innovative solutions.
 ## Why
 
 {% unmarkedList %}
+
 * {% icon "insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
+
 {% endunmarkedList %}
 
 ## How
 
 {% unmarkedList %}
+
 * {% icon "tools" %} [Personas](../../tools/personas/)
 * {% icon "tools" %} [Use-Cases](../../tools/use-cases/)
 * {% icon "tools" %} [Usability Testing](../../tools/usability-testing/)
+
 {% endunmarkedList %}

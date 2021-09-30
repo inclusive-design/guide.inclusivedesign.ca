@@ -34,6 +34,8 @@ step.
 ## Why
 
 {% unmarkedList %}
+
 * {% icon "insights" %} [Interconnectedness](../../insights/interconnectedness/)
 * {% icon "insights" %} [Virtuous Cycles](../../insights/virtuous-cycles/)
+
 {% endunmarkedList %}

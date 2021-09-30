@@ -11,7 +11,6 @@ Même si l'on doit compter sur des découvertes inattendues et d'autres facteurs
 être encouragés en offrant à l'utilisateur des moyens d'étendre, modifier, partager et adapter, en somme personnaliser,
 le « produit final ».
 
-
 Rester ouvert à de nouvelles idées le plus longtemps possible au cours du processus de conception, confier les projets
 aux utilisateurs le plus tôt et le plus souvent possible, faire en sorte que l'équipe puisse répondre aux changements
 avec plaisir et aisance sont autant de façon de tenir compte des surprises.
@@ -28,13 +27,16 @@ avec plaisir et aisance sont autant de façon de tenir compte des surprises.
 ## Pourquoi
 
 {% unmarkedList %}
+
 * {% icon "insights" %} [Interconnexion](../../perspectives/interconnexion/)
 * {% icon "insights" %} [Des cercles vertueux](../../perspectives/des-cercles-vertueux/)
+
 {% endunmarkedList %}
 
 ## Comment
 
 {% unmarkedList %}
+
 * {% icon "practices" %} [Testez fréquemment](../../pratiques/testez-frequemment/)
 * {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
 * {% icon "tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
@@ -42,4 +44,5 @@ avec plaisir et aisance sont autant de façon de tenir compte des surprises.
 * {% icon "tools" %} [Le prototypage](../../outils/le-prototypage/)
 * {% icon "tools" %} [Les personas](../../outils/les-personas/)
 * {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
+
 {% endunmarkedList %}

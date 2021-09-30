@@ -27,9 +27,11 @@ this in the early stages of design will result in more successfully integrated f
 ## Combine with
 
 {% unmarkedList %}
+
 * {% icon "tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
 * {% icon "tools" %} [Usability Testing](../../tools/usability-testing/)
 * {% icon "tools" %} [Personas](../../tools/personas/)
 * {% icon "tools" %} [Use-Cases](../../tools/use-cases/)
 * {% icon "tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)
+
 {% endunmarkedList %}

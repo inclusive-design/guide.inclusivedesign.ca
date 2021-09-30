@@ -11,8 +11,7 @@ Lorsqu'on dispose de temps et ressources limitées, on tend à suivre la règle 
 majoritaires) en premiers et garder les 20% les plus difficiles (besoins minoritaires) pour plus tard. Pourtant, les
 changements et l'innovation se trouvent à la périphérie. Concevoir pour les 20% peut prendre plus de temps et de
 ressources au premier abord mais crée une dynamique de résilience et d'adaptation qui réduit les coûts sur le long terme
-(En lire davantage en consultant [Pour une meilleure conception, demandez l’aide des étrangers]
-(https://medium.com/ontariodigital/if-you-want-the-best-design-ask-strangers-to-help-e37bdb73567)).
+(En lire davantage en consultant [Pour une meilleure conception, demandez l’aide des étrangers](https://medium.com/ontariodigital/if-you-want-the-best-design-ask-strangers-to-help-e37bdb73567)).
 
 Cette activité aide à prendre ses distances avec la règle des 80/20 et à s'ouvrir à des perspectives et besoins plus
 variés. Vous pouvez essayer cette activité quand vous concevez quelque chose de nouveau ou quand vous évaluez un concept

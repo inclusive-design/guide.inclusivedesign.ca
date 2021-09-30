@@ -32,13 +32,17 @@ rester ouvert à des idées neuves et des solutions innovantes.
 ## Pourquoi
 
 {% unmarkedList %}
+
 * {% icon "insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
+
 {% endunmarkedList %}
 
 ## Comment
 
 {% unmarkedList %}
+
 * {% icon "tools" %} [Les personas](../../outils/les-personas/)
 * {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
 * {% icon "tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
+
 {% endunmarkedList %}

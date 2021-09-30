@@ -24,6 +24,8 @@ For more information about metadata authoring please see <http://handbook.floepr
 ## Combine with
 
 {% unmarkedList %}
+
 * {% icon "tools" %} [Personas](../../tools/personas/)
 * {% icon "tools" %} [Use-Cases](../../tools/use-cases/)
+
 {% endunmarkedList %}

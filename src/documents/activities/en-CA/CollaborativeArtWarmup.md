@@ -28,12 +28,12 @@ can take between 4-7 minutes.
 
 **Tip**: Don’t worry too much about the outcome, take risks and play.
 
-**Tip**: If there are members in your group that require audio description, make sure to describe the available materials at
-the start and to describe the artwork as it takes form. Allow for tactile exploration of the materials and the artwork
-as well.
+**Tip**: If there are members in your group that require audio description, make sure to describe the available
+materials at the start and to describe the artwork as it takes form. Allow for tactile exploration of the materials and
+the artwork as well.
 
-**Tip**: To ensure that everyone gets a chance to participate, you can have each group member take a turn adding something
-to the artwork.
+**Tip**: To ensure that everyone gets a chance to participate, you can have each group member take a turn adding
+something to the artwork.
 
 ### Step 3
 

@@ -32,5 +32,7 @@ the thing itself helped you to feel comfortable to try something new?
 ## Use
 
 {% unmarkedList %}
+
 * {% icon "practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
+
 {% endunmarkedList %}

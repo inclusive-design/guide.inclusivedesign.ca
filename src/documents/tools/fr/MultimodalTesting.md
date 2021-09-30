@@ -29,7 +29,9 @@ l'accessibilité mais leur rôle se limite à vous guider lors des premières é
 ## A combiner avec
 
 {% unmarkedList %}
+
 * {% icon "tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
 * {% icon "tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
 * {% icon "tools" %} [Le prototypage](../../outils/le-prototypage/)
+
 {% endunmarkedList %}

@@ -28,6 +28,8 @@ question.
 ## Combine with
 
 {% unmarkedList %}
+
 * {% icon "tools" %} [Personas](../../tools/personas/)
 * {% icon "tools" %} [User States and Contexts](../../tools/user-states-and-contexts/)
+
 {% endunmarkedList %}

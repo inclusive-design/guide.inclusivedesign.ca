@@ -34,8 +34,10 @@ integrate these two solutions together such that it could meet the needs of both
 ## Use
 
 {% unmarkedList %}
+
 * {% icon "practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
 * {% icon "practices" %} [Practice Co-design](../../practices/practice-co-design/)
 * {% icon "practices" %} [Integrate Accessibility from the Start](../../practices/integrate-accessibility-from-the-start/)
 * {% icon "practices" %} [Test Frequently](../../practices/test-frequently/)
+
 {% endunmarkedList %}
