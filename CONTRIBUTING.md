@@ -10,7 +10,7 @@ Content contributions are licensed under the
 ## Process/Workflow
 
 The general contribution workflow is for contributors to fork the project repository, work in a branch created off of
-main, and submit a pull request against the project repo's main branch to merge their contributions.
+`main`, and submit a pull request against the project repo's `main` branch to merge their contributions.
 
 For submitting localizations, one could also create a new
 [issue](https://github.com/inclusive-design/guide.inclusivedesign.ca/issues) with the new localizations. When another
