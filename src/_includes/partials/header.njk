@@ -7,7 +7,7 @@
 <header class="ignore-for-TOC row fl-inverted-color">
     {% include "partials/uio.njk" %}
 
-    {% localeLink locale, translationKey, category, collections %}
+    {% include 'partials/language.njk' %}
 
     <div class="small-12 column docs-template-header">
         <a class="" href="/{% if not (locale === config.defaultLanguage) %}{{ config.languages[locale].slug }}{% endif %}" title="{{ _i("Home: ${siteName}", {siteName: _(site.title)}) }}">
