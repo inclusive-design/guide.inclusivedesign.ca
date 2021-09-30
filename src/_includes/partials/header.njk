@@ -16,15 +16,13 @@
         </a>
 
         <!-- Mobile Menu -->
-        <nav class="right show-for-small-only docs-template-nav-mobile">
-            <ul id="menu">
-                <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
-                    <ul class="docs-template-dropDown">
-                    {% include "partials/menu.njk" %}
-                   </ul>
-                </li>
+        <nav class="idg-menu idg-mobile-nav right show-for-small-only " aria-labelledBy="idg-mobile-nav-button">
+            <button id="idg-mobile-nav-button" aria-expanded="false" aria-controls="idg-mobile-nav-list"><span class="docs-template-nav-mobile-icon">{{ _("Menu") }}</button>
+            <ul id="idg-mobile-nav-list">
+                {% include "partials/menu.njk" %}
             </ul>
         </nav>
+
     </div>
 
     <!-- "Desktop" Menu -->
