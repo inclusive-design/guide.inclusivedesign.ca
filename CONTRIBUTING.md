@@ -31,10 +31,10 @@ npm run lint
 ```
 
 For more information about configuration and rules see:
+
 * [fluid-lint-all](https://www.npmjs.com/package/fluid-lint-all)
 * [eslint-config-fluid](https://www.npmjs.com/package/eslint-config-fluid)
 * [stylelint-config-fluid](https://www.npmjs.com/package/stylelint-config-fluid)
-
 
 ## Localization/Internationalization
 
@@ -84,6 +84,7 @@ For example if we wanted to add a Spain, Spanish locale we could add the followi
     }
 }
 ```
+
 ### Localizing the content
 
 The main content of the site is all contained within the [`src/documents`](./src/documents) directory. These are
@@ -217,9 +218,9 @@ To update the .po and .mo files perform the following steps:
 2. Browse for the .po file you'd like to edit
 3. Open the .po file
 4. `Translations > Update from Source Code`
-  * This will update the .po file with all of the current translations
-  * If this step doesn't pick up the localizations from messages.js, ensure that the source paths are set corrctly.
-    * `Translations > Properties... > Source Paths
+   * This will update the .po file with all of the current translations
+   * If this step doesn't pick up the localizations from messages.js, ensure that the source paths are set corrctly.
+     * `Translations > Properties... > Source Paths
 5. Select the "Source Text" to localize, add the necessary "Translation"
 6. To remove old strings go to: `Translations > Purge Deleted Translations`
 7. Save

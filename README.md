@@ -3,7 +3,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7d5c6794-ebd2-4908-8918-3207a3f54251/deploy-status)](https://app.netlify.com/sites/idrc-inclusive-design-guide/deploys)
 
 This project contains the content needed to build and deploy a copy of the Inclusive Design Guide. Please see the
-[Contributor Guide](./.github/CONTRIBUTING.md) for information on localizing the content.
+[Contributor Guide](./CONTRIBUTING.md) for information on localizing the content.
 
 ## Usage
 
