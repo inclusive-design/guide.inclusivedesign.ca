@@ -1,14 +1,29 @@
 "use strict";
 
-const toggleExpansion = (element, state) => {
+const menu = {};
+
+/**
+ * Toggle's the aria-expanded state of an element.
+ *
+ * @param {DOMNode} element - the DOM Node to toggle the aria-expanded state on.
+ * @param {Boolean} [state] - (optional) explicit state to set aria-expanded to.
+ */
+menu.toggleExpansion = (element, state) => {
     let isExpanded = element.getAttribute("aria-expanded") === "true" ? true : false;
     state = typeof(state) !== "undefined" ? state : !isExpanded;
 
     element.setAttribute("aria-expanded", state ? "true" : "false");
-    return state;
 };
 
-const menu = (container, button = "button") => {
+/**
+ * Initializes a menu widget.
+ *
+ * @param {String} container - A CSS selector for the menu's container.
+ * @param {String} [button] - (optional) A CSS slector for the menu's button. Defaults to "button".
+ * @throws {Exception} - if no element is found for the container selector.
+ * @throws {Exception} - if no element is found for the button selector within the container element.
+ */
+menu.init = (container, button = "button") => {
     let menu = document.querySelector(container);
 
     if (!menu) {
@@ -24,23 +39,26 @@ const menu = (container, button = "button") => {
     // Close the menu when focus is moved away from the menu
     menu.addEventListener("focusout", (event) => {
         if (!menu.contains(event.relatedTarget)) {
-            toggleExpansion(btn, false);
+            menu.toggleExpansion(btn, false);
         }
     });
 
     // Close the menu when the "Escape" key is pressed and the menu has focus. Shifts focus back to the button.
     menu.addEventListener("keyup", (event) => {
         if (event.code === "Escape") {
-            toggleExpansion(btn, false);
+            menu.toggleExpansion(btn, false);
             btn.focus();
         }
     });
 
     // Toggle expansion of menu when button is clicked
     btn.addEventListener("click", () => {
-        toggleExpansion(btn);
+        menu.toggleExpansion(btn);
     });
 };
 
-menu(".idg-language-picker");
-menu(".idg-mobile-nav");
+// initialize the language picker
+menu.init(".idg-language-picker");
+
+// initialize the mobile navigation menu
+menu.init(".idg-mobile-nav");
