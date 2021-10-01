@@ -56,6 +56,8 @@ The goal of this activity is to promote creative thinking over immediate feasibi
 deeper to find unexpected and creative ways of addressing a problem.
 
 {% unmarkedList %}
+
 * {% icon "practices" %} [Practice Co-Design](../../practices/practice-co-design/)
 * {% icon "practices" %} [Collaborate](../../practices/collaborate)
+
 {% endunmarkedList %}

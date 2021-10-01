@@ -32,6 +32,8 @@ session de tests d'utilisation.
 ## A combiner avec
 
 {% unmarkedList %}
+
 * {% icon "tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
 * {% icon "tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
+
 {% endunmarkedList %}

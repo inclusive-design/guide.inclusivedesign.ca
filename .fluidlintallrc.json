@@ -1,23 +1,16 @@
 {
     "eslint": {
         "js": {
-            "includes": ["./.eleventy.js"]
+            "includes": ["./.eleventy.js"],
+            "excludes": ["./src/locales/messages.js"]
         }
     },
     "lintspaces": {
-        "jsonindentation": {
-            "excludes": ["./src/_data/*.json"]
-        },
         "newlines": {
             "excludes": [
-                "./src/**/*.ttf"
+                "./src/**/*.ttf",
+                "./src/locales/**/*.*"
             ]
         }
-    },
-    "markdownlint": {
-        "excludes": ["./src/documents/**/*.md", "./CHANGELOG.md"]
-    },
-    "stylelint": {
-        "excludes": ["./src/assets/print/**/*.*"]
     }
 }

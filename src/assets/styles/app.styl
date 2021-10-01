@@ -135,15 +135,48 @@ a:hover .idg-logo {
     }
 }
 
-.idg-locale {
+.idg-language-picker {
     width: 100%;
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    align-items: flex-end;
     padding-block-start: 1rem;
     padding-inline: 2rem;
 }
 
-.idg-locale a {
+.idg-language-picker button[aria-expanded="false"]::after {
+    content: "▼";
+}
+
+.idg-language-picker button::after {
+    padding-inline-start: 0.5rem;
+    content: "▲";
+}
+
+.idg-menu button[aria-expanded="false"]+ul {
+    display: none;
+}
+
+.idg-language-picker button+ul {
+    position: absolute;
+    margin-block-start: 3.3rem;
+    background-color: grey;
+    z-index: 2;
+    list-style: none;
+}
+
+.idg-language-picker li {
+    padding-inline: 1rem;
+    text-align: end;
+}
+
+.idg-language-picker li a[aria-current]::before {
+     color: #fff;
+     content: "✔";
+     padding-inline-end: 0.5rem;
+ }
+
+.idg-language-picker a {
     color: #fff;
 }
 

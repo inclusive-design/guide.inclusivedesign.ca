@@ -21,12 +21,16 @@ allow them to succeed, keeping in mind the insights, practices and tools of incl
 ## How
 
 {% unmarkedList %}
+
 * {% icon "tools" %} [Personas](../../tools/personas/)
+
 {% endunmarkedList %}
 
 ## Why
 
 {% unmarkedList %}
+
 * {% icon "insights" %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
 * {% icon "insights" %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
+
 {% endunmarkedList %}

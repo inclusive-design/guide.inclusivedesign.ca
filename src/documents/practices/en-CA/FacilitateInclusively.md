@@ -33,12 +33,16 @@ partners and begin the collaborative process. (<https://en.wikipedia.org/wiki/Ye
 ## Why
 
 {% unmarkedList %}
+
 * {% icon "insights" %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
+
 {% endunmarkedList %}
 
 ## How
 
 {% unmarkedList %}
+
 * {% icon "tools" %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
 * {% icon "tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)
+
 {% endunmarkedList %}

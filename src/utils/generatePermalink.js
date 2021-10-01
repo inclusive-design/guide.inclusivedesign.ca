@@ -1,26 +1,29 @@
 "use strict";
 
 const config = require("../_data/config.json");
-const getLang = require("./getLang.js");
 const slugFilter = require("../../node_modules/eleventy-plugin-fluid/src/filters/slug-filter.js");
-const translations = require("../_data/translations.json");
+const i18n = require("eleventy-plugin-i18n-gettext");
 
-module.exports = (data, collectionType) => {
+module.exports = (data) => {
     /* If this page is a "stub" with no localized title, we assume it does not exist and prevent it from building. */
     if (!Object.prototype.hasOwnProperty.call(data, "title")) {
         return false;
     }
 
-    const lang = getLang(data.page.filePathStem, collectionType);
-    const langSlug = config.languages[lang].slug || lang;
+    const locale = data.locale;
+    const localeSlug = config.languages[locale].slug || locale;
     const slug = slugFilter(data.title);
-    const collectionSlug = slugFilter(translations[lang][collectionType] || "");
+    const collection = data.category && data.category.toLowerCase() || "";
+    const collectionSlug = slugFilter(i18n._(locale, collection) || "");
+    const root = (locale === config.defaultLanguage) ? "/" : `/${localeSlug}/`;
 
-    if (collectionType === "pages" && data.page.fileSlug === lang) {
-        return (lang === config.defaultLanguage) ? "/" : `/${langSlug}/`;
-    } else if (data.eleventyNavigation && data.eleventyNavigation.key === data.category) {
-        return (lang === config.defaultLanguage) ? `/${collectionSlug}/` : `/${langSlug}/${collectionSlug}/`;
-    } else {
-        return (lang === config.defaultLanguage) ? `/${collectionSlug}/${slug}/` : `/${langSlug}/${collectionSlug}/${slug}/`;
+    if (!collection && locale === data.page.fileSlug) {
+        return root;
     }
+
+    if (data.eleventyNavigation && data.eleventyNavigation.key === data.category) {
+        return `${root}/${collectionSlug}/`;
+    }
+
+    return `${root}/${collectionSlug}/${slug}/`;
 };

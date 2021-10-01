@@ -32,14 +32,18 @@ usability and privacy.
 ## Why
 
 {% unmarkedList %}
+
 * {% icon "insights" %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
 * {% icon "insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
 * {% icon "insights" %} [Personal Discovery](../../insights/personal-discovery/)
+
 {% endunmarkedList %}
 
 ## How
 
 {% unmarkedList %}
+
 * {% icon "practices" %} [Practice Co-design](../../practices/practice-co-design/)
 * {% icon "practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
+
 {% endunmarkedList %}

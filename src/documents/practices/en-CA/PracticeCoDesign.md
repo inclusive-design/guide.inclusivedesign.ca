@@ -27,14 +27,18 @@ members are directly impacted by the design.
 ## Why
 
 {% unmarkedList %}
+
 * {% icon "insights" %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
 * {% icon "insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
+
 {% endunmarkedList %}
 
 ## How
 
 {% unmarkedList %}
+
 * {% icon "tools" %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
 * {% icon "tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)
 * {% icon "tools" %} [Accessible Development Tools](../../tools/accessible-development-tools/)
+
 {% endunmarkedList %}

@@ -33,6 +33,8 @@ utilisateurs différents." %}
 ## A combiner avec
 
 {% unmarkedList %}
+
 * {% icon "tools" %} [Les personas](../../outils/les-personas/)
 * {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
+
 {% endunmarkedList %}

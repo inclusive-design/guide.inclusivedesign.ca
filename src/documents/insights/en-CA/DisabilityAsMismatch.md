@@ -33,7 +33,9 @@ happened? What did you do about it? How could the design of the product or servi
 ## Use
 
 {% unmarkedList %}
+
 * {% icon "practices" %} [Focus on Functional Needs and Preferences](../../practices/focus-on-functional-needs-and-preferences/)
 * {% icon "practices" %}  [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
 * {% icon "activities" %}  [Inclusive Design Mapping](../../activities/inclusive-design-mapping/)
+
 {% endunmarkedList %}

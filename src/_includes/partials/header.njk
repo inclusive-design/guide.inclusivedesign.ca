@@ -7,29 +7,26 @@
 <header class="ignore-for-TOC header-footer-bg header-footer-color">
     {% uioTemplate %}
 
-    {% localeLink lang, translationKey, category, collections %}
+    {% include 'partials/language.njk' %}
 
     <div class="wrapper">
-        <a class="banner" href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}" title="Home: Documentation Template">
+        <a class="banner" href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}" title="{{ _i("Home: ${siteName}", {siteName: _(site.title)}) }}">
             <span class="banner__logo">{% include 'svg/idrc-logo.svg' %}</span>
-            <h1 class="banner__heading">{{ site[lang].title }}</h1>
+            <h1 class="banner__heading">{{ _(site.title) }}</h1>
         </a>
 
         <!-- Mobile Menu -->
-        {# <nav class="">
-            <ul id="menu">
-                <li class=""><span class=""></span>
-                    <ul class="">
-                    {% include 'partials/menu.njk' %}
-                   </ul>
-                </li>
+        <nav class="idg-menu idg-mobile-nav right show-for-small-only " aria-labelledBy="idg-mobile-nav-button">
+            <button id="idg-mobile-nav-button" aria-expanded="false" aria-controls="idg-mobile-nav-list"><span class="docs-template-nav-mobile-icon">{{ _("Menu") }}</button>
+            <ul id="idg-mobile-nav-list">
+                {% include "partials/menu.njk" %}
             </ul>
-        </nav> #}
+        </nav>
 
             <!-- "Desktop" Menu -->
         <nav class="menu" aria-label="menu">
             <ul class="inline-list">
-            {% include 'partials/menu.njk' %}
+            {% include "partials/menu.njk" %}
             </ul>
         </nav>
     </div>

@@ -20,6 +20,7 @@ mix.setPublicPath("dist/assets");
 
 // Process JavaScript with Babel.
 mix.js("./src/assets/scripts/app.js", "dist/assets/scripts");
+mix.js("./src/assets/scripts/matomo.js", "dist/assets/scripts");
 
 // Compile Stylus and process with PostCSS.
 mix.postCss("./src/assets/styles/app.css", "dist/assets/styles");

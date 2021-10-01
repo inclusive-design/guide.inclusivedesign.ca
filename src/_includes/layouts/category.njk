@@ -6,7 +6,7 @@
 {{ page.filePathStem}}.md
 {% endset %}
 
-{% set navPages = collections[category + "_" + lang] | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+{% set navPages = collections[category + "_" + locale] | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
 
 {% block content %}
 

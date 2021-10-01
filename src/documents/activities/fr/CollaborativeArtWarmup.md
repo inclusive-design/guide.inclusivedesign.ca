@@ -28,11 +28,11 @@ durer entre 4 et 7 minutes.
 
 **Astuce** : ne vous préoccupez pas trop du résultat, prenez des risques et jouez le jeu.
 
-**Astuce** : Si l'un des participants a besoin d'une description sonore, veillez à décrire le matériel disponible et quelle
-forme prend le projet au fur et à mesure. Laissez de la place à une exploration tactile de l'objet créé.
+**Astuce** : Si l'un des participants a besoin d'une description sonore, veillez à décrire le matériel disponible et
+quelle forme prend le projet au fur et à mesure. Laissez de la place à une exploration tactile de l'objet créé.
 
-**Astuce** : To ensure that everyone gets a chance to participate, you can have each group member take a turn adding something
-to the artwork.
+**Astuce** : To ensure that everyone gets a chance to participate, you can have each group member take a turn adding
+something to the artwork.
 
 ### Troisième étape
 
@@ -44,7 +44,6 @@ durer 3 à 5 minutes.
 
 Les groupes changent de poste une fois de plus. Ils imaginent et rédigent l'intention de l'artiste (en une ou deux
 phrases) pour cet objet. Cette étape peut durer 3 à 5 minutes.
-
 
 ### Cinquième étape
 

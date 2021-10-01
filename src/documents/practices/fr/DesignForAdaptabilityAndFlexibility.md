@@ -18,7 +18,6 @@ de personnalisations basé sur des demandes d'utilisateurs ou des adaptations r�
 peuvent ensuite répondre aux besoins d'autres utilisateurs). Le produit devient alors un écosystème capable d'évoluer
 pour s'adapter aux besoins actuels et futurs de l'utilisateur ce qui le rend, de fait, plus durable.
 
-
 ## En pratique
 
 * Intégrez des caractéristiques et des modes de conception qui permettent une configuration par l'utilisateur.
@@ -27,21 +26,24 @@ pour s'adapter aux besoins actuels et futurs de l'utilisateur ce qui le rend, de
 * Adoptez une approche modulaire dans la conception de vos outils numériques.
 * Proposez des solutions et des modes de communication pour rassembler les avis des utilisateurs.
 
-
 ## Pourquoi
 
 {% unmarkedList %}
+
 * {% icon "insights" %} [Le handicap comme discordance](../../perspectives/le-handicap-comme-discordance/)
 * {% icon "insights" %} [Taillé sur mesure](../../perspectives/taille-sur-mesure/)
 * {% icon "insights" %} [L'exploration personnelle](../../perspectives/lexploration-personnelle/)
 * {% icon "insights" %} [La conception entre les mains de l'utilisateur](../../perspectives/la-conception-entre-les-mains-de-lutilisateur/)
 * {% icon "insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
 * {% icon "insights" %} [Interconnexion](../../perspectives/interconnexion/)
+
 {% endunmarkedList %}
 
 ## Comment
 
 {% unmarkedList %}
+
 * {% icon "tools" %} [Infusion](../../outils/infusion/)
 * {% icon "tools" %} [La rédaction de métadonnées](../../outils/la-redaction-de-metadonnees/)
+
 {% endunmarkedList %}

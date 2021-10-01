@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-{% set lang %}{{ lang | default(config.defaultLanguage) }}{% endset %}
-<html lang="{{ lang }}" dir="{{ config.languages[lang].dir }}">
+<html lang="{{ locale }}" dir="{{ langDir }}">
     <head>
-        {% include 'partials/head-matter.njk' %}
+        {% include "partials/head-matter.njk" %}
     </head>
     <body class="">
 

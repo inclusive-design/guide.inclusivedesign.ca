@@ -32,14 +32,18 @@ personnes à adopter cette approche et alimenter ainsi un cercle vertueux de l'i
 ## Pourquoi
 
 {% unmarkedList %}
+
 * {% icon "insights" %} [Des perspectives et contributions variées](../../perspectives/des-perspectives-et-contributions-variees/)
 * {% icon "insights" %} [Des cercles vertueux](../../perspectives/des-cercles-vertueux/)
+
 {% endunmarkedList %}
 
 ## Comment
 
 {% unmarkedList %}
+
 * {% icon "tools" %} [Les Outils de communication qui sont accessibles](../../outils/les-outils-de-communication-qui-sont-accessibles/)
 * {% icon "tools" %} [Les Outils de conception qui sont accessibles](../../outils/les-outils-de-conception-qui-sont-accessibles/)
 * {% icon "tools" %} [Les Outils de développement qui sont accessibles](../../outils/les-outils-de-developpement-qui-sont-accessibles/)
+
 {% endunmarkedList %}

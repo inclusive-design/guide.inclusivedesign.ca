@@ -24,12 +24,16 @@ conception inclusive.
 ## Comment
 
 {% unmarkedList %}
+
 * {% icon "tools" %} [Les personas](../../outils/les-personas/)
+
 {% endunmarkedList %}
 
 ## Pourquoi
 
 {% unmarkedList %}
+
 * {% icon "insights" %} [Taillé sur mesure](../../perspectives/taille-sur-mesure/)
 * {% icon "insights" %} [Le handicap comme discordance](../../perspectives/le-handicap-comme-discordance/)
+
 {% endunmarkedList %}

@@ -37,6 +37,8 @@ effet final.
 ## Pourquoi
 
 {% unmarkedList %}
+
 * {% icon "insights" %} [Interconnexion](../../perspectives/interconnexion/)
 * {% icon "insights" %} [Des cercles vertueux](../../perspectives/des-cercles-vertueux/)
+
 {% endunmarkedList %}

@@ -32,14 +32,18 @@ aboutisse à un concept de produit réussi en limitant fortement de coûteux cha
 ## Pourquoi
 
 {% unmarkedList %}
+
 * {% icon "insights" %} [Des perspectives et contributions variées](../../perspectives/des-perspectives-et-contributions-variees/)
 * {% icon "insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
+
 {% endunmarkedList %}
 
 ## Comment
 
 {% unmarkedList %}
+
 * {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
 * {% icon "tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
 * {% icon "tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
+
 {% endunmarkedList %}

@@ -2,7 +2,7 @@
 <!-- Highlight the (active) category the document belongs to. -->
 {% for item in navPages %}
     {% set slug = item.key | lower %}
-    {% if item.lang === lang %}
+    {% if item.locale === locale %}
     {% set inCategory = item.key === category %}
     {# <li class="idg-nav{{ item.key }}{% if inCategory %} docs-template-category-active{% endif %}"> #}
     <li>

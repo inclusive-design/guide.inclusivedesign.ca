@@ -31,6 +31,8 @@ users" %}
 ## Combine with
 
 {% unmarkedList %}
+
 * {% icon "tools" %} [Personas](../../tools/personas/)
 * {% icon "tools" %} [Use-Cases](../../tools/use-cases/)
+
 {% endunmarkedList %}
