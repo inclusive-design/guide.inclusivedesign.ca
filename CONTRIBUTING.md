@@ -48,10 +48,11 @@ Steps for adding additional locales.
    1. In the new directory rename the `.11tydata` file after the new directory name.
    2. [Localize](#localizing-the-content) all of the Markdown files' `title` front matter and content.
 3. In `src/locales` duplicate the `fr` directory and rename based on the new locale
-   1. [Update the `messages.po` and `messages.mo`](#localized-strings) files in the new directory for the new
+   1. [Update `messages.po` and generate a new `messages.mo`](#localized-strings) file in the new directory for the new
       locale.
       1. Update the `Language`
       2. Update the localized text
+      3. Using a tool souch as [Poedit](https://poedit.net), generate a new `messages.mo` file from `messages.po`.
 
 ### Locale Configuration
 
