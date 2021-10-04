@@ -24,27 +24,27 @@ menu.toggleExpansion = (element, state) => {
  * @throws {Exception} - if no element is found for the button selector within the container element.
  */
 menu.init = (container, button = "button") => {
-    let menu = document.querySelector(container);
+    let menuContainer = document.querySelector(container);
 
-    if (!menu) {
+    if (!menuContainer) {
         throw new Error(`No element found for container selector: ${container}`);
     }
 
-    let btn = menu.querySelector(button);
+    let btn = menuContainer.querySelector(button);
 
     if (!btn) {
         throw new Error(`No element found for button selector: ${button}`);
     }
 
     // Close the menu when focus is moved away from the menu
-    menu.addEventListener("focusout", (event) => {
-        if (!menu.contains(event.relatedTarget)) {
+    menuContainer.addEventListener("focusout", (event) => {
+        if (!menuContainer.contains(event.relatedTarget)) {
             menu.toggleExpansion(btn, false);
         }
     });
 
     // Close the menu when the "Escape" key is pressed and the menu has focus. Shifts focus back to the button.
-    menu.addEventListener("keyup", (event) => {
+    menuContainer.addEventListener("keyup", (event) => {
         if (event.code === "Escape") {
             menu.toggleExpansion(btn, false);
             btn.focus();
