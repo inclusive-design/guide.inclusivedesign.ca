@@ -48,7 +48,7 @@ Steps for adding additional locales.
    1. In the new directory rename the `.11tydata` file after the new directory name.
    2. [Localize](#localizing-the-content) all of the Markdown files' `title` front matter and content.
 3. In `src/locales` duplicate the `fr` directory and rename based on the new locale
-   1. [Update the `messages.po` and `messages.mo`](#localizing-other-text) files in the new directory for the new
+   1. [Update the `messages.po` and `messages.mo`](#localized-strings) files in the new directory for the new
       locale.
       1. Update the `Language`
       2. Update the localized text
@@ -155,7 +155,7 @@ can be found in the following locations:
 *[.src/utils/](.src/utils)
 
 In these cases, [gettext](https://www.gnu.org/software/gettext/) style localization features provided by
-[eleventy-plugin-i18n-gettext](https://www.npmjs.com/package/eleventy-plugin-i18n-gettext).
+[eleventy-plugin-i18n-gettext](https://www.npmjs.com/package/eleventy-plugin-i18n-gettext) are used.
 
 The Nunjucks templates located in [./src/_includes/layouts/layouts/](./src/_includes/layouts) and
 [./src/_includes/partials/](./src/_includes/partials) use ways to include translatable strings via a function call:
@@ -202,7 +202,7 @@ module.exports = (data) => {
 };
 ```
 
-_**NOTE**: locale variables need to be prefixed with `locale_` due to [gettext issue #22](https://github.com/sgissinger/eleventy-plugin-i18n-gettext/issues/22)._
+_**NOTE**: locale variables need to be prefixed with `locale_` due to [eleventy-plugin-i18n-gettext issue #22](https://github.com/sgissinger/eleventy-plugin-i18n-gettext/issues/22)._
 
 _**NOTE**: Ensure that `key`  is plain text when using gettext function calls, otherwise it will not be included in the
 `messages.js` file which is used by .PO editors.  See
@@ -210,13 +210,15 @@ _**NOTE**: Ensure that `key`  is plain text when using gettext function calls, o
 workaround for JavaScript and templates, resolve the `key` variable elsewhere. For example the category names used in
 URLs are explicitly called in `src/_data/site.js`._
 
+##### Localized strings
+
 The specific localization strings are provided in the `.po` and/or `.mo` files locataed in the
 `[./src/locales/](./src/locales)` directory. The strings to translate are automatically added to
 [messages.js](./src/locales/messages.js) when a build is generated (i.e. `npm start`). This also allows translation
 tools like [Poedit](https://poedit.net) to facilitate editing strings that need to be translated. Alternatively, `.po`
 files can be manually edited and `.mo` files generated using other tools (i.e. `msgfmt` command-line tool).
 
-#### Using Poedit
+###### Using Poedit
 
 A JavaScript extractor is needed when first setting up Poedit. See
 [Poedit configuration for translations extraction](https://github.com/sgissinger/eleventy-plugin-i18n-gettext/blob/HEAD/docs/Manage-translations-with-Poedit.md)
