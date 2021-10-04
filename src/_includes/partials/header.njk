@@ -1,6 +1,6 @@
 <!-- Skip Link -->
 <nav>
-    <a id="skip-to-content" href="#content">{% translate "skipLink", lang %}</a>
+    <a id="skip-to-content" href="#content">{{ _("Skip to Content") }}</a>
 </nav>
 <!-- END skip link -->
 
@@ -15,19 +15,22 @@
             <h1 class="banner__heading">{{ _(site.title) }}</h1>
         </a>
 
-        <!-- Mobile Menu -->
-        <nav class="idg-menu idg-mobile-nav right show-for-small-only " aria-labelledBy="idg-mobile-nav-button">
-            <button id="idg-mobile-nav-button" aria-expanded="false" aria-controls="idg-mobile-nav-list"><span class="docs-template-nav-mobile-icon">{{ _("Menu") }}</button>
-            <ul id="idg-mobile-nav-list">
-                {% include "partials/menu.njk" %}
-            </ul>
-        </nav>
-
-            <!-- "Desktop" Menu -->
-        <nav class="menu" aria-label="menu">
+        <!-- "Desktop" Menu -->
+        <nav class="menu menu__desktop" aria-label="menu">
             <ul class="inline-list">
             {% include "partials/menu.njk" %}
             </ul>
         </nav>
     </div>
+    <!-- Mobile Menu -->
+    <nav class="menu menu__mobile idg-mobile-nav" aria-labelledBy="idg-mobile-nav-button">
+        <button id="idg-mobile-nav-button" class="disclosure-button disclosure-button--header disclosure-button--nav" aria-expanded="false" aria-controls="idg-mobile-nav-list">
+            {% include 'svg/menu.svg' %}
+            {{ _("Menu") }}
+        </button>
+        <ul id="idg-mobile-nav-list" class="nav-list__mobile">
+            {% include "partials/menu.njk" %}
+        </ul>
+    </nav>
+
 </header>

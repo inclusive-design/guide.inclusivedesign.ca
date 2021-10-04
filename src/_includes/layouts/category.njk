@@ -12,11 +12,11 @@
 
 <header class="category-header {{ category | lower }}-bg header-footer-color">
     <div class="wrapper">
-        <nav  aria-label="{% translate "breadcrumb", lang %}">
+        <nav  aria-label="{{ _("Breadcrumb") }}">
             <ul class="breadcrumbs inline-list">
                 <li>
-                    <a href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}">
-                        {% translate "home", lang %}
+                    <a href="/{% if not (locale === config.defaultLanguage) %}{{ config.languages[locale].slug }}{% endif %}">
+                        {{ _("Home") }}
                     </a>
                 </li>
                 {% for page in navPages %}
@@ -34,7 +34,7 @@
 
     {% if not navPages.length %}
     {% set childPages = collections[category + "_" + lang] | eleventyNavigation(eleventyNavigation.key) %}
-    <nav class="list-articles__contents" aria-label="{{ eleventyNavigation.key }} {% translate "contents", lang %}">
+    <nav class="list-articles__contents" aria-label="{{ _i("${categoryName} contents", {categoryName: eleventyNavigation.key}) }}">
         <ul>
             {# Output page links in alphabetical order #}
             {% for page in childPages |sort(false, true, "title") %}

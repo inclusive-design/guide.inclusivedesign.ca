@@ -1,0 +1,9 @@
+<nav class="menu menu__mobile idg-mobile-nav" aria-labelledBy="idg-mobile-nav-button">
+    <button id="idg-mobile-nav-button" aria-expanded="false" aria-controls="idg-mobile-nav-list">
+        {% include 'svg/menu.svg' %}
+        {{ _("Menu") }}
+    </button>
+    <ul id="idg-mobile-nav-list">
+        {% include "partials/menu-list.njk" %}
+    </ul>
+</nav>
