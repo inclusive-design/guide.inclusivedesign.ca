@@ -58,8 +58,8 @@ Steps for adding additional locales.
 
 The [`src/_data/config.json`](./src/_data/config.json) file contains configuraiton for each supported locale under the
 `languages` property. Each locale is keyed with the language identifier using the
-[BCP-47](https://tools.ietf.org/search/bcp47) format of language-locale e.g `"en-CA"` for Canadian English. The locale
-must specify the following:
+[BCP-47 syntax](https://www.w3.org/International/articles/language-tags/) of language-locale e.g `"en-CA"` for Canadian
+English. The locale must specify the following:
 
 * **slug**: used in the URL to display the localized resource. This must be unique and match the locale being
   configured. It could be in the form of just language (e.g. `"en"`) or language-locale (e.g. `"en-CA"` or `"en-ca"`).
