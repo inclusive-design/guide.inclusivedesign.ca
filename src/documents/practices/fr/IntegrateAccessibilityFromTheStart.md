@@ -33,7 +33,7 @@ rester ouvert à des idées neuves et des solutions innovantes.
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
+* {% svg_sprite "icon-insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
 
 {% endunmarkedList %}
 
@@ -41,8 +41,8 @@ rester ouvert à des idées neuves et des solutions innovantes.
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Les personas](../../outils/les-personas/)
-* {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
-* {% icon "tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
+* {% svg_sprite "icon-tools" %} [Les personas](../../outils/les-personas/)
+* {% svg_sprite "icon-tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
+* {% svg_sprite "icon-tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
 
 {% endunmarkedList %}

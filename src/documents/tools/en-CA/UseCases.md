@@ -29,7 +29,7 @@ question.
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Personas](../../tools/personas/)
-* {% icon "tools" %} [User States and Contexts](../../tools/user-states-and-contexts/)
+* {% svg_sprite "icon-tools" %} [Personas](../../tools/personas/)
+* {% svg_sprite "icon-tools" %} [User States and Contexts](../../tools/user-states-and-contexts/)
 
 {% endunmarkedList %}

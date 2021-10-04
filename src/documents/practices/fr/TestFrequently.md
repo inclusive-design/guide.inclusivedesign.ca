@@ -33,8 +33,8 @@ aboutisse à un concept de produit réussi en limitant fortement de coûteux cha
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Des perspectives et contributions variées](../../perspectives/des-perspectives-et-contributions-variees/)
-* {% icon "insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
+* {% svg_sprite "icon-insights" %} [Des perspectives et contributions variées](../../perspectives/des-perspectives-et-contributions-variees/)
+* {% svg_sprite "icon-insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
 
 {% endunmarkedList %}
 
@@ -42,8 +42,8 @@ aboutisse à un concept de produit réussi en limitant fortement de coûteux cha
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
-* {% icon "tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
-* {% icon "tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
+* {% svg_sprite "icon-practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
+* {% svg_sprite "icon-tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
+* {% svg_sprite "icon-tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
 
 {% endunmarkedList %}

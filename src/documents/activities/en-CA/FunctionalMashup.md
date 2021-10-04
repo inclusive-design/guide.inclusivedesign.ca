@@ -57,7 +57,7 @@ deeper to find unexpected and creative ways of addressing a problem.
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Practice Co-Design](../../practices/practice-co-design/)
-* {% icon "practices" %} [Collaborate](../../practices/collaborate)
+* {% svg_sprite "icon-practices" %} [Practice Co-Design](../../practices/practice-co-design/)
+* {% svg_sprite "icon-practices" %} [Collaborate](../../practices/collaborate)
 
 {% endunmarkedList %}

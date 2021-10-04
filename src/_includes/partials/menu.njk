@@ -6,7 +6,7 @@
     {% set inCategory = item.key === category %}
     <li class="idg-nav{{ item.key }}{% if inCategory %} docs-template-category-active{% endif %}">
         <a href="{{ item.url }}"{% if inCategory %} aria-current="page"{% endif %}>
-            {% icon slug %} {{ item.title }}
+            {% svg_sprite "icon-" + slug %} {{ item.title }}
         </a>
     </li>
     {% endif %}

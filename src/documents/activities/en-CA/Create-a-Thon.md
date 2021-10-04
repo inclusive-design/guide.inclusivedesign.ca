@@ -77,7 +77,7 @@ Handbook](https://handbook.floeproject.org/Create-a-Thon.html).
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Use-cases](../../tools/use-cases/)
-* {% icon "tools" %} [User states and contexts](../../tools/user-states-and-contexts/)
+* {% svg_sprite "icon-tools" %} [Use-cases](../../tools/use-cases/)
+* {% svg_sprite "icon-tools" %} [User states and contexts](../../tools/user-states-and-contexts/)
 
 {% endunmarkedList %}

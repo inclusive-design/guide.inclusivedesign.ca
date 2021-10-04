@@ -29,8 +29,8 @@ only as an initial guide.
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
-* {% icon "tools" %} [Usability Testing](../../tools/usability-testing/)
-* {% icon "tools" %} [Prototyping](../../tools/prototyping/)
+* {% svg_sprite "icon-tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
+* {% svg_sprite "icon-tools" %} [Usability Testing](../../tools/usability-testing/)
+* {% svg_sprite "icon-tools" %} [Prototyping](../../tools/prototyping/)
 
 {% endunmarkedList %}

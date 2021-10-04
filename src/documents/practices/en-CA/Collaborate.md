@@ -30,7 +30,7 @@ ultimately enhance the work.
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
+* {% svg_sprite "icon-insights" %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
 
 {% endunmarkedList %}
 
@@ -38,9 +38,9 @@ ultimately enhance the work.
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
-* {% icon "tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)
-* {% icon "tools" %} [Accessible Development Tools](../../tools/accessible-development-tools/)
-* {% icon "tools" %} [Synchronized Design Assets](../../tools/synchronized-design-assets/)
+* {% svg_sprite "icon-tools" %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
+* {% svg_sprite "icon-tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)
+* {% svg_sprite "icon-tools" %} [Accessible Development Tools](../../tools/accessible-development-tools/)
+* {% svg_sprite "icon-tools" %} [Synchronized Design Assets](../../tools/synchronized-design-assets/)
 
 {% endunmarkedList %}

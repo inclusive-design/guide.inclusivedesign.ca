@@ -33,6 +33,6 @@ the thing itself helped you to feel comfortable to try something new?
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
+* {% svg_sprite "icon-practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
 
 {% endunmarkedList %}

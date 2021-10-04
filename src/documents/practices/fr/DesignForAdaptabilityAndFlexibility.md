@@ -30,12 +30,12 @@ pour s'adapter aux besoins actuels et futurs de l'utilisateur ce qui le rend, de
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Le handicap comme discordance](../../perspectives/le-handicap-comme-discordance/)
-* {% icon "insights" %} [Taillé sur mesure](../../perspectives/taille-sur-mesure/)
-* {% icon "insights" %} [L'exploration personnelle](../../perspectives/lexploration-personnelle/)
-* {% icon "insights" %} [La conception entre les mains de l'utilisateur](../../perspectives/la-conception-entre-les-mains-de-lutilisateur/)
-* {% icon "insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
-* {% icon "insights" %} [Interconnexion](../../perspectives/interconnexion/)
+* {% svg_sprite "icon-insights" %} [Le handicap comme discordance](../../perspectives/le-handicap-comme-discordance/)
+* {% svg_sprite "icon-insights" %} [Taillé sur mesure](../../perspectives/taille-sur-mesure/)
+* {% svg_sprite "icon-insights" %} [L'exploration personnelle](../../perspectives/lexploration-personnelle/)
+* {% svg_sprite "icon-insights" %} [La conception entre les mains de l'utilisateur](../../perspectives/la-conception-entre-les-mains-de-lutilisateur/)
+* {% svg_sprite "icon-insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
+* {% svg_sprite "icon-insights" %} [Interconnexion](../../perspectives/interconnexion/)
 
 {% endunmarkedList %}
 
@@ -43,7 +43,7 @@ pour s'adapter aux besoins actuels et futurs de l'utilisateur ce qui le rend, de
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Infusion](../../outils/infusion/)
-* {% icon "tools" %} [La rédaction de métadonnées](../../outils/la-redaction-de-metadonnees/)
+* {% svg_sprite "icon-tools" %} [Infusion](../../outils/infusion/)
+* {% svg_sprite "icon-tools" %} [La rédaction de métadonnées](../../outils/la-redaction-de-metadonnees/)
 
 {% endunmarkedList %}

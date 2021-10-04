@@ -38,7 +38,7 @@ conception. Un des participants peut noter les réponses à chaque étape.
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Interconnexion](../../perspectives/interconnexion/)
-* {% icon "insights" %} [Des cercles vertueux](../../perspectives/des-cercles-vertueux/)
+* {% svg_sprite "icon-insights" %} [Interconnexion](../../perspectives/interconnexion/)
+* {% svg_sprite "icon-insights" %} [Des cercles vertueux](../../perspectives/des-cercles-vertueux/)
 
 {% endunmarkedList %}

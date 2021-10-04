@@ -38,9 +38,9 @@ Comment pourriez vous harmoniser les solutions pour qu'elles répondent à ces b
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
-* {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
-* {% icon "practices" %} [Intégrez l'accessibilité dès le commencement](../../pratiques/integrez-laccessibilite-des-le-commencement/)
-* {% icon "practices" %} [Testez fréquemment](../../pratiques/testez-frequemment/)
+* {% svg_sprite "icon-practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
+* {% svg_sprite "icon-practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
+* {% svg_sprite "icon-practices" %} [Intégrez l'accessibilité dès le commencement](../../pratiques/integrez-laccessibilite-des-le-commencement/)
+* {% svg_sprite "icon-practices" %} [Testez fréquemment](../../pratiques/testez-frequemment/)
 
 {% endunmarkedList %}

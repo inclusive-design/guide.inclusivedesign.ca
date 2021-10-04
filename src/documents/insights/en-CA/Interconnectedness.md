@@ -24,7 +24,7 @@ of our systems and increasing their reach.
 
 {% unmarkedList %}
 
-* {% icon "activities" %} [Cause and Effect](../../activities/cause-and-effect/)
+* {% svg_sprite "icon-activities" %} [Cause and Effect](../../activities/cause-and-effect/)
 
 {% endunmarkedList %}
 
@@ -32,7 +32,7 @@ of our systems and increasing their reach.
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
-* {% icon "practices" %} [Design for Uncertainty](../../practices/design-for-uncertainty/)
+* {% svg_sprite "icon-practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
+* {% svg_sprite "icon-practices" %} [Design for Uncertainty](../../practices/design-for-uncertainty/)
 
 {% endunmarkedList %}

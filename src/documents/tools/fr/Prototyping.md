@@ -33,7 +33,7 @@ session de tests d'utilisation.
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
-* {% icon "tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
+* {% svg_sprite "icon-tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
+* {% svg_sprite "icon-tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
 
 {% endunmarkedList %}

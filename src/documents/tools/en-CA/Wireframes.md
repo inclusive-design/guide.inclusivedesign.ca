@@ -28,10 +28,10 @@ this in the early stages of design will result in more successfully integrated f
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
-* {% icon "tools" %} [Usability Testing](../../tools/usability-testing/)
-* {% icon "tools" %} [Personas](../../tools/personas/)
-* {% icon "tools" %} [Use-Cases](../../tools/use-cases/)
-* {% icon "tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)
+* {% svg_sprite "icon-tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
+* {% svg_sprite "icon-tools" %} [Usability Testing](../../tools/usability-testing/)
+* {% svg_sprite "icon-tools" %} [Personas](../../tools/personas/)
+* {% svg_sprite "icon-tools" %} [Use-Cases](../../tools/use-cases/)
+* {% svg_sprite "icon-tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)
 
 {% endunmarkedList %}

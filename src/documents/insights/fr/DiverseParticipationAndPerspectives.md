@@ -34,11 +34,11 @@ d'autres personnes de communiquer. Pensez à vos propres difficultés d'utilisat
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
-* {% icon "practices" %} [Travaillez en toute transparence](../../pratiques/travaillez-en-toute-transparence/)
-* {% icon "practices" %} [Variez les moyens de communiquer](../../pratiques/variez-les-moyens-de-communiquer/)
-* {% icon "practices" %} [Faites plus simple et plus inclusif](../../pratiques/faites-plus-simple-et-plus-inclusif/)
-* {% icon "practices" %} [Travaillez de concert](../../pratiques/travaillez-de-concert/)
-* {% icon "practices" %} [Testez fréquemment](../../pratiques/testez-frequemment/)
+* {% svg_sprite "icon-practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
+* {% svg_sprite "icon-practices" %} [Travaillez en toute transparence](../../pratiques/travaillez-en-toute-transparence/)
+* {% svg_sprite "icon-practices" %} [Variez les moyens de communiquer](../../pratiques/variez-les-moyens-de-communiquer/)
+* {% svg_sprite "icon-practices" %} [Faites plus simple et plus inclusif](../../pratiques/faites-plus-simple-et-plus-inclusif/)
+* {% svg_sprite "icon-practices" %} [Travaillez de concert](../../pratiques/travaillez-de-concert/)
+* {% svg_sprite "icon-practices" %} [Testez fréquemment](../../pratiques/testez-frequemment/)
 
 {% endunmarkedList %}

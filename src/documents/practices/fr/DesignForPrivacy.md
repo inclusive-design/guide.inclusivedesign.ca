@@ -37,9 +37,9 @@ et le confort d'utilisation.
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Taillé sur mesure](../../perspectives/taille-sur-mesure/)
-* {% icon "insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
-* {% icon "insights" %} [L'exploration personnelle](../../perspectives/lexploration-personnelle/)
+* {% svg_sprite "icon-insights" %} [Taillé sur mesure](../../perspectives/taille-sur-mesure/)
+* {% svg_sprite "icon-insights" %} [Des solutions harmonisées](../../perspectives/des-solutions-harmonisees/)
+* {% svg_sprite "icon-insights" %} [L'exploration personnelle](../../perspectives/lexploration-personnelle/)
 
 {% endunmarkedList %}
 
@@ -47,7 +47,7 @@ et le confort d'utilisation.
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
-* {% icon "practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
+* {% svg_sprite "icon-practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
+* {% svg_sprite "icon-practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
 
 {% endunmarkedList %}

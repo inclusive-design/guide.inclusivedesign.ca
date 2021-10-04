@@ -25,7 +25,7 @@ conception inclusive.
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Les personas](../../outils/les-personas/)
+* {% svg_sprite "icon-tools" %} [Les personas](../../outils/les-personas/)
 
 {% endunmarkedList %}
 
@@ -33,7 +33,7 @@ conception inclusive.
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Taillé sur mesure](../../perspectives/taille-sur-mesure/)
-* {% icon "insights" %} [Le handicap comme discordance](../../perspectives/le-handicap-comme-discordance/)
+* {% svg_sprite "icon-insights" %} [Taillé sur mesure](../../perspectives/taille-sur-mesure/)
+* {% svg_sprite "icon-insights" %} [Le handicap comme discordance](../../perspectives/le-handicap-comme-discordance/)
 
 {% endunmarkedList %}

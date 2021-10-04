@@ -30,7 +30,7 @@ product or tool you use on a regular basis.
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
-* {% icon "practices" %} [Design for Uncertainty](../../practices/design-for-uncertainty/)
+* {% svg_sprite "icon-practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
+* {% svg_sprite "icon-practices" %} [Design for Uncertainty](../../practices/design-for-uncertainty/)
 
 {% endunmarkedList %}

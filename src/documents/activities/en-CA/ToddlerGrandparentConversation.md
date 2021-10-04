@@ -35,7 +35,7 @@ step.
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Interconnectedness](../../insights/interconnectedness/)
-* {% icon "insights" %} [Virtuous Cycles](../../insights/virtuous-cycles/)
+* {% svg_sprite "icon-insights" %} [Interconnectedness](../../insights/interconnectedness/)
+* {% svg_sprite "icon-insights" %} [Virtuous Cycles](../../insights/virtuous-cycles/)
 
 {% endunmarkedList %}

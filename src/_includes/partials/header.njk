@@ -11,7 +11,7 @@
 
     <div class="small-12 column docs-template-header">
         <a class="" href="/{% if not (locale === config.defaultLanguage) %}{{ config.languages[locale].slug }}{% endif %}" title="{{ _i("Home: ${siteName}", {siteName: _(site.title)}) }}">
-            <span class="idg-logo">{% include "svg/idrc-logo.svg" %}</span>
+            {% svg_sprite "logo-idrc" %}
             <h1>{{ _(site.title) }}</h1>
         </a>
 

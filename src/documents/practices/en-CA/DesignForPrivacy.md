@@ -33,9 +33,9 @@ usability and privacy.
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
-* {% icon "insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
-* {% icon "insights" %} [Personal Discovery](../../insights/personal-discovery/)
+* {% svg_sprite "icon-insights" %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
+* {% svg_sprite "icon-insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
+* {% svg_sprite "icon-insights" %} [Personal Discovery](../../insights/personal-discovery/)
 
 {% endunmarkedList %}
 
@@ -43,7 +43,7 @@ usability and privacy.
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Practice Co-design](../../practices/practice-co-design/)
-* {% icon "practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
+* {% svg_sprite "icon-practices" %} [Practice Co-design](../../practices/practice-co-design/)
+* {% svg_sprite "icon-practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
 
 {% endunmarkedList %}
