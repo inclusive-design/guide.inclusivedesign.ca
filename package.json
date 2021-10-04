@@ -28,7 +28,7 @@
         "@11ty/eleventy": "0.12.1",
         "@11ty/eleventy-navigation": "0.3.2",
         "docs-core": "fluid-project/docs-core",
-        "eleventy-plugin-fluid": "0.3.0",
+        "eleventy-plugin-fluid": "0.3.1",
         "infusion": "4.0.0-dev.20210622T193827Z.ac6adb829.FLUID-6629",
         "jquery-ui": "1.12.1"
     },
