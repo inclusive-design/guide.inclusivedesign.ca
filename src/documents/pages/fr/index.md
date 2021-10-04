@@ -46,14 +46,12 @@ rassemblé une collection de [**Pratiques**](./pratiques), d'[**Outils**](./outi
 dans le Guide qui donnent des exemples de mise en œuvre d'une conception inclusive.
 
 <div class="idg-highlight-section row">
-  <figure>
-  <figcaption class="small-12 medium-6 large-8 column">
+  <div class="small-12 medium-6 large-8 column">
 
   Les sections et articles qui forment le Guide pour une Conception Inclusive ne suivent pas un ordre de lecture
   pré-établi. Vous pouvez commencer où et quand bon vous semble pour vous, votre équipe et vos façons de travailler.
   Reprendre le Guide à différentes étapes de votre projet peut être une bonne façon de l'intégrer à votre travail.
 
-  </figcaption>
-  <span class="small-12 medium-6 large-4 column"> {% include "svg/schematic.svg" %} </span>
-  </figure>
+  </div>
+  <div class="small-12 medium-6 large-4 column"> {% include "svg/schematic.svg" %} </div>
 </div>

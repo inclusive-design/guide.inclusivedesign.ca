@@ -43,14 +43,12 @@ of [**Insights**](./insights/). We have also gathered together a collection of [
 inclusive design can be put into action.
 
 <div class="idg-highlight-section row">
-  <figure>
-  <figcaption class="small-12 medium-6 large-8 column">
+  <div class="small-12 medium-6 large-8 column">
 
   The sections and items that make up the Inclusive Design Guide are not meant to be followed in any particular order.
   You can begin wherever and whenever it makes sense for you, your team, and your process. Revisiting the guide at
   different stages in the project can be an effective way to integrate it into your work.
 
-  </figcaption>
-  <span class="small-12 medium-6 large-4 column"> {% include "svg/schematic.svg" %} </span>
-  </figure>
+  </div>
+  <dic class="small-12 medium-6 large-4 column"> {% include "svg/schematic.svg" %} </dic>
 </div>
