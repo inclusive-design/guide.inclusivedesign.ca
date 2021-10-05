@@ -56,7 +56,7 @@ Steps for adding additional locales.
 
 ### Locale Configuration
 
-The [`src/_data/config.json`](./src/_data/config.json) file contains configuraiton for each supported locale under the
+The [`src/_data/config.json`](./src/_data/config.json) file contains configuration for each supported locale under the
 `languages` property. Each locale is keyed with the language identifier using the
 [BCP-47 syntax](https://www.w3.org/International/articles/language-tags/) of language-locale e.g `"en-CA"` for Canadian
 English. The locale must specify the following:
@@ -71,7 +71,7 @@ English. The locale must specify the following:
 * **dir**: The direction of the language, either `"ltr"` (left-to-right) or `"rtl"` (right-to-left). It will default to
   `"ltr"` if not specified.
 * **name**: The human readable name of the language, in the locale's language. It is used to identify which languages
-  are availalbe to switch between.
+  are available to switch between.
 
 For example, to add a France-French locale, the following is added to the `languages` block in
 `src/_data/config.json`:
@@ -93,7 +93,7 @@ The main content of the site is all contained within the [`src/documents`](./src
 separated into collections/directories for the various categories (i.e. `activities/`, `insights/`, `tools/`,
 `practices/`) and pages (i.e. `index.md`, `404.md` in for each language in the `pages` directory).
 
-Each collection is split into sub-directories cooresponding to the locales. Each locale dirctory will contain the
+Each collection is split into sub-directories coresponding to the locales. Each locale directory will contain the
 Markdown files for each page in the collection. These should be the same across all locale directories within a
 collection; with the content of the files being localized as needed.
 
@@ -134,7 +134,7 @@ in the YAML front matter. Other portions of the front matter is likely not local
 configuration as opposed to content. In the above example, the `eleventyNavigation` configures the category page
 navigation.
 
-Additionly each, locale directory will contain an
+Additionally each, locale directory will contain an
 [11ty data file](https://www.11ty.dev/docs/data-template-dir/) which is named after the locale directly. For example:
 `src/activities/en-CA` contains the `en-CA.11tydata.js` file. The 11ty data files contain configuration for setting up
 the [eleventy-plugin-i18n-gettext](https://www.npmjs.com/package/eleventy-plugin-i18n-gettext) used on the page for
@@ -213,7 +213,7 @@ URLs are explicitly called in `src/_data/site.js`._
 
 ##### Localized strings
 
-The specific localization strings are provided in the `.po` and/or `.mo` files locataed in the
+The specific localization strings are provided in the `.po` and/or `.mo` files located in the
 `[./src/locales/](./src/locales)` directory. The strings to translate are automatically added to
 [messages.js](./src/locales/messages.js) when a build is generated (i.e. `npm start`). This also allows translation
 tools like [Poedit](https://poedit.net) to facilitate editing strings that need to be translated. Alternatively, `.po`
