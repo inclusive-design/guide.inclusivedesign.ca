@@ -51,7 +51,8 @@ Steps for adding additional locales.
    1. [Update `messages.po` and generate a new `messages.mo`](#localized-strings) file in the new directory for the new
       locale.
       1. Update the `Language`
-      2. Update the localized text
+      2. Update the localized text by replacing the `msgstr` values in the .po file with the corresponding text from the
+         new localization. Can use a tool such as [Poedit](https://poedit.net) to edit the .po file.
       3. Using a tool souch as [Poedit](https://poedit.net), generate a new `messages.mo` file from `messages.po`.
 
 ### Locale Configuration
