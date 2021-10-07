@@ -1,14 +1,59 @@
-/insights                                            /insights/DiverseParticipationAndPerspectives.html
-/practices                                           /practices/Collaborate.html
-/tools                                               /tools/UXWalkthroughs.html
-/activities                                          /activities/MatchingGame.html
+/fr/* /fr/404.html 404
+
 /principles                                          /insights
-/principles/DiverseParticipationAndPerspectives.html /insights/DiverseParticipationAndPerspectives.html
+/principles/DiverseParticipationAndPerspectives.html /insights/diverse-participation-and-perspectives/
 /principles/AutonomousUser.html                      /insights/PersonalDiscovery.html
-/principles/DisabilityAsMismatch.html                /insights/DisabilityAsMismatch.html
-/principles/IntegratedSolutions.html                 /insights/IntegratedSolutions.html
-/principles/Interconnectedness.html                  /insights/Interconnectedness.html
-/principles/OneSizeFitsOne.html                      /insights/OneSizeFitsOne.html
-/principles/UserContinuedDesign.html                 /insights/UserContinuedDesign.html
+/principles/DisabilityAsMismatch.html                /insights/disability-as-mismatch/
+/principles/IntegratedSolutions.html                 /insights/integrated-solutions/
+/principles/Interconnectedness.html                  /insights/interconnectedness/
+/principles/OneSizeFitsOne.html                      /insights/one-size-fits-one/
+/principles/UserContinuedDesign.html                 /insights/user-continued-design/
 /principles/VirtuousCycles.html                      /insights/VirtuousCycles.html
-/insights/AutonomousUser.html                        /insights/PersonalDiscovery.html
+/insights/AutonomousUser.html                        /insights/personal-discovery/
+
+/insights/DisabilityAsMismatch.html                  /insights/disability-as-mismatch/
+/insights/DiverseParticipationAndPerspectives.html   /insights/diverse-participation-and-perspectives/
+/insights/IntegratedSolutions.html                   /insights/integrated-solutions/
+/insights/Interconnectedness.html                    /insights/interconnectedness/
+/insights/OneSizeFitsOne.html                        /insights/one-size-fits-one/
+/insights/PersonalDiscovery.html                     /insights/personal-discovery/
+/insights/UserContinuedDesign.html                   /insights/user-continued-design/
+/insights/VirtuousCycles.html                        /insights/virtuous-cycles/
+
+/practices/Collaborate.html                          /practices/collaborate/
+/practices/CommunicateMultimodally.html              /practices/communicate-multimodally/
+/practices/DesignForAdaptabilityAndFlexibility.html  /practices/design-for-adaptability-and-flexibility/
+/practices/DesignForPrivacy.html                     /practices/design-for-privacy/
+/practices/DesignForUncertainty.html                 /practices/design-for-uncertainty/
+/practices/FacilitateInclusively.html                /practices/facilitate-inclusively/
+/practices/FocusOnFunctionalNeedsAndPreferences.html /practices/focus-on-functional-needs-and-preferences/
+/practices/IntegrateAccessibilityFromTheStart.html   /practices/integrate-accessibility-from-the-start/
+/practices/PracticeCoDesign.html                     /practices/practice-co-design/
+/practices/TestFrequently.html                       /practices/test-frequently/
+/practices/WorkOpenly.html                           /practices/work-openly/
+
+/tools/AccessibleCommunicationTools.html             /tools/accessible-communication-tools/
+/tools/AccessibleDesignTools.html                    /tools/accessible-design-tools/
+/tools/AccessibleDevelopmentTools.html               /tools/accessible-development-tools/
+/tools/Infusion.html                                 /tools/infusion/
+/tools/MetadataAuthoring.html                        /tools/metadata-authoring/
+/tools/Mindmaps.html                                 /tools/mindmaps/
+/tools/MultimodalTesting.html                        /tools/multimodal-testing/
+/tools/Personas.html                                 /tools/personas/
+/tools/Prototyping.html                              /tools/prototyping/
+/tools/SynchronizedDesignAssets.html                 /tools/synchronized-design-assets/
+/tools/UXWalkthroughs.html                           /tools/ux-walkthroughs/
+/tools/UsabilityTesting.html                         /tools/usability-testing/
+/tools/UseCases.html                                 /tools/use-cases/
+/tools/UserStatesAndContexts.html                    /tools/user-states-and-contexts/
+/tools/Wireframes.html                               /tools/wireframes/
+
+/activities/CauseAndEffect.html                      /activities/cause-and-effect/
+/activities/CollaborativeArtWarmup.html              /activities/collaborative-art-warmup/
+/activities/Create-a-Thon.html                       /activities/create-a-thon/
+/activities/FunctionalMashup.html                    /activities/functional-mashup/
+/activities/InclusiveDesignMapping.html              /activities/inclusive-design-mapping/
+/activities/MatchingGame.html                        /activities/matching-game/
+/activities/ToddlerGrandparentConversation.html      /activities/the-toddler-grandparent-conversation/
+/activities/VirtuousTornado.html                     /activities/virtuous-tornado/
+/activities/WebOfStrings.html                        /activities/web-of-strings/

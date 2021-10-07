@@ -1,0 +1,16 @@
+{
+    "eslint": {
+        "js": {
+            "includes": ["./.eleventy.js"],
+            "excludes": ["./src/locales/messages.js"]
+        }
+    },
+    "lintspaces": {
+        "newlines": {
+            "excludes": [
+                "./src/**/*.ttf",
+                "./src/locales/**/*.*"
+            ]
+        }
+    }
+}

@@ -1,29 +1,18 @@
 <!-- Skip Link -->
 <nav id="skip" class="fl-inverted-color">
-    <a href="#content" class="docs-template-skip-content">Skip to Content</a>
+    <a href="#content" class="docs-template-skip-content">{{ _("Skip to Content") }}</a>
 </nav>
 <!-- END skip link -->
 
 <header class="ignore-for-TOC row fl-inverted-color">
-    <!-- BEGIN markup for Preference Editor -->
-    <div class="flc-prefsEditor-separatedPanel fl-prefsEditor-separatedPanel">
-        <!-- This is the div that will contain the Preference Editor component -->
-        <div class="flc-slidingPanel-panel flc-prefsEditor-iframe"></div>
+    {% include "partials/uio.njk" %}
 
-        <!-- This div is for the sliding panel that shows and hides the Preference Editor controls -->
-        <div class="fl-panelBar">
-            <span class="fl-prefsEditor-buttons">
-                <button id="reset" class="flc-prefsEditor-reset fl-prefsEditor-reset"><span class="fl-icon-undo"></span> Reset</button>
-                <button id="show-hide" class="flc-slidingPanel-toggleButton fl-prefsEditor-showHide"> Show/Hide</button>
-            </span>
-        </div>
-    </div>
-    <!-- END markup for Preference Editor -->
+    {% localeLink locale, translationKey, category, collections %}
 
     <div class="small-12 column docs-template-header">
-        <a class="" href="/index.html" title="Home: Documentation Template">
-            <span class="idg-logo">{% include 'svg/idrc-logo.svg' %}</span>
-            <h1>The Inclusive Design Guide</h1>
+        <a class="" href="/{% if not (locale === config.defaultLanguage) %}{{ config.languages[locale].slug }}{% endif %}" title="{{ _i("Home: ${siteName}", {siteName: _(site.title)}) }}">
+            {% svg_sprite "logo-idrc" %}
+            <h1>{{ _(site.title) }}</h1>
         </a>
 
         <!-- Mobile Menu -->
@@ -31,7 +20,7 @@
             <ul id="menu">
                 <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
                     <ul class="docs-template-dropDown">
-                    {% include 'partials/menu.njk' %}
+                    {% include "partials/menu.njk" %}
                    </ul>
                 </li>
             </ul>
@@ -42,7 +31,7 @@
     <div class="docs-template-header">
         <nav class="idg-tabs small-12 column show-for-medium-up">
             <ul class="inline-list">
-            {% include 'partials/menu.njk' %}
+            {% include "partials/menu.njk" %}
             </ul>
         </nav>
     </div>

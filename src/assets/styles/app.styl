@@ -118,21 +118,27 @@ activitiesColor = #d93b23;
     }
 }
 
-.idg-logo {
+.idg-logo-idrc {
     width: 3rem;
     height: auto;
     margin: 0.2rem 0.2rem 0 0.5rem;
-    path,
-    circle {
-        fill: logo-color;
-    }
+    --idg-fill: logo-color;
 }
 
-a:hover .idg-logo {
-    path,
-    circle {
-        fill: logo-hover-color;
-    }
+a:hover .idg-logo-idrc {
+    --idg-fill: logo-hover-color;
+}
+
+.idg-locale {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-block-start: 1rem;
+    padding-inline: 2rem;
+}
+
+.idg-locale a {
+    color: #fff;
 }
 
 .idg-index {
@@ -150,8 +156,8 @@ a:hover .idg-logo {
         margin: 2rem 0;
         border-radius: 0.2rem;
 
-        figure {
-            margin: 0;
+        div:first-child {
+            padding-block: 1rem;
         }
     }
 
@@ -179,39 +185,34 @@ a:hover .idg-logo {
     height: auto;
 }
 
-.idg-iconInsights,
-.idg-iconPractices,
-.idg-iconTools,
-.idg-iconActivities {
+.idg-icon-insights,
+.idg-icon-practices,
+.idg-icon-tools,
+.idg-icon-activities {
     width: 1rem;
     height: 1rem; //width and height required by IE11.
 }
 
-.idg-iconDimensions svg {
-    width: 1.5rem;
-    height: 1.5rem;
-}
-
-.idg-iconDimensionsIndex,
-.idg-iconDimensionsIndex svg {
+.idg-icon-dimensions {
     width: 3.5rem;
     height: 3.5rem;
     vertical-align: middle;
+    fill: currentColor;
 }
 
-.idg-iconInsights {
+.idg-icon-insights {
     fill: insightsColor;
 }
 
-.idg-iconPractices {
+.idg-icon-practices {
     fill: practicesColor;
 }
 
-.idg-iconTools {
+.idg-icon-tools {
     fill: toolsColor;
 }
 
-.idg-iconActivities {
+.idg-icon-activities {
     fill: activitiesColor;
 }
 
@@ -420,13 +421,9 @@ setActiveCategory(inputColor) {
     padding-left: 1rem;
 }
 
-/* remove bullet styling for USE list - category icons are used instead */
+/* remove bullet styling. e.g. when category icons are used instead */
 
-.idg-articleContentUse li {
-    list-style-type: none;
-}
-
-.idg-articleContentUseWhyHow li {
+.idg-unmarkedList li {
     list-style-type: none;
 }
 
@@ -462,14 +459,14 @@ a.footer-logo-links {
 
 /* Special styling for P4A Logo. The tree and "Prosperity" text should
 appear inverted in order to look proper. */
-#tree, #prosperity {
-    stroke: header-footer-background;
-    fill: header-footer-background;
+.idg-logo-p4a {
+    --idg-fill: header-footer-background;
+    --idg-stroke: header-footer-background;
 }
 
-a:hover #tree, a:hover #prosperity {
-    stroke: header-footer-background;
-    fill: #fff;
+a:hover .idg-logo-p4a {
+    --idg-fill: #fff;
+    --idg-stroke: header-footer-background;
 }
 
 /* Contrast Themes */
@@ -493,21 +490,17 @@ contrast-theme(foregroundColor, backgroundColor) {
 
 /* Special styling for P4A Logo. The tree and "Prosperity" text should
 appear inverted in order to look proper. */
-    a:hover #tree, a:hover #prosperity {
-        stroke: foregroundColor;
-        fill: backgroundColor;
+    a:hover .idg-logo-p4a {
+        --idg-fill: backgroundColor;
+        --idg-stroke: foregroundColor;
     }
 
-    .idg-logo {
-        path, circle {
-            fill: backgroundColor;
-        }
+    .idg-logo-idrc {
+        --idg-fill: backgroundColor;
     }
 
-    a:hover .idg-logo {
-        path, circle {
-            fill: foregroundColor;
-        }
+    a:hover .idg-logo-idrc {
+        --idg-fill: foregroundColor;
     }
 
     .idg-tabs {
@@ -548,15 +541,18 @@ appear inverted in order to look proper. */
           border-left: 0.3rem solid foregroundColor;
         }
 
-    .idg-iconPractices,
-    .idg-iconInsights,
-    .idg-iconTools,
-    .idg-iconActivities,
-    .idg-iconDimensionsIndex svg,
-    #prosperity,
-    #tree {
+    .idg-icon-insights,
+    .idg-icon-practices,
+    .idg-icon-tools,
+    .idg-icon-activities,
+    .idg-icon-dimensions {
         fill: foregroundColor;
         stroke: backgroundColor;
+    }
+
+    .idg-logo-p4a {
+        --idg-fill: foregroundColor;
+        --idg-stroke: backgroundColor;
     }
 
     .footer-logo-links svg,

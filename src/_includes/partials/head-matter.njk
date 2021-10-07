@@ -1,18 +1,18 @@
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>{{  title }} | {{ site.title }}</title>
+<title>{{  title }} | {{ _(site.title) }} {% gettext_var locale, site.title %}</title>
 <link rel="icon" type="image/png" href="/assets/images/favico.png">
 
 <link rel="stylesheet" href="/assets/styles/normalize.css">
 <link rel="stylesheet" href="/assets/styles/foundation.min.css">
-<link rel="stylesheet" href="/lib/infusion/src/lib/jquery/ui/css/default-theme/jquery.ui.theme.css">
+<link rel="stylesheet" href="/lib/jquery-ui/themes/base/core.css">
+<link rel="stylesheet" href="/lib/jquery-ui/themes/base/menu.css">
+<link rel="stylesheet" href="/lib/jquery-ui/themes/base/theme.css">
 
-<link rel="stylesheet" href="/lib/infusion/src/framework/preferences/css/Enactors.css" />
-<link rel="stylesheet" href="/lib/infusion/src/framework/preferences/css/PrefsEditor.css" />
-<link rel="stylesheet" href="/lib/infusion/src/framework/preferences/css/SeparatedPanelPrefsEditor.css" />
+{% uioStyles %}
 <link rel="stylesheet" href="/assets{{ assets['/styles/app.css'] }}">
 
-<script type="text/javascript" src="/lib/infusion/infusion-uio.js"></script>
-<script type="text/javascript" src="/lib/jqueryui/jquery-ui.min.js"></script>
-<script type="text/javascript" defer src="/assets{{ assets['/scripts/app.js'] }}"></script>
-<script type="text/javascript" defer src="/assets{{ assets['/scripts/matomo.js'] }}"></script>
+{% uioScripts %}
+<script src="/lib/jquery-ui/ui/widgets/menu.js"></script>
+<script defer src="/assets{{ assets['/scripts/app.js'] }}"></script>
+<script defer src="/assets{{ assets['/scripts/matomo.js'] }}"></script>
