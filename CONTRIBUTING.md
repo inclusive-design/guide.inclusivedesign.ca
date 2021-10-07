@@ -51,8 +51,8 @@ Steps for adding additional locales.
    1. [Update `messages.po` and generate a new `messages.mo`](#localized-strings) file in the new directory for the new
       locale.
       1. Update the `Language`
-      2. Update the localized text by replacing the `msgstr` values in the .po file with the corresponding text from the
-         new localization. Can use a tool such as [Poedit](https://poedit.net) to edit the .po file.
+      2. Update the localized text by replacing the `msgstr` values in the `.po` file with the corresponding text from the
+         new localization. Can use a tool such as [Poedit](https://poedit.net) to edit the `.po` file.
       3. Using a tool souch as [Poedit](https://poedit.net), generate a new `messages.mo` file from `messages.po`.
 
 ### Locale Configuration
@@ -207,7 +207,7 @@ module.exports = (data) => {
 _**NOTE**: locale variables need to be prefixed with `locale_` due to [eleventy-plugin-i18n-gettext issue #22](https://github.com/sgissinger/eleventy-plugin-i18n-gettext/issues/22)._
 
 _**NOTE**: Ensure that `key`  is plain text when using gettext function calls, otherwise it will not be included in the
-`messages.js` file which is used by .PO editors.  See
+`messages.js` file which is used by `.po` file editors.  See
 [eleventy-plugin-i18n-gettext issue #23](https://github.com/sgissinger/eleventy-plugin-i18n-gettext/issues/23). As a
 workaround for JavaScript and templates, resolve the `key` variable elsewhere. For example the category names used in
 URLs are explicitly called in `src/_data/site.js`._
