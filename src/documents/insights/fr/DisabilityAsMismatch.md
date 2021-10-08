@@ -37,8 +37,8 @@ besoins ?
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Gardez l'esprit pratique](../../pratiques/gardez-lesprit-pratique/)
-* {% icon "practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
-* {% icon "activities" %} [La carte d'une conception inclusive](../../activites/la-carte-dune-conception-inclusive/)
+* {% svg_sprite "icon-practices" %} [Gardez l'esprit pratique](../../pratiques/gardez-lesprit-pratique/)
+* {% svg_sprite "icon-practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
+* {% svg_sprite "icon-activities" %} [La carte d'une conception inclusive](../../activites/la-carte-dune-conception-inclusive/)
 
 {% endunmarkedList %}

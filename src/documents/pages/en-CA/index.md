@@ -17,19 +17,19 @@ At the Inclusive Design Research Centre and the Inclusive Design Institute we st
 Inclusive
 Design:**](http://idrc.ocadu.ca/about-the-idrc/49-resources/online-resources/articles-and-papers/443-whatisinclusivedesign)
 
-* {% include "svg/icon-dimension.svg" %} **Recognize Diversity and Uniqueness**
+* {% svg_sprite "icon-dimensions" %} **Recognize Diversity and Uniqueness**
 
   As individuals spread out from the hypothetical average, the needs of individuals that are outliers, or at the
   margins, become ever more diverse. Most individuals stray from the average in some facet of their needs or goals. This
   means that a mass solution does not work well.
 
-* {% include "svg/icon-dimension.svg" %} **Inclusive Process and Tools**
+* {% svg_sprite "icon-dimensions" %} **Inclusive Process and Tools**
 
   Inclusive design teams should be as diverse as possible and include individuals who have a lived experience of the
   users the designs are intended for.  This also respects the edict “nothing about us without us” without relegating
   people with disabilities to the role of subjects of research or token participants in design exercises.</p>
 
-* {% include "svg/icon-dimension.svg" %} **Broader Beneficial Impact**
+* {% svg_sprite "icon-dimensions" %} **Broader Beneficial Impact**
 
   It is the responsibility of inclusive designers to be aware of the context and broader impact of any design and strive
   to effect a beneficial impact beyond the intended beneficiary of the design.
@@ -43,14 +43,10 @@ of [**Insights**](./insights/). We have also gathered together a collection of [
 inclusive design can be put into action.
 
 <div class="index__highlight">
-  <figure id="idg-figure-paths">
-  <figcaption>
-
   The sections and items that make up the Inclusive Design Guide are not meant to be followed in any particular order.
   You can begin wherever and whenever it makes sense for you, your team, and your process. Revisiting the guide at
   different stages in the project can be an effective way to integrate it into your work.
 
-  </figcaption>
-  {% include 'svg/schematic.svg' %}
-  </figure>
+  </div>
+  <div> {% include "svg/schematic.svg" %} </div>
 </div>

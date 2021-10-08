@@ -25,7 +25,7 @@ For more information about metadata authoring please see <http://handbook.floepr
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Personas](../../tools/personas/)
-* {% icon "tools" %} [Use-Cases](../../tools/use-cases/)
+* {% svg_sprite "icon-tools" %} [Personas](../../tools/personas/)
+* {% svg_sprite "icon-tools" %} [Use-Cases](../../tools/use-cases/)
 
 {% endunmarkedList %}

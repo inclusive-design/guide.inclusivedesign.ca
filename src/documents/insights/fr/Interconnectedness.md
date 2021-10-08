@@ -26,7 +26,7 @@ l'évolution naturelle de nos systèmes, leur croissance et leur portée.
 
 {% unmarkedList %}
 
-* {% icon "activities" %} [De cause à effet](../../activites/de-cause-a-effet/)
+* {% svg_sprite "icon-activities" %} [De cause à effet](../../activites/de-cause-a-effet/)
 
 {% endunmarkedList %}
 
@@ -34,7 +34,7 @@ l'évolution naturelle de nos systèmes, leur croissance et leur portée.
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
-* {% icon "practices" %} [Tenez compte des surprises](../../pratiques/tenez-compte-des-surprises/)
+* {% svg_sprite "icon-practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
+* {% svg_sprite "icon-practices" %} [Tenez compte des surprises](../../pratiques/tenez-compte-des-surprises/)
 
 {% endunmarkedList %}

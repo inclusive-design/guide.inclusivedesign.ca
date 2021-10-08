@@ -33,8 +33,8 @@ personnes à adopter cette approche et alimenter ainsi un cercle vertueux de l'i
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Des perspectives et contributions variées](../../perspectives/des-perspectives-et-contributions-variees/)
-* {% icon "insights" %} [Des cercles vertueux](../../perspectives/des-cercles-vertueux/)
+* {% svg_sprite "icon-insights" %} [Des perspectives et contributions variées](../../perspectives/des-perspectives-et-contributions-variees/)
+* {% svg_sprite "icon-insights" %} [Des cercles vertueux](../../perspectives/des-cercles-vertueux/)
 
 {% endunmarkedList %}
 
@@ -42,8 +42,8 @@ personnes à adopter cette approche et alimenter ainsi un cercle vertueux de l'i
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Les Outils de communication qui sont accessibles](../../outils/les-outils-de-communication-qui-sont-accessibles/)
-* {% icon "tools" %} [Les Outils de conception qui sont accessibles](../../outils/les-outils-de-conception-qui-sont-accessibles/)
-* {% icon "tools" %} [Les Outils de développement qui sont accessibles](../../outils/les-outils-de-developpement-qui-sont-accessibles/)
+* {% svg_sprite "icon-tools" %} [Les Outils de communication qui sont accessibles](../../outils/les-outils-de-communication-qui-sont-accessibles/)
+* {% svg_sprite "icon-tools" %} [Les Outils de conception qui sont accessibles](../../outils/les-outils-de-conception-qui-sont-accessibles/)
+* {% svg_sprite "icon-tools" %} [Les Outils de développement qui sont accessibles](../../outils/les-outils-de-developpement-qui-sont-accessibles/)
 
 {% endunmarkedList %}

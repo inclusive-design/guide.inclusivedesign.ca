@@ -30,7 +30,7 @@ et distractions potentielles, qui espère atteindre un objectif déterminé au m
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Les personas](../../outils/les-personas/)
-* {% icon "tools" %} [L'expérience utilisateur pas à pas](../../outils/lexperience-utilisateur-pas-a-pas/)
+* {% svg_sprite "icon-tools" %} [Les personas](../../outils/les-personas/)
+* {% svg_sprite "icon-tools" %} [L'expérience utilisateur pas à pas](../../outils/lexperience-utilisateur-pas-a-pas/)
 
 {% endunmarkedList %}

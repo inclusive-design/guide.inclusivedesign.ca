@@ -28,12 +28,12 @@ sustainable.
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
-* {% icon "insights" %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
-* {% icon "insights" %} [Personal Discovery](../../insights/personal-discovery/)
-* {% icon "insights" %} [User-Continued Design](../../insights/user-continued-design/)
-* {% icon "insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
-* {% icon "insights" %} [Interconnectedness](../../insights/interconnectedness/)
+* {% svg_sprite "icon-insights" %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
+* {% svg_sprite "icon-insights" %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
+* {% svg_sprite "icon-insights" %} [Personal Discovery](../../insights/personal-discovery/)
+* {% svg_sprite "icon-insights" %} [User-Continued Design](../../insights/user-continued-design/)
+* {% svg_sprite "icon-insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
+* {% svg_sprite "icon-insights" %} [Interconnectedness](../../insights/interconnectedness/)
 
 {% endunmarkedList %}
 
@@ -41,7 +41,7 @@ sustainable.
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Infusion](../../tools/infusion/)
-* {% icon "tools" %} [Metadata Authoring](../../tools/metadata-authoring/)
+* {% svg_sprite "icon-tools" %} [Infusion](../../tools/infusion/)
+* {% svg_sprite "icon-tools" %} [Metadata Authoring](../../tools/metadata-authoring/)
 
 {% endunmarkedList %}

@@ -31,10 +31,10 @@ meilleure intégration de ces fonctionnalités alternatives.
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
-* {% icon "tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
-* {% icon "tools" %} [Les personas](../../outils/les-personas/)
-* {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
-* {% icon "tools" %} [Les Outils de conception qui sont accessibles](../../outils/les-outils-de-conception-qui-sont-accessibles/)
+* {% svg_sprite "icon-tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
+* {% svg_sprite "icon-tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
+* {% svg_sprite "icon-tools" %} [Les personas](../../outils/les-personas/)
+* {% svg_sprite "icon-tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
+* {% svg_sprite "icon-tools" %} [Les Outils de conception qui sont accessibles](../../outils/les-outils-de-conception-qui-sont-accessibles/)
 
 {% endunmarkedList %}

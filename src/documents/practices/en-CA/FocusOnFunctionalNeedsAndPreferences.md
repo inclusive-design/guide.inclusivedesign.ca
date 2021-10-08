@@ -27,7 +27,7 @@ broad range of users are included.
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
+* {% svg_sprite "icon-insights" %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
 
 {% endunmarkedList %}
 
@@ -35,8 +35,8 @@ broad range of users are included.
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [User States and Contexts](../../tools/user-states-and-contexts/)
-* {% icon "tools" %} [Personas](../../tools/personas/)
-* {% icon "tools" %} [Use-Cases](../../tools/use-cases/)
+* {% svg_sprite "icon-tools" %} [User States and Contexts](../../tools/user-states-and-contexts/)
+* {% svg_sprite "icon-tools" %} [Personas](../../tools/personas/)
+* {% svg_sprite "icon-tools" %} [Use-Cases](../../tools/use-cases/)
 
 {% endunmarkedList %}

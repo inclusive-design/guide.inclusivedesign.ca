@@ -31,7 +31,7 @@ participants with a diverse range of needs, interests, personalities and ideas.
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
+* {% svg_sprite "icon-insights" %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
 
 {% endunmarkedList %}
 
@@ -39,7 +39,7 @@ participants with a diverse range of needs, interests, personalities and ideas.
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
-* {% icon "tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)
+* {% svg_sprite "icon-tools" %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
+* {% svg_sprite "icon-tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)
 
 {% endunmarkedList %}

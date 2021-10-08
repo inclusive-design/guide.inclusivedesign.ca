@@ -32,7 +32,7 @@ des participants portant différents besoins, centres d'intérêt, personnalité
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Des perspectives et contributions variées](../../perspectives/des-perspectives-et-contributions-variees/)
+* {% svg_sprite "icon-insights" %} [Des perspectives et contributions variées](../../perspectives/des-perspectives-et-contributions-variees/)
 
 {% endunmarkedList %}
 
@@ -40,7 +40,7 @@ des participants portant différents besoins, centres d'intérêt, personnalité
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Les Outils de communication qui sont accessibles](../../outils/les-outils-de-communication-qui-sont-accessibles/)
-* {% icon "tools" %} [Les Outils de conception qui sont accessibles](../../outils/les-outils-de-conception-qui-sont-accessibles/)
+* {% svg_sprite "icon-tools" %} [Les Outils de communication qui sont accessibles](../../outils/les-outils-de-communication-qui-sont-accessibles/)
+* {% svg_sprite "icon-tools" %} [Les Outils de conception qui sont accessibles](../../outils/les-outils-de-conception-qui-sont-accessibles/)
 
 {% endunmarkedList %}

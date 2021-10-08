@@ -27,8 +27,8 @@ can be embraced.
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Interconnectedness](../../insights/interconnectedness/)
-* {% icon "insights" %} [Virtuous Cycles](../../insights/virtuous-cycles/)
+* {% svg_sprite "icon-insights" %} [Interconnectedness](../../insights/interconnectedness/)
+* {% svg_sprite "icon-insights" %} [Virtuous Cycles](../../insights/virtuous-cycles/)
 
 {% endunmarkedList %}
 
@@ -36,12 +36,12 @@ can be embraced.
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Test Frequently](../../practices/test-frequently/)
-* {% icon "practices" %} [Practice Co-design](../../practices/practice-co-design/)
-* {% icon "tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
-* {% icon "tools" %} [Usability Testing](../../tools/usability-testing/)
-* {% icon "tools" %} [Prototyping](../../tools/prototyping/)
-* {% icon "tools" %} [Personas](../../tools/personas/)
-* {% icon "tools" %} [Use-Cases](../../tools/use-cases/)
+* {% svg_sprite "icon-practices" %} [Test Frequently](../../practices/test-frequently/)
+* {% svg_sprite "icon-practices" %} [Practice Co-design](../../practices/practice-co-design/)
+* {% svg_sprite "icon-tools" %} [UX Walkthroughs](../../tools/ux-walkthroughs/)
+* {% svg_sprite "icon-tools" %} [Usability Testing](../../tools/usability-testing/)
+* {% svg_sprite "icon-tools" %} [Prototyping](../../tools/prototyping/)
+* {% svg_sprite "icon-tools" %} [Personas](../../tools/personas/)
+* {% svg_sprite "icon-tools" %} [Use-Cases](../../tools/use-cases/)
 
 {% endunmarkedList %}

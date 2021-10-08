@@ -34,7 +34,7 @@ partners and begin the collaborative process. (<https://en.wikipedia.org/wiki/Ye
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
+* {% svg_sprite "icon-insights" %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
 
 {% endunmarkedList %}
 
@@ -42,7 +42,7 @@ partners and begin the collaborative process. (<https://en.wikipedia.org/wiki/Ye
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
-* {% icon "tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)
+* {% svg_sprite "icon-tools" %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
+* {% svg_sprite "icon-tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)
 
 {% endunmarkedList %}

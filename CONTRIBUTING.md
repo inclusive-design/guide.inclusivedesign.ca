@@ -13,8 +13,9 @@ The general contribution workflow is for contributors to fork the project reposi
 `main`, and submit a pull request against the project repo's `main` branch to merge their contributions.
 
 For submitting localizations, one could also create a new
-[issue](https://github.com/inclusive-design/guide.inclusivedesign.ca/issues) with the new localizations. When another
-contributor is available, they could work with the original contributor to sheppard the localization into the project.
+[issue](https://github.com/inclusive-design/guide.inclusivedesign.ca/issues) with the new localizations in the
+description, comments, or file attachments of the issue. When another contributor is available, they could work with the
+original contributor to shepherd the localization into the project.
 
 ### Commit Logs
 
@@ -43,21 +44,23 @@ For more information about configuration and rules see:
 Steps for adding additional locales.
 
 1. Add [configuration](#locale-configuration) for the locale under the `languages` property in `src/_data/config.json`.
-2. For each directory under `src/documents` duplicate the `en-CA` directory and rename based on the new locale
-   1. In the new directory rename the 11tydata file after the new directory name.
+2. For each directory under `src/documents` duplicate the `en-CA` directory and rename based on the new locale:
+   1. In the new directory rename the `.11tydata` file after the new directory name.
    2. [Localize](#localizing-the-content) all of the Markdown files' `title` front matter and content.
 3. In `src/locales` duplicate the `fr` directory and rename based on the new locale
-   1. [Update the `messages.po` and `messages.mo`](#localizing-other-text) files in the new directory for the new
+   1. [Update `messages.po` and generate a new `messages.mo`](#localized-strings) file in the new directory for the new
       locale.
       1. Update the `Language`
-      2. Update the localized text
+      2. Update the localized text by replacing the `msgstr` values in the `.po` file with the corresponding text from the
+         new localization. Can use a tool such as [Poedit](https://poedit.net) to edit the `.po` file.
+      3. Using a tool souch as [Poedit](https://poedit.net), generate a new `messages.mo` file from `messages.po`.
 
 ### Locale Configuration
 
-The [`src/_data/config.json`](./src/_data/config.json) file contains configuraiton for each supported locale under the
+The [`src/_data/config.json`](./src/_data/config.json) file contains configuration for each supported locale under the
 `languages` property. Each locale is keyed with the language identifier using the
-[BCP-47](https://tools.ietf.org/search/bcp47) format of language-locale e.g `"en-CA"` for Canadian English. The locale
-must specify the following:
+[BCP-47 syntax](https://www.w3.org/International/articles/language-tags/) of language-locale e.g `"en-CA"` for Canadian
+English. The locale must specify the following:
 
 * **slug**: used in the URL to display the localized resource. This must be unique and match the locale being
   configured. It could be in the form of just language (e.g. `"en"`) or language-locale (e.g. `"en-CA"` or `"en-ca"`).
@@ -69,18 +72,18 @@ must specify the following:
 * **dir**: The direction of the language, either `"ltr"` (left-to-right) or `"rtl"` (right-to-left). It will default to
   `"ltr"` if not specified.
 * **name**: The human readable name of the language, in the locale's language. It is used to identify which languages
-  are availalbe to switch between.
+  are available to switch between.
 
-For example if we wanted to add a Spain, Spanish locale we could add the following to the `languages` block in
+For example, to add a France-French locale, the following is added to the `languages` block in
 `src/_data/config.json`:
 
 ```JSON
 {
-    "en-ES": {
-        "slug": "es",
-        "uioSlug": "es",
+    "fr-FR": {
+        "slug": "fr-FR",
+        "uioSlug": "fr-FR",
         "dir": "ltr",
-        "name": "Español"
+        "name": "Français (France)"
     }
 }
 ```
@@ -88,17 +91,17 @@ For example if we wanted to add a Spain, Spanish locale we could add the followi
 ### Localizing the content
 
 The main content of the site is all contained within the [`src/documents`](./src/documents) directory. These are
-separated into collections/directories for the various categories (activities, insights, pages, practices) and pages
-(index, 404).
+separated into collections/directories for the various categories (i.e. `activities/`, `insights/`, `tools/`,
+`practices/`) and pages (i.e. `index.md`, `404.md` in for each language in the `pages` directory).
 
-Each collection is split into sub-directories cooresponding to the locales. Each locale dirctory will contain the
+Each collection is split into sub-directories coresponding to the locales. Each locale directory will contain the
 Markdown files for each page in the collection. These should be the same across all locale directories within a
 collection; with the content of the files being localized as needed.
 
-For example if we're adding a new page to the Activities called "My Activity" we'd add a "MyActivity.md" file to each
-locale. e.g. `src/documents/activities/en-CA/MyActivity.md` and `src/documents/activities/fr/MyActivity.md`. They both
-retain the same file name, which allows for switching between the localized version with the language switcher on the
-site.
+For example if adding a new page to the Activities called "My Activity" we'd add a `MyActivity.md` file to each
+locale. e.g. `src/documents/activities/en-CA/MyActivity.md` and `src/documents/activities/fr-FR/MyActivity.md`. They
+both retain the same file name, which allows for switching between the localized version with the language switcher on
+the site.
 
 The English (`en-CA`) version might look like.
 
@@ -114,7 +117,7 @@ Content for My Activity.
 
 ```
 
-The French (`fr`) version might look like.
+The French (`fr-FR`) version might look like.
 
 ```Markdown
 ---
@@ -128,32 +131,40 @@ Contenu pour Mon Activité.
 ```
 
 It's important to note that only two parts are localized; the main content portion of the Markdown file, and the `title`
-in the YAML front matter. Othe portions of the front matter is likely not localized as it is often used for
+in the YAML front matter. Other portions of the front matter is likely not localized as it is often used for
 configuration as opposed to content. In the above example, the `eleventyNavigation` configures the category page
 navigation.
 
-Additionly each, locale directory will contain an
+Additionally each, locale directory will contain an
 [11ty data file](https://www.11ty.dev/docs/data-template-dir/) which is named after the locale directly. For example:
 `src/activities/en-CA` contains the `en-CA.11tydata.js` file. The 11ty data files contain configuration for setting up
 the [eleventy-plugin-i18n-gettext](https://www.npmjs.com/package/eleventy-plugin-i18n-gettext) used on the page for
 other localizations. It populates the `locale`, `lang` and `langDir` properties and the localization related
 functions/shortcodes/filters available in the templates. (See:
-[i18n.enhance11tydata(obj, locale, dir?)](https://www.npmjs.com/package/eleventy-plugin-i18n-gettext#i18nenhance11tydataobj-locale-dir)
+[Eleventy plugin i18n gettext  - i18n.enhance11tydata(obj, locale, dir?)](https://www.npmjs.com/package/eleventy-plugin-i18n-gettext#i18nenhance11tydataobj-locale-dir)
 ) Other than the name of the file, the contents are all identical, and can be copied and renamed when adding additional
 locales or collections. These files need to be added for each locale directory as the `locale` value set by them is
 sourced from the locale directory name.
 
 #### Localizing other text
 
-While the majority of the text is the content stored in the Markdown files, ther are plenty of other locations where
-text may appear. In particular, the header, footer, aria-labels, routing, and etc. These portions of the site tend to
-be templated in the [layout](./src/_includes/layouts) and [partials](./src/_includes/partials), or added via
-[utiliy](.src/utils) functions. In these cases we make use of the [gettext](https://www.gnu.org/software/gettext/) style
-localization features provided by
-[eleventy-plugin-i18n-gettext](https://www.npmjs.com/package/eleventy-plugin-i18n-gettext).
+While most of the localizable text is contained within the Markdown `.md` files located in `./src/documents/` , there
+are other text strings that need localization like the header, the footer, aria-labels, and navigation. These strings
+can be found in the following locations:
 
-In the Nunjucks templates we tend to use the `{{ _() }}` and `{{ _i() }}` function calls. The first just takes a `key`;
-which is the text to be translated. The second allows for interpolation of values into the translated string.
+*[./src/_includes/layouts/layouts/](./src/_includes/layouts)
+*[./src/_includes/partials/](./src/_includes/partials)
+*[.src/utils/](.src/utils)
+
+In these cases, [gettext](https://www.gnu.org/software/gettext/) style localization features provided by
+[eleventy-plugin-i18n-gettext](https://www.npmjs.com/package/eleventy-plugin-i18n-gettext) are used.
+
+The Nunjucks templates located in [./src/_includes/layouts/layouts/](./src/_includes/layouts) and
+[./src/_includes/partials/](./src/_includes/partials) use ways to include translatable strings via a function call:
+
+* `{{ _() }}` - takes a `key` which is the text to be translated. Example: `{{ _("Home") }}`.
+* `{{ _i() }}` - allows for interpolation of values into the translated string. Example:
+  `{{ _i("licensed under a${license}.", {license: "license"}) | safe }}`.
 
 For example:
 
@@ -179,8 +190,8 @@ A French localization might render like:
 <p>Utiliser le moteur de template Nunjucks</p>
 ```
 
-In JavaScript we need to import the [eleventy-plugin-i18n-gettext](https://www.npmjs.com/package/eleventy-plugin-i18n-gettext)
-into our code and make calls to the functions.
+In JavaScript, import the [eleventy-plugin-i18n-gettext](https://www.npmjs.com/package/eleventy-plugin-i18n-gettext) and
+make calls to the functions.
 
 ```JavaScript
 "use strict";
@@ -193,35 +204,37 @@ module.exports = (data) => {
 };
 ```
 
-_**NOTE**: Due to [issue #22](https://github.com/sgissinger/eleventy-plugin-i18n-gettext/issues/22) when passing in the
-locale, it needs to use a variable called `locale`_
+_**NOTE**: locale variables need to be prefixed with `locale_` due to [eleventy-plugin-i18n-gettext issue #22](https://github.com/sgissinger/eleventy-plugin-i18n-gettext/issues/22)._
 
-_**NOTE**: Due to [issue #23](https://github.com/sgissinger/eleventy-plugin-i18n-gettext/issues/23) when passing in the
-`key`, if it isn't plain text it will not be included in messages.js. A workaround, if a variable is being used, is to
-make a call with the resolved text elsewhere. For examplethe category names, used in URLs, are explicitly called in
-`src/_data/site.js`. This applies to calls made in JavaScript and templates._
+_**NOTE**: Ensure that `key`  is plain text when using gettext function calls, otherwise it will not be included in the
+`messages.js` file which is used by `.po` file editors.  See
+[eleventy-plugin-i18n-gettext issue #23](https://github.com/sgissinger/eleventy-plugin-i18n-gettext/issues/23). As a
+workaround for JavaScript and templates, resolve the `key` variable elsewhere. For example the category names used in
+URLs are explicitly called in `src/_data/site.js`._
 
-The specific localizations are provided in the .po and/or .mo files locataed in the [locales](./src/locales) directory.
-The strings to translate are automatically picked up when a build is generated (`npm start`) and added to
-[messages.js](./src/locales/messages.js). This allows for tools like [Poedit](https://poedit.net) to easily find the
-strings that need to be translated. You could also update the .po and generate the .mo files manually.
+##### Localized strings
 
-#### Using Poedit
+The specific localization strings are provided in the `.po` and/or `.mo` files located in the
+`[./src/locales/](./src/locales)` directory. The strings to translate are automatically added to
+[messages.js](./src/locales/messages.js) when a build is generated (i.e. `npm start`). This also allows translation
+tools like [Poedit](https://poedit.net) to facilitate editing strings that need to be translated. Alternatively, `.po`
+files can be manually edited and `.mo` files generated using other tools (i.e. `msgfmt` command-line tool).
 
-You'll need to add a JavaScript extractor when first setting up Poedit. See
+###### Using Poedit
+
+A JavaScript extractor is needed when first setting up Poedit. See
 [Poedit configuration for translations extraction](https://github.com/sgissinger/eleventy-plugin-i18n-gettext/blob/HEAD/docs/Manage-translations-with-Poedit.md)
 for information about setup.
 
-To update the .po and .mo files perform the following steps:
+To update the `.po` and `.mo` files perform the following steps:
 
-1. Launch Poedit
-2. Browse for the .po file you'd like to edit
-3. Open the .po file
-4. `Translations > Update from Source Code`
-   * This will update the .po file with all of the current translations
-   * If this step doesn't pick up the localizations from messages.js, ensure that the source paths are set corrctly.
-     * `Translations > Properties... > Source Paths
-5. Select the "Source Text" to localize, add the necessary "Translation"
-6. To remove old strings go to: `Translations > Purge Deleted Translations`
-7. Save
-8. Make sure to commit the updates .po and .mo files to the repo.
+1. Launch Poedit.
+2. Browse and open the `.po` file to edit.
+3. Select `Translations > Update from Source Code`.
+   * This will update the `.po` file with all of the current translations.
+   * If this step does not find the available localizations from the `./src/locales/messages.js` file, ensure that the
+     source paths are set correctly: `Translations > Properties... > Source Paths`.
+4. Select the "Source Text" to localize, add the necessary "Translation".
+5. To remove old strings go to: `Translations > Purge Deleted Translations`.
+6. Save.
+7. Make sure to commit the updates `.po` and `.mo` files to the working repository.

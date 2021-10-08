@@ -32,11 +32,11 @@ participating in that communication. Consider your own challenges with these pro
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Practice Co-design](../../practices/practice-co-design/)
-* {% icon "practices" %} [Work Openly](../../practices/work-openly/)
-* {% icon "practices" %} [Communicate Multimodally](../../practices/communicate-multimodally/)
-* {% icon "practices" %} [Facilitate Inclusively](../../practices/facilitate-inclusively/)
-* {% icon "practices" %} [Collaborate](../../practices/collaborate/)
-* {% icon "practices" %} [Test frequently](../../practices/test-frequently/)
+* {% svg_sprite "icon-practices" %} [Practice Co-design](../../practices/practice-co-design/)
+* {% svg_sprite "icon-practices" %} [Work Openly](../../practices/work-openly/)
+* {% svg_sprite "icon-practices" %} [Communicate Multimodally](../../practices/communicate-multimodally/)
+* {% svg_sprite "icon-practices" %} [Facilitate Inclusively](../../practices/facilitate-inclusively/)
+* {% svg_sprite "icon-practices" %} [Collaborate](../../practices/collaborate/)
+* {% svg_sprite "icon-practices" %} [Test frequently](../../practices/test-frequently/)
 
 {% endunmarkedList %}

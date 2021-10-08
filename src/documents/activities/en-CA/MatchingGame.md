@@ -22,7 +22,7 @@ allow them to succeed, keeping in mind the insights, practices and tools of incl
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Personas](../../tools/personas/)
+* {% svg_sprite "icon-tools" %} [Personas](../../tools/personas/)
 
 {% endunmarkedList %}
 
@@ -30,7 +30,7 @@ allow them to succeed, keeping in mind the insights, practices and tools of incl
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
-* {% icon "insights" %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
+* {% svg_sprite "icon-insights" %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
+* {% svg_sprite "icon-insights" %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
 
 {% endunmarkedList %}

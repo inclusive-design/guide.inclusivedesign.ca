@@ -35,9 +35,9 @@ integrate these two solutions together such that it could meet the needs of both
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
-* {% icon "practices" %} [Practice Co-design](../../practices/practice-co-design/)
-* {% icon "practices" %} [Integrate Accessibility from the Start](../../practices/integrate-accessibility-from-the-start/)
-* {% icon "practices" %} [Test Frequently](../../practices/test-frequently/)
+* {% svg_sprite "icon-practices" %} [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
+* {% svg_sprite "icon-practices" %} [Practice Co-design](../../practices/practice-co-design/)
+* {% svg_sprite "icon-practices" %} [Integrate Accessibility from the Start](../../practices/integrate-accessibility-from-the-start/)
+* {% svg_sprite "icon-practices" %} [Test Frequently](../../practices/test-frequently/)
 
 {% endunmarkedList %}

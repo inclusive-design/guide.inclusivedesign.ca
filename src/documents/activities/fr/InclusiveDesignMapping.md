@@ -26,9 +26,9 @@ leurs propres facettes s'ils n'en trouvent pas qui correspond à un contexte don
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Taillé sur mesure](../../perspectives/taille-sur-mesure/)
-* {% icon "insights" %} [Le handicap comme discordance](../../perspectives/le-handicap-comme-discordance/)
-* {% icon "insights" %} [Interconnexion](../../perspectives/interconnexion/)
+* {% svg_sprite "icon-insights" %} [Taillé sur mesure](../../perspectives/taille-sur-mesure/)
+* {% svg_sprite "icon-insights" %} [Le handicap comme discordance](../../perspectives/le-handicap-comme-discordance/)
+* {% svg_sprite "icon-insights" %} [Interconnexion](../../perspectives/interconnexion/)
 
 {% endunmarkedList %}
 

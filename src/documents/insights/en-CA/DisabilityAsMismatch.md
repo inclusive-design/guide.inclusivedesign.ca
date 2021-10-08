@@ -34,8 +34,8 @@ happened? What did you do about it? How could the design of the product or servi
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Focus on Functional Needs and Preferences](../../practices/focus-on-functional-needs-and-preferences/)
-* {% icon "practices" %}  [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
-* {% icon "activities" %}  [Inclusive Design Mapping](../../activities/inclusive-design-mapping/)
+* {% svg_sprite "icon-practices" %} [Focus on Functional Needs and Preferences](../../practices/focus-on-functional-needs-and-preferences/)
+* {% svg_sprite "icon-practices" %}  [Design for Adaptability and Flexibility](../../practices/design-for-adaptability-and-flexibility/)
+* {% svg_sprite "icon-activities" %}  [Inclusive Design Mapping](../../activities/inclusive-design-mapping/)
 
 {% endunmarkedList %}

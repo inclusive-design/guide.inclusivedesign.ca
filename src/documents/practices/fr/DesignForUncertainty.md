@@ -28,8 +28,8 @@ avec plaisir et aisance sont autant de façon de tenir compte des surprises.
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Interconnexion](../../perspectives/interconnexion/)
-* {% icon "insights" %} [Des cercles vertueux](../../perspectives/des-cercles-vertueux/)
+* {% svg_sprite "icon-insights" %} [Interconnexion](../../perspectives/interconnexion/)
+* {% svg_sprite "icon-insights" %} [Des cercles vertueux](../../perspectives/des-cercles-vertueux/)
 
 {% endunmarkedList %}
 
@@ -37,12 +37,12 @@ avec plaisir et aisance sont autant de façon de tenir compte des surprises.
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Testez fréquemment](../../pratiques/testez-frequemment/)
-* {% icon "practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
-* {% icon "tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
-* {% icon "tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
-* {% icon "tools" %} [Le prototypage](../../outils/le-prototypage/)
-* {% icon "tools" %} [Les personas](../../outils/les-personas/)
-* {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
+* {% svg_sprite "icon-practices" %} [Testez fréquemment](../../pratiques/testez-frequemment/)
+* {% svg_sprite "icon-practices" %} [Pratiquez la co-élaboration](../../pratiques/pratiquez-la-co-elaboration/)
+* {% svg_sprite "icon-tools" %} [Le test d'expérience utilisateur](../../outils/le-test-dexperience-utilisateur/)
+* {% svg_sprite "icon-tools" %} [Le test utilisateur](../../outils/le-test-utilisateur/)
+* {% svg_sprite "icon-tools" %} [Le prototypage](../../outils/le-prototypage/)
+* {% svg_sprite "icon-tools" %} [Les personas](../../outils/les-personas/)
+* {% svg_sprite "icon-tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
 
 {% endunmarkedList %}

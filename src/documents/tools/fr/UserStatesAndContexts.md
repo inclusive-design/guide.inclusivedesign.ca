@@ -34,7 +34,7 @@ utilisateurs différents." %}
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Les personas](../../outils/les-personas/)
-* {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
+* {% svg_sprite "icon-tools" %} [Les personas](../../outils/les-personas/)
+* {% svg_sprite "icon-tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
 
 {% endunmarkedList %}

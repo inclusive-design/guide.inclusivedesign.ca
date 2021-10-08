@@ -24,9 +24,9 @@ own facets if they can't find a desired state or context within the provided set
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
-* {% icon "insights" %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
-* {% icon "insights" %} [Interconnectedness](../../insights/interconnectedness/)
+* {% svg_sprite "icon-insights" %} [One-Size-Fits-One](../../insights/one-size-fits-one/)
+* {% svg_sprite "icon-insights" %} [Disability as Mismatch](../../insights/disability-as-mismatch/)
+* {% svg_sprite "icon-insights" %} [Interconnectedness](../../insights/interconnectedness/)
 
 {% endunmarkedList %}
 

@@ -10,7 +10,7 @@
     {% include 'partials/language.njk' %}
 
     <div class="wrapper">
-        <a class="banner" href="/{% if not (config.defaultLanguage === lang) %}{{ config.languages[lang].slug }}{% endif %}" title="{{ _i("Home: ${siteName}", {siteName: _(site.title)}) }}">
+        <a class="banner" href="/{% if not (locale === config.defaultLanguage) %}{{ config.languages[locale].slug }}{% endif %}" title="{{ _i("Home: ${siteName}", {siteName: _(site.title)}) }}">
             <span class="banner__logo">{% include 'svg/idrc-logo.svg' %}</span>
             <h1 class="banner__heading">{{ _(site.title) }}</h1>
         </a>

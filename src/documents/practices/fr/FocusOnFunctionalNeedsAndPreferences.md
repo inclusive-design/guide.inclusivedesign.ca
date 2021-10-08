@@ -30,7 +30,7 @@ richesse.
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Le handicap comme discordance](../../perspectives/le-handicap-comme-discordance/)
+* {% svg_sprite "icon-insights" %} [Le handicap comme discordance](../../perspectives/le-handicap-comme-discordance/)
 
 {% endunmarkedList %}
 
@@ -38,8 +38,8 @@ richesse.
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [L'expérience utilisateur pas à pas](../../outils/lexperience-utilisateur-pas-a-pas/)
-* {% icon "tools" %} [Les personas](../../outils/les-personas/)
-* {% icon "tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
+* {% svg_sprite "icon-tools" %} [L'expérience utilisateur pas à pas](../../outils/lexperience-utilisateur-pas-a-pas/)
+* {% svg_sprite "icon-tools" %} [Les personas](../../outils/les-personas/)
+* {% svg_sprite "icon-tools" %} [Les cas d'utilisation](../../outils/les-cas-dutilisation/)
 
 {% endunmarkedList %}

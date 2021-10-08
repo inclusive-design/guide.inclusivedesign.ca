@@ -35,6 +35,6 @@ et à essayer quelque chose de nouveau ?
 
 {% unmarkedList %}
 
-* {% icon "practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
+* {% svg_sprite "icon-practices" %} [Faites preuve d'adaptation et de flexibilité](../../pratiques/faites-preuve-dadaptation-et-de-flexibilite/)
 
 {% endunmarkedList %}

@@ -28,8 +28,8 @@ members are directly impacted by the design.
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
-* {% icon "insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
+* {% svg_sprite "icon-insights" %} [Diverse Participation and Perspectives](../../insights/diverse-participation-and-perspectives/)
+* {% svg_sprite "icon-insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
 
 {% endunmarkedList %}
 
@@ -37,8 +37,8 @@ members are directly impacted by the design.
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
-* {% icon "tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)
-* {% icon "tools" %} [Accessible Development Tools](../../tools/accessible-development-tools/)
+* {% svg_sprite "icon-tools" %} [Accessible Communication Tools](../../tools/accessible-communication-tools/)
+* {% svg_sprite "icon-tools" %} [Accessible Design Tools](../../tools/accessible-design-tools/)
+* {% svg_sprite "icon-tools" %} [Accessible Development Tools](../../tools/accessible-development-tools/)
 
 {% endunmarkedList %}

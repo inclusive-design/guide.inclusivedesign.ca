@@ -31,7 +31,7 @@ our biases, which in turn keeps us open to new ideas and innovative solutions.
 
 {% unmarkedList %}
 
-* {% icon "insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
+* {% svg_sprite "icon-insights" %} [Integrated Solutions](../../insights/integrated-solutions/)
 
 {% endunmarkedList %}
 
@@ -39,8 +39,8 @@ our biases, which in turn keeps us open to new ideas and innovative solutions.
 
 {% unmarkedList %}
 
-* {% icon "tools" %} [Personas](../../tools/personas/)
-* {% icon "tools" %} [Use-Cases](../../tools/use-cases/)
-* {% icon "tools" %} [Usability Testing](../../tools/usability-testing/)
+* {% svg_sprite "icon-tools" %} [Personas](../../tools/personas/)
+* {% svg_sprite "icon-tools" %} [Use-Cases](../../tools/use-cases/)
+* {% svg_sprite "icon-tools" %} [Usability Testing](../../tools/usability-testing/)
 
 {% endunmarkedList %}
