@@ -5,32 +5,22 @@
 <!-- END skip link -->
 
 <header class="ignore-for-TOC header-footer-bg header-footer-color">
-    {% uioTemplate %}
+    {% include "partials/uio.njk" %}
 
     {% include 'partials/language.njk' %}
 
     <div class="wrapper">
         <a class="banner" href="/{% if not (locale === config.defaultLanguage) %}{{ config.languages[locale].slug }}{% endif %}" title="{{ _i("Home: ${siteName}", {siteName: _(site.title)}) }}">
-            <span class="banner__logo">{% include 'svg/idrc-logo.svg' %}</span>
-            <h1 class="banner__heading">{{ _(site.title) }}</h1>
+            <span class="banner-logo">
+                {% svg_sprite "logo-idrc" %}
+            </span>
+            <h1 class="banner-heading">{{ _(site.title) }}</h1>
         </a>
 
-        <!-- "Desktop" Menu -->
-        <nav class="menu menu__desktop" aria-label="menu">
-            <ul class="inline-list">
-            {% include "partials/menu.njk" %}
-            </ul>
-        </nav>
+        {% include 'partials/nav-desktop.njk' %}
+
     </div>
-    <!-- Mobile Menu -->
-    <nav class="menu menu__mobile idg-mobile-nav" aria-labelledBy="idg-mobile-nav-button">
-        <button id="idg-mobile-nav-button" class="disclosure-button disclosure-button--header disclosure-button--nav" aria-expanded="false" aria-controls="idg-mobile-nav-list">
-            {% include 'svg/menu.svg' %}
-            {{ _("Menu") }}
-        </button>
-        <ul id="idg-mobile-nav-list" class="nav-list__mobile">
-            {% include "partials/menu.njk" %}
-        </ul>
-    </nav>
+
+    {% include 'partials/nav-mobile.njk' %}
 
 </header>

@@ -3,19 +3,14 @@
     <head>
         {% include "partials/head-matter.njk" %}
     </head>
-    <body class="">
-
-      {% include 'partials/header.njk' %}
-
-      <main id="content">
-          <article class="">
-              {% block content %}{% endblock %}
-          </article>
-      </main>
-
-        </div> <!-- end container -->
-        {% uioInit config.languages[lang].uioSlug, config.languages[lang].dir %}
-
-        {% include 'partials/footer.njk' %}
+    <body>
+        {% include "partials/header.njk" %}
+        <main id="content">
+            <article>
+                {% block content %}{% endblock %}
+            </article>
+        </main>
+        {% include "partials/footer.njk" %}
+        {% uioInit config.languages[locale].uioSlug, langDir %}
     </body>
 </html>

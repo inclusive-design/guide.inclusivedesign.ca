@@ -22,8 +22,8 @@ module.exports = function (config) {
 
     // Shortcodes
     config.addPairedShortcode("unmarkedList", (content) => wrap(content, "list-articles"));
-    config.addShortcode("icon", function (collection) {
-        return `<svg class="icon-${collection}" aria-hidden="true"><use xlink:href="/assets/images/icons.svg#icon-${collection}"></use></svg>`;
+    config.addShortcode("svg_sprite", function (sprite) {
+        return `<svg class="idg-${sprite}" aria-hidden="true"><use xlink:href="/assets/images/sprites.svg#${sprite}"></use></svg>`;
     });
     config.addShortcode("localeLink", generateLocaleLinks);
     config.addShortcode("gettext_var", (locale, str) => {

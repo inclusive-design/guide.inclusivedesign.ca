@@ -33,7 +33,7 @@
     {% include "partials/content.njk" %}
 
     {% if not navPages.length %}
-    {% set childPages = collections[category + "_" + lang] | eleventyNavigation(eleventyNavigation.key) %}
+    {% set childPages = collections[category + "_" + locale] | eleventyNavigation(eleventyNavigation.key) %}
     <nav class="list-articles__contents" aria-label="{{ _i("${categoryName} contents", {categoryName: eleventyNavigation.key}) }}">
         <ul>
             {# Output page links in alphabetical order #}

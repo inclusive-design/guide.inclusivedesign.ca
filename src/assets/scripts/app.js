@@ -61,4 +61,4 @@ menu.init = (container, button = "button") => {
 menu.init(".idg-language-picker");
 
 // initialize the mobile navigation menu
-menu.init(".idg-mobile-nav");
+menu.init(".idg-nav-menu");

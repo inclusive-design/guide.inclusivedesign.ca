@@ -42,11 +42,9 @@ of [**Insights**](./insights/). We have also gathered together a collection of [
 [**Tools**](./tools/) and [**Activities**](./activities/) in the Guide which describe some of the specific ways in which
 inclusive design can be put into action.
 
-<div class="index__highlight">
+<div class="index__highlight index-text-image">
   The sections and items that make up the Inclusive Design Guide are not meant to be followed in any particular order.
   You can begin wherever and whenever it makes sense for you, your team, and your process. Revisiting the guide at
   different stages in the project can be an effective way to integrate it into your work.
-
-  </div>
-  <div> {% include "svg/schematic.svg" %} </div>
+  {% include "svg/schematic.svg" %}
 </div>
