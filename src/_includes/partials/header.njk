@@ -7,7 +7,10 @@
 <header class="ignore-for-TOC header-footer-bg header-footer-color">
     {% include "partials/uio.njk" %}
 
-    {% include 'partials/language.njk' %}
+    <div class="menus">
+        {% include 'partials/language.njk' %}
+        {% include 'partials/nav-mobile.njk' %}
+    </div>
 
     <div class="wrapper">
         <a class="banner" href="/{% if not (locale === config.defaultLanguage) %}{{ config.languages[locale].slug }}{% endif %}" title="{{ _i("Home: ${siteName}", {siteName: _(site.title)}) }}">
@@ -21,6 +24,5 @@
 
     </div>
 
-    {% include 'partials/nav-mobile.njk' %}
 
 </header>

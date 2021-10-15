@@ -45,12 +45,9 @@ moments dans le Guide en un panorama de plus en plus large de [**Perspectives**]
 rassemblé une collection de [**Pratiques**](./pratiques), d'[**Outils**](./outils) et d'[**Activités**](./activites)
 dans le Guide qui donnent des exemples de mise en œuvre d'une conception inclusive.
 
-<div class="index__highlight">
-
+<div class="index__highlight index-text-image">
   Les sections et articles qui forment le Guide pour une Conception Inclusive ne suivent pas un ordre de lecture
   pré-établi. Vous pouvez commencer où et quand bon vous semble pour vous, votre équipe et vos façons de travailler.
   Reprendre le Guide à différentes étapes de votre projet peut être une bonne façon de l'intégrer à votre travail.
-
-  </div>
-  <div class=""> {% include "svg/schematic.svg" %} </div>
+  {% include "svg/schematic.svg" %}
 </div>
