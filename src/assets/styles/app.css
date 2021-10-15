@@ -23,14 +23,6 @@
     src: url("../fonts/RobotoSlab-Bold.ttf") format('truetype');
 }
 
-@font-face {
-    font-family: "github";
-    src:
-        url("../fonts/github-1.eot#iefix") format("embedded-opentype"),
-        url("../fonts/github-1.ttf"),
-        url("../fonts/github-1.eot");
-}
-
 :root {
     --insightsColor: #008b82;
     --practicesColor: #0e75ba;
@@ -494,4 +486,21 @@ footer a {
 
 .list-articles--contents li {
     margin: 0.4rem 0;
+}
+
+.fl-theme-bbr,
+.fl-theme-gd,
+.fl-theme-gw,
+.fl-theme-lgdg,
+.fl-theme-yb,
+.fl-theme-by {
+    --insightsColor: var(--fl-fgColor);
+    --practicesColor: var(--fl-fgColor);
+    --toolsColor: var(--fl-fgColor);
+    --activitiesColor: var(--fl-fgColor);
+    --headerFooterColor: var(--fl-fgColor);
+    --headerArticleColor: var(--fl-fgColor);
+    --headerFooterBGColor: var(--fl-bgColor);
+    --desktopNavListColor: var(--fl-fgColor);
+    --linkColor: var(--fl-fgColor);
 }
