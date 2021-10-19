@@ -4,7 +4,7 @@ const generatePermalink = require("../../utils/generatePermalink.js");
 
 module.exports = {
     category: "Activities",
-    layout: "layouts/category.njk",
+    layout: "layouts/page.njk",
     eleventyComputed: {
         /* Set the translationKey, used for populating the language switcher, to the file slug. */
         translationKey: data => data.page.fileSlug,

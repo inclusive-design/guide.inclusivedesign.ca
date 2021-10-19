@@ -133,14 +133,18 @@ button:focus {
 }
 
 #skip-to-content:focus {
+    background-color: var(--mainColor);
+    border: 0.2rem solid var(--headerFooterColor);
     clip: auto;
     clip-path: none;
     color: var(--headerFooterColor);
     height: auto;
     margin: 0.4rem;
+    outline-color: var(--headerFooterBGColor);
     overflow: auto;
     padding: 0.4rem;
     width: auto;
+    z-index: 2;
 }
 
 .banner {
@@ -183,6 +187,7 @@ button:focus {
     display: flex;
     gap: 1rem;
     justify-content: flex-end;
+    position: relative;
 }
 
 .menu {
@@ -234,7 +239,7 @@ button:focus {
     margin: 0;
     padding: 0;
     position: absolute;
-    top: 7rem;
+    top: 3rem;
     width: 100%;
     z-index: 2;
 }
@@ -356,8 +361,7 @@ button:focus {
     .menu-list {
         inset-inline-end: 0;
         inset-inline-start: auto;
-        top: 4.9rem;
-        width: 10rem;
+        width: auto;
     }
 
     .nav-desktop {
@@ -488,6 +492,8 @@ footer a {
     margin: 0.4rem 0;
 }
 
+.fl-theme-wb,
+.fl-theme-bw,
 .fl-theme-bbr,
 .fl-theme-gd,
 .fl-theme-gw,
@@ -498,9 +504,46 @@ footer a {
     --practicesColor: var(--fl-fgColor);
     --toolsColor: var(--fl-fgColor);
     --activitiesColor: var(--fl-fgColor);
-    --headerFooterColor: var(--fl-fgColor);
     --headerArticleColor: var(--fl-fgColor);
-    --headerFooterBGColor: var(--fl-bgColor);
+    --headerFooterColor: var(--fl-bgColor);
+    --headerFooterBGColor: var(--fl-fgColor);
     --desktopNavListColor: var(--fl-fgColor);
+    --menuListColor: var(--fl-bgColor);
     --linkColor: var(--fl-fgColor);
+}
+
+.fl-theme-wb .nav-list__desktop a,
+.fl-theme-bw .nav-list__desktop a,
+.fl-theme-bbr .nav-list__desktop a,
+.fl-theme-gd .nav-list__desktop a,
+.fl-theme-gw .nav-list__desktop a,
+.fl-theme-lgdg .nav-list__desktop a,
+.fl-theme-yb .nav-list__desktop a,
+.fl-theme-by .nav-list__desktop a {
+    border-left: 0.2rem solid var(--headerFooterColor);
+    border-right: 0.2rem solid var(--headerFooterColor);
+    border-top: 0.2rem solid var(--headerFooterColor);
+}
+
+.fl-theme-wb .nav-list__desktop a svg,
+.fl-theme-bw .nav-list__desktop a svg,
+.fl-theme-bbr .nav-list__desktop a svg,
+.fl-theme-gd .nav-list__desktop a svg,
+.fl-theme-gw .nav-list__desktop a svg,
+.fl-theme-lgdg .nav-list__desktop a svg,
+.fl-theme-yb .nav-list__desktop a svg,
+.fl-theme-by .nav-list__desktop a svg {
+    fill: var(--headerFooterColor);
+}
+
+.fl-theme-wb #idg-path-image path,
+.fl-theme-bw #idg-path-image path,
+.fl-theme-bbr #idg-path-image path,
+.fl-theme-gd #idg-path-image path,
+.fl-theme-gw #idg-path-image path,
+.fl-theme-lgdg #idg-path-image path,
+.fl-theme-yb #idg-path-image path,
+.fl-theme-by #idg-path-image path {
+    fill: var(--fl-bgColor);
+    stroke: var(--fl-fgColor);
 }
