@@ -200,6 +200,7 @@ button:focus {
     align-items: center;
     background-color: inherit;
     border: none;
+    color: inherit;
     display: flex;
     height: 2rem;
     justify-content: center;
