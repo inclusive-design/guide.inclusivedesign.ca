@@ -43,6 +43,14 @@ menu.init = (container, button = "button") => {
         }
     });
 
+    // Close the menu when mouseleave fires. This is needed for Safari on iOS which doesn't fire the focusout event
+    // when touching another part of the page.
+    menuContainer.addEventListener("mouseleave", () => {
+        if (!menuContainer.contains(document.activeElement)) {
+            menu.toggleExpansion(btn, false);
+        }
+    });
+
     // Close the menu when the "Escape" key is pressed and the menu has focus. Shifts focus back to the button.
     menuContainer.addEventListener("keyup", (event) => {
         if (event.code === "Escape") {
