@@ -23,23 +23,23 @@
     src: url("../fonts/RobotoSlab-Bold.ttf") format('truetype');
 }
 
-:root {
-    --insightsColor: #008b82;
-    --practicesColor: #0e75ba;
-    --toolsColor: #c02b56;
-    --activitiesColor: #ee3f23;
-    --headerFooterColor: #fff;
-    --headerArticleColor: #fff;
-    --headerFooterBGColor: #3a4947;
-    --menuListBGColor: #fff;
-    --menuListColor: #3a4947;
-    --desktopNavListColor: #fff;
-    --linkColor: #275287;
-    --mainBackground: #f2f2f2;
-    --mainColor: #000;
-}
-
 body {
+    --insightsColor: var(--fl-fgColor, #008b82);
+    --practicesColor: var(--fl-fgColor, #0e75ba);
+    --toolsColor: var(--fl-fgColor, #c02b56);
+    --activitiesColor: var(--fl-fgColor, #ee3f23);
+    --headerFooterColor: var(--fl-bgColor, #fff);
+    --headerFooterBGColor: var(--fl-fgColor, #3a4947);
+    --headerArticleColor: var(--fl-fgColor, #fff);
+    --menuListBGColor: #fff;
+    --menuListColor: var(--fl-bgColor, #3a4947);
+    --menuActiveColor: var(--fl-bgColor, #3a4947);
+    --menuActiveBGColor: var(--fl-fgColor, #fff);
+    --desktopNavListColor: var(--fl-bgColor, #fff);
+    --linkColor: var(--fl-fgColor, #275287);
+    --mainBackground: var(--fl-bgColor, #f2f2f2);
+    --mainColor: var(--fl-fgColor, #000);
+
     display: flex;
     flex-direction: column;
     font-family: OpenSans, Arial, Helvetica, sans-serif;
@@ -57,12 +57,6 @@ main {
 }
 
 /* Utility */
-
-a:focus,
-button:focus {
-    outline-style: solid;
-    outline-width: 0.2rem;
-}
 
 .wrapper {
     margin: 0 auto;
@@ -121,6 +115,33 @@ button:focus {
 }
 
 /* Block */
+
+a:focus,
+button:focus {
+    outline-style: solid;
+    outline-width: 0.2rem;
+}
+
+button {
+    font-size: 1.2rem;
+}
+
+article figure {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0 2rem 0;
+}
+
+article figure * {
+    width: 100%;
+}
+
+@media all and (min-width: 640px) {
+    figure * {
+        width: 60vw;
+    }
+}
 
 #skip-to-content {
     clip: rect(0 0 0 0);
@@ -207,14 +228,23 @@ button:focus {
     margin: 0.4rem;
 }
 
-.disclosure-button:focus {
+.site-header .disclosure-button:focus {
     outline-color: var(--headerFooterColor);
 }
 
-.disclosure-button svg {
+.site-header .disclosure-button svg {
     fill: var(--headerFooterColor);
     margin-inline-end: 0.5rem;
     width: 1.7rem;
+}
+
+.site-header .disclosure-button[aria-expanded="true"] {
+    background-color: var(--menuActiveBGColor);
+    color: var(--menuActiveColor);
+}
+
+.site-header .disclosure-button[aria-expanded="true"] svg {
+    fill: var(--menuActiveColor);
 }
 
 .idg-icon-menu {
@@ -337,6 +367,9 @@ button:focus {
 
 .nav-list__desktop a {
     align-items: center;
+    border-left: 0.2rem solid var(--fl-bgColor);
+    border-right: 0.2rem solid var(--fl-bgColor);
+    border-top: 0.2rem solid var(--fl-bgColor);
     border-top-left-radius: 0.8rem;
     border-top-right-radius: 0.8rem;
     color: inherit;
@@ -416,6 +449,7 @@ footer a {
 }
 
 .article-header {
+    border-top: 0.2rem solid var(--fl-fgColor);
     color: var(--headerArticleColor);
     padding: 1.2rem;
 }
@@ -444,6 +478,7 @@ footer a {
 }
 
 .idg-icon-dimensions {
+    fill: var(--mainColor);
     height: 3.5rem;
     vertical-align: middle;
     width: 3.5rem;
@@ -458,6 +493,11 @@ footer a {
 
 #idg-path-image {
     min-width: 33%;
+}
+
+#idg-path-image path {
+    fill: var(--fl-bgColor);
+    stroke: var(--fl-fgColor);
 }
 
 @media all and (min-width: 640px) {
@@ -491,60 +531,4 @@ footer a {
 
 .list-articles--contents li {
     margin: 0.4rem 0;
-}
-
-.fl-theme-wb,
-.fl-theme-bw,
-.fl-theme-bbr,
-.fl-theme-gd,
-.fl-theme-gw,
-.fl-theme-lgdg,
-.fl-theme-yb,
-.fl-theme-by {
-    --insightsColor: var(--fl-fgColor);
-    --practicesColor: var(--fl-fgColor);
-    --toolsColor: var(--fl-fgColor);
-    --activitiesColor: var(--fl-fgColor);
-    --headerArticleColor: var(--fl-fgColor);
-    --headerFooterColor: var(--fl-bgColor);
-    --headerFooterBGColor: var(--fl-fgColor);
-    --desktopNavListColor: var(--fl-fgColor);
-    --menuListColor: var(--fl-bgColor);
-    --linkColor: var(--fl-fgColor);
-}
-
-.fl-theme-wb .nav-list__desktop a,
-.fl-theme-bw .nav-list__desktop a,
-.fl-theme-bbr .nav-list__desktop a,
-.fl-theme-gd .nav-list__desktop a,
-.fl-theme-gw .nav-list__desktop a,
-.fl-theme-lgdg .nav-list__desktop a,
-.fl-theme-yb .nav-list__desktop a,
-.fl-theme-by .nav-list__desktop a {
-    border-left: 0.2rem solid var(--headerFooterColor);
-    border-right: 0.2rem solid var(--headerFooterColor);
-    border-top: 0.2rem solid var(--headerFooterColor);
-}
-
-.fl-theme-wb .nav-list__desktop a svg,
-.fl-theme-bw .nav-list__desktop a svg,
-.fl-theme-bbr .nav-list__desktop a svg,
-.fl-theme-gd .nav-list__desktop a svg,
-.fl-theme-gw .nav-list__desktop a svg,
-.fl-theme-lgdg .nav-list__desktop a svg,
-.fl-theme-yb .nav-list__desktop a svg,
-.fl-theme-by .nav-list__desktop a svg {
-    fill: var(--headerFooterColor);
-}
-
-.fl-theme-wb #idg-path-image path,
-.fl-theme-bw #idg-path-image path,
-.fl-theme-bbr #idg-path-image path,
-.fl-theme-gd #idg-path-image path,
-.fl-theme-gw #idg-path-image path,
-.fl-theme-lgdg #idg-path-image path,
-.fl-theme-yb #idg-path-image path,
-.fl-theme-by #idg-path-image path {
-    fill: var(--fl-bgColor);
-    stroke: var(--fl-fgColor);
 }
