@@ -5,10 +5,8 @@
     </head>
     <body>
         {% include "partials/header.njk" %}
-        <main id="content">
-            <article>
-                {% block content %}{% endblock %}
-            </article>
+        <main id="content" class="content">
+            {% block content %}{% endblock %}
         </main>
         {% include "partials/footer.njk" %}
         {% uioInit config.languages[locale].uioSlug, langDir %}

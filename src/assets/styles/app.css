@@ -31,12 +31,12 @@ body {
     --headerFooterColor: var(--fl-bgColor, #fff);
     --headerFooterBGColor: var(--fl-fgColor, #3a4947);
     --headerArticleColor: var(--fl-fgColor, #fff);
-    --menuListBGColor: #fff;
-    --menuListColor: var(--fl-bgColor, #3a4947);
-    --menuActiveColor: var(--fl-bgColor, #3a4947);
-    --menuActiveBGColor: var(--fl-fgColor, #fff);
+    --menuListBGColor: var(--fl-bgColor, #fff);
+    --menuListColor: var(--fl-fgColor, #3a4947);
+    --menuActiveColor: var(--fl-fgColor, #3a4947);
+    --menuActiveBGColor: var(--fl-bgColor, #fff);
     --desktopNavListColor: var(--fl-bgColor, #fff);
-    --linkColor: var(--fl-fgColor, #275287);
+    --linkColor: var(--fl-linkColor, var(--fl-fgColor, #275287));
     --mainBackground: var(--fl-bgColor, #f2f2f2);
     --mainColor: var(--fl-fgColor, #000);
 
@@ -116,6 +116,12 @@ main {
 
 /* Block */
 
+a:hover,
+button:hover {
+    outline-style: solid;
+    outline-width: 0.1rem;
+}
+
 a:focus,
 button:focus {
     outline-style: solid;
@@ -124,17 +130,6 @@ button:focus {
 
 button {
     font-size: 1.2rem;
-}
-
-article figure {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin: 4rem 0 2rem 0;
-}
-
-article figure * {
-    width: 100%;
 }
 
 @media all and (min-width: 640px) {
@@ -177,6 +172,7 @@ article figure * {
     text-decoration: none;
 }
 
+.banner:hover,
 .banner:focus {
     outline-color: var(--headerFooterColor);
 }
@@ -228,23 +224,15 @@ article figure * {
     margin: 0.4rem;
 }
 
-.site-header .disclosure-button:focus {
+.disclosure-button:focus,
+.disclosure-button:hover {
     outline-color: var(--headerFooterColor);
 }
 
-.site-header .disclosure-button svg {
+.disclosure-button svg {
     fill: var(--headerFooterColor);
     margin-inline-end: 0.5rem;
     width: 1.7rem;
-}
-
-.site-header .disclosure-button[aria-expanded="true"] {
-    background-color: var(--menuActiveBGColor);
-    color: var(--menuActiveColor);
-}
-
-.site-header .disclosure-button[aria-expanded="true"] svg {
-    fill: var(--menuActiveColor);
 }
 
 .idg-icon-menu {
@@ -286,7 +274,7 @@ article figure * {
     display: block;
     margin: 0.2rem;
     padding: 0.4rem;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .menu-list a:focus {
@@ -311,10 +299,6 @@ article figure * {
     content: "\2713";
 }
 
-.menu-list a:not([aria-current="page"]) {
-    text-decoration: underline;
-}
-
 .menu-list svg {
     fill: var(--menuListColor);
     height: 1.2rem;
@@ -329,18 +313,30 @@ article figure * {
     width: 100%;
 }
 
-.wrapper__article {
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-}
-
-.wrapper__article a {
+.content a {
     color: var(--linkColor);
 }
 
-.wrapper__article a:focus {
+.content a:focus,
+.content a:hover {
     outline-color: var(--linkColor);
     text-decoration: none;
+}
+
+.content figure {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0 2rem 0;
+}
+
+.content figure * {
+    width: 100%;
+}
+
+.wrapper__content {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
 }
 
 .nav-desktop {
@@ -367,9 +363,9 @@ article figure * {
 
 .nav-list__desktop a {
     align-items: center;
-    border-left: 0.2rem solid var(--fl-bgColor);
-    border-right: 0.2rem solid var(--fl-bgColor);
-    border-top: 0.2rem solid var(--fl-bgColor);
+    border-left: 0.2rem solid var(--fl-bgColor, transparent);
+    border-right: 0.2rem solid var(--fl-bgColor, transparent);
+    border-top: 0.2rem solid var(--fl-bgColor, transparent);
     border-top-left-radius: 0.8rem;
     border-top-right-radius: 0.8rem;
     color: inherit;
@@ -380,6 +376,10 @@ article figure * {
     padding-block: 0.5rem;
     padding-inline: 0.7rem 0;
     text-decoration: none;
+}
+
+.nav-list__desktop a:hover {
+    border-color: var(--headerFooterColor);
 }
 
 @media all and (min-width: 640px) {
@@ -395,23 +395,12 @@ article figure * {
     .menu-list {
         inset-inline-end: 0;
         inset-inline-start: auto;
+        margin-right: 0.4rem;
         width: auto;
     }
 
     .nav-desktop {
         display: inherit;
-    }
-}
-
-.article-title {
-    font-size: 2.5rem;
-    font-weight: normal;
-    margin-bottom: 0;
-}
-
-@media all and (min-width: 640px) {
-    .article-title {
-        font-size: 2.75rem;
     }
 }
 
@@ -422,6 +411,11 @@ footer {
 
 footer a {
     color: inherit;
+}
+
+footer a:focus,
+footer a:hover {
+    outline-color: var(--headerFooterColor);
 }
 
 .footer__logo-links {
@@ -448,10 +442,32 @@ footer a {
     color: inherit;
 }
 
-.article-header {
+.content-header {
     border-top: 0.2rem solid var(--fl-fgColor);
     color: var(--headerArticleColor);
     padding: 1.2rem;
+}
+
+.content-header a:focus {
+    outline: var(--headerArticleColor);
+    text-decoration: none;
+}
+
+.content-header a:hover {
+    outline: var(--headerArticleColor);
+    text-decoration: none;
+}
+
+.content-title {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+@media all and (min-width: 640px) {
+    .content-title {
+        font-size: 2.75rem;
+    }
 }
 
 .list-articles ul {
@@ -465,7 +481,6 @@ footer a {
 }
 
 .list-articles li svg {
-    /* width and height required by IE11. */
     height: 1rem;
     width: 1rem;
 }
@@ -531,4 +546,45 @@ footer a {
 
 .list-articles--contents li {
     margin: 0.4rem 0;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
+    margin-right: 0.4rem;
+}
+
+/*
+FLUID-6693 - Override UIO inverted theme and use non-inverted colors to give menu separation from the inverted background.
+*/
+
+.fl-inverted-color .menus .menu-list li {
+    background-color: var(--menuListBGColor) !important;
+}
+
+.fl-inverted-color .menus .menu-list a {
+    background-color: var(--menuListBGColor) !important;
+    color: var(--menuListColor) !important;
+}
+
+.fl-inverted-color .menus .menu-list svg {
+    background-color: var(--menuListBGColor) !important;
+    fill: var(--menuListColor) !important;
+}
+
+.fl-inverted-color .menus .disclosure-button svg {
+    background-color: var(--headerFooterBGColor) !important;
+    fill: var(--headerFooterColor) !important;
+}
+
+.fl-inverted-color .menus .disclosure-button[aria-expanded="true"] {
+    background-color: var(--menuActiveBGColor) !important;
+    color: var(--menuActiveColor) !important;
+}
+
+.fl-inverted-color .menus .disclosure-button[aria-expanded="true"] svg {
+    background-color: var(--menuActiveBGColor) !important;
+    fill: var(--menuActiveColor) !important;
+}
+
+.fl-inverted-color .menus .menu-list {
+    border-bottom: 0.4rem solid var(--menuListColor) !important;
 }

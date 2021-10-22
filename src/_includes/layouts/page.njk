@@ -10,7 +10,7 @@
 
 {% block content %}
 
-<header class="article-header {{ category | lower }}-bg fl-inverted-color">
+<header class="content-header {{ category | lower }}-bg fl-inverted-color">
     <div class="wrapper">
         <nav  aria-label="{{ _("Breadcrumb") }}">
             <ul class="breadcrumbs inline-list">
@@ -25,11 +25,11 @@
                 <li aria-current="page">{{ eleventyNavigation.title }}</li>
             </ul>
         </nav>
-        <h1 class="article-title">{{ title }}</h1>
+        <h1 class="content-title">{{ title }}</h1>
     </div>
 </header>
 
-<div class="wrapper wrapper__article">
+<div class="wrapper wrapper__content">
     {% include "partials/content.njk" %}
 
     {% if not navPages.length %}
