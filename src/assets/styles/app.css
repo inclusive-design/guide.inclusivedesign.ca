@@ -39,6 +39,7 @@ body {
     --linkColor: var(--fl-linkColor, var(--fl-fgColor, #275287));
     --mainBackground: var(--fl-bgColor, #f2f2f2);
     --mainColor: var(--fl-fgColor, #000);
+    --toc-bgColor: var(--fl-bgColor, #fff);
 
     display: flex;
     flex-direction: column;
@@ -468,6 +469,24 @@ footer a:hover {
     .content-title {
         font-size: 2.75rem;
     }
+}
+
+.toc {
+    background-color: var(--toc-bgColor);
+    border: 0.2rem solid transparent;
+    display: inline-block;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+@media all and (min-width: 640px) {
+    .toc {
+        max-width: 40rem;
+    }
+}
+
+.toc h2 {
+    margin: 0;
 }
 
 .list-articles ul {
