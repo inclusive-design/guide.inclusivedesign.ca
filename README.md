@@ -46,3 +46,6 @@ The Inclusive Design Guide's content is licensed under the [Creative Commons Att
 
 Language and Menu icons is licensed under the [BSD
 3-Clause](https://github.com/platform-coop-toolkit/pinecone/blob/dev/LICENSE.md) license.
+
+[OCTOCAT® logo](https://github.com/logos) used under expressed permissions. GITHUB®, the GITHUB® logo design, OCTOCAT®
+and the OCTOCAT® logo design are exclusive trademarks registered in the United States by GitHub, Inc.
