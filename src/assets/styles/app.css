@@ -474,7 +474,7 @@ footer a:hover {
 .toc {
     background-color: var(--toc-bgColor);
     border: 0.2rem solid transparent;
-    display: inline-block;
+    display: none;
     padding: 0.4rem;
     width: 100%;
 }
