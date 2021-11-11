@@ -4,6 +4,10 @@
 <link rel="icon" type="image/png" href="/assets/images/favico.png">
 
 {% uioStyles %}
+
+{# eleventy-plugin-fluid/issues/81 - manually adding fluid.css #}
+<link rel="stylesheet" href="/lib/infusion/src/framework/core/css/fluid.css">
+
 <link rel="stylesheet" href="/assets{{ assets['/styles/app.css'] }}">
 
 {% uioScripts %}
