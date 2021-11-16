@@ -43,10 +43,11 @@ menu.init = (container, button = "button") => {
         }
     });
 
-    // Close the menu when mouseleave fires. This is needed for Safari on iOS which doesn't fire the focusout event
-    // when touching another part of the page.
-    menuContainer.addEventListener("mouseleave", () => {
-        if (!menuContainer.contains(document.activeElement)) {
+    // Close the menu when clicking outside of it.
+    // This is needed due to Safari not applying focus to clicked inputs.
+    // https://bugs.webkit.org/show_bug.cgi?id=22261
+    document.body.addEventListener("click", (event) => {
+        if (!menuContainer.contains(event.target)) {
             menu.toggleExpansion(btn, false);
         }
     });
