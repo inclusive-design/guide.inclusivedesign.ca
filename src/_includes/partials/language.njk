@@ -1,0 +1,9 @@
+<nav class="idg-language-picker menu" aria-labelledBy="idg-language-button">
+    <button id="idg-language-button" class="disclosure-button" aria-expanded="false" aria-controls="idg-language-list">
+        {% svg_sprite "icon-language" %}
+        {{ _("Language") }}
+    </button>
+    <ul id="idg-language-list" class="menu-list">
+         {% localeLink locale, translationKey, category, collections %}
+    </ul>
+</nav>

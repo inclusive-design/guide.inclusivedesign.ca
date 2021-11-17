@@ -1,38 +1,28 @@
 <!-- Skip Link -->
-<nav id="skip" class="fl-inverted-color">
-    <a href="#content" class="docs-template-skip-content">{{ _("Skip to Content") }}</a>
+<nav class="fl-inverted-color">
+    <a id="skip-to-content" href="#content">{{ _("Skip to Content") }}</a>
 </nav>
 <!-- END skip link -->
 
-<header class="ignore-for-TOC row fl-inverted-color">
+<header class="ignore-for-TOC site-header header-footer-bg header-footer-color fl-inverted-color">
     {% include "partials/uio.njk" %}
 
-    {% localeLink locale, translationKey, category, collections %}
+    <div class="menus">
+        {% include 'partials/language.njk' %}
+        {% include 'partials/nav-mobile.njk' %}
+    </div>
 
-    <div class="small-12 column docs-template-header">
-        <a class="" href="/{% if not (locale === config.defaultLanguage) %}{{ config.languages[locale].slug }}{% endif %}" title="{{ _i("Home: ${siteName}", {siteName: _(site.title)}) }}">
-            {% svg_sprite "logo-idrc" %}
-            <h1>{{ _(site.title) }}</h1>
+    <div class="wrapper">
+        <a class="banner" href="/{% if not (locale === config.defaultLanguage) %}{{ config.languages[locale].slug }}{% endif %}" title="{{ _i("Home: ${siteName}", {siteName: _(site.title)}) }}">
+            <span class="banner-logo">
+                {% svg_sprite "logo-idrc" %}
+            </span>
+            <span class="banner-heading">{{ _(site.title) }}</span>
         </a>
 
-        <!-- Mobile Menu -->
-        <nav class="right show-for-small-only docs-template-nav-mobile">
-            <ul id="menu">
-                <li class="docs-template-dropDown-header"><span class="docs-template-nav-mobile-icon"></span>
-                    <ul class="docs-template-dropDown">
-                    {% include "partials/menu.njk" %}
-                   </ul>
-                </li>
-            </ul>
-        </nav>
+        {% include 'partials/nav-desktop.njk' %}
+
     </div>
 
-    <!-- "Desktop" Menu -->
-    <div class="docs-template-header">
-        <nav class="idg-tabs small-12 column show-for-medium-up">
-            <ul class="inline-list">
-            {% include "partials/menu.njk" %}
-            </ul>
-        </nav>
-    </div>
+
 </header>

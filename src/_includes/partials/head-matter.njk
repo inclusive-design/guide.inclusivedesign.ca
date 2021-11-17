@@ -3,16 +3,13 @@
 <title>{{  title }} | {{ _(site.title) }} {% gettext_var locale, site.title %}</title>
 <link rel="icon" type="image/png" href="/assets/images/favico.png">
 
-<link rel="stylesheet" href="/assets/styles/normalize.css">
-<link rel="stylesheet" href="/assets/styles/foundation.min.css">
-<link rel="stylesheet" href="/lib/jquery-ui/themes/base/core.css">
-<link rel="stylesheet" href="/lib/jquery-ui/themes/base/menu.css">
-<link rel="stylesheet" href="/lib/jquery-ui/themes/base/theme.css">
-
 {% uioStyles %}
+
+{# eleventy-plugin-fluid/issues/81 - manually adding fluid.css #}
+<link rel="stylesheet" href="/lib/infusion/src/framework/core/css/fluid.css">
+
 <link rel="stylesheet" href="/assets{{ assets['/styles/app.css'] }}">
 
 {% uioScripts %}
-<script src="/lib/jquery-ui/ui/widgets/menu.js"></script>
 <script defer src="/assets{{ assets['/scripts/app.js'] }}"></script>
 <script defer src="/assets{{ assets['/scripts/matomo.js'] }}"></script>

@@ -1,0 +1,626 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "OpenSans-Light";
+    src: url("../fonts/OpenSans-Light.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../fonts/OpenSans-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "RobotoSlab";
+    src: url("../fonts/RobotoSlab-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "RobotoSlab-Bold";
+    src: url("../fonts/RobotoSlab-Bold.ttf") format('truetype');
+}
+
+body {
+    --insightsColor: var(--fl-fgColor, #008b82);
+    --practicesColor: var(--fl-fgColor, #0e75ba);
+    --toolsColor: var(--fl-fgColor, #c02b56);
+    --activitiesColor: var(--fl-fgColor, #ee3f23);
+    --headerFooterColor: var(--fl-bgColor, #fff);
+    --headerFooterBGColor: var(--fl-fgColor, #3a4947);
+    --headerArticleColor: var(--fl-fgColor, #fff);
+    --menuExpandedColor: var(--fl-fgColor, #3a4947);
+    --menuExpandedBGColor: var(--fl-bgColor, #fff);
+    --desktopNavListColor: var(--fl-bgColor, #fff);
+    --linkColor: var(--fl-linkColor, var(--fl-fgColor, #275287));
+    --mainBackground: var(--fl-bgColor, #f2f2f2);
+    --mainColor: var(--fl-fgColor, #000);
+    --toc-bgColor: var(--fl-bgColor, #fff);
+
+    display: flex;
+    flex-direction: column;
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+    justify-content: flex-start;
+    margin: 0;
+    min-height: 100vh;
+}
+
+main {
+    background-color: var(--mainBackground);
+    color: var(--mainColor);
+    flex-grow: 1;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Utility */
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 80rem;
+    padding-inline: 1.125rem;
+}
+
+.inline-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.inline-list li {
+    display: inline;
+}
+
+.header-footer-bg {
+    background-color: var(--headerFooterBGColor);
+}
+
+.header-footer-color {
+    color: var(--headerFooterColor);
+}
+
+.insights-bg {
+    background-color: var(--insightsColor);
+}
+
+.practices-bg {
+    background-color: var(--practicesColor);
+}
+
+.tools-bg {
+    background-color: var(--toolsColor);
+}
+
+.activities-bg {
+    background-color: var(--activitiesColor);
+}
+
+.idg-icon-practices {
+    fill: var(--practicesColor);
+}
+
+.idg-icon-activities {
+    fill: var(--activitiesColor);
+}
+
+.idg-icon-tools {
+    fill: var(--toolsColor);
+}
+
+.idg-icon-insights {
+    fill: var(--insightsColor);
+}
+
+/* Block */
+
+a:hover,
+button:hover {
+    line-height: initial; /* Fix outline clipping with contrast styles in
+                             Safari */
+    outline-color: var(--mainColor);
+    outline-style: solid;
+    outline-width: 0.1rem;
+}
+
+a:focus,
+button:focus {
+    line-height: initial;  /* Fix outline clipping with contrast styles in
+                             Safari */
+    outline-color: var(--mainColor);
+    outline-style: solid;
+    outline-width: 0.2rem;
+}
+
+button {
+    font-size: 1.2rem;
+}
+
+@media all and (min-width: 640px) {
+    figure * {
+        width: 60vw;
+    }
+}
+
+#skip-to-content {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+#skip-to-content:focus {
+    background-color: var(--mainColor);
+    border: 0.2rem solid var(--headerFooterColor);
+    clip: auto;
+    clip-path: none;
+    color: var(--headerFooterColor);
+    height: auto;
+    margin: 0.4rem;
+    outline-color: var(--headerFooterBGColor);
+    overflow: auto;
+    padding: 0.4rem;
+    width: auto;
+    z-index: 2;
+}
+
+.banner {
+    align-items: center;
+    color: inherit;
+    display: inline-flex;
+    margin: 1rem 0;
+    padding: 0 0.4rem;
+    text-decoration: none;
+}
+
+.banner:hover,
+.banner:focus {
+    outline-color: var(--headerFooterColor);
+}
+
+.banner-heading {
+    font-size: 2.5rem;
+    margin: 0.4rem 0;
+}
+
+@media all and (min-width: 640px) {
+    .banner {
+        margin: 1rem 0 3.5rem 0;
+    }
+
+    .banner-heading {
+        font-size: 2.75rem;
+    }
+}
+
+.banner-logo {
+    height: 4.325rem;
+    margin-block-start: 0.2rem;
+    margin-inline-end: 1.2rem;
+    min-width: 3rem;
+    width: 3rem;
+}
+
+.menus {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.disclosure-button {
+    align-items: center;
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    margin: 0.4rem;
+}
+
+.disclosure-button:focus,
+.disclosure-button:hover {
+    outline-color: var(--headerFooterColor);
+}
+
+.disclosure-button svg {
+    fill: var(--headerFooterColor);
+    margin-inline-end: 0.5rem;
+    width: 1.7rem;
+}
+
+.idg-icon-menu {
+    height: 1.2rem;
+}
+
+.idg-icon-language {
+    height: 1.7rem;
+}
+
+#idg-language-button[aria-expanded="false"] + #idg-language-list {
+    display: none;
+}
+
+#idg-menu-nav-button[aria-expanded="false"] + #idg-menu-nav-list {
+    display: none;
+}
+
+.menu-list {
+    background-color: var(--menuExpandedBGColor);
+    inset-inline-start: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 3rem;
+    width: 100%;
+    z-index: 2;
+}
+
+.menu-list li {
+    border-bottom: 0.1rem solid var(--menuExpandedColor);
+    padding: 0.4rem;
+}
+
+.menu-list a {
+    background-color: var(--menuExpandedBGColor);
+    color: var(--menuExpandedColor);
+    display: block;
+    margin: 0.2rem;
+    padding: 0.4rem;
+    text-decoration: underline;
+}
+
+.menu-list a:focus {
+    outline-color: var(--menuExpandedColor);
+}
+
+.menu-list a[aria-current="page"] {
+    font-weight: bolder;
+    margin-left: 0.2;
+    padding-inline-start: 0.4rem;
+    text-decoration: none;
+}
+
+.menu-list a::before {
+    content: " ";
+    display: inline-block;
+    padding-inline-end: 0.4rem;
+    width: 1ch;
+}
+
+.menu-list a[aria-current="page"]::before {
+    content: "\2713";
+}
+
+.menu-list svg {
+    fill: var(--menuExpandedColor);
+    height: 1.2rem;
+    padding-inline-end: 1ch;
+    vertical-align: middle;
+    width: 1.2rem;
+}
+
+.idg-logo-idrc {
+    fill: var(--headerFooterColor);
+    height: 100%;
+    width: 100%;
+}
+
+.content a {
+    color: var(--linkColor);
+}
+
+.content a:focus,
+.content a:hover {
+    outline-color: var(--linkColor);
+    text-decoration: none;
+}
+
+.content figure {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0 2rem 0;
+}
+
+.content figure * {
+    width: 100%;
+}
+
+.wrapper__content {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+.nav-list__desktop svg {
+    fill: var(--desktopNavListColor);
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.nav-list__desktop {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 0.4rem;
+}
+
+.nav-list__desktop li {
+    flex-grow: 1;
+}
+
+.nav-list__desktop a {
+    align-items: center;
+    border-left: 0.2rem solid var(--fl-bgColor, transparent);
+    border-right: 0.2rem solid var(--fl-bgColor, transparent);
+    border-top: 0.2rem solid var(--fl-bgColor, transparent);
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    color: inherit;
+    display: flex;
+    font-size: 1.2rem;
+    gap: 0.5rem;
+    min-width: 14rem;
+    padding-block: 0.5rem;
+    padding-inline: 0.7rem 0;
+    text-decoration: none;
+}
+
+.nav-list__desktop a:hover {
+    box-shadow: 0 0 0 0.1rem var(--headerFooterColor);
+    outline: none;
+}
+
+.nav-list__desktop a:focus {
+    box-shadow: 0 0 0 0.2rem var(--headerFooterColor);
+}
+
+@media all and (min-width: 640px) {
+    .idg-menu-nav {
+        display: none;
+    }
+
+    .menus {
+        /* 100% width otherwise Menu can appear to left of UIO buttons. */
+        width: 100%;
+    }
+
+    .menu-list {
+        inset-inline-end: 0;
+        inset-inline-start: auto;
+        margin-right: 0.4rem;
+        width: auto;
+    }
+
+    .nav-desktop {
+        display: inherit;
+    }
+}
+
+footer {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer a:focus,
+footer a:hover {
+    outline-color: var(--headerFooterColor);
+}
+
+.footer__logo-links {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+.footer__logo-links svg {
+    fill: var(--headerFooterColor);
+    height: 7rem;
+    width: 6rem;
+}
+
+.idg-logo-p4a {
+    --idg-fill: var(--headerFooterBGColor);
+    --idg-stroke: var(--headerFooterBGColor);
+}
+
+.breadcrumbs li + li::before {
+    content: ">";
+    padding: 0 0.6rem;
+}
+
+.breadcrumbs a {
+    color: inherit;
+}
+
+.content-header {
+    border-top: 0.2rem solid var(--fl-fgColor);
+    color: var(--headerArticleColor);
+    padding: 1.2rem;
+}
+
+.content-header a:focus {
+    outline: var(--headerArticleColor);
+    text-decoration: none;
+}
+
+.content-header a:hover {
+    outline: var(--headerArticleColor);
+    text-decoration: none;
+}
+
+.content-title {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+@media all and (min-width: 640px) {
+    .content-title {
+        font-size: 2.75rem;
+    }
+}
+
+.toc {
+    background-color: var(--toc-bgColor);
+    border: 0.2rem solid transparent;
+    display: none;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+@media all and (min-width: 640px) {
+    .toc {
+        max-width: 40rem;
+    }
+}
+
+.toc h2 {
+    margin: 0;
+}
+
+.list-articles ul {
+    padding-left: 0;
+}
+
+.list-articles li {
+    /* offset to align SVG icon with default list style */
+    list-style-type: none;
+    margin-left: 1rem;
+}
+
+.list-articles li svg {
+    height: 1rem;
+    width: 1rem;
+}
+
+.index__highlight {
+    background-color: #fff;
+    border-radius: 0.2rem;
+    margin: 2rem 0;
+    padding: 1.5rem;
+}
+
+.idg-icon-dimensions {
+    fill: var(--mainColor);
+    height: 3.5rem;
+    vertical-align: middle;
+    width: 3.5rem;
+}
+
+.index-text-image {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0;
+}
+
+#idg-path-image {
+    min-width: 33%;
+}
+
+#idg-path-image path {
+    stroke: var(--fl-fgColor);
+}
+
+@media all and (min-width: 640px) {
+    .index-text-image {
+        flex-direction: row;
+    }
+}
+
+#idg-index-dimensions-list ul {
+    list-style: none;
+    list-style-position: inside;
+    padding: 0;
+}
+
+#idg-index-dimensions-list li {
+    margin-top: 2rem;
+}
+
+.githubLink {
+    margin-top: 2rem;
+}
+
+.idg-logo-github {
+    fill: var(--linkColor);
+    height: 1.2rem;
+    padding-inline-end: 0.5rem;
+    width: 1.2rem;
+}
+
+/* Exceptions */
+
+.list-articles--contents li {
+    margin: 0.4rem 0;
+}
+
+.fl-prefsEditor-separatedPanel .fl-panelBar .fl-prefsEditor-buttons {
+    margin-right: 0.4rem;
+}
+
+[class*=fl-theme].fl-focus .fl-inverted-color .nav-list__desktop a:focus {
+    outline-style: none;
+}
+
+[class*="fl-theme"]:not(.fl-theme-prefsEditor-default).fl-focus .fl-inverted-color .menu a:focus {
+    outline-color: var(--menuExpandedColor);
+}
+
+/*
+FLUID-6693 - Override UIO inverted theme and use non-inverted colors to give menu separation from the inverted background.
+*/
+
+.fl-inverted-color .menus .menu-list li {
+    background-color: var(--menuExpandedBGColor) !important;
+}
+
+.fl-inverted-color .menus .menu-list a {
+    background-color: var(--menuExpandedBGColor) !important;
+    color: var(--menuExpandedColor) !important;
+}
+
+.fl-inverted-color .menus .menu-list svg {
+    background-color: var(--menuExpandedBGColor) !important;
+    fill: var(--menuExpandedColor) !important;
+}
+
+.fl-inverted-color .menus .disclosure-button svg {
+    background-color: var(--headerFooterBGColor) !important;
+    fill: var(--headerFooterColor) !important;
+}
+
+.fl-inverted-color .menus .disclosure-button[aria-expanded="true"] {
+    background-color: var(--menuExpandedBGColor) !important;
+    color: var(--menuExpandedColor) !important;
+}
+
+.fl-inverted-color .menus .disclosure-button[aria-expanded="true"] svg {
+    background-color: var(--menuExpandedBGColor) !important;
+    fill: var(--menuExpandedColor) !important;
+}
+
+.fl-inverted-color .menus .menu-list {
+    border-bottom: 0.4rem solid var(--menuExpandedColor) !important;
+}

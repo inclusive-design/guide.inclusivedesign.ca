@@ -1,0 +1,50 @@
+{% extends "layouts/base.njk" %}
+
+{% set bodyClass = "idg-category-" + category %}
+
+{% set editLinkPath %}
+{{ page.filePathStem}}.md
+{% endset %}
+
+{% set navPages = collections[category + "_" + locale] | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+
+{% block content %}
+
+<header class="content-header {{ category | lower }}-bg fl-inverted-color">
+    <div class="wrapper">
+        <nav  aria-label="{{ _("Breadcrumb") }}">
+            <ul class="breadcrumbs inline-list">
+                <li>
+                    <a href="/{% if not (locale === config.defaultLanguage) %}{{ config.languages[locale].slug }}{% endif %}">
+                        {{ _("Home") }}
+                    </a>
+                </li>
+                {% for page in navPages %}
+                <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                {% endfor %}
+                <li aria-current="page">{{ eleventyNavigation.title }}</li>
+            </ul>
+        </nav>
+        <h1 class="content-title">{{ title }}</h1>
+    </div>
+</header>
+
+<div class="wrapper wrapper__content">
+    {% include "partials/content.njk" %}
+
+    {% if not navPages.length %}
+    {# If displaying a listing page of articles #}
+    {% set childPages = collections[category + "_" + locale] | eleventyNavigation(eleventyNavigation.key) %}
+    <nav class="list-articles__contents" aria-label="{{ _i("${categoryName} contents", {categoryName: eleventyNavigation.key}) }}">
+        <ul>
+            {# Output page links in alphabetical order #}
+            {% for page in childPages |sort(false, true, "title") %}
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+    {% else %}
+    {% include "partials/editOnGitHub.njk" %}
+    {% endif %}
+</div>
+{% endblock %}

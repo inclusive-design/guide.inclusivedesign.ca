@@ -21,7 +21,7 @@ module.exports = function (config) {
     });
 
     // Shortcodes
-    config.addPairedShortcode("unmarkedList", (content) => wrap(content, "idg-unmarkedList"));
+    config.addPairedShortcode("unmarkedList", (content) => wrap(content, "list-articles"));
     config.addShortcode("svg_sprite", function (sprite) {
         return `<svg class="idg-${sprite}" aria-hidden="true"><use xlink:href="/assets/images/sprites.svg#${sprite}"></use></svg>`;
     });

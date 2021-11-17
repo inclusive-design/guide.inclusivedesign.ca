@@ -1,26 +1,26 @@
-<footer class="row docs-template-footer fl-inverted-color">
-    <p>
-        {% set footer_community %}<a href='https://wiki.fluidproject.org/display/fluid/The+Inclusive+Design+Guide' rel='nofollow' target='_blank'>{{ _("community members") }}</a>{% endset %}
-        {% set footer_org %}</br><a href='{{ _(site.orgURL) }}' rel='nofollow' target='_blank'>{{ _(site.org) }}</a>{% endset %}
-        {% set footer_institute %}<a href='{{ _(site.instituteURL) }}' target='_blank'>{{ _(site.institute) }}</a>{% endset %}
-        {{ _i("Created by the ${community} of the ${org} at ${institute}, and supported by", {
-            community: footer_community,
-            org: footer_org,
-            institute: footer_institute
-        }) | safe }}
-    </p>
+<footer class="header-footer-bg header-footer-color fl-inverted-color">
+    <div class="wrapper wrapper_site_footer">
+        <p>
+            {% set footer_community %}<a href='https://wiki.fluidproject.org/display/fluid/The+Inclusive+Design+Guide' rel='nofollow' target='_blank'>{{ _("community members") }}</a>{% endset %}
+            {% set footer_org %}</br><a href='{{ _(site.orgURL) }}' rel='nofollow' target='_blank'>{{ _(site.org) }}</a>{% endset %}
+            {% set footer_institute %}<a href='{{ _(site.instituteURL) }}' target='_blank'>{{ _(site.institute) }}</a>{% endset %}
+            {{ _i("Created by the ${community} of the ${org} at ${institute}, and supported by", {
+                community: footer_community,
+                org: footer_org,
+                institute: footer_institute
+            }) | safe }}
+        </p>
+        <p>
+            <a class="footer__logo-links" aria-label="FLOE Project" href="http://www.floeproject.org/" target="_blank">{% svg_sprite "logo-floe" %}</a>
+            <a class="footer__logo-links" aria-label="Prosperity for All" href="http://www.prosperity4all.eu/" target="_blank">{% svg_sprite 'logo-p4a' %}</a><br/>
+        </p>
+        <p>
+            {{ _i("Hosted with ${netlify}.", {netlify: "<a href='https://netlify.com/'>Netlify</a>"}) | safe }}
+        </p>
 
-    <p>
-        <a class="footer-logo-links" aria-label="FLOE Project" href="http://www.floeproject.org/" target="_blank">{% svg_sprite "logo-floe" %}</a>
-        <a class="footer-logo-links" aria-label="Prosperity for All" href="http://www.prosperity4all.eu/" target="_blank">{% svg_sprite "logo-p4a" %}</a><br/>
-    </p>
-
-    <p>
-        {{ _i("Hosted with ${netlify}.", {netlify: "<a href='https://netlify.com/'>Netlify</a>"}) | safe }}
-    </p>
-
-    <p>
-        {% set license %}<a rel='license' href='{{ _(site.licenseURL) }}'>{{ _(site.license) }}</a>{% endset %}
-        {{ _i("This documentation is licensed under a ${license}.", {license: license}) | safe }}
-    </p>
+        <p>
+            {% set license %}<a rel='license' href='{{ _(site.licenseURL) }}'>{{ _(site.license) }}</a>{% endset %}
+            {{ _i("This documentation is licensed under a ${license}.", {license: license}) | safe }}
+        </p>
+    </div>
 </footer>

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2021-09-30 11:11-0400\n"
-"PO-Revision-Date: 2021-09-30 11:18-0400\n"
+"POT-Creation-Date: 2021-09-30 15:45-0400\n"
+"PO-Revision-Date: 2021-09-30 15:46-0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -36,8 +36,7 @@ msgid "community members"
 msgstr "la communauté des membres"
 
 #: locales/messages.js:8
-msgid ""
-"Created by the ${community} of the ${org} at ${institute}, and supported by"
+msgid "Created by the ${community} of the ${org} at ${institute}, and supported by"
 msgstr "Créé par ${community} du ${org} de ${institute}, avec le soutien de"
 
 #: locales/messages.js:9
@@ -57,94 +56,75 @@ msgid "Home: ${siteName}"
 msgstr "Accueil: ${siteName}"
 
 #: locales/messages.js:13
+msgid "Menu"
+msgstr "Menu"
+
+#: locales/messages.js:14
+msgid "Language"
+msgstr "Langues"
+
+#: locales/messages.js:15
 msgid "Reset"
 msgstr "Retour aux paramètres par défaut"
 
-#: locales/messages.js:14
+#: locales/messages.js:16
 msgid "activities"
 msgstr "activités"
 
-#: locales/messages.js:15
+#: locales/messages.js:17
 msgid "insights"
 msgstr "perspectives"
 
-#: locales/messages.js:16
+#: locales/messages.js:18
 msgid "practices"
 msgstr "pratiques"
 
-#: locales/messages.js:17
+#: locales/messages.js:19
 msgid "tools"
 msgstr "outils"
 
-#: locales/messages.js:18
+#: locales/messages.js:20
 msgid "The Inclusive Design Guide"
 msgstr "Guide pour une conception inclusive"
 
-#: locales/messages.js:19
+#: locales/messages.js:21
 msgid "Creative Commons CC BY 3.0"
 msgstr "Creative Commons CC BY 3.0"
 
-#: locales/messages.js:20
+#: locales/messages.js:22
 msgid "https://creativecommons.org/licenses/by/3.0/"
 msgstr "https://creativecommons.org/licenses/by/3.0/deed.fr"
 
-#: locales/messages.js:21
+#: locales/messages.js:23
 msgid "Inclusive Design Research Centre"
 msgstr "Centre de Recherche pour une Conception Inclusive"
 
-#: locales/messages.js:22
+#: locales/messages.js:24
 msgid "https://idrc.ocad.ca/"
 msgstr ""
 
-#: locales/messages.js:23
+#: locales/messages.js:25
 msgid "OCAD University"
-msgstr ""
-"l’Université de l’École d’art et de design de l’Ontario (OCAD University)"
+msgstr "l’Université de l’École d’art et de design de l’Ontario (OCAD University)"
 
-#: locales/messages.js:24
+#: locales/messages.js:26
 msgid "https://www.ocadu.ca/"
 msgstr ""
 
-#: locales/messages.js:25
 #, fuzzy
-#| msgid ""
-#| "Created by the ${communityLink}community members${closeLink} of ${org} at "
-#| "${ocad}, and supported by"
-msgid "Created by the ${community} of the ${org} at ${ocad}, and supported by"
-msgstr ""
-"Créé par la ${communityLink}communauté des membres${closeLink} du ${org} de "
-"${ocad}, avec le soutien de"
+#~| msgid "Created by the ${communityLink}community members${closeLink} of ${org} at ${ocad}, and supported by"
+#~ msgid "Created by the ${community} of the ${org} at ${ocad}, and supported by"
+#~ msgstr "Créé par la ${communityLink}communauté des membres${closeLink} du ${org} de ${ocad}, avec le soutien de"
 
-#: locales/messages.js:26
 #, fuzzy
-#| msgid ""
-#| "Created by the ${communityLink}community members${closeLink} of ${org} at "
-#| "${ocad}, and supported by"
-msgid "Created by the ${community} of ${org} at ${ocad}, and supported by"
-msgstr ""
-"Créé par la ${communityLink}communauté des membres${closeLink} du ${org} de "
-"${ocad}, avec le soutien de"
+#~| msgid "Created by the ${communityLink}community members${closeLink} of ${org} at ${ocad}, and supported by"
+#~ msgid "Created by the ${community} of ${org} at ${ocad}, and supported by"
+#~ msgstr "Créé par la ${communityLink}communauté des membres${closeLink} du ${org} de ${ocad}, avec le soutien de"
 
-#: locales/messages.js:27
 #, fuzzy
-#| msgid ""
-#| "Created by the ${communityLink}community members${closeLink} of ${org} at "
-#| "${ocad}, and supported by"
-msgid ""
-"Created by the ${community}${closeLink} of ${org} at ${ocad}, and supported "
-"by"
-msgstr ""
-"Créé par la ${communityLink}communauté des membres${closeLink} du ${org} de "
-"${ocad}, avec le soutien de"
+#~| msgid "Created by the ${communityLink}community members${closeLink} of ${org} at ${ocad}, and supported by"
+#~ msgid "Created by the ${community}${closeLink} of ${org} at ${ocad}, and supported by"
+#~ msgstr "Créé par la ${communityLink}communauté des membres${closeLink} du ${org} de ${ocad}, avec le soutien de"
 
-#: locales/messages.js:28
-msgid ""
-"Created by the ${communityLink}community members${closeLink} of ${org} at "
-"${ocad}, and supported by"
-msgstr ""
-"Créé par la ${communityLink}communauté des membres${closeLink} du ${org} de "
-"${ocad}, avec le soutien de"
-
-#: locales/messages.js:29
-msgid "Language"
-msgstr "Langues"
+#~ msgid "Created by the ${communityLink}community members${closeLink} of ${org} at ${ocad}, and supported by"
+#~ msgstr "Créé par la ${communityLink}communauté des membres${closeLink} du ${org} de ${ocad}, avec le soutien de"

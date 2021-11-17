@@ -1,15 +1,13 @@
 {% extends "layouts/base.njk" %}
 
-{% set bodyClass = "idg-index" %}
-
 {% set editLinkPath %}
 {{ page.filePathStem}}.md
 {% endset %}
 
 {% block content %}
-
-<h1>{{ title }}</h1>
-{% include "partials/content.njk" %}
-{% include "partials/editOnGitHub.njk" %}
-
+<div class="wrapper wrapper__article">
+    <h1>{{ title }}</h1>
+    {% include "partials/content.njk" %}
+    {% include "partials/editOnGitHub.njk" %}
+</div>
 {% endblock %}

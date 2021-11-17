@@ -1,0 +1,9 @@
+<nav class="idg-menu-nav menu" aria-labelledBy="idg-menu-nav-button">
+    <button id="idg-menu-nav-button" class="disclosure-button" aria-expanded="false" aria-controls="idg-nav-menu-list">
+        {% svg_sprite "icon-menu" %}
+        {{ _("Menu") }}
+    </button>
+    <ul id="idg-menu-nav-list" class="menu-list">
+        {% include "partials/menu.njk" %}
+    </ul>
+</nav>

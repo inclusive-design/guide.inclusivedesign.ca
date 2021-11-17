@@ -1,23 +1,26 @@
 "use strict";
 
 const config = require("../_data/config.json");
-const i18n = require("eleventy-plugin-i18n-gettext");
 
 module.exports = (locale, translationKey, category, collection) => {
     let output = "";
-    for (let language in config.languages) {
-        if (locale && locale !== language) {
+
+    if (locale) {
+        for (let language in config.languages) {
             let langProps = config.languages[language];
-            if (category && collection) {
+            let attrs = locale === language ? "aria-current=\"page\"" : "";
+            let url = language === config.defaultLanguage ? "/" : `/${langProps.slug}`;
+
+            if (category && collection && translationKey) {
                 let matchedPage = collection[`${category}_${language}`].find(page => page.fileSlug === translationKey);
                 if (matchedPage) {
-                    output += `<a href="${matchedPage.url}">${langProps.name}</a>`;
+                    url = matchedPage.url;
                 }
-            } else {
-                output += `<a href="/${language === config.defaultLanguage ? "" : langProps.slug}">${langProps.name}</a>`;
             }
+
+            output += `<li><a href="${url}" ${attrs}>${langProps.name}</a></li>`;
         }
     }
 
-    return output ? `<nav class="idg-locale" aria-label="${i18n._(locale, "Language")}">${output}</nav>` : output;
+    return output;
 };

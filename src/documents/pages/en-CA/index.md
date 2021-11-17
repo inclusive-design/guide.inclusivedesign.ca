@@ -11,7 +11,7 @@ continue developing these ideas**.
 An [animated introduction to the Guide](https://www.youtube.com/watch?v=ESyrapafICE) is also available. It provides
 descriptions of each of the guide's sections and its printable design cards.
 
-<div class="idg-highlight-section" id="idg-index-dimensions-list">
+<div class="index__highlight" id="idg-index-dimensions-list">
 
 At the Inclusive Design Research Centre and the Inclusive Design Institute we stress the [**Three Dimensions of
 Inclusive
@@ -42,13 +42,9 @@ of [**Insights**](./insights/). We have also gathered together a collection of [
 [**Tools**](./tools/) and [**Activities**](./activities/) in the Guide which describe some of the specific ways in which
 inclusive design can be put into action.
 
-<div class="idg-highlight-section row">
-  <div class="small-12 medium-6 large-8 column">
-
+<div class="index__highlight index-text-image">
   The sections and items that make up the Inclusive Design Guide are not meant to be followed in any particular order.
   You can begin wherever and whenever it makes sense for you, your team, and your process. Revisiting the guide at
   different stages in the project can be an effective way to integrate it into your work.
-
-  </div>
-  <dic class="small-12 medium-6 large-4 column"> {% include "svg/schematic.svg" %} </dic>
+  {% include "svg/schematic.svg" %}
 </div>

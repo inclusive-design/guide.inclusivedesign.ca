@@ -1,10 +1,9 @@
 {% extends "layouts/base.njk" %}
 
-{% set bodyClass = "idg-category-404" %}
-
 {% block content %}
+<div class="wrapper wrapper__content">
 
-<h1>{{ title }}</h1>
-{% include "partials/content.njk" %}
-
+    <h1>{{ title }}</h1>
+    {% include "partials/content.njk" %}
+</div>
 {% endblock %}
