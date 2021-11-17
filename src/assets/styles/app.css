@@ -31,10 +31,8 @@ body {
     --headerFooterColor: var(--fl-bgColor, #fff);
     --headerFooterBGColor: var(--fl-fgColor, #3a4947);
     --headerArticleColor: var(--fl-fgColor, #fff);
-    --menuListBGColor: var(--fl-bgColor, #fff);
-    --menuListColor: var(--fl-fgColor, #3a4947);
-    --menuActiveColor: var(--fl-fgColor, #3a4947);
-    --menuActiveBGColor: var(--fl-bgColor, #fff);
+    --menuExpandedColor: var(--fl-fgColor, #3a4947);
+    --menuExpandedBGColor: var(--fl-bgColor, #fff);
     --desktopNavListColor: var(--fl-bgColor, #fff);
     --linkColor: var(--fl-linkColor, var(--fl-fgColor, #275287));
     --mainBackground: var(--fl-bgColor, #f2f2f2);
@@ -121,6 +119,7 @@ a:hover,
 button:hover {
     line-height: initial; /* Fix outline clipping with contrast styles in
                              Safari */
+    outline-color: var(--mainColor);
     outline-style: solid;
     outline-width: 0.1rem;
 }
@@ -129,6 +128,7 @@ a:focus,
 button:focus {
     line-height: initial;  /* Fix outline clipping with contrast styles in
                              Safari */
+    outline-color: var(--mainColor);
     outline-style: solid;
     outline-width: 0.2rem;
 }
@@ -257,7 +257,7 @@ button {
 }
 
 .menu-list {
-    background-color: var(--menuListBGColor);
+    background-color: var(--menuExpandedBGColor);
     inset-inline-start: 0;
     list-style: none;
     margin: 0;
@@ -269,13 +269,13 @@ button {
 }
 
 .menu-list li {
-    border-bottom: 0.1rem solid var(--menuListColor);
+    border-bottom: 0.1rem solid var(--menuExpandedColor);
     padding: 0.4rem;
 }
 
 .menu-list a {
-    background-color: var(--menuListBGColor);
-    color: var(--menuListColor);
+    background-color: var(--menuExpandedBGColor);
+    color: var(--menuExpandedColor);
     display: block;
     margin: 0.2rem;
     padding: 0.4rem;
@@ -283,7 +283,7 @@ button {
 }
 
 .menu-list a:focus {
-    outline-color: var(--menuListColor);
+    outline-color: var(--menuExpandedColor);
 }
 
 .menu-list a[aria-current="page"] {
@@ -305,7 +305,7 @@ button {
 }
 
 .menu-list svg {
-    fill: var(--menuListColor);
+    fill: var(--menuExpandedColor);
     height: 1.2rem;
     padding-inline-end: 1ch;
     vertical-align: middle;
@@ -584,22 +584,26 @@ footer a:hover {
     outline-style: none;
 }
 
+[class*="fl-theme"]:not(.fl-theme-prefsEditor-default).fl-focus .fl-inverted-color .menu a:focus {
+    outline-color: var(--menuExpandedColor);
+}
+
 /*
 FLUID-6693 - Override UIO inverted theme and use non-inverted colors to give menu separation from the inverted background.
 */
 
 .fl-inverted-color .menus .menu-list li {
-    background-color: var(--menuListBGColor) !important;
+    background-color: var(--menuExpandedBGColor) !important;
 }
 
 .fl-inverted-color .menus .menu-list a {
-    background-color: var(--menuListBGColor) !important;
-    color: var(--menuListColor) !important;
+    background-color: var(--menuExpandedBGColor) !important;
+    color: var(--menuExpandedColor) !important;
 }
 
 .fl-inverted-color .menus .menu-list svg {
-    background-color: var(--menuListBGColor) !important;
-    fill: var(--menuListColor) !important;
+    background-color: var(--menuExpandedBGColor) !important;
+    fill: var(--menuExpandedColor) !important;
 }
 
 .fl-inverted-color .menus .disclosure-button svg {
@@ -608,15 +612,15 @@ FLUID-6693 - Override UIO inverted theme and use non-inverted colors to give men
 }
 
 .fl-inverted-color .menus .disclosure-button[aria-expanded="true"] {
-    background-color: var(--menuActiveBGColor) !important;
-    color: var(--menuActiveColor) !important;
+    background-color: var(--menuExpandedBGColor) !important;
+    color: var(--menuExpandedColor) !important;
 }
 
 .fl-inverted-color .menus .disclosure-button[aria-expanded="true"] svg {
-    background-color: var(--menuActiveBGColor) !important;
-    fill: var(--menuActiveColor) !important;
+    background-color: var(--menuExpandedBGColor) !important;
+    fill: var(--menuExpandedColor) !important;
 }
 
 .fl-inverted-color .menus .menu-list {
-    border-bottom: 0.4rem solid var(--menuListColor) !important;
+    border-bottom: 0.4rem solid var(--menuExpandedColor) !important;
 }
