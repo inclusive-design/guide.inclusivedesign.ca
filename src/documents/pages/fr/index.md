@@ -14,7 +14,7 @@ descriptions de chaque sections du Guide et de ses fiches pratiques imprimables.
 <div class="index__highlight" id="idg-index-dimensions-list">
 
 Au Centre de Recherche pour une Conception  Inclusive comme à l'Institut pour une Conception  Inclusive, nous mettons en
-avant les [**Trois Dimensions d'une Conception Inclusive**](http://idrc.ocadu.ca/about-the-idrc/49-resources/online-resources/articles-and-papers/443-whatisinclusivedesign)
+avant les [**Trois Dimensions d'une Conception Inclusive**](https://idrc.ocadu.ca/about-the-idrc/49-resources/online-resources/articles-and-papers/443-whatisinclusivedesign)
 :
 
 * {% svg_sprite "icon-dimensions" %} **Prendre en compte la diversité et la singularité**
