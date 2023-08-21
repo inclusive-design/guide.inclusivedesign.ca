@@ -19,7 +19,7 @@ original resources. Together, the many resources in a system contain the feature
 student needs, but no single resource must be 100% accessible to every kind of learner. By creating metadata about each
 resource, it is easier to determine which resources might need to be adapted to meet an individual's needs.
 
-For more information about metadata authoring please see <http://handbook.floeproject.org/Metadata.html>
+For more information about metadata authoring please see <https://handbook.floeproject.org/Metadata.html>
 
 ## Combine with
 
