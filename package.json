@@ -4,8 +4,8 @@
     "version": "0.1.0",
     "author": "Fluid Project",
     "license": "BSD-3-Clause",
-    "bugs": "http://github.com/inclusive-design/guide.inclusivedesign.ca/issues",
-    "repository": "http://github.com/inclusive-design/guide.inclusivedesign.ca",
+    "bugs": "https://github.com/inclusive-design/guide.inclusivedesign.ca/issues",
+    "repository": "https://github.com/inclusive-design/guide.inclusivedesign.ca",
     "homepage": "https://guide.inclusivedesign.ca",
     "keywords": [
         "fluid",
