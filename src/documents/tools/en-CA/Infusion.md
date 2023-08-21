@@ -13,7 +13,7 @@ easily changed, replaced and added to.
 
 Infusion provides individuals with a way to actively engage in the creative process by adapting or redesigning an
 application to suit their personal needs and preferences. Components such as User Interface Options
-(<http://build.fluidproject.org/infusion/demos/uiOptions/>) offer customization features that support the discovery of
+(<https://build.fluidproject.org/infusion/demos/uiOptions/>) offer customization features that support the discovery of
 personal preferences, allowing for one-size-fits-one customizations and storage of portable preferences.
 
 The Infusion framework gives developers a way to build open, modular systems that can be changed and configured during
