@@ -14,7 +14,7 @@ modifiées, remplacées et ajoutées.
 
 Infusion permet aux individus de s'impliquer activement dans le processus de conception en adaptant ou repensant
 une application pour correspondre à leurs besoins et préférences personnels. Des éléments tels que les options
-d'interface utilisateur (<http://build.fluidproject.org/infusion/demos/uiOptions/>) offre des moyens de personnalisation
+d'interface utilisateur (<https://build.fluidproject.org/infusion/demos/uiOptions/>) offre des moyens de personnalisation
 pour faciliter la découverte de ses préférences individuelles, créer une solution sur mesure et sauvegarder ses choix.
 
 L'environnement de développement Infusion offre aux développeurs un moyen de construire des systèmes ouverts et
