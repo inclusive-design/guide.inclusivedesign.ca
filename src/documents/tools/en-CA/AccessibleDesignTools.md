@@ -28,6 +28,6 @@ easy to learn, such as:
 
 There are several tools that enable designers to check the accessibility of their final design, such as:
 
-* [Text and color combination](http://colorsafe.co/)
-* [WCAG contrast checker](http://contrastchecker.com/)
-* [Web Page and PDF checkers](http://checkers.eiii.eu/en/benchmarking/previous/)
+* [Text and color combination](https://colorsafe.co/)
+* [WCAG contrast checker](https://contrastchecker.com/)
+* [Web Page and PDF checkers](https://checkers.eiii.eu/en/benchmarking/previous/)
