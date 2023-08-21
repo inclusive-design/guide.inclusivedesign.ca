@@ -10,7 +10,7 @@ This project contains the content needed to build and deploy a copy of the Inclu
 ### To run locally in development mode
 
 1. Install the required NPM packages: `npm install`
-2. Run [Eleventy](http://11ty.dev) in development mode: `npm start`.
+2. Run [Eleventy](https://11ty.dev) in development mode: `npm start`.
 
 The website will be available at <http://localhost:8080>.
 
@@ -42,7 +42,7 @@ The Inclusive Design Guide's code is licensed under the [BSD
 3-Clause](https://github.com/inclusive-design/guide.inclusivedesign.ca/blob/main/LICENSE.md) license.
 
 The Inclusive Design Guide's content is licensed under the [Creative Commons Attribution
-3.0](http://creativecommons.org/licenses/by/3.0/) license.
+3.0](https://creativecommons.org/licenses/by/3.0/) license.
 
 Language and Menu icons is licensed under the [BSD
 3-Clause](https://github.com/platform-coop-toolkit/pinecone/blob/dev/LICENSE.md) license.
