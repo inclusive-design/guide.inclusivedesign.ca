@@ -1,4 +1,4 @@
-name: Lint
+name: Lint and build
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [dev, main]
 
 jobs:
-  lint:
+  lint-and-build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,3 +18,5 @@ jobs:
         run: |
           npm ci
           npm run lint
+      - name: Build with Docker
+        run: docker build .
