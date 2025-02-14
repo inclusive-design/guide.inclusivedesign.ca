@@ -21,7 +21,9 @@ module.exports = function (config) {
     });
 
     // Shortcodes
-    config.addPairedShortcode("unmarkedList", (content) => wrap(content, "list-articles"));
+    config.addPairedShortcode("unmarkedList", (content) =>
+        wrap(content, "list-articles")
+    );
     config.addShortcode("svg_sprite", function (sprite) {
         return `<svg class="idg-${sprite}" aria-hidden="true"><use xlink:href="/assets/images/sprites.svg#${sprite}"></use></svg>`;
     });
@@ -31,25 +33,37 @@ module.exports = function (config) {
     });
 
     // Passthrough copy
-    config.addPassthroughCopy({"src/_redirects": "_redirects"});
-    config.addPassthroughCopy({"src/assets/images": "assets/images"});
-    config.addPassthroughCopy({"src/assets/fonts": "assets/fonts"});
-    config.addPassthroughCopy({"node_modules/docs-core/src/static/css": "assets/styles"});
-    config.addPassthroughCopy({"node_modules/jquery-ui/themes": "lib/jquery-ui/themes"});
-    config.addPassthroughCopy({"node_modules/jquery-ui/ui": "lib/jquery-ui/ui"});
+    config.addPassthroughCopy({ "src/_redirects": "_redirects" });
+    config.addPassthroughCopy({ "src/assets/images": "assets/images" });
+    config.addPassthroughCopy({ "src/assets/fonts": "assets/fonts" });
+    config.addPassthroughCopy({
+        "node_modules/docs-core/src/static/css": "assets/styles"
+    });
+    config.addPassthroughCopy({
+        "node_modules/jquery-ui/themes": "lib/jquery-ui/themes"
+    });
+    config.addPassthroughCopy({
+        "node_modules/jquery-ui/ui": "lib/jquery-ui/ui"
+    });
 
     // Custom collections
-    Object.keys(siteConfig.languages).forEach(lang => {
-        config.addCollection(`Activities_${lang}`, collection => {
-            return collection.getFilteredByGlob(`./src/documents/activities/${lang}/*.md`);
+    Object.keys(siteConfig.languages).forEach((lang) => {
+        config.addCollection(`Activities_${lang}`, (collection) => {
+            return collection.getFilteredByGlob(
+                `./src/documents/activities/${lang}/*.md`
+            );
         });
-        config.addCollection(`Insights_${lang}`, collection => {
-            return collection.getFilteredByGlob(`./src/documents/insights/${lang}/*.md`);
+        config.addCollection(`Insights_${lang}`, (collection) => {
+            return collection.getFilteredByGlob(
+                `./src/documents/insights/${lang}/*.md`
+            );
         });
-        config.addCollection(`Practices_${lang}`, collection => {
-            return collection.getFilteredByGlob(`./src/documents/practices/${lang}/*.md`);
+        config.addCollection(`Practices_${lang}`, (collection) => {
+            return collection.getFilteredByGlob(
+                `./src/documents/practices/${lang}/*.md`
+            );
         });
-        config.addCollection(`Tools_${lang}`, collection => {
+        config.addCollection(`Tools_${lang}`, (collection) => {
             return collection.getFilteredByGlob(`./src/documents/tools/${lang}/*.md`);
         });
     });
@@ -73,16 +87,18 @@ module.exports = function (config) {
     config.on("beforeBuild", () => {
         if (!siteConfig.languages[siteConfig.defaultLanguage]) {
             process.exitCode = 1;
-            throw new Error(`The default language, ${siteConfig.defaultLanguage}, configured in src/_data/config.json is not one of your site's supported languages.`);
+            throw new Error(
+                `The default language, ${siteConfig.defaultLanguage}, configured in src/_data/config.json is not one of your site's supported languages.`
+            );
         }
     });
 
     return {
         dir: {
-		  input: "src",
-		  output: "dist"
+            input: "src",
+            output: "dist"
         },
         passthroughFileCopy: true,
         markdownTemplateEngine: "njk"
- 	};
+    };
 };
