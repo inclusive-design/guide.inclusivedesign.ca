@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.2.1](https://github.com/inclusive-design/guide.inclusivedesign.ca/compare/v0.2.0...v0.2.1) (2025-02-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @11ty/eleventy-navigation to v0.3.5 ([#114](https://github.com/inclusive-design/guide.inclusivedesign.ca/issues/114)) ([675d641](https://github.com/inclusive-design/guide.inclusivedesign.ca/commit/675d64195a407b73115780e3dcb761da19330457))
+* **deps:** update dependency infusion to v4.8.0 ([#120](https://github.com/inclusive-design/guide.inclusivedesign.ca/issues/120)) ([f5b44f6](https://github.com/inclusive-design/guide.inclusivedesign.ca/commit/f5b44f60af2a4a832b943c6cc2a793fc03743e11))
+* update commitlint and husky configurations ([#131](https://github.com/inclusive-design/guide.inclusivedesign.ca/issues/131)) ([2fb148e](https://github.com/inclusive-design/guide.inclusivedesign.ca/commit/2fb148e15d37577fb5009d9d52308f8919cc625a))
+
 ## [0.2.0](https://github.com/inclusive-design/guide.inclusivedesign.ca/compare/v0.1.0...v0.2.0) (2025-02-14)
 
 
