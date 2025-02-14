@@ -36,7 +36,7 @@
         "cross-env": "7.0.3",
         "debug": "4.4.0",
         "eleventy-plugin-i18n-gettext": "1.5.1",
-        "fluid-lint-all": "1.1.5",
+        "fluid-lint-all": "1.2.14",
         "html-minifier": "4.0.0",
         "husky": "4.3.8",
         "laravel-mix": "6.0.49",

@@ -14,7 +14,7 @@ audience".
 {% figure "/assets/images/CaT-01.jpg", "An image showing a group of four people participating in a Create-a-Thon, using building
 toys." %}
 
-*Figure 1:* A group collaborates together to build a marble track based on some basic requirements.
+_Figure 1:_ A group collaborates together to build a marble track based on some basic requirements.
 
 {% endfigure %}
 
@@ -37,7 +37,7 @@ additional insights.
 {% figure "/assets/images/CaT-02.jpg", "An image of a Create-a-Thon participant describing their group's
 design." %}
 
-*Figure 2:* A participant shares their group's design after being given the task of creating a software version of the
+_Figure 2:_ A participant shares their group's design after being given the task of creating a software version of the
 physical marble track toy.
 
 {% endfigure %}
