@@ -1,8 +1,8 @@
-FROM node:14.14.0-alpine AS builder
+FROM node:16-alpine AS builder
 
 WORKDIR /app
 
-RUN apk add --no-cache git 
+RUN apk add --no-cache git
 
 COPY package.json ./
 
