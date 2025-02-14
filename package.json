@@ -34,7 +34,7 @@
         "@commitlint/cli": "13.1.0",
         "@commitlint/config-conventional": "13.1.0",
         "cross-env": "7.0.3",
-        "debug": "4.3.2",
+        "debug": "4.4.0",
         "eleventy-plugin-i18n-gettext": "1.5.1",
         "fluid-lint-all": "1.1.5",
         "html-minifier": "4.0.0",
