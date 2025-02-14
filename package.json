@@ -1,7 +1,7 @@
 {
     "name": "docs-inclusive-design",
     "description": "Strategies and best practices for inclusive design.",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "author": "Fluid Project",
     "license": "BSD-3-Clause",
     "bugs": "http://github.com/inclusive-design/guide.inclusivedesign.ca/issues",
