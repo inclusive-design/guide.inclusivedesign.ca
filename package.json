@@ -22,7 +22,8 @@
         "lint": "fluid-lint-all",
         "start": "npm-run-all -l clean -p start:*",
         "start:webpack": "mix watch",
-        "start:eleventy": "cross-env NODE_ENV=development eleventy --serve"
+        "start:eleventy": "cross-env NODE_ENV=development eleventy --serve",
+        "prepare": "husky"
     },
     "dependencies": {
         "@11ty/eleventy": "0.12.1",

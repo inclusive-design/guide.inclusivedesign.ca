@@ -1,0 +1,1 @@
+npx --no -- commitlint --config commitlint.config.mjs --edit "$1"
