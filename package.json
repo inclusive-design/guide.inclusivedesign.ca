@@ -38,7 +38,7 @@
         "eleventy-plugin-i18n-gettext": "1.5.1",
         "fluid-lint-all": "1.1.5",
         "html-minifier": "4.0.0",
-        "husky": "4.3.0",
+        "husky": "4.3.8",
         "laravel-mix": "6.0.27",
         "markdown-it": "12.2.0",
         "move-file": "2.1.0",
