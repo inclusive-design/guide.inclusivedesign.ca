@@ -29,7 +29,7 @@
         "@11ty/eleventy": "0.12.1",
         "@11ty/eleventy-navigation": "0.3.5",
         "eleventy-plugin-fluid": "0.3.1",
-        "infusion": "4.0.0-dev.20210622T193827Z.ac6adb829.FLUID-6629"
+        "infusion": "4.8.0"
     },
     "devDependencies": {
         "@commitlint/cli": "19.7.1",
