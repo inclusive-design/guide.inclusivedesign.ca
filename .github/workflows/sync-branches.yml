@@ -1,0 +1,52 @@
+name: Sync branches
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  sync-branches:
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    strategy:
+      fail-fast: true
+      matrix:
+        os: [ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+
+    name: Sync branches
+
+    steps:
+      - uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ vars.GHA_APP_ID }}
+          private-key: ${{ secrets.GHA_PRIVATE_KEY }}
+
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          token: ${{ steps.app-token.outputs.token }}
+
+      - name: Get GitHub App user ID
+        if: ${{ github.event_name == 'push' }}
+        id: get-user-id
+        run: echo "user-id=$(gh api "/users/${{ steps.app-token.outputs.app-slug }}[bot]" --jq .id)" >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+
+      - name: Update values for git user config
+        if: ${{ github.event_name == 'push' }}
+        run: |
+          echo "GIT_USER_NAME=${{ steps.app-token.outputs.app-slug }}[bot]" >> $GITHUB_ENV
+          echo "GIT_USER_EMAIL=${{ steps.get-user-id.outputs.user-id }}+${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com" >> $GITHUB_ENV
+
+      - name: Merge main to dev
+        run: |
+          git config --local user.email "$GIT_USER_EMAIL"
+          git config --local user.name "$GIT_USER_NAME"
+          git checkout dev
+          git merge --ff --no-edit main
+          git push origin dev
