@@ -41,7 +41,7 @@
         "html-minifier": "4.0.0",
         "husky": "9.1.7",
         "laravel-mix": "6.0.49",
-        "markdown-it": "12.3.2",
+        "markdown-it": "14.1.0",
         "move-file": "2.1.0",
         "npm-run-all2": "5.0.0",
         "postcss": "8.4.31",
