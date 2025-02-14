@@ -7,10 +7,10 @@
     },
     "lintspaces": {
         "newlines": {
-            "excludes": [
-                "./src/**/*.ttf",
-                "./src/locales/**/*.*"
-            ]
+            "excludes": ["./src/**/*.ttf", "./src/locales/**/*.*"]
         }
+    },
+    "markdownlint": {
+        "excludes": ["CHANGELOG.md"]
     }
 }
