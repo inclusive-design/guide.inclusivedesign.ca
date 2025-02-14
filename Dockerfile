@@ -5,8 +5,9 @@ WORKDIR /app
 RUN apk add --no-cache git
 
 COPY package.json ./
+COPY package-lock.json ./
 
-RUN npm install
+RUN npm ci
 
 COPY . ./
 
