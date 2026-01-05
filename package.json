@@ -32,8 +32,8 @@
         "infusion": "4.8.0"
     },
     "devDependencies": {
-        "@commitlint/cli": "19.8.1",
-        "@commitlint/config-conventional": "19.8.1",
+        "@commitlint/cli": "20.3.0",
+        "@commitlint/config-conventional": "20.3.0",
         "cross-env": "7.0.3",
         "debug": "4.4.3",
         "eleventy-plugin-i18n-gettext": "1.5.1",
