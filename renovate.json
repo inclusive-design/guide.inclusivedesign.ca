@@ -1,15 +1,39 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": ["config:recommended"],
+    "extends": [
+        "config:recommended"
+    ],
+    "labels": [
+        "dependencies"
+    ],
+    "schedule": [
+        "* * * * 1"
+    ],
     "lockFileMaintenance": {
         "enabled": true,
         "automerge": true
     },
     "packageRules": [
         {
-            "matchUpdateTypes": ["minor", "patch"],
-            "matchCurrentVersion": "!/^0/",
+            "description": "Group minor updates for backend and frontend packages into single PR",
+            "matchUpdateTypes": [
+                "minor",
+                "patch",
+                "pin",
+                "digest"
+            ],
+            "minimumReleaseAge": "2 days",
+            "groupName": "dependencies (minor)",
+            "groupSlug": "minor-updates",
             "automerge": true
+        },
+        {
+            "description": "Use dedicated PRs for major updates",
+            "minimumReleaseAge": "2 days",
+            "matchUpdateTypes": [
+                "major"
+            ],
+            "groupName": null
         }
     ]
 }
