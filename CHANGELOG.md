@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.2](https://github.com/inclusive-design/guide.inclusivedesign.ca/compare/v0.2.1...v0.2.2) (2026-05-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @11ty/eleventy-navigation to v1 ([#141](https://github.com/inclusive-design/guide.inclusivedesign.ca/issues/141)) ([e965c7b](https://github.com/inclusive-design/guide.inclusivedesign.ca/commit/e965c7bc36ae9f02cf6113d1cb58da706d8b394b))
+
 ## [0.2.1](https://github.com/inclusive-design/guide.inclusivedesign.ca/compare/v0.2.0...v0.2.1) (2025-02-14)
 
 
