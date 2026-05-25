@@ -1,6 +1,0 @@
-{
-    "label": "Captions",
-    "description": "Request embedded YouTube videos to display captions.",
-    "switchOn": "ON",
-    "switchOff": "OFF"
-}

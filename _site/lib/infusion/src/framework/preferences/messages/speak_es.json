@@ -1,6 +1,0 @@
-{
-    "label": "Texto a voz",
-    "description": "Deje que la computadora lea el contenido del sitio en voz alta",
-    "switchOn": "ENCENDIDO",
-    "switchOff": "APAGADO"
-}

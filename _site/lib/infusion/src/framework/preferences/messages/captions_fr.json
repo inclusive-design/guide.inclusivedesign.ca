@@ -1,6 +1,0 @@
-{
-    "label": "Sous-titres",
-    "description": "Demander que les vidéos YouTube intégrées affichent les sous-titres.",
-    "switchOn": "ACTIF",
-    "switchOff": "ÉTEINT"
-}

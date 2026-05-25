@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ lang }}" dir="{{ langDir }}">
+<html lang="{{ lang }}" dir="{{ langDir if langDir else 'ltr' }}">
     <head>
         {% include "partials/head-matter.njk" %}
     </head>
@@ -9,6 +9,6 @@
             {% block content %}{% endblock %}
         </main>
         {% include "partials/footer.njk" %}
-        {% uioInit config.languages[lang].uioSlug, langDir %}
+        {% uioInit config.languages[lang].uioSlug, config.languages[lang].dir %}
     </body>
 </html>
