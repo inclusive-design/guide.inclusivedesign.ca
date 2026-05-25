@@ -1,8 +1,8 @@
 ---
 title: Les cas d'utilisation
 eleventyNavigation:
-    parent: Tools
-    key: Use-Cases
+  key: Use-Cases
+  parent: Tools
 ---
 
 Les cas d'utilisation, ou cas d'usage décrivent des scénarios particuliers mettant en scène un utilisateur qui rencontre

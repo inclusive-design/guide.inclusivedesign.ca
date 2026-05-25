@@ -1,8 +1,8 @@
 ---
 title: Le Créathon
 eleventyNavigation:
-    parent: Activities
-    key: Create-a-Thon
+  key: Create-a-Thon
+  parent: Activities
 ---
 
 Un créathon rassemble un groupe varié de personnes dans le but de contribuer collectivement à la conception d'un
@@ -14,7 +14,7 @@ aux modèles « typiques », « moyens » ou au « public visé » prévu.
 {% figure "/assets/images/CaT-01.jpg", "La photographie de quatre personnes qui participent à un créathon avec des jeux
 de construction." %}
 
-*Illustration 1 :* Un groupe collabore à la création d'un circuit de billes en partant de règles simples.
+_Illustration 1 :_ Un groupe collabore à la création d'un circuit de billes en partant de règles simples.
 
 {% endfigure %}
 
@@ -38,7 +38,7 @@ pour produire de nouvelles idées.
 {% figure "/assets/images/CaT-02.jpg", "La photographie d'une personne qui présente le travail de son groupe à
 l'occasion d'un créathon." %}
 
-*Illustration 2 :* Un participant présente le concept de son groupe qui avait pour tâche de créer une version
+_Illustration 2 :_ Un participant présente le concept de son groupe qui avait pour tâche de créer une version
 informatique du circuit de billes.
 
 {% endfigure %}

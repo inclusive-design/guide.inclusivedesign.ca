@@ -1,8 +1,8 @@
 ---
 title: L'expérience utilisateur pas à pas
 eleventyNavigation:
-    parent: Tools
-    key: User States and Contexts
+  key: User States and Contexts
+  parent: Tools
 ---
 
 Les états et contextes de l’utilisateur sont des outils d’étude de l’utilisation qui permettent de conceptualiser,

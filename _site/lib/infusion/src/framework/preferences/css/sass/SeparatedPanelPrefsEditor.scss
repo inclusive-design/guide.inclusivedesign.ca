@@ -1,0 +1,330 @@
+$icon-font: 'PrefsFramework-Icons';
+
+/* open-sans-latin-wght-normal */
+@font-face {
+    font-family: 'Open Sans Variable';
+    font-style: normal;
+    font-weight: 300 800;
+    src: url('../../../lib/opensans/fonts/open-sans-latin-wght-normal.woff2') format('woff2-variations');
+}
+
+body {
+    margin: 0;
+}
+
+// Top bar and show/hide button
+.fl-prefsEditor-separatedPanel {
+    background-color: var(--fl-bgColor, #bcb5ad);
+    background-image: none;
+    border-bottom: 1px solid var(--fl-bgColor, #bcb5ad);
+    display: flex;
+    flex-direction: column;
+
+    .flc-slidingPanel-panel {
+        font-size: calc(var(--fl-textSize-factor, 1) * 1rem);
+        line-height: calc(var(--fl-lineSpace-factor, 1) * 1.2);
+    }
+
+    .fl-panelBar {
+        background-color: var(--fl-bgColor, #fff);
+        box-shadow: 0 2px 3px 0 var(--fl-fgColor, #6f6f6f);
+        color: var(--fl-fgColor);
+        width: 100%;
+
+        // panelBar for desktop view
+        &.fl-panelBar-wideScreen {
+            display: none;
+        }
+
+        .fl-prefsEditor-buttons {
+            align-items: center;
+            display: flex;
+            flex-wrap: nowrap;
+            height: 66px; // fixed height so the buttons won't push down the sliding panel as the text size is changed
+            justify-content: space-between;
+            line-height: 1; // fixed line height so it doesn't scale with the Preferences Editor line space scaling.
+            width: 100%;
+        }
+    }
+
+    .fl-prefsEditor-showHide,
+    .fl-prefsEditor-reset {
+        background-color: var(--fl-buttonBgColor, #fff);
+        border: none;
+        color: var(--fl-buttonFgColor, #2f2b2a);
+        font-family: var(--fl-font-family, "Open Sans Variable", "Myriad Pro", Helvetica, Arial, sans-serif);
+        font-size: calc(var(--fl-enhance-font-size-factor, 1) * var(--fl-textSize, 1rem) * 1.3);
+        letter-spacing: var(--fl-letterSpace);
+        overflow: hidden;
+        padding: 0;
+        text-align: center;
+        text-overflow: ellipsis;
+        text-transform: lowercase;
+        white-space: nowrap;
+        word-spacing: var(--fl-wordSpace);
+    }
+
+    .fl-prefsEditor-showHide {
+        flex-grow: 1;
+        flex-shrink: 2;
+        padding-left: 16px; // fixed padding to save space on mobile when text size adjustments are applied
+        text-align: left;
+    }
+
+    .fl-prefsEditor-reset {
+        border-left: 2px solid var(--fl-fgColor, #ccc);
+        flex-shrink: 1;
+        padding-right: 16px; // fixed padding to save space on mobile when text size adjustments are applied
+    }
+
+    // Font icon for reset tab
+    .fl-icon-undo {
+        font-family: $icon-font;
+        font-size: 1.2em;
+        -webkit-font-smoothing: antialiased;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: normal;
+        text-transform: none;
+    }
+
+    .fl-icon-undo::before {
+        content: "\e008";
+    }
+
+    .fl-prefsEditor {
+        color: var(--fl-fgColor, #5d5652);
+        font-family: var(--fl-font-family, "Open Sans Variable", "Myriad Pro", Helvetica, Arial, sans-serif);
+        min-width: 100%;
+        overflow-x: scroll;
+    }
+
+    // Preference Panels
+    .fl-prefsEditor-panels {
+        display: table;
+        margin: 0;
+        white-space: nowrap;
+
+        .fl-prefsEditor-panel {
+            background-color: var(--fl-bgColor, #fff);
+            border: 1px solid var(--fl-fgColor, #615e59);
+            display: table-cell;
+            // minus 2px because of borders
+            min-width: calc(100vw - 2px);
+            padding: 16px 0.5em;
+            white-space: normal;
+
+            h2 {
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                min-height: 3.6em;
+                pointer-events: none;
+                text-transform: lowercase;
+                white-space: nowrap;
+                width: 100%;
+
+                [class*='fl-icon-'] {
+                    display: none;
+                }
+
+                .fl-heading-text {
+                    font-size: 1.3em;
+                    font-weight: 600;
+                    text-align: center;
+                }
+
+                // for right and left arrows
+                &::before,
+                &::after {
+                    font-family: "Times New Roman", Georgia, Times, serif !important;
+                    font-size: 2em;
+                    -webkit-font-smoothing: antialiased;
+                    font-style: normal;
+                    font-variant: normal;
+                    font-weight: normal;
+                    pointer-events: auto;
+                    text-transform: none;
+                }
+
+                // Single Left-Pointing Angle Quotation Mark
+                &::before {
+                    content: "\2039";
+                    margin-left: 0.3em;
+                }
+
+                // Single Right-Pointing Angle Quotation Mark
+                &::after {
+                    content: "\203a";
+                    margin-right: 0.3em;
+                }
+            }
+
+            // hiding arrows from IE 11, as the current method for making them interactive does
+            // not work in IE. The media query used here is a hack to target only IE
+            @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+                h2 {
+                    display: block;
+                    text-align: center;
+
+                    &::before,
+                    &::after {
+                        content: none;
+                    }
+                }
+            }
+
+            // hide left arrow from first panel
+            // hide right arrow from last panel
+            &:first-of-type h2::before,
+            &:last-of-type h2::after {
+                visibility: hidden;
+            }
+
+            // visually hide descriptions in mobile view.
+            // this style declaration is essentially a copy of
+            // .fl-hidden-accessible
+            .fl-prefsEditor-panel-descr {
+                border: 0;
+                clip: rect(0 0 0 0);
+                height: 1px;
+                margin: -1px;
+                overflow: hidden;
+                padding: 0;
+                position: fixed;
+                width: 1px;
+            }
+
+            label {
+                font-size: 1em;
+            }
+
+            // Stepper
+            .fl-textfieldStepper {
+                [class*='fl-icon-'] {
+                    display: none;
+                }
+
+                .fl-textfieldStepper-focusContainer {
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+
+            // Swtich
+            .fl-switchUI {
+                font-size: 1em;
+            }
+        }
+    }
+
+    // large screen / desktop view
+    @media screen and (min-width: 40em) {
+        display: block;
+
+        .fl-panelBar {
+            box-shadow: none;
+            font-size: 1rem;
+
+            // panelBar for mobile view
+            &.fl-panelBar-smallScreen {
+                display: none;
+            }
+
+            // panelBar for desktop view
+            &.fl-panelBar-wideScreen {
+                display: block;
+            }
+
+            .fl-prefsEditor-buttons {
+                background-color: var(--fl-buttonBgColor, #fff);
+                border: 1px solid var(--fl-fgColor, #ccc);
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+                border-top: none;
+                box-shadow: 2px 2px 3px 0 var(--fl-fgColor, #6f6f6f);
+                display: block;
+                float: right;
+                height: auto;
+                margin-right: 5%;
+                min-height: 2em;
+                width: auto;
+
+                [class*="fl-theme"]:not(.fl-theme-prefsEditor-default) & {
+                    box-shadow: none;
+                }
+            }
+        }
+
+        .fl-prefsEditor-showHide,
+        .fl-prefsEditor-reset {
+            border: none;
+            font-size: calc(var(--fl-enhance-font-size-factor, 1) * var(--fl-textSize, 1rem) * 1.1);
+            font-weight: bold;
+            min-height: 1.8em;
+            padding: 0;
+        }
+
+        .fl-prefsEditor-showHide {
+            margin: 0 0.5em;
+        }
+
+        .fl-prefsEditor-reset {
+            margin-right: 0.5em;
+            padding-left: 0.8em;
+        }
+
+        // Preference Panels
+        .fl-prefsEditor-panels {
+            border-spacing: 20px 0;
+            margin: 1em auto;
+
+            .fl-prefsEditor-panel {
+                border-radius: 5px;
+                box-shadow: 2px 2px #7a766d;
+                min-width: 25em;
+                padding: 1.5em;
+                padding-top: 1em;
+
+                h2 {
+                    border-bottom: solid var(--fl-fgColor, #ccc) 1px;
+                    box-shadow: 0 6px 7px -6px rgba(0, 0, 0, 0.3);
+                    font-size: 1.2em;
+                    height: 3em;
+                    justify-content: flex-start;
+                    margin: 0 0 1.8em 0;
+                    white-space: normal;
+
+                    [class*='fl-icon-'] {
+                        display: inline;
+                    }
+
+                    &::before,
+                    &::after {
+                        content: none;
+                    }
+                }
+
+                .fl-prefsEditor-panel-descr {
+                    height: auto;
+                    margin: 0;
+                    margin-bottom: 1em;
+                    overflow: visible;
+                    position: inherit;
+                    width: 100%;
+                }
+
+                // Stepper icons
+                .fl-textfieldStepper {
+                    [class*='fl-icon-'] {
+                        display: inline;
+                        font-size: 1.4em;
+                        margin: 0 0.3em;
+                        padding-top: 0.3em;
+                    }
+                }
+            }
+        }
+    }
+}

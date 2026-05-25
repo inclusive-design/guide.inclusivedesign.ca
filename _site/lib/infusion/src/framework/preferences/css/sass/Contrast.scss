@@ -1,0 +1,197 @@
+@use "Contrast_base";
+
+// General theme styling that applies to html elements and infusion components.
+// !important is used for all styles to ensure that Preferences Framework's enactors are able to override the pages default styles.
+[class*="fl-theme"]:not(.fl-theme-prefsEditor-default, .fl-blocking-theme) {
+    background-image: none !important;
+
+    &,
+    :where(:not(.fl-blocking-theme, .fl-blocking-theme *)),
+    .fl-preview-theme & {
+        background-color: var(--fl-bgColor) !important;
+        border-bottom-color: var(--fl-fgColor) !important;
+        border-left-color: var(--fl-fgColor) !important;
+        border-right-color: var(--fl-fgColor) !important;
+        border-top-color: var(--fl-fgColor) !important;
+        color: var(--fl-fgColor) !important;
+    }
+
+    &:disabled,
+    :disabled,
+    :disabled legend,
+    input:disabled,
+    input:disabled *,
+    input:disabled::file-selector-button,
+    input[type]:disabled {
+        background-color: var(--fl-disabledBgColor) !important;
+        color: var(--fl-disabledFgColor) !important;
+    }
+
+    &::selection,
+    ::selection {
+        background-color: var(--fl-selectedBgColor, highlight) !important;
+        color: var(--fl-selectedFgColor, highlighttext) !important;
+    }
+
+    a,
+    a * {
+        background-color: var(--fl-linkBgColor) !important;
+        color: var(--fl-linkFgColor) !important;
+        font-weight: bold !important;
+    }
+
+    button,
+    button *,
+    input[type="button"],
+    input[type="button"] *,
+    input[type="reset"],
+    input[type="reset"] *,
+    input[type="submit"],
+    input[type="submit"] *,
+    input::file-selector-button,
+    .fl-input-button,
+    .fl-input-button * {
+        background-color: var(--fl-buttonBgColor) !important;
+        color: var(--fl-buttonFgColor) !important;
+    }
+
+    ::placeholder {
+        color: currentColor;
+        font-style: italic;
+    }
+
+    // Tables
+    th {
+        background-color: var(--fl-fgColor) !important;
+        border-bottom-color: var(--fl-fgColor) !important;
+        border-bottom-style: solid;
+        border-bottom-width: 0.1em;
+        border-left-color: var(--fl-fgColor) !important;
+        border-left-style: solid;
+        border-left-width: 0.1em;
+        border-right-color: var(--fl-fgColor) !important;
+        border-right-style: solid;
+        border-right-width: 0.1em;
+        border-top-color: var(--fl-fgColor) !important;
+        border-top-style: solid;
+        border-top-width: 0.1em;
+        color: var(--fl-bgColor) !important;
+    }
+
+    td {
+        border-bottom-color: var(--fl-fgColor) !important;
+        border-bottom-style: solid;
+        border-bottom-width: 0.1em;
+        border-left-color: var(--fl-fgColor) !important;
+        border-left-style: solid;
+        border-left-width: 0.1em;
+        border-right-color: var(--fl-fgColor) !important;
+        border-right-style: solid;
+        border-right-width: 0.1em;
+        border-top-color: var(--fl-fgColor) !important;
+        border-top-style: solid;
+        border-top-width: 0.1em;
+    }
+
+    // Focus
+    &.fl-focus :focus:not(.fl-blocking-theme :focus),
+    &.fl-focus :where([class*="fl-theme"]:not(.fl-theme-prefsEditor-default)) :focus,
+    .fl-focus:focus,
+    .fl-focus :focus,
+    .selectable {
+        outline-color: var(--fl-fgColor);
+        outline-style: solid;
+        outline-width: 0.2em;
+    }
+
+    // Infusion Components
+    // Reorderer
+    .fl-reorderer-dropMarker {
+        background-color: #f00 !important;
+    }
+
+    // Inline edit
+    .fl-inlineEdit-edit {
+        background-color: var(--fl-fgColor) !important;
+        border-bottom-color: var(--fl-bgColor) !important;
+        border-bottom-style: solid;
+        border-bottom-width: 0.1em;
+        border-left-color: var(--fl-bgColor) !important;
+        border-left-style: solid;
+        border-left-width: 0.1em;
+        border-right-color: var(--fl-bgColor) !important;
+        border-right-style: solid;
+        border-right-width: 0.1em;
+        border-top-color: var(--fl-bgColor) !important;
+        border-top-style: solid;
+        border-top-width: 0.1em;
+        color: var(--fl-bgColor) !important;
+        margin-bottom: -0.1em;
+        margin-left: -0.1em;
+        margin-right: -0.1em;
+        margin-top: -0.1em;
+        padding-bottom: 0.1em;
+        padding-left: 0.1em;
+        padding-right: 0.1em;
+        padding-top: 0.1em;
+    }
+
+    // Textfield Stepper
+    .fl-textfieldStepper:where(:not(.fl-blocking-theme, .fl-blocking-theme .fl-textfieldStepper)) {
+        .fl-textfieldStepper-textField {
+            border: solid 1px var(--fl-fgColor);
+        }
+
+        .fl-textfieldStepper-button:disabled {
+            visibility: hidden;
+        }
+
+        .fl-textfieldStepper-focus {
+            outline-color: var(--fl-fgColor);
+        }
+    }
+
+    // Orator
+    .fl-orator-highlight {
+        background-color: var(--fl-fgColor) !important;
+        color: var(--fl-bgColor) !important;
+        outline-color: var(--fl-fgColor);
+    }
+
+    .fl-orator-controller-playToggle {
+        text-shadow: unset;
+    }
+
+    .fl-icon-orator::before {
+        background-color: var(--fl-bgColor);
+        color: var(--fl-fgColor);
+        text-shadow: unset;
+    }
+
+    .fl-orator-controller > *:not(:first-child):hover,
+    .fl-orator-controller :hover .fl-orator-controller-playToggle,
+    .fl-orator-controller :hover .fl-orator-controller-playToggle::before,
+    .fl-orator-selectionReader-control:hover,
+    .fl-orator-selectionReader-control:hover .fl-icon-orator::before,
+    .fl-orator-selectionReader-control:hover * {
+        background-color: var(--fl-fgColor) !important;
+        color: var(--fl-bgColor) !important;
+    }
+
+    .fl-orator-selectionReader-control.fl-orator-selectionReader-above::after,
+    .fl-orator-selectionReader-control.fl-orator-selectionReader-above:hover::after,
+    .fl-orator-selectionReader-control.fl-orator-selectionReader-above::before {
+        border-top-color: var(--fl-fgColor);
+    }
+
+    .fl-orator-selectionReader-control.fl-orator-selectionReader-below::after,
+    .fl-orator-selectionReader-control.fl-orator-selectionReader-below:hover::after,
+    .fl-orator-selectionReader-control.fl-orator-selectionReader-below::before {
+        border-bottom-color: var(--fl-fgColor);
+    }
+
+    a.fl-inverted-color,
+    a.fl-inverted-color * {
+        font-weight: bold !important;
+    }
+}

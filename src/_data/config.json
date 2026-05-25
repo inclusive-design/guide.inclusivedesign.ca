@@ -1,7 +1,7 @@
 {
-    "defaultLanguage": "en-CA",
+    "defaultLanguage": "en",
     "languages": {
-        "en-CA": {
+        "en": {
             "slug": "en",
             "uioSlug": "en_CA",
             "dir": "ltr",

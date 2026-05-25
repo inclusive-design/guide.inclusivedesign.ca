@@ -6,17 +6,16 @@
 {{ page.filePathStem}}.md
 {% endset %}
 
-{% set navPages = collections[category + "_" + locale] | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
+{% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) %}
 
 {% block content %}
-
 <header class="content-header {{ category | lower }}-bg fl-inverted-color">
     <div class="wrapper">
-        <nav  aria-label="{{ _("Breadcrumb") }}">
+        <nav  aria-label="{% __ "breadcrumb" %}">
             <ul class="breadcrumbs inline-list">
                 <li>
-                    <a href="/{% if not (locale === config.defaultLanguage) %}{{ config.languages[locale].slug }}{% endif %}">
-                        {{ _("Home") }}
+                    <a href="/{% if not (lang === defaultLanguage) %}{{ supportedLanguages[lang].slug }}{% endif %}">
+                        {% __ 'home' %}
                     </a>
                 </li>
                 {% for page in navPages %}
@@ -34,8 +33,8 @@
 
     {% if not navPages.length %}
     {# If displaying a listing page of articles #}
-    {% set childPages = collections[category + "_" + locale] | eleventyNavigation(eleventyNavigation.key) %}
-    <nav class="list-articles__contents" aria-label="{{ _i("${categoryName} contents", {categoryName: eleventyNavigation.key}) }}">
+    {% set childPages = collections[category + "_" + lang] | eleventyNavigation(eleventyNavigation.key) %}
+    <nav class="list-articles__contents" aria-label="{% __ 'categoryContents', {categoryName: eleventyNavigation.key} %}">
         <ul>
             {# Output page links in alphabetical order #}
             {% for page in childPages |sort(false, true, "title") %}

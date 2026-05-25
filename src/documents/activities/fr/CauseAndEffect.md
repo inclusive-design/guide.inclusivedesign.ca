@@ -1,8 +1,8 @@
 ---
 title: De cause à effet
 eleventyNavigation:
-    parent: Activities
-    key: Cause and Effect
+  key: Cause and Effect
+  parent: Activities
 ---
 
 Cette activité met en évidence la façon dont nos activités quotidiennes peuvent avoir des répercussions positives. Le

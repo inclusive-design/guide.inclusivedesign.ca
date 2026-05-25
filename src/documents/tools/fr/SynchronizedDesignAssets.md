@@ -1,8 +1,8 @@
 ---
 title: Les outils de conception synchronisés
 eleventyNavigation:
-    parent: Tools
-    key: Synchronized Design Assets
+  key: Synchronized Design Assets
+  parent: Tools
 ---
 
 Lors d'un travail collaboratif, les concepteurs ont besoin d'un outil qui leur permette de partager librement et

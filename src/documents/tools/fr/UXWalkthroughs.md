@@ -1,8 +1,8 @@
 ---
 title: Le test d'expérience utilisateur
 eleventyNavigation:
-    parent: Tools
-    key: UX Walkthroughs
+  key: UX Walkthroughs
+  parent: Tools
 ---
 
 Le test d'expérience utilisateur (en anglais UX pour User eXperience) est une technique employée pour mettre en évidence

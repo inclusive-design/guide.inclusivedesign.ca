@@ -1,8 +1,8 @@
 ---
 title: Travaillez en toute transparence
 eleventyNavigation:
-    parent: Practices
-    key: Work Openly
+  key: Work Openly
+  parent: Practices
 ---
 
 Travailler en toute transparence rend possible des contributions variées puisque ceux qui souhaitent s'investir et ceux

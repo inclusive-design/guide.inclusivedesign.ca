@@ -1,8 +1,8 @@
 ---
 title: Interconnexion
 eleventyNavigation:
-    parent: Insights
-    key: Interconnectedness
+  key: Interconnectedness
+  parent: Insights
 ---
 
 Lorsque l'on déploie une solution, elle devient la partie d'un plus grand ensemble. Même si l'on peut attribuer des

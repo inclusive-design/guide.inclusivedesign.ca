@@ -1,0 +1,11 @@
+@use "utils/fonts";
+
+.fl-blocking-font {
+    --fl-font-family: "Open Sans Variable";
+}
+
+// Font face definitions
+@include fonts.build-font-face-def(fonts.$fontFaces);
+
+// Font family classes
+@include fonts.build-fonts-properties(fonts.$fonts);

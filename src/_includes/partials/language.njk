@@ -1,9 +1,16 @@
 <nav class="idg-language-picker menu" aria-labelledBy="idg-language-button">
     <button id="idg-language-button" class="disclosure-button" aria-expanded="false" aria-controls="idg-language-list">
         {% svg_sprite "icon-language" %}
-        {{ _("Language") }}
+        {% __ 'language' %}
     </button>
     <ul id="idg-language-list" class="menu-list">
-         {% localeLink locale, translationKey, category, collections %}
+    {% if translationKey | findTranslationKey(collections.all, 'en') and translationKey | findTranslationKey(collections.all, 'fr') %}
+    <li>
+        <a href="{{ translationKey | findTranslationKey(collections.all, 'en') }}" lang="en-CA" hreflang="en-CA"{% if lang == 'en' %} aria-current="page"{% endif %}>English</a>
+    </li>
+    <li>
+        <a href="{{ translationKey | findTranslationKey(collections.all, 'fr') }}" lang="fr-CA" hreflang="fr-CA"{% if lang == 'fr' %} aria-current="page"{% endif %}>Français</a>
+    </li>
+    {% endif %}
     </ul>
 </nav>

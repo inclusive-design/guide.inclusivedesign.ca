@@ -1,25 +1,26 @@
-"use strict";
+import { generatePermalink, __ } from 'eleventy-plugin-fluid';
 
-const generatePermalink = require("../../utils/generatePermalink.js");
+export default {
+	category: 'Tools',
+	layout: 'layouts/page',
+	eleventyComputed: {
+		/* Set the translationKey, used for populating the language switcher, to the file slug. */
+		translationKey: (data) => data.page.fileSlug,
+		/* Build a permalink using the title, language key, and translated collection type slug. */
+		permalink(data) {
+			return generatePermalink(data, 'tools', __('tools-slug', {}, data));
+		},
+		eleventyNavigation(data) {
+			/* To have the navigation localized, use the page's title as the navigation title. */
+			if (data.eleventyNavigation) {
+				return {
+					title: data.title,
+					lang: data.lang,
+					...data.eleventyNavigation,
+				};
+			}
 
-module.exports = {
-    category: "Tools",
-    layout: "layouts/page.njk",
-    eleventyComputed: {
-        /* Set the translationKey, used for populating the language switcher, to the file slug. */
-        translationKey: data => data.page.fileSlug,
-        /* Build a permalink using the title, language key, and translated collection type slug. */
-        permalink: generatePermalink,
-        eleventyNavigation: data => {
-            /* To have the navigation localized, use the page's title as the navigation title. */
-            if (data.eleventyNavigation) {
-                return {
-                    title: data.title,
-                    locale: data.locale,
-                    ...data.eleventyNavigation
-                };
-            }
-            return false;
-        }
-    }
+			return false;
+		},
+	},
 };

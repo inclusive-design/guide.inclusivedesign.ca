@@ -1,8 +1,8 @@
 ---
 title: Variez les moyens de communiquer
 eleventyNavigation:
-    parent: Practices
-    key: Communicate Multimodally
+  key: Communicate Multimodally
+  parent: Practices
 ---
 
 Quand vous partagez des idées ou des maquettes, que vous faites une présentation, que vous animez une réunion, quand

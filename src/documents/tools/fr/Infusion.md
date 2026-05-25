@@ -1,8 +1,8 @@
 ---
 title: Infusion
 eleventyNavigation:
-    parent: Tools
-    key: Infusion
+  key: Infusion
+  parent: Tools
 ---
 
 Infusion est un environnement de développement pour créer des applications personnalisables et adaptatives en utilisant

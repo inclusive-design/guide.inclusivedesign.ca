@@ -1,5 +1,6 @@
 ---
 title: Bienvenue dans le Guide pour une Conception Inclusive
+layout: layouts/index
 ---
 
 Le Guide pour une Conception Inclusive peut s'appliquer au design digital ainsi qu'aux **services**, à

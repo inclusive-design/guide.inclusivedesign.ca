@@ -1,8 +1,8 @@
 ---
 title: Faites plus simple et plus inclusif
 eleventyNavigation:
-    parent: Practices
-    key: Facilitate Inclusively
+  key: Facilitate Inclusively
+  parent: Practices
 ---
 
 Lorsque vous organisez ou animez une réunion ou une discussion, encouragez la participation de tous pour s'assurer que

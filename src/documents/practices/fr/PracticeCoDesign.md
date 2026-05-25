@@ -1,8 +1,8 @@
 ---
 title: Pratiquez la co-élaboration
 eleventyNavigation:
-    parent: Practices
-    key: Practice Co-Design
+  key: Practice Co-Design
+  parent: Practices
 ---
 
 Pratiquer la co-élaboration permet aux utilisateurs de prendre une part active dans le processus de conception en

@@ -2,7 +2,7 @@
 <!-- Highlight the (active) category the document belongs to. -->
 {% for item in navPages %}
     {% set slug = item.key | lower %}
-    {% if item.locale === locale %}
+    {% if item.lang === lang %}
     {% set inCategory = item.key === category %}
     <li>
         <a href="{{ item.url }}" class="{{ item.key | lower }}-bg" {% if inCategory %} aria-current="page"{% endif %}>

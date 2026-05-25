@@ -1,0 +1,12 @@
+{
+    "textFont-default": "Sem Preferência",
+    "textFont-system": "Fonte do Dispositivo",
+    "textFont-times": "Times New Roman",
+    "textFont-comic": "Comic Sans",
+    "textFont-arial": "Arial",
+    "textFont-verdana": "Verdana",
+    "textFont-open-dyslexic": "Open Dyslexic",
+    "textFont-atkinson-hyperlegible": "Atkinson Hyperlegible",
+    "textFontLabel": "estilo do texto",
+    "textFontDescr": "Mudar fonte utilizada"
+}

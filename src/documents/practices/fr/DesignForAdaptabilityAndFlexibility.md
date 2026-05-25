@@ -1,8 +1,8 @@
 ---
 title: Faites preuve d'adaptation et de flexibilité
 eleventyNavigation:
-    parent: Practices
-    key: Design for Adaptability and Flexibility
+  key: Design for Adaptability and Flexibility
+  parent: Practices
 ---
 
 Faire preuve d'adaptation et de flexibilité suppose de créer des produits et services qui offrent aux utilisateurs plus

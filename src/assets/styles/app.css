@@ -1,25 +1,25 @@
 @font-face {
-    font-family: "OpenSans";
+    font-family: OpenSans;
     src: url("../fonts/OpenSans-Regular.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: "OpenSans-Light";
+    font-family: OpenSans-Light;
     src: url("../fonts/OpenSans-Light.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: "OpenSans-Bold";
+    font-family: OpenSans-Bold;
     src: url("../fonts/OpenSans-Bold.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: "RobotoSlab";
+    font-family: RobotoSlab;
     src: url("../fonts/RobotoSlab-Regular.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: "RobotoSlab-Bold";
+    font-family: RobotoSlab-Bold;
     src: url("../fonts/RobotoSlab-Bold.ttf") format('truetype');
 }
 
@@ -117,34 +117,33 @@ main {
 
 a:hover,
 button:hover {
-    line-height: initial; /* Fix outline clipping with contrast styles in
+    line-height: initial;
+
+    /* Fix outline clipping with contrast styles in
                              Safari */
-    outline-color: var(--mainColor);
-    outline-style: solid;
-    outline-width: 0.1rem;
+    outline: var(--mainColor) solid 0.1rem;
 }
 
 a:focus,
 button:focus {
-    line-height: initial;  /* Fix outline clipping with contrast styles in
+    line-height: initial;
+
+    /* Fix outline clipping with contrast styles in
                              Safari */
-    outline-color: var(--mainColor);
-    outline-style: solid;
-    outline-width: 0.2rem;
+    outline: var(--mainColor) solid 0.2rem;
 }
 
 button {
     font-size: 1.2rem;
 }
 
-@media all and (min-width: 640px) {
+@media all and (width >=640px) {
     figure * {
         width: 60vw;
     }
 }
 
 #skip-to-content {
-    clip: rect(0 0 0 0);
     clip-path: inset(50%);
     height: 1px;
     overflow: hidden;
@@ -156,7 +155,6 @@ button {
 #skip-to-content:focus {
     background-color: var(--mainColor);
     border: 0.2rem solid var(--headerFooterColor);
-    clip: auto;
     clip-path: none;
     color: var(--headerFooterColor);
     height: auto;
@@ -187,9 +185,9 @@ button {
     margin: 0.4rem 0;
 }
 
-@media all and (min-width: 640px) {
+@media all and (width >=640px) {
     .banner {
-        margin: 1rem 0 3.5rem 0;
+        margin: 1rem 0 3.5rem;
     }
 
     .banner-heading {
@@ -214,8 +212,7 @@ button {
 
 .menu {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
 }
 
 .disclosure-button {
@@ -248,11 +245,11 @@ button {
     height: 1.7rem;
 }
 
-#idg-language-button[aria-expanded="false"] + #idg-language-list {
+#idg-language-button[aria-expanded="false"]+#idg-language-list {
     display: none;
 }
 
-#idg-menu-nav-button[aria-expanded="false"] + #idg-menu-nav-list {
+#idg-menu-nav-button[aria-expanded="false"]+#idg-menu-nav-list {
     display: none;
 }
 
@@ -288,7 +285,7 @@ button {
 
 .menu-list a[aria-current="page"] {
     font-weight: bolder;
-    margin-left: 0.2;
+    margin-left: 0.2rem;
     padding-inline-start: 0.4rem;
     text-decoration: none;
 }
@@ -332,7 +329,7 @@ button {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin: 4rem 0 2rem 0;
+    margin: 4rem 0 2rem;
 }
 
 .content figure * {
@@ -392,7 +389,7 @@ button {
     box-shadow: 0 0 0 0.2rem var(--headerFooterColor);
 }
 
-@media all and (min-width: 640px) {
+@media all and (width >=640px) {
     .idg-menu-nav {
         display: none;
     }
@@ -403,8 +400,7 @@ button {
     }
 
     .menu-list {
-        inset-inline-end: 0;
-        inset-inline-start: auto;
+        inset-inline: auto 0;
         margin-right: 0.4rem;
         width: auto;
     }
@@ -444,7 +440,7 @@ footer a:hover {
     --idg-stroke: var(--headerFooterBGColor);
 }
 
-.breadcrumbs li + li::before {
+.breadcrumbs li+li::before {
     content: ">";
     padding: 0 0.6rem;
 }
@@ -475,7 +471,7 @@ footer a:hover {
     margin-bottom: 0;
 }
 
-@media all and (min-width: 640px) {
+@media all and (width >=640px) {
     .content-title {
         font-size: 2.75rem;
     }
@@ -489,7 +485,7 @@ footer a:hover {
     width: 100%;
 }
 
-@media all and (min-width: 640px) {
+@media all and (width >=640px) {
     .toc {
         max-width: 40rem;
     }
@@ -543,7 +539,7 @@ footer a:hover {
     stroke: var(--fl-fgColor);
 }
 
-@media all and (min-width: 640px) {
+@media all and (width >=640px) {
     .index-text-image {
         flex-direction: row;
     }
@@ -580,7 +576,7 @@ footer a:hover {
     margin-right: 0.4rem;
 }
 
-[class*=fl-theme].fl-focus .fl-inverted-color .nav-list__desktop a:focus {
+[class*="fl-theme"].fl-focus .fl-inverted-color .nav-list__desktop a:focus {
     outline-style: none;
 }
 
