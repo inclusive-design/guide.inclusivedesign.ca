@@ -1,8 +1,8 @@
 ---
 title: Expliquer à un enfant
 eleventyNavigation:
-    parent: Activities
-    key: Toddler-Grandparent Conversation
+  key: Toddler-Grandparent Conversation
+  parent: Activities
 ---
 
 Les jeunes enfants répètent souvent « pourquoi ? ». Pourquoi le ciel est bleu ? Pourquoi les chats ont une queue ? Dans

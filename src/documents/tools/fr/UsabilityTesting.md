@@ -1,8 +1,8 @@
 ---
 title: Le test utilisateur
 eleventyNavigation:
-    parent: Tools
-    key: Usability Testing
+  key: Usability Testing
+  parent: Tools
 ---
 
 Le test utilisateur, aussi appelé test d'ergonomie, est une technique d'évaluation de l'ergonomie d'un concept en

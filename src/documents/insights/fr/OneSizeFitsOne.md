@@ -1,8 +1,8 @@
 ---
 title: Taillé sur mesure
 eleventyNavigation:
-    parent: Insights
-    key: One-Size-Fits-One
+  key: One-Size-Fits-One
+  parent: Insights
 ---
 
 Nous avons tous des besoins variés, nous traversons tous des changements dans nos vies, à court et long terme, qui ont

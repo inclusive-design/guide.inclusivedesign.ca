@@ -1,8 +1,8 @@
 ---
 title: Travaillez de concert
 eleventyNavigation:
-    parent: Practices
-    key: Collaborate
+  key: Collaborate
+  parent: Practices
 ---
 
 Travailler de concert avec quelqu'un d'autre pour atteindre un but commun constitue une part importante du processus de

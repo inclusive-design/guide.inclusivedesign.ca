@@ -1,8 +1,8 @@
 ---
 title: Échauffement artistique et collaboratif
 eleventyNavigation:
-    parent: Activities
-    key: Collaborative Art Warmup
+  key: Collaborative Art Warmup
+  parent: Activities
 ---
 
 Cet exercice doit être rapide et amusant. On peut l'utiliser pour les réunions, les cessions de co-élaboration ou tout
@@ -60,7 +60,7 @@ communication de façon à étendre les possibilité d'accès et d'utilisation �
 une table. On voit à côté deux notes écrites à la main, l'une d'elle avec un titre et une description, l'autre avec une
 présentation de l'artiste." %}
 
-*Illustration 1:* Exemple d’œuvre créée dans le cadre d'un échauffement artistique
+_Illustration 1:_ Exemple d’œuvre créée dans le cadre d'un échauffement artistique
 
 {% endfigure %}
 
@@ -68,6 +68,6 @@ présentation de l'artiste." %}
 voiture et de fil chenille. Sur la même table, on peut voir des notes écrites à la main ainsi qu'une boîte contenant des
 briques de couleur en arrière plan." %}
 
-*Illustration 2:* Exemple d’œuvre créée dans le cadre d'un échauffement artistique
+_Illustration 2:_ Exemple d’œuvre créée dans le cadre d'un échauffement artistique
 
 {% endfigure %}

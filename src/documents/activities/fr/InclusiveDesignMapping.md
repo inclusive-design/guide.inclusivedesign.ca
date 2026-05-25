@@ -1,8 +1,8 @@
 ---
 title: La carte d'une conception inclusive
 eleventyNavigation:
-    parent: Activities
-    key: Inclusive Design Mapping
+  key: Inclusive Design Mapping
+  parent: Activities
 ---
 
 Cette activité est conçue pour plusieurs personnes dans un contexte de co-élaboration où un panel varié de
@@ -40,7 +40,7 @@ travaillez.
 {% figure "/assets/images/InclusiveDesignMappingTool01.png", "Un schéma représentant les différentes facettes de la
 carte d'une conception inclusive" %}
 
-*Illustration 1:* La carte d'une conception inclusive – Choisir les facettes
+_Illustration 1:_ La carte d'une conception inclusive – Choisir les facettes
 
 {% endfigure %}
 
@@ -52,7 +52,7 @@ identifiez le produit, tâche ou solution avec lequel vous travaillez
 {% figure "/assets/images/InclusiveDesignMappingTool02.png", "Un schéma représentant les différentes facettes.
 « Vous-même » et « le produit » ont été identifiés" %}
 
-*Illustration 2:* La carte d'une conception inclusive – identifier les facettes
+_Illustration 2:_ La carte d'une conception inclusive – identifier les facettes
 
 {% endfigure %}
 
@@ -63,14 +63,14 @@ Vous pouvez joindre les différentes facettes, relier les points et hachurer les
 {% figure "/assets/images/InclusiveDesignMappingTool03.png", "Un schéma représentant les différents facettes assemblées
 et reliées entres elles pour former un cercle" %}
 
-*Illustration 3:* La carte d'une conception inclusive – Dresser la carte du stade actuel de la conception
+_Illustration 3:_ La carte d'une conception inclusive – Dresser la carte du stade actuel de la conception
 
 {% endfigure %}
 
 {% figure "/assets/images/InclusiveDesignMappingTool04.png", "Un schéma qui met en évidence l'écart entre « vous même »
 et « le produit »" %}
 
-*Illustration 4:* La carte d'une conception inclusive – Identifier les écarts
+_Illustration 4:_ La carte d'une conception inclusive – Identifier les écarts
 
 {% endfigure %}
 
@@ -83,6 +83,6 @@ peut montrer où votre concept peut faire plus de place aux besoins de l'utilisa
 {% figure "/assets/images/InclusiveDesignMappingTool05.png", "Un schéma montrant un nouvel arrangement de la carte où
 les écarts ont été comblés." %}
 
-*Illustration 5:* La carte d'une conception inclusive – Proposition d'une cartographie idéale.
+_Illustration 5:_ La carte d'une conception inclusive – Proposition d'une cartographie idéale.
 
 {% endfigure %}

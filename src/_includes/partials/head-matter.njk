@@ -1,6 +1,6 @@
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>{{  title }} | {{ _(site.title) }} {% gettext_var locale, site.title %}</title>
+<title>{{ title }} | {% __ 'title' %}</title>
 <link rel="icon" type="image/png" href="/assets/images/favico.png">
 
 {% uioStyles %}
@@ -8,7 +8,7 @@
 {# eleventy-plugin-fluid/issues/81 - manually adding fluid.css #}
 <link rel="stylesheet" href="/lib/infusion/src/framework/core/css/fluid.css">
 
-<link rel="stylesheet" href="/assets{{ assets['/styles/app.css'] }}">
+<link rel="stylesheet" href="/assets/styles/app.css">
 
 {% uioScripts %}
-<script defer src="/assets{{ assets['/scripts/app.js'] }}"></script>
+<script defer src="/assets/scripts/app.js"></script>

@@ -1,8 +1,8 @@
 ---
 title: Intégrez l'accessibilité dès le commencement
 eleventyNavigation:
-    parent: Practices
-    key: Integrate Accessibility From the Start
+  key: Integrate Accessibility From the Start
+  parent: Practices
 ---
 
 En tenant compte de l'accessibilité et de l'inclusivité dès le commencement d'un projet, il est beaucoup plus simple

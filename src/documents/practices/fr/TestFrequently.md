@@ -1,8 +1,8 @@
 ---
 title: Testez fréquemment
 eleventyNavigation:
-    parent: Practices
-    key: Test Frequently
+  key: Test Frequently
+  parent: Practices
 ---
 
 Il est toujours préférable d'intégrer, le plus tôt et le plus souvent possible, les impressions des utilisateurs dans le

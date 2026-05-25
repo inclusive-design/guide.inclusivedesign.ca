@@ -1,8 +1,8 @@
 ---
 title: L'exploration personnelle
 eleventyNavigation:
-    parent: Insights
-    key: Personal Discovery
+  key: Personal Discovery
+  parent: Insights
 ---
 
 Permettre l'exploration de ses propres besoins et préférences constitue une part importante du processus de conception

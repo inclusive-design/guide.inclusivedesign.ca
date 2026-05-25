@@ -1,8 +1,8 @@
 ---
 title: Les personas
 eleventyNavigation:
-    parent: Tools
-    key: Personas
+  key: Personas
+  parent: Tools
 ---
 
 Les personas sont des modèles qui représentent les différentes personnes qui pourraient être en contact avec un produit

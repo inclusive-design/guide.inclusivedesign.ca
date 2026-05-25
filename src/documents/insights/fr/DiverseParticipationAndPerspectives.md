@@ -1,8 +1,8 @@
 ---
 title: Des perspectives et contributions variées
 eleventyNavigation:
-    parent: Insights
-    key: Diverse Participation and Perspectives
+  key: Diverse Participation and Perspectives
+  parent: Insights
 ---
 
 Dans le respect de la règle « rien sur nous sans nous », le principe est d'inviter des personnes aux profils variés et

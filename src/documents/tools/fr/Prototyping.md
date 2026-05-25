@@ -1,8 +1,8 @@
 ---
 title: Le prototypage
 eleventyNavigation:
-    parent: Tools
-    key: Prototyping
+  key: Prototyping
+  parent: Tools
 ---
 
 Le prototypage est une manière efficace de rapidement partager vos idées, demander des commentaires et apprendre en

@@ -1,8 +1,8 @@
 ---
 title: Concevez en Respectant la vie privée
 eleventyNavigation:
-    parent: Practices
-    key: Design for Privacy
+  key: Design for Privacy
+  parent: Practices
 ---
 
 Un nombre grandissant de personnes s'appuient sur des technologies et des services « intelligents » pour apporter plus

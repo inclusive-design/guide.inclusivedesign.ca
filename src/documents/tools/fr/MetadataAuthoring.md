@@ -1,8 +1,8 @@
 ---
 title: La rédaction de métadonnées
 eleventyNavigation:
-    parent: Tools
-    key: Metadata Authoring
+  parent: Tools
+  key: Metadata Authoring
 ---
 
 Les auteurs de contenu peuvent utiliser les métadonnées pour renseigner les besoins auquel une source d'information peut

@@ -1,8 +1,8 @@
 ---
 title: Les Outils de communication qui sont accessibles
 eleventyNavigation:
-    parent: Tools
-    key: Accessible Communication Tools
+  key: Accessible Communication Tools
+  parent: Tools
 ---
 
 Dans le cadre d'un processus de conception inclusive, les coéquipiers partagent leurs idées à chaque étape du

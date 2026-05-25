@@ -1,8 +1,8 @@
 ---
 title: Les Outils de développement qui sont accessibles
 eleventyNavigation:
-    parent: Tools
-    key: Accessible Development Tools
+  key: Accessible Development Tools
+  parent: Tools
 ---
 
 Les outils de développement qui sont accessibles peuvent se ranger en deux catégories :

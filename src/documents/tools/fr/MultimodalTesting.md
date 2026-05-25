@@ -1,8 +1,8 @@
 ---
 title: Le test multimodal
 eleventyNavigation:
-    parent: Tools
-    key: Multimodal Testing
+  key: Multimodal Testing
+  parent: Tools
 ---
 
 Lors de la conception et du développement d'un produit ou service, réfléchissez à toutes les façon d’interagir dont

@@ -1,1 +1,1 @@
-npx --no fluid-lint-all
+npx --no lint-staged

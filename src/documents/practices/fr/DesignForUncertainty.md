@@ -1,8 +1,8 @@
 ---
 title: Tenez compte des surprises
 eleventyNavigation:
-    parent: Practices
-    key: Design for Uncertainty
+  key: Design for Uncertainty
+  parent: Practices
 ---
 
 Il est impossible de prévoir tous les usages créatifs, inattendus ou fortuits d'un produit ou service. Accueillir voir

@@ -1,0 +1,191 @@
+backend:
+  name: github
+  branch: main
+  repo: inclusive-design/inclusive-design/guide.inclusivedesign.ca
+  base_url: https://auth.incd.ca
+  commit_messages:
+    create: 'chore(cms): create "{{path}}"'
+    update: 'chore(cms): update "{{path}}"'
+    delete: 'chore(cms): delete "{{path}}"'
+    uploadMedia: 'chore(cms): upload "{{path}}"'
+    deleteMedia: 'chore(cms): delete "{{path}}"'
+media_folder: src/assets/images
+public_folder: /assets/images
+
+i18n:
+  locales: [en, fr]
+  default_locale: en
+  initial_locales: default
+
+collections:
+  - label: Pages
+    label_singular: Page
+    name: pages
+    icon: article
+    thumbnail: false
+    i18n:
+      structure: multiple_folders
+    folder: src/documents/pages/
+    extension: md
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Layout
+        name: layout
+        widget: hidden
+        i18n: duplicate
+        required: false
+      - label: Navigation
+        name: eleventyNavigation
+        widget: object
+        i18n: true
+        fields:
+          - label: Key
+            name: key
+            widget: string
+            i18n: duplicate
+          - label: Parent
+            name: parent
+            widget: string
+            i18n: duplicate
+            required: false
+          - label: Order
+            name: order
+            widget: number
+            i18n: duplicate
+            required: false
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+        required: false
+  - label: Activities
+    label_singular: activity
+    name: activities
+    icon: article
+    thumbnail: false
+    i18n:
+      structure: multiple_folders
+    folder: src/documents/activities/
+    extension: md
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Navigation
+        name: eleventyNavigation
+        widget: object
+        i18n: true
+        fields:
+          - label: Key
+            name: key
+            widget: string
+            i18n: duplicate
+          - label: Parent
+            name: parent
+            widget: string
+            i18n: duplicate
+            required: false
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+  - label: Insights
+    label_singular: insight
+    name: insights
+    icon: article
+    thumbnail: false
+    i18n:
+      structure: multiple_folders
+    folder: src/documents/insights/
+    extension: md
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Navigation
+        name: eleventyNavigation
+        widget: object
+        i18n: true
+        fields:
+          - label: Key
+            name: key
+            widget: string
+            i18n: duplicate
+          - label: Parent
+            name: parent
+            widget: string
+            i18n: duplicate
+            required: false
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+  - label: Practices
+    label_singular: practice
+    name: practices
+    icon: article
+    thumbnail: false
+    i18n:
+      structure: multiple_folders
+    folder: src/documents/practices/
+    extension: md
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Navigation
+        name: eleventyNavigation
+        widget: object
+        i18n: true
+        fields:
+          - label: Key
+            name: key
+            widget: string
+            i18n: duplicate
+          - label: Parent
+            name: parent
+            widget: string
+            i18n: duplicate
+            required: false
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+  - label: Tools
+    label_singular: tool
+    name: tools
+    icon: article
+    thumbnail: false
+    i18n:
+      structure: multiple_folders
+    folder: src/documents/tools/
+    extension: md
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Navigation
+        name: eleventyNavigation
+        widget: object
+        i18n: true
+        fields:
+          - label: Key
+            name: key
+            widget: string
+            i18n: duplicate
+          - label: Parent
+            name: parent
+            widget: string
+            i18n: duplicate
+            required: false
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true

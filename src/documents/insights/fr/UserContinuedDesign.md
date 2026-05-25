@@ -1,8 +1,8 @@
 ---
 title: La conception entre les mains de l'utilisateur
 eleventyNavigation:
-    parent: Insights
-    key: User-Continued Design
+  key: User-Continued Design
+  parent: Insights
 ---
 
 Une conception inclusive vise à étendre le processus de conception jusque dans le produit élaboré, offrant à

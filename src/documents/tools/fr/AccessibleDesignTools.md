@@ -1,8 +1,8 @@
 ---
 title: Les Outils de conception qui sont accessibles
 eleventyNavigation:
-    parent: Tools
-    key: Accessible Design Tools
+  key: Accessible Design Tools
+  parent: Tools
 ---
 
 Les outils de conception qui favorisent l'accessibilité peuvent se ranger en deux catégories :

@@ -1,8 +1,8 @@
 ---
 title: Le handicap comme discordance
 eleventyNavigation:
-    parent: Insights
-    key: Disability as Mismatch
+  key: Disability as Mismatch
+  parent: Insights
 ---
 
 Le modèle médical définit le handicap comme une caractéristique à la fois permanente et limitante. D'un autre côté, une

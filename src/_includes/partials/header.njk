@@ -1,6 +1,6 @@
 <!-- Skip Link -->
 <nav class="fl-inverted-color">
-    <a id="skip-to-content" href="#content">{{ _("Skip to Content") }}</a>
+    <a id="skip-to-content" href="#content">{% __ 'skipToContent' %}</a>
 </nav>
 <!-- END skip link -->
 
@@ -13,11 +13,11 @@
     </div>
 
     <div class="wrapper">
-        <a class="banner" href="/{% if not (locale === config.defaultLanguage) %}{{ config.languages[locale].slug }}{% endif %}" title="{{ _i("Home: ${siteName}", {siteName: _(site.title)}) }}">
+        <a class="banner" href="/{% if not (lang === config.defaultLanguage) %}{{ config.languages[lang].slug }}{% endif %}">
             <span class="banner-logo">
                 {% svg_sprite "logo-idrc" %}
             </span>
-            <span class="banner-heading">{{ _(site.title) }}</span>
+            <span class="banner-heading">{% __ 'title' %}</span>
         </a>
 
         {% include 'partials/nav-desktop.njk' %}

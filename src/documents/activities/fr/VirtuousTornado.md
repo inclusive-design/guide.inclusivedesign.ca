@@ -1,8 +1,8 @@
 ---
 title: La Tornade Vertueuse
 eleventyNavigation:
-    parent: Activities
-    key: Virtuous Tornado
+  key: Virtuous Tornado
+  parent: Activities
 ---
 
 ## Introduction &mdash; Innovation à la périphérie
@@ -30,7 +30,7 @@ points. Au centre, le plus petit cercle, colorié en bleu, est identifié « le 
 partir du centre, est colorié en jaune et est identifié « le prototype est difficile à utiliser ». Le cercle rouge,
 enfin, situé à la périphérie est identifié « le prototype ne peut pas être utilisé." %}
 
-*Illustration 1 :* Le nuage montre un ensemble plus dense de points (les besoins majoritaires), au centre et des points
+_Illustration 1 :_ Le nuage montre un ensemble plus dense de points (les besoins majoritaires), au centre et des points
 plus espacés à mesure qu'on s'éloigne du centre (les besoins minoritaires). La distance représente la différence. Plus
 les points sont proches, plus ils sont similaires. Plus ils sont éloignés plus ils diffèrent. Les innovations de
 conception ont lieu à la périphérie.
@@ -63,7 +63,7 @@ est identifié « ce prototype m'aide à... » et se divise en trois secteurs co
 l'utilise », au milieu, « Je n'aime pas ou j'ai des difficultés à l'utiliser » et, à la périphérie, « Je ne peux pas
 l'utiliser »." %}
 
-*Illustration 2 :* Modèle pour placer les besoins et caractéristiques dans le contexte d'un concept donné.
+_Illustration 2 :_ Modèle pour placer les besoins et caractéristiques dans le contexte d'un concept donné.
 
 {% endfigure %}
 
@@ -71,7 +71,7 @@ l'utiliser »." %}
 disposées sur une table. Les notes sont couvertes d'écriture manuscrite, collées et superposées sur des grandes feuilles
 en forme de « portions » qui sont à leur tour assemblées en « camembert »." %}
 
-*Illustration 3 :* Un exemple de carte des besoins et caractéristiques sur les portions d'un cercle
+_Illustration 3 :_ Un exemple de carte des besoins et caractéristiques sur les portions d'un cercle
 
 {% endfigure %}
 
@@ -109,7 +109,7 @@ flèches émergent depuis le centre de la spirale, depuis le socle jusqu'en haut
 « Des concepts plus résilients », « Des concepts plus souples », « Des concepts plus innovants », « Des concepts plus
 inclusifs », « des concepts plus accessibles »" %}
 
-*Illustration 4 :* La tornade vertueuse est une spirale ascendante qui montre comment des besoins et caractéristiques
+_Illustration 4 :_ La tornade vertueuse est une spirale ascendante qui montre comment des besoins et caractéristiques
 sont ajoutés à chaque fois que l'on répète le processus. A mesure que le processus monte dans la spirale il prend de
 l'ampleur et comprend davantage de besoins et devient ainsi de plus en plus inclusif.
 

@@ -1,8 +1,8 @@
 ---
 title: Des cercles vertueux
 eleventyNavigation:
-    parent: Insights
-    key: Virtuous Cycles
+  key: Virtuous Cycles
+  parent: Insights
 ---
 
 Le fait de modifier un paramètre dans un système complexe peut générer une réaction en chaîne qui impacte d'autres
@@ -20,7 +20,7 @@ individuelle et le pouvoir d'achat ce qui améliore encore l'accès à la partic
 {% figure "/assets/images/VirtuousCyclesOfDigitalInclusion.jpg",
 "Un diagramme qui représente le cercle vertueux résultant d'un inclusion digitale." %}
 
-*Illustration 1:* Les cercles vertueux amorcés par l'inclusion numérique
+_Illustration 1:_ Les cercles vertueux amorcés par l'inclusion numérique
 
 {% endfigure %}
 

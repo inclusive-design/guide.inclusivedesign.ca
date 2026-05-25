@@ -1,8 +1,8 @@
 ---
 title: Le collage fonctionnel
 eleventyNavigation:
-    parent: Activities
-    key: Functional Mashup
+  key: Functional Mashup
+  parent: Activities
 ---
 
 Cette activité peut être menée lors d'une session de co-conception ou toute autre séance de conception en groupe pour
@@ -20,7 +20,7 @@ découpées dans des magazines ou trouver d'autres façons de rassembler une col
 {% figure "/assets/images/object_cards.jpg", "Une photographie montrant un large échantillon de cartes-objets étalées
 sur le sol. On a collé sur chacune une image issue d'un magazine." %}
 
-*Illustration 1 :* Un exemple de collection de cartes-objet créée en collant des images découpées dans des magazines sur
+_Illustration 1 :_ Un exemple de collection de cartes-objet créée en collant des images découpées dans des magazines sur
 des feuilles de papiers.
 
 {% endfigure %}

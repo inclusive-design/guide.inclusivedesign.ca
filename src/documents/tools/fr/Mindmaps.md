@@ -1,8 +1,8 @@
 ---
 title: Les cartes mentales
 eleventyNavigation:
-    parent: Tools
-    key: Mindmaps
+  key: Mindmaps
+  parent: Tools
 ---
 
 Les cartes mentales ou cartes heuristiques sont des diagrammes visuels utilisés pour organiser des informations

@@ -1,6 +1,4 @@
-# Inclusive Learning Design Handbook
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7d5c6794-ebd2-4908-8918-3207a3f54251/deploy-status)](https://app.netlify.com/sites/idrc-inclusive-design-guide/deploys)
+# Inclusive Design Guide
 
 This project contains the content needed to build and deploy a copy of the Inclusive Design Guide. Please see the
 [Contributor Guide](./CONTRIBUTING.md) for information on localizing the content.
@@ -29,11 +27,11 @@ If you make changes to the website, repeat the steps to build the image and star
 
 ### To build for deployment to a personal web server
 
-1. Install the required NPM packages: `npm install`
+1. Install the required NPM packages: `npm ci`
 2. Run the build script: `npm run build`
-3. Upload the contents of the `./dist/` directory to the web root of your server.
+3. Upload the contents of the `./_site/` directory to the web root of your server.
 
-If you make changes to the website, repeat step 2 to build the website and upload any changed files from the `./dist/`
+If you make changes to the website, repeat step 2 to build the website and upload any changed files from the `./_site/`
 directory to the web root of your server.
 
 ## License Information

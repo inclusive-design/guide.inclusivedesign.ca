@@ -1,8 +1,8 @@
 ---
 title: La toile de cordes
 eleventyNavigation:
-    parent: Activities
-    key: Web of Strings
+  key: Web of Strings
+  parent: Activities
 ---
 
 Cet exercice est conçu pour être amusant et très collaboratif. Pour atteindre le but souhaité, les participants doivent
@@ -62,7 +62,7 @@ Sous le point d'intersection des lignes on peut voir un cercle nommé « premier
 similaire nommé « deuxième récipient ». Déposé à l'endroit ou les lignes se croisent, on peut voir un cercle plus petit
 nommé « objet ».  Le schéma est intitulé « 8 cordes préparées pour 16 participants. »" %}
 
-*Illustration 1 :* La disposition des différents éléments pour préparer l'activité. Chaque participant tient le bout
+_Illustration 1 :_ La disposition des différents éléments pour préparer l'activité. Chaque participant tient le bout
 d'une corde, soit dans sa main, soit attaché à une chaise roulante ou de toute manière qui lui convienne. L'objet est
 déplacé du premier au second récipient en utilisant seulement la toile de cordes.
 
@@ -73,7 +73,7 @@ déplacé du premier au second récipient en utilisant seulement la toile de cor
 et, dans le bol blanc, sur les cordes, on a placé une balle orange. On voit à proximité un second bol blanc de la même
 taille." %}
 
-*Illustration 2 :*  La disposition des différents éléments pour préparer l'activité
+_Illustration 2 :_  La disposition des différents éléments pour préparer l'activité
 
 {% endfigure %}
 
@@ -81,6 +81,6 @@ taille." %}
 des cordes tendues au-dessus du sol. Une balle orange s'y trouve posée en équilibre. On voit un bol blanc sur le sol et,
 en arrière plan, plusieurs participants qui tiennent le bout des cordes." %}
 
-*Illustration 3 :* La toile de cordes en action
+_Illustration 3 :_ La toile de cordes en action
 
 {% endfigure %}

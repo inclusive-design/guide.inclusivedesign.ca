@@ -1,8 +1,8 @@
 ---
 title: Le jeu des paires
 eleventyNavigation:
-    parent: Activities
-    key: Matching Game
+  key: Matching Game
+  parent: Activities
 ---
 
 Demandez à quelqu'un de penser à une personne qu'elle connaît puis de vous la décrire (son âge, ces centres d'intérêt,

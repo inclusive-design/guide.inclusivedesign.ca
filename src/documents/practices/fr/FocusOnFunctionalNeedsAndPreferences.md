@@ -1,8 +1,8 @@
 ---
 title: Gardez l'esprit pratique
 eleventyNavigation:
-    parent: Practices
-    key: Focus on Functional Needs and Preferences
+  key: Focus on Functional Needs and Preferences
+  parent: Practices
 ---
 
 Lorsque l'on pense à des utilisateurs « à la marge », y compris ceux qui se trouvent en situation de handicap, on met

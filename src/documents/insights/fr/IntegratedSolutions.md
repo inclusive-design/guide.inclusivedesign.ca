@@ -1,8 +1,8 @@
 ---
 title: Des solutions harmonisées
 eleventyNavigation:
-    parent: Insights
-    key: Integrated Solutions
+  key: Integrated Solutions
+  parent: Insights
 ---
 
 Les solutions qui répondent aux besoins d'utilisateur « à la marge », en particulier les utilisateurs en situation de
@@ -18,14 +18,14 @@ dans un espace séparé.
 Creating adaptable and flexible designs is one way to allow for integration. In addition, when diverse participation in
 Concevoir des solutions modulables et souples est une approche possible de l'intégration. De plus, quand des
 contributions diverses dans le processus de conception sont encouragées dès le départ, les solutions élaborées ont bien
-plus de chance de s'harmoniser. A l'image des trottoirs bateau*, une solutions conçue pour répondre aux besoins d'une
+plus de chance de s'harmoniser. A l'image des trottoirs bateau\*, une solutions conçue pour répondre aux besoins d'une
 population ciblée améliore le fonctionnement pour tous.
 
 L'intégration est souvent laissée à la responsabilité de l'utilisateur final. Cela peut occasionner de coûteux frais
 d'aménagement ou des amendes et, en fin de compte, laisser passer une chance de toucher les nombreuses personnes qui
 auraient pu bénéficier de cette adaptation.
 
-*un bateau est une portion de trottoir abaissée pour les personnes en fauteuil roulant, qui facilite également la vie
+\*un bateau est une portion de trottoir abaissée pour les personnes en fauteuil roulant, qui facilite également la vie
 d'autres usagers, à vélo ou poussettes par exemple.
 
 ## En pratique

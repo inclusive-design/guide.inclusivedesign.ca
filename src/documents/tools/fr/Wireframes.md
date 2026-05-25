@@ -1,8 +1,8 @@
 ---
 title: Les fils de fer
 eleventyNavigation:
-    parent: Tools
-    key: Wireframes
+  key: Wireframes
+  parent: Tools
 ---
 
 Les maquettes en fil de fer permettent de développer et présenter des idées de concept dès les premières étapes d'un

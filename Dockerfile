@@ -1,11 +1,10 @@
-FROM node:24-alpine AS builder
+FROM node:24.16.0-alpine3.23 AS builder
 
 WORKDIR /app
 
-RUN apk add --no-cache git
+COPY package*.json ./
 
-COPY package.json ./
-COPY package-lock.json ./
+RUN apk add --no-cache git
 
 RUN npm ci
 
@@ -13,6 +12,6 @@ COPY . ./
 
 RUN npm run build
 
-FROM nginx:1.29.4-alpine
+FROM nginx:1.31-alpine3.23
 
-COPY --from=builder /app/dist /usr/share/nginx/html
+COPY --from=builder /app/_site /usr/share/nginx/html
