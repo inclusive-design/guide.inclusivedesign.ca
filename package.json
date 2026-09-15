@@ -28,7 +28,7 @@
     "dependencies": {
         "@11ty/eleventy": "0.12.1",
         "@11ty/eleventy-navigation": "1.0.5",
-        "eleventy-plugin-fluid": "0.3.1",
+        "eleventy-plugin-fluid": "3.3.0",
         "infusion": "4.8.0"
     },
     "devDependencies": {
